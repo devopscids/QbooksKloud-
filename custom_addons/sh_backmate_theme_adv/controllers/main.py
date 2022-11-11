@@ -52,7 +52,7 @@ dict_pre_theme_color_style = {
         'sidebar_font_hover_background_color': '#2C3782',
         'sidebar_background_style': 'color',
         'sidebar_background_color': '#FFFFFF',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#FFFFFF',
 
         'separator_color': '#2C3782',
@@ -316,7 +316,7 @@ dict_theme_color_style = {
         'sidebar_font_hover_background_color': '#2C3782',
         'sidebar_background_style': 'color',
         'sidebar_background_color': '#ffffff',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#ffffff',
 
         'separator_color': '#141F76',
@@ -384,7 +384,7 @@ dict_theme_color_style = {
         'sidebar_collapse_style': 'expanded',
         'sidebar_background_color': '#FFFFFF',
         'sidebar_background_style': 'color',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#ffffff',
         'sidebar_font_hover_background_color': '#2C3782',
 
@@ -453,7 +453,7 @@ dict_theme_color_style = {
         'sidebar_collapse_style': 'collapsed',
         #        'sidebar_background_color': '#ffffff',
         'sidebar_background_style': 'image',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#2C3782',
         'sidebar_font_hover_background_color': '#fafafa',
 
@@ -492,8 +492,8 @@ dict_theme_color_style = {
     },
     'color_2_1': {
         'primary_color': '#ffbc00',
-        'primary_hover': '#F29107',
-        'primary_active': '#F29107',
+        'primary_hover': '#ffbc00',
+        'primary_active': '#ffbc00',
         'secondary_color': '#ffbc00',
         'secondary_hover': '#ffbc00',
         'secondary_active': '#ffbc00',
@@ -522,10 +522,10 @@ dict_theme_color_style = {
         'sidebar_font_hover_background_color': '#ffbc00',
         'sidebar_background_style': 'color',
         'sidebar_background_color': '#ffffff',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#ffffff',
         #
-        #        'separator_color': '#F29107',
+        #        'separator_color': '#ffbc00',
         'separator_style': 'style_7',
         #
         #        'button_style': 'style_1',
@@ -558,8 +558,8 @@ dict_theme_color_style = {
     },
     'color_2_2': {
         'primary_color': '#ffbc00',
-        'primary_hover': '#F29107',
-        'primary_active': '#F29107',
+        'primary_hover': '#ffbc00',
+        'primary_active': '#ffbc00',
         'secondary_color': '#ffbc00',
         'secondary_hover': '#ffbc00',
         'secondary_active': '#ffbc00',
@@ -587,9 +587,9 @@ dict_theme_color_style = {
         'sidebar_collapse_style': 'expanded',
         'sidebar_background_color': '#FFFFFF',
         'sidebar_background_style': 'color',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#ffffff',
-        'sidebar_font_hover_background_color': '#F29107',
+        'sidebar_font_hover_background_color': '#ffbc00',
 
 
         #
@@ -598,7 +598,7 @@ dict_theme_color_style = {
         #         'is_button_with_box_shadow': True,
         #
         #        'separator_style': 'style_7',
-        'separator_color': '#F29107',
+        'separator_color': '#ffbc00',
         #
         #        'body_background_type':'bg_color',
         #        'body_font_family':'Roboto',
@@ -628,8 +628,8 @@ dict_theme_color_style = {
     },
     'color_2_3': {
         'primary_color': '#ffbc00',
-        'primary_hover': '#F29107',
-        'primary_active': '#F29107',
+        'primary_hover': '#ffbc00',
+        'primary_active': '#ffbc00',
         'secondary_color': '#ffbc00',
         'secondary_hover': '#ffbc00',
         'secondary_active': '#ffbc00',
@@ -657,7 +657,7 @@ dict_theme_color_style = {
         'sidebar_collapse_style': 'collapsed',
         #        'sidebar_background_color': '#ffffff',
         'sidebar_background_style': 'image',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#ffbc00',
         'sidebar_font_hover_background_color': '#fafafa',
 
@@ -666,7 +666,7 @@ dict_theme_color_style = {
         #         'is_button_with_icon_text': True,
         #
         #        'separator_style': 'style_7',
-        'separator_color': '#F29107',
+        'separator_color': '#ffbc00',
         #
         #        'body_background_type':'bg_color',
         #        'body_font_family':'Roboto',
@@ -727,7 +727,7 @@ dict_theme_color_style = {
         'sidebar_font_hover_background_color': '#ED4762',
         'sidebar_background_style': 'color',
         'sidebar_background_color': '#ffffff',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#ffffff',
         #
         #        'separator_color': '#DD3C54',
@@ -793,7 +793,7 @@ dict_theme_color_style = {
         'sidebar_collapse_style': 'expanded',
         'sidebar_background_color': '#ffffff',
         'sidebar_background_style': 'color',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#ffffff',
         'sidebar_font_hover_background_color': '#DD3C54',
 
@@ -863,7 +863,7 @@ dict_theme_color_style = {
         'sidebar_collapse_style': 'collapsed',
         #        'sidebar_background_color': '#ffffff',
         'sidebar_background_style': 'image',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#ED4762',
         'sidebar_font_hover_background_color': '#fafafa',
         #
@@ -932,7 +932,7 @@ dict_theme_color_style = {
         'sidebar_font_hover_background_color': '#673AB7',
         'sidebar_background_style': 'color',
         'sidebar_background_color': '#ffffff',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#ffffff',
         #
         'separator_color': '#5C32A9',
@@ -997,7 +997,7 @@ dict_theme_color_style = {
         'sidebar_collapse_style': 'expanded',
         'sidebar_background_color': '#ffffff',
         'sidebar_background_style': 'color',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#ffffff',
         'sidebar_font_hover_background_color': '#5C32A9',
         #
@@ -1066,7 +1066,7 @@ dict_theme_color_style = {
         'sidebar_collapse_style': 'collapsed',
         #        'sidebar_background_color': '#ffffff',
         'sidebar_background_style': 'image',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#673AB7',
         'sidebar_font_hover_background_color': '#fafafa',
         #
@@ -1135,7 +1135,7 @@ dict_theme_color_style = {
         'sidebar_font_hover_background_color': '#5d4037',
         'sidebar_background_style': 'color',
         'sidebar_background_color': '#ffffff',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#ffffff',
         #
         'separator_color': '#56343C',
@@ -1200,7 +1200,7 @@ dict_theme_color_style = {
         'sidebar_collapse_style': 'expanded',
         'sidebar_background_style': 'color',
         'sidebar_background_color': '#ffffff',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#ffffff',
         'sidebar_font_hover_background_color': '#56343C',
 
@@ -1269,7 +1269,7 @@ dict_theme_color_style = {
         'sidebar_collapse_style': 'collapsed',
         #        'sidebar_background_color': '#ffffff',
         'sidebar_background_style': 'image',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '47336B',
         'sidebar_font_hover_background_color': '#fafafa',
 
@@ -1338,7 +1338,7 @@ dict_theme_color_style = {
         'sidebar_font_hover_background_color': '#5B6DDB',
         'sidebar_background_style': 'color',
         'sidebar_background_color': '#ffffff',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#ffffff',
 
         'separator_color': '#505DBE',
@@ -1403,7 +1403,7 @@ dict_theme_color_style = {
         'sidebar_collapse_style': 'expanded',
         'sidebar_background_color': '#ffffff',
         'sidebar_background_style': 'color',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#ffffff',
         'sidebar_font_hover_background_color': '#505DBE',
 
@@ -1471,7 +1471,7 @@ dict_theme_color_style = {
         'sidebar_collapse_style': 'collapsed',
         #        'sidebar_background_color': '#ffffff',
         'sidebar_background_style': 'image',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#5B6DDB',
         'sidebar_font_hover_background_color': '#fafafa',
 
@@ -1541,7 +1541,7 @@ dict_theme_color_style = {
         'sidebar_font_hover_background_color': '#43A047',
         'sidebar_background_style': 'color',
         'sidebar_background_color': '#ffffff',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#ffffff',
         #
         'separator_color': '#3B9141',
@@ -1606,7 +1606,7 @@ dict_theme_color_style = {
         'sidebar_collapse_style': 'expanded',
         'sidebar_background_color': '#ffffff',
         'sidebar_background_style': 'color',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#ffffff',
         'sidebar_font_hover_background_color': '#3B9141',
 
@@ -1675,7 +1675,7 @@ dict_theme_color_style = {
         'sidebar_collapse_style': 'collapsed',
         #        'sidebar_background_color': '#ffffff',
         'sidebar_background_style': 'image',
-        'sidebar_font_color': '#181F4C',
+        'sidebar_font_color': '#ffbc00',
         'sidebar_font_hover_color': '#43A047',
         'sidebar_font_hover_background_color': '#fafafa',
 
@@ -1752,7 +1752,7 @@ dict_theme_color_style = {
 #
 #     'color_2':{
 #        'primary_color': '#ffbc00',
-#        'primary_hover': '#F29107',
+#        'primary_hover': '#ffbc00',
 #        'primary_active': '#008ba3',
 #        'secondary_color': '#ffbc00',
 #        'secondary_hover': '#ffbc00',
