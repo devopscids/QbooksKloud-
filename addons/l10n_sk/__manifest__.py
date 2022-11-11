@@ -4,7 +4,8 @@
     'name': 'Slovak - Accounting',
     'version': '1.0',
     'author': '26HOUSE',
-    'website': 'http://www.26house.com',
+    # 'website': 'http://www.26house.com',
+    'website': '#',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
 Slovakia accounting chart and localization: Chart of Accounts 2020, basic VAT rates + 

@@ -4,7 +4,8 @@
     'name': 'Events Sales',
     'version': '1.2',
     'category': 'Marketing/Events',
-    'website': 'https://www.odoo.com/app/events',
+    # 'website': 'https://www.odoo.com/app/events',
+    'website': '#',
     'description': """
 Creating registration with sales orders.
 ========================================

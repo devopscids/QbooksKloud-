@@ -9,7 +9,8 @@
     'sequence': 15,
     'summary': 'Track leads and close opportunities',
     'description': "",
-    'website': 'https://www.odoo.com/app/crm',
+    # 'website': 'https://www.odoo.com/app/crm',
+    'website': '#',
     'depends': [
         'base_setup',
         'sales_team',

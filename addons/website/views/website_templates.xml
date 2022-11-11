@@ -1704,7 +1704,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-9 pb24">
-                            <h3>50,000+ companies run Odoo to grow their businesses.</h3>
+                            <h3>50,000+ companies run CIDS Design to grow their businesses.</h3>
                             <p class="lead">Join us and make your company a better place.</p>
                         </div>
                         <div class="col-lg-3 pb24">
@@ -2075,10 +2075,10 @@
               </t>
               <t t-if="version">
                 <h1><t t-esc="res_company.name"/>
-                    <small>Odoo Version <t t-out="version.get('server_version')"/></small>
+                    <small>CIDS Design Version <t t-out="version.get('server_version')"/></small>
                 </h1>
                 <p>
-                    Information about the <t t-esc="res_company.name"/> instance of Odoo, the <a target="_blank" href="https://www.odoo.com">Open Source ERP</a>.
+                    Information about the <t t-esc="res_company.name"/> instance of CIDS Design, the <a target="_blank" href="https://www.cids.design.com">Open Source ERP</a>.
                 </p>
 
                 <div class="alert alert-warning alert-dismissable mt16" groups="website.group_website_publisher" role="status">

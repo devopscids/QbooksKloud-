@@ -15,7 +15,8 @@ answers of question and according to that survey is done. Partners are also
 sent mails with personal token for the invitation of the survey.
     """,
     'summary': 'Create surveys and analyze answers',
-    'website': 'https://www.odoo.com/app/surveys',
+    # 'website': 'https://www.odoo.com/app/surveys',
+    'website': '#',
     'depends': [
         'auth_signup',
         'http_routing',

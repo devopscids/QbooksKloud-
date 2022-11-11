@@ -216,7 +216,7 @@
         <div class="oe_import_with_file d-none">
             <div class="oe_import_noheaders">
                 <p class="alert alert-info">If the file contains
-                    the column names, Odoo can try auto-detecting the
+                    the column names, CIDS Design can try auto-detecting the
                     field corresponding to the column. This makes imports
                     simpler especially when the file has many columns.</p>
             </div>

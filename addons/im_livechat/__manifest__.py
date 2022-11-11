@@ -6,7 +6,8 @@
     'summary': 'Chat with your website visitors',
     'category': 'Website/Live Chat',
     'complexity': 'easy',
-    'website': 'https://www.odoo.com/app/live-chat',
+    # 'website': 'https://www.odoo.com/app/live-chat',
+    'website': '#',
     'description':
         """
 Live Chat Support

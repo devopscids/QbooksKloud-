@@ -6,7 +6,8 @@
     'version': '0.1',
     'summary': "Subcontract Productions",
     'description': "",
-    'website': 'https://www.odoo.com/app/manufacturing',
+    # 'website': 'https://www.odoo.com/app/manufacturing',
+    'website': '#',
     'category': 'Manufacturing/Manufacturing',
     'depends': ['mrp'],
     'data': [

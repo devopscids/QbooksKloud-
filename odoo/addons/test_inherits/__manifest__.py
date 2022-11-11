@@ -5,7 +5,8 @@
     'category': 'Hidden/Tests',
     'description': """A module to verify the inheritance using _inherits.""",
     'author': 'Camptocamp',
-    'website': 'http://www.camptocamp.com',
+    # 'website': 'http://www.camptocamp.com',
+    'website': '#',
     'depends': ['base'],
     'data': [
         'ir.model.access.csv',

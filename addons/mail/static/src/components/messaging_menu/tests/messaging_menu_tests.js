@@ -907,7 +907,7 @@ QUnit.test('<br/> tags in message body preview are transformed in spaces', async
     );
 });
 
-QUnit.test('rendering with OdooBot has a request (default)', async function (assert) {
+QUnit.test('rendering with CIDSDesignBot has a request (default)', async function (assert) {
     assert.expect(4);
 
     const { createMessagingMenuComponent } = await this.start({
@@ -941,12 +941,12 @@ QUnit.test('rendering with OdooBot has a request (default)', async function (ass
     );
     assert.strictEqual(
         document.querySelector('.o_NotificationRequest_name').textContent.trim(),
-        'OdooBot has a request',
-        "notification should display that OdooBot has a request"
+        'CIDSDesignBot has a request',
+        "notification should display that CIDSDesignBot has a request"
     );
 });
 
-QUnit.test('rendering without OdooBot has a request (denied)', async function (assert) {
+QUnit.test('rendering without CIDSDesignBot has a request (denied)', async function (assert) {
     assert.expect(2);
 
     const { createMessagingMenuComponent } = await this.start({
@@ -976,7 +976,7 @@ QUnit.test('rendering without OdooBot has a request (denied)', async function (a
     );
 });
 
-QUnit.test('rendering without OdooBot has a request (accepted)', async function (assert) {
+QUnit.test('rendering without CIDSDesignBot has a request (accepted)', async function (assert) {
     assert.expect(2);
 
     const { createMessagingMenuComponent } = await this.start({

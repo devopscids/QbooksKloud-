@@ -8,7 +8,8 @@
     'sequence': 1002,
     'version': '1.0',
     'summary': 'Event: meeting and chat rooms',
-    'website': 'https://www.odoo.com/app/events',
+    # 'website': 'https://www.odoo.com/app/events',
+    'website': '#',
     'description': "",
     'depends': [
         'website_event',

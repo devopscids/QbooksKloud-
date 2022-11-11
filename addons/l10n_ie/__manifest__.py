@@ -12,7 +12,8 @@
     - VAT Rates and Structure""",
 
     'author': 'Target Integration',
-    'website': 'http://www.targetintegration.com',
+    # 'website': 'http://www.targetintegration.com',
+    'website': '#',
     'depends': ['account', 'base_iban', 'base_vat'],
     'data': [
         'data/account_chart_template.xml',

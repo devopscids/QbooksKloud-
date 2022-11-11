@@ -2,7 +2,8 @@
 {
     'name': 'Events Organization',
     'version': '1.6',
-    'website': 'https://www.odoo.com/app/events',
+    # 'website': 'https://www.odoo.com/app/events',
+    'website': '#',
     'category': 'Marketing/Events',
     'summary': 'Trainings, Conferences, Meetings, Exhibitions, Registrations',
     'description': """

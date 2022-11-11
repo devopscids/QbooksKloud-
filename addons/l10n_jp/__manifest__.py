@@ -27,7 +27,8 @@ circumstances, you might not need to use those at all.
 
     """,
     'author': 'Quartile Limited',
-    'website': 'https://www.quartile.co/',
+    # 'website': 'https://www.quartile.co/',
+    'website': '#',
     'depends': ['account'],
     'data': [
         'data/l10n_jp_chart_data.xml',
