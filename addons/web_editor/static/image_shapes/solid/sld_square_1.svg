@@ -9,7 +9,7 @@
       </g>
   </defs>
   <svg viewBox="0 0 28.3 28.3" preserveAspectRatio="none">
-      <path id="shadow" d="M25.5,28.3L2.8,25.1L0,6l28.3-3.1L25.5,28.3z" fill="#7C6576" transform="scale(.97)">
+      <path id="shadow" d="M25.5,28.3L2.8,25.1L0,6l28.3-3.1L25.5,28.3z" fill="#ffbc00" transform="scale(.97)">
         <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="6s" values=".8 0;.5 -.3;.8 0" repeatCount="indefinite" calcMode="spline" keySplines=".45 .05 .55 .95;.45 .05 .55 .95" additive="sum"/>
       </path>
   </svg>

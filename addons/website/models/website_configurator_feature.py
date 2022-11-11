@@ -41,8 +41,8 @@ class WebsiteConfiguratorFeature(models.Model):
             svg = file.read()
 
         default_colors = {
-            'color1': '#3AADAA',
-            'color2': '#7C6576',
+            'color1': '##ffbc00',
+            'color2': '#ffbc00',
             'color3': '#F6F6F6',
             'color4': '#FFFFFF',
             'color5': '#383E45',

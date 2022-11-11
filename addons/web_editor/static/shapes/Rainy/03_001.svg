@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" viewBox="0 0 1400 1400">
 <g transform="translate(700,700) scale(1,1) translate(-700,-700)"><defs>
   <linearGradient id="ldbk-photon-g08vq25v2g8-lg" x1="675" x2="1400" y1="0" y2="0" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#7c6576" offset="0"></stop>
+    <stop stop-color="#ffbc00" offset="0"></stop>
     <stop stop-color="#383e45" offset="1"></stop>
   </linearGradient>
   <mask id="ldbk-photon-g08vq25v2g8-mask">

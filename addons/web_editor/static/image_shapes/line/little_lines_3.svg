@@ -23,12 +23,12 @@
   <image xlink:href="" clip-path="url(#clip-path)"/> 
   <svg viewBox="0 0 28.35 28.35" preserveAspectRatio="none">
       <g id="lines_grp_1" style="transform-box: fill-box">
-          <path d="M3.14,5.57A4.37,4.37,0,0,1,6.36,2.91" fill="none" stroke="#3AADAA" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.35"/>
-          <path d="M3,4.74a4.1,4.1,0,0,1,2.5-2.07" fill="none" stroke="#3AADAA" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.27"/>
+          <path d="M3.14,5.57A4.37,4.37,0,0,1,6.36,2.91" fill="none" stroke="##ffbc00" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.35"/>
+          <path d="M3,4.74a4.1,4.1,0,0,1,2.5-2.07" fill="none" stroke="##ffbc00" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.27"/>
       </g>
       <g id="lines_grp_2" style="transform-box: fill-box" transform-origin="right bottom">
-          <path d="M26.31,18.63s-1.43,4.26-4,5.23" fill="none" stroke="#7C6576" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.47"/>
-          <path d="M26.31,20.05s-1.14,3-3.07,4.07" fill="none" stroke="#7C6576" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.37"/>
+          <path d="M26.31,18.63s-1.43,4.26-4,5.23" fill="none" stroke="#ffbc00" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.47"/>
+          <path d="M26.31,20.05s-1.14,3-3.07,4.07" fill="none" stroke="#ffbc00" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.37"/>
       </g>
       <g id="lines_grp_3" style="transform-box: fill-box" transform-origin="center">
           <path d="M7.19,16.26a3.34,3.34,0,0,0-.89,3.56" fill="none" stroke="#383E45" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.33"/>

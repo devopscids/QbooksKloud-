@@ -18,7 +18,7 @@
         </g>
     </defs>
     <svg class="triangle" viewBox="0 0 28.35 28.35" width="95%" height="90%">
-        <path id="triangle" d="M28.35,28.35H0V0Z" fill="#7C6576"/>
+        <path id="triangle" d="M28.35,28.35H0V0Z" fill="#ffbc00"/>
     </svg>
     <svg id="dots" viewBox="0 0 71.53 49.13" width="45%" height="45%" x="53%" y="53%">
         <rect x="5.39" y="3.7" width="1.62" height="1.62" fill="#383E45"/>

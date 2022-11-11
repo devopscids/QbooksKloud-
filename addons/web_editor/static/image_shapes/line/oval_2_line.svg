@@ -10,7 +10,7 @@
     preserveAspectRatio="none">
     <path class="background"
       d="M183.21,72.46C294.62,227.17,225,264.54,146.75,232.89c-31.16-12.62-32.39-28-56.92-68.26C33,71.32,124.18-9.51,183.21,72.46Z"
-      fill="none" stroke="#7C6576" stroke-miterlimit="10" stroke-width="7"></path>
+      fill="none" stroke="#ffbc00" stroke-miterlimit="10" stroke-width="7"></path>
   </svg><svg viewBox="0 0 1 1" id="preview" preserveAspectRatio="none">
     <use xlink:href="#filterPath" fill="darkgrey"></use>
   </svg>
