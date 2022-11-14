@@ -158,8 +158,16 @@
 .sh_backmate_theme_appmenu_div ul.dropdown-menu a{border-radius: 0px;}
 /* sidebar hover style */
 /* logo hide css */
-#company_logo{display: none;}
-#company_name_logo{margin: auto;}
+// Aman: Changes in logo display
+// #company_logo{display: none;}
+#company_logo{}
+// End
+.logo{background: $sidebar_font_hover_bg_color;}
+// Aman: Changes in logo display
+// #company_name_logo{margin: auto;}
+// End
+// #company_logo{display: none;}
+// #company_name_logo{margin: auto;}
 .o_main_navbar .o_navbar_apps_menu.sh_backmate_theme_appmenu_div .logo{justify-content: space-between;padding: 0 10px 0 15px;}
 .o_main_navbar .o_navbar_apps_menu.sh_backmate_theme_appmenu_div .logo #company_name_logo{margin: 0;object-fit: contain;}
 html .o_web_client > .o_action_manager > .o_action{padding: 0px;background: #f1f1f1;}

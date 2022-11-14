@@ -75,10 +75,14 @@
 				
 				<div class="logo" style="width: 100%;display: flex;max-width: 100%;align-items: center;">
 								
-					<img t-attf-src="/web/image?model=res.company&amp;field=logo&amp;id={{get_current_company()}}" 
-	 							id="company_logo" style="margin-left: 23px;height: 30px;width: 30px;max-width: 30px;margin-right: 19px;" />
-					<img class="img" t-attf-src="/web/image?model=res.company&amp;field=company_name_logo&amp;id={{get_current_company()}}" 
-								style="height: 4rem;padding: 10px 0;width: 55%;padding-left: 0;" id="company_name_logo" />
+<!--					<img t-attf-src="/web/image?model=res.company&amp;field=logo&amp;id={{get_current_company()}}" -->
+<!--	 							id="company_logo" style="margin-left: 23px;height: 30px;width: 30px;max-width: 30px;margin-right: 19px;" />-->
+<!--					<img class="img" t-attf-src="/web/image?model=res.company&amp;field=company_name_logo&amp;id={{get_current_company()}}" -->
+<!--								style="height: 4rem;padding: 10px 0;width: 55%;padding-left: 0;" id="company_name_logo" />-->
+					<img t-attf-src="/web/image?model=res.company&amp;field=logo&amp;id={{get_current_company()}}"
+	 							id="company_logo" style="margin-left: 0px;height: 78px;width: 78px;max-width: 78px;margin-right: 0px;" />
+					        <span class="img" style="height: 4rem;padding: 10px 0;width: 55%;padding-left: 0;" id="company_name_logo" />
+				        	<!--End-->
 					<span class="icon-top_hide fa fa-toggle-on" id="hide_top_bar" style="margin-left: 5px;margin-top: 0px; font-size: 20px;"/>
 					<span class="icon-top_show fa fa-toggle-off" id="show_top_bar" style="margin-left: 5px;margin-top: 0px;font-size: 20px;"/>
 				</div>
