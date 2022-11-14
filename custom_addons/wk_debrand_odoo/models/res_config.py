@@ -55,7 +55,7 @@ class ResConfigSettings(models.TransientModel):
         IrDefault.set('res.config.settings', "title_brand", self.title_brand)
         IrDefault.set('res.config.settings', "odoo_text_replacement", self.odoo_text_replacement)
         if not self.attach_id:
-            attach_id = self.env['ir.attachment'].sudo().search([('name', '=', 'Favicon')])
+            attach_id = self.env['ir.attachment'].sudo().search([('name', '=', 'Favicon')], limit=1)
             if attach_id:
                 attach_id.write({
                     'datas': self.wk_favicon.decode("utf-8"),
@@ -67,7 +67,7 @@ class ResConfigSettings(models.TransientModel):
                     'public': True
                 })
         else:
-            attach_id.write({
+            self.attach_id.write({
                 'datas': self.wk_favicon.decode("utf-8"),
             })
         base_url = self.env['ir.config_parameter'].sudo().get_param('web.base.url')
