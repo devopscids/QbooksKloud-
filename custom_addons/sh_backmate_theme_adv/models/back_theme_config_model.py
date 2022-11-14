@@ -213,7 +213,7 @@ class sh_back_theme_config_settings(models.Model):
         ('three_d','3D'),
         ('dual_tone','Dual Tone')
         ],string="Icon Style",
-         default='standard')
+         default='line_icon')
 
     dual_tone_icon_color_1 = fields.Char(string = 'Dual Tone Icon Color 1')  
     dual_tone_icon_color_2 = fields.Char(string = 'Dual Tone Icon Color 2') 

@@ -19,7 +19,7 @@
 	
 	/*== latest ==*/
 	.o_control_panel .o_cp_searchview .o_searchview{border-radius: 5px;}
-	.o_cp_switch_buttons .btn.o_switch_view{background: $secondaryColor !important;border: 0px !important;color: #212529 !important;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;}
+	.o_cp_switch_buttons .btn.o_switch_view{background: $secondaryColor !important;border: 0px !important;color: #50575D !important;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;}
 	.o_cp_switch_buttons .btn.o_switch_view:hover{background: $primary_hover !important;border: 0px!important;color: #fff!important}
 	.o_control_panel .o_cp_bottom_right .o_cp_switch_buttons button:active, .o_control_panel .o_cp_bottom_right .o_cp_switch_buttons button.active, .o_control_panel .o_cp_bottom_right .o_cp_switch_buttons button:focus{background: $primary_hover !important;border: 0px!important;color: #fff !important}
 	.o_control_panel .o_cp_bottom_right .o_cp_switch_buttons button:hover{background: $primary_hover !important;border: 0px!important;color: #fff!important}
@@ -63,7 +63,7 @@
   		.o_control_panel .btn.o_enable_searchview, .o_control_panel .btn.o_enable_searchview{margin-left: 0;font-size: 16px !important;}
   		.o_touch_device .o_control_panel .o_cp_searchview .o_searchview{padding: 0px !important;transition: none;}
   		.o_control_panel .o_cp_searchview .o_searchview{text-align: left;}
-  		.o_searchview_quick .o_searchview .btn.o_enable_searchview{color: #212529;padding: .4rem 0.75rem;}
+  		.o_searchview_quick .o_searchview .btn.o_enable_searchview{color: #50575D;padding: .4rem 0.75rem;}
   		.o_cp_searchview.o_searchview_quick .o_searchview{display: flex;align-items: center;}
   		.o_cp_searchview.o_searchview_quick .o_searchview .o_searchview_input_container{padding-right: 5px;}
   		.o_searchview_quick .o_searchview .btn.o_enable_searchview{margin-left: 3px !important;}

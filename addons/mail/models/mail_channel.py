@@ -120,7 +120,8 @@ class Channel(models.Model):
             return False
         avatar = group_avatar if self.channel_type == 'group' else channel_avatar
         bgcolor = get_hsl_from_seed(self.uuid)
-        avatar = avatar.replace('fill="#875a7b"', f'fill="{bgcolor}"')
+        # avatar = avatar.replace('fill="#875a7b"', f'fill="{bgcolor}"')
+        avatar = avatar.replace('fill="#875a7b"', 'fill="#ffbc00"')
         return base64.b64encode(avatar.encode())
 
     @api.depends('channel_last_seen_partner_ids.partner_id')
