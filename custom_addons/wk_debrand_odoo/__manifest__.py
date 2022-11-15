@@ -14,7 +14,7 @@
 # If not, see <https://store.webkul.com/license.html/>
 #################################################################################
 {
-  "name"                 :  "Odoo Backend Debranding",
+  "name"                 :  "Backend Debranding",
   "summary"              :  """This is the base CIDS Design backend debranding module.""",
   "category"             :  "Extra Tools",
   "version"              :  "1.0.5",
@@ -25,7 +25,7 @@
   # "website"              :  "https://store.webkul.com",
   "website"              :  "#",
   "description"          :  """This is the base CIDS Design backend debranding module.""",
-  "live_test_url"        :  "http://odoodemo.webkul.com/?module=wk_debrand_odoo",
+  # "live_test_url"        :  "http://odoodemo.webkul.com/?module=wk_debrand_odoo",
   "depends"              :  [
                              'web',
                              'mail',
