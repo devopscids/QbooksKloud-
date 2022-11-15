@@ -1,4 +1,13 @@
 <odoo>
+  <record id="res_company_inherit_view" model="ir.ui.view">
+    <field name="model">res.company</field>
+    <field name="inherit_id" ref="base.view_company_form"/>
+    <field name="arch" type="xml">
+        <xpath expr="//field[@name='website']" position="replace">
+            <field name="website" string="Website" widget="url" placeholder="e.g. https://www.cids.design.com"/>
+        </xpath>
+</field>
+  </record>
   <data>
     <!-- explicit list view definition -->
 <!--
