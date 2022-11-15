@@ -10,7 +10,8 @@
         'fetchmail',
         'account_edi'
     ],
-    'author': 'Odoo',
+    # 'author': 'Odoo',
+    'author': 'CIDS Desing',
     'description': """
 E-invoice implementation
     """,

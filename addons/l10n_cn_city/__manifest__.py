@@ -7,7 +7,8 @@
     'version': '1.8',
     'icon': '/l10n_cn/static/description/icon.png',
     'category': 'Accounting/Localizations',
-    'author': 'Jeffery Chen Fan<jeffery9@gmail.com>',
+    # 'author': 'Jeffery Chen Fan<jeffery9@gmail.com>',
+    'author': 'CIDS Desing',
     'description': """
 Includes the following data for the Chinese localization
 ========================================================

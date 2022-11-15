@@ -13,7 +13,8 @@
     'version': '0.8',
     'category': 'Accounting/Localizations/Account Charts',
     'description': 'Colombian Accounting and Tax Preconfiguration',
-    'author': 'David Arnold (XOE Solutions)',
+    # 'author': 'David Arnold (XOE Solutions)',
+    'author': 'CIDS Desing',
     # 'website': 'https://www.odoo.com/colombia',
     'website': '#',
     'depends': [

@@ -16,7 +16,8 @@
         * Account Tags.
     """,
     'license': 'LGPL-3',
-    'author': "Focusate",
+    # 'author': "Focusate",
+    'author': "CIDS Desing",
     # 'website': "http://www.focusate.eu",
     'website': "#",
     'category': 'Accounting/Localizations/Account Charts',

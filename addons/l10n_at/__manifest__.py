@@ -12,7 +12,8 @@
     "name": "Austria - Accounting",
     "version": "3.0",
     "author": "WT-IO-IT GmbH, Wolfgang Taferner",
-    "website": "https://www.wt-io-it.at",
+    # "website": "https://www.wt-io-it.at",
+    "website": "#",
     'category': 'Accounting/Localizations/Account Charts',
     'summary': "Austrian Standardized Charts & Tax",
     "description": """

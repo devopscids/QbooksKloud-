@@ -17,7 +17,7 @@ This is the latest Ethiopian Odoo localization and consists of:
     - Withholding tax structure
     - Regional State listings
     """,
-    'author':'Michael Telahun Makonnen <mmakonnen@gmail.com>',
+    'author':'CIDS Desing',
     # 'website':'http://miketelahun.wordpress.com',
     'website':'#',
     'depends': [

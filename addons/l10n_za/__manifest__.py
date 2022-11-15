@@ -11,7 +11,8 @@ This is the latest basic South African localisation necessary to run Odoo in ZA:
 ================================================================================
     - a generic chart of accounts
     - SARS VAT Ready Structure""",
-    'author': 'Paradigm Digital',
+    # 'author': 'Paradigm Digital',
+    'author': 'CIDS Desing',
     # 'website': 'https://www.paradigmdigital.co.za',
     'website': '#',
     'depends': ['account', 'base_vat'],

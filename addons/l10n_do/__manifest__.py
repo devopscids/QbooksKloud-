@@ -82,7 +82,8 @@ en Odoo):
 110101- Caja
 11010101 Caja General
     """,
-    'author': 'Gustavo Valverde - iterativo | Consultores de Odoo',
+    # 'author': 'Gustavo Valverde - iterativo | Consultores de Odoo',
+    'author': 'CIDS Desing',
     # 'website': 'http://iterativo.do',
     'website': '#',
     'depends': ['account',

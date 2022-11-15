@@ -10,7 +10,8 @@ This is the latest Indonesian Odoo localisation necessary to run Odoo accounting
 =================================================================================================
     - generic Indonesian chart of accounts
     - tax structure""",
-    'author': 'vitraining.com',
+    # 'author': 'vitraining.com',
+    'author': 'CIDS Desing',
     # 'website': 'http://www.vitraining.com',
     'website': '#',
     'depends': ['account', 'base_iban', 'base_vat', 'l10n_multilang'],

@@ -36,7 +36,8 @@
 {
     'name': 'Costa Rica - Accounting',
     'url': 'https://github.com/CLEARCORP/odoo-costa-rica',
-    'author': 'ClearCorp S.A.',
+    # 'author': 'ClearCorp S.A.',
+    'author': 'CIDS Desing',
     # 'website': 'http://clearcorp.co.cr',
     'website': '#',
     'category': 'Accounting/Localizations/Account Charts',

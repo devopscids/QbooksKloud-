@@ -6,8 +6,10 @@
     'description': """
         Arabic/English for GCC + lot/SN numbers
     """,
-    'author': "Odoo S.A.",
-    'website': "https://www.odoo.com",
+    # 'author': "Odoo S.A.",
+    'author': "CIDS Desing",
+    # 'website': "https://www.odoo.com",
+    'website': "#",
     'category': 'Accounting/Localizations',
 
     'depends': ['l10n_gcc_invoice', 'stock_account'],

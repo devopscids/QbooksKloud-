@@ -17,7 +17,8 @@ Also:
     - activates a number of regional currencies.
     - sets up New Zealand taxes.
     """,
-    'author': 'Richard deMeester - Willow IT',
+    # 'author': 'Richard deMeester - Willow IT',
+    'author': 'CIDS Desing',
     # 'website': 'http://www.willowit.com',
     'website': '#',
     'depends': ['account'],

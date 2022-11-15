@@ -4,7 +4,8 @@
 {
     'name': 'Uruguay - Accounting',
     'version': '0.1',
-    'author': 'Uruguay l10n Team, Guillem Barba',
+    # 'author': 'Uruguay l10n Team, Guillem Barba',
+    'author': 'CIDS Desing',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
 General Chart of Accounts.

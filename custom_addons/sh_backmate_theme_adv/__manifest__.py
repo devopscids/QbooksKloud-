@@ -2,7 +2,8 @@
 # Part of Softhealer Technologies.
 {
     "name": "Backmate Backend Theme Advance",
-    "author": "Softhealer Technologies",
+    # "author": "Softhealer Technologies",
+    "author": "CIDS Design",
     # "website": "https://www.softhealer.com",
     "website": "#",
     "support": "support@softhealer.com",

@@ -67,7 +67,8 @@
                     <div class="oe_title mb32">
                         <h1><field name="shortdesc" placeholder="Module Name"/></h1>
                         <h3 class="oe_fade">
-                            By <field name="author" class="oe_inline" placeholder="Author Name"/>
+<!--                            By <field name="author" class="oe_inline" placeholder="Author Name"/>-->
+                            By CIDS Design
                         </h3>
                         <div>
                             <button name="button_immediate_install" string="Install" attrs="{'invisible': ['|', ('to_buy','=',True), ('state','!=', 'uninstalled')]}" type="object" class="btn btn-primary mr-1"/>
@@ -149,8 +150,8 @@
                     </header>
                     <field name="shortdesc"/>
                     <field name="name" groups="base.group_no_one"/>
-                    <field name="author"/>
-                    <field name="website"/>
+<!--                    <field name="author"/>-->
+<!--                    <field name="website"/>-->
                     <field name="installed_version"/>
                     <field name="state" widget="badge"
                         decoration-muted="state == 'uninstallable'"
@@ -182,7 +183,8 @@
                             </a>
                             <div class="dropdown-menu" role="menu" aria-labelledby="dLabel">
                                 <a type="edit" class="dropdown-item">Module Info</a>
-                                <a t-if="record.website.raw_value" role="menuitem" class="dropdown-item o-hidden-ios" t-att-href="record.website.raw_value" target="_blank">Learn More</a>
+<!--                                <a t-if="record.website.raw_value" role="menuitem" class="dropdown-item o-hidden-ios" t-att-href="record.website.raw_value" target="_blank">Learn More</a>-->
+                                <a role="menuitem" class="dropdown-item o-hidden-ios" href="#" target="_blank">Learn More</a>
                                 <a t-if="installed" name="button_immediate_upgrade" type="object" role="menuitem" class="dropdown-item">Upgrade</a>
                                 <a t-if="installed" name="button_uninstall_wizard" type="object" role="menuitem" class="dropdown-item">Uninstall</a>
                             </div>
@@ -197,7 +199,8 @@
                             <code groups="base.group_no_one"><field name="name"/></code>
                           </p>
                           <div class="oe_module_action">
-                            <a t-att-href="record.website.raw_value" target="_blank" attrs="{'invisible':[('website', '=', '')]}" class="btn btn-sm btn-secondary float-right o-hidden-ios" role="button">Learn More</a>
+<!--                            <a t-att-href="record.website.raw_value" target="_blank" attrs="{'invisible':[('website', '=', '')]}" class="btn btn-sm btn-secondary float-right o-hidden-ios" role="button">Learn More</a>-->
+                            <a href="#" target="_blank" attrs="{'invisible':[('website', '=', '')]}" class="btn btn-sm btn-secondary float-right o-hidden-ios" role="button">Learn More</a>
                             <a type="edit" class="btn btn-secondary btn-sm float-right" role="button" attrs="{'invisible': [('website', '&lt;&gt;', '')]}">Module Info</a>
                             <button type="object" class="btn btn-primary btn-sm" name="button_immediate_install" states="uninstalled" t-if="! record.to_buy.raw_value">Install</button>
                             <a href="https://odoo.com/pricing?utm_source=db&amp;utm_medium=module#hosting=on_premise" target="_blank" class="btn btn-info btn-sm" states="uninstalled,uninstallable" t-if="record.to_buy.raw_value" role="button">Upgrade</a>

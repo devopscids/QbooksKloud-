@@ -5,7 +5,8 @@
     'icon': '/l10n_bg/static/description/icon.png',
     'version': '1.0',
     'category': 'Accounting/Localizations/Account Charts',
-    'author': 'Odoo S.A.',
+    # 'author': 'Odoo S.A.',
+    'author': 'CIDS Desing S.A.',
     'description': """
         Chart accounting and taxes for Bulgaria
     """,

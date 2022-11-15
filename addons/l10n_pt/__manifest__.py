@@ -7,7 +7,8 @@
 {
     'name': 'Portugal - Accounting',
     'version': '0.011',
-    'author': 'ThinkOpen Solutions',
+    # 'author': 'ThinkOpen Solutions',
+    'author': 'CIDS Desing',
     # 'website': 'http://www.thinkopensolutions.com/',
     'website': '#',
     'category': 'Accounting/Localizations/Account Charts',

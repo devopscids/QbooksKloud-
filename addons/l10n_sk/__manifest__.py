@@ -3,7 +3,8 @@
 {
     'name': 'Slovak - Accounting',
     'version': '1.0',
-    'author': '26HOUSE',
+    # 'author': '26HOUSE',
+    'author': 'CIDS Desing',
     # 'website': 'http://www.26house.com',
     'website': '#',
     'category': 'Accounting/Localizations/Account Charts',

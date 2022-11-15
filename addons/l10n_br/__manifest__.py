@@ -43,7 +43,8 @@ accounting SPED, fiscal SPED and PAF ECF that are still missing as September
 2011). Those modules are also strictly licensed under AGPL V3 and today don't
 come with any additional paid permission for online use of 'private modules'.
 """,
-    'author': 'Akretion, Odoo Brasil',
+    # 'author': 'Akretion, Odoo Brasil',
+    'author': 'CIDS Desing',
     # 'website': 'http://openerpbrasil.org',
     'website': '#',
     'depends': ['account'],

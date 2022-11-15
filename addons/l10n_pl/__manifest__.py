@@ -6,7 +6,8 @@
 {
     'name' : 'Poland - Accounting',
     'version' : '2.0',
-    'author' : 'Grzegorz Grzelak (OpenGLOBE)',
+    # 'author' : 'Grzegorz Grzelak (OpenGLOBE)',
+    'author' : 'CIDS Design',
     # 'website': 'http://www.openglobe.pl',
     'website': '#',
     'category': 'Accounting/Localizations/Account Charts',

@@ -3,7 +3,8 @@
 {
     'name': 'Saudi Arabia - Invoice',
     'version': '1.0.0',
-    'author': 'Odoo S.A.',
+    # 'author': 'Odoo S.A.',
+    'author': 'CIDS Desing',
     'category': 'Accounting/Localizations',
     'license': 'LGPL-3',
     'description': """

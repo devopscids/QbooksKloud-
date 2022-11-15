@@ -3,7 +3,8 @@
 
 {
     'name': 'Germany - Accounting',
-    'author': 'openbig.org',
+    # 'author': 'openbig.org',
+    'author': 'CIDS Desing',
     # 'website': 'http://www.openbig.org',
     'website': '#',
     'category': 'Accounting/Localizations',

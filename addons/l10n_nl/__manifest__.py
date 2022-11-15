@@ -7,7 +7,8 @@
     'name': 'Netherlands - Accounting',
     'version': '3.0',
     'category': 'Accounting/Localizations/Account Charts',
-    'author': 'Onestein',
+    # 'author': 'Onestein',
+    'author': 'CIDS Desing',
     # 'website': 'http://www.onestein.eu',
     'website': '#',
     'depends': [

@@ -5,7 +5,8 @@
 
 {
     'name': 'Singapore - Accounting',
-    'author': 'Tech Receptives',
+    # 'author': 'Tech Receptives',
+    'author': 'CIDS Desing',
     'version': '2.0',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
