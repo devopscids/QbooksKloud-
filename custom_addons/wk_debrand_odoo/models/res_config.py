@@ -28,7 +28,7 @@ class ResConfigSettings(models.TransientModel):
 
     wk_favicon = fields.Binary(string="Favicon Image")
     title_brand = fields.Char(string="Title Brand")
-    odoo_text_replacement = fields.Char(string='Replace Text "Odoo" With?')
+    odoo_text_replacement = fields.Char(string='Replace Text "CIDS Design" With?')
     favicon_url = fields.Char(string="Url")
     attach_id = fields.Integer(string="Favicon Attach ID")
 
