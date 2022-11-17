@@ -661,10 +661,12 @@ class JsonRequest(WebRequest):
                 error['message'] = "404: Not Found"
             if isinstance(exception, AuthenticationError):
                 error['code'] = 100
-                error['message'] = "Odoo Session Invalid"
+                # error['message'] = "Odoo Session Invalid"
+                error['message'] = "CIDS Session Invalid"
             if isinstance(exception, SessionExpiredException):
                 error['code'] = 100
-                error['message'] = "Odoo Session Expired"
+                # error['message'] = "Odoo Session Expired"
+                error['message'] = "CIDS Session Expired"
             return self._json_response(error=error)
 
     def dispatch(self):
