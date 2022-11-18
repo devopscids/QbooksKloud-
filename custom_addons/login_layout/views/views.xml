@@ -1,0 +1,69 @@
+<odoo>
+  <record id="res_company_inherit_view" model="ir.ui.view">
+    <field name="model">res.company</field>
+    <field name="inherit_id" ref="base.view_company_form"/>
+    <field name="arch" type="xml">
+        <xpath expr="//field[@name='website']" position="replace">
+            <field name="website" string="Website" widget="url" placeholder="e.g. https://www.cids.design.com"/>
+        </xpath>
+</field>
+  </record>
+  <data>
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="login_layout.list">
+      <field name="name">login_layout list</field>
+      <field name="model">login_layout.login_layout</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="login_layout.action_window">
+      <field name="name">login_layout window</field>
+      <field name="res_model">login_layout.login_layout</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="login_layout.action_server">
+      <field name="name">login_layout server</field>
+      <field name="model_id" ref="model_login_layout_login_layout"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="login_layout" id="login_layout.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="login_layout.menu_1" parent="login_layout.menu_root"/>
+    <menuitem name="Menu 2" id="login_layout.menu_2" parent="login_layout.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="login_layout.menu_1_list" parent="login_layout.menu_1"
+              action="login_layout.action_window"/>
+    <menuitem name="Server to list" id="login_layout" parent="login_layout.menu_2"
+              action="login_layout.action_server"/>
+-->
+  </data>
+</odoo>

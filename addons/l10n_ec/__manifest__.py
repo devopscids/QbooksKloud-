@@ -35,7 +35,8 @@ Master Data:
     "author": "OPA CONSULTING & TRESCLOUD",
     "category": "Accounting/Localizations/Account Charts",
     "maintainer": "OPA CONSULTING",
-    "website": "https://opa-consulting.com",
+    # "website": "https://opa-consulting.com",
+    "website": "#",
     "license": "LGPL-3",
     "depends": [
         "base",

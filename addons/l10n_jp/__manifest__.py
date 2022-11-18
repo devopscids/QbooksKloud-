@@ -26,7 +26,8 @@ circumstances, you might not need to use those at all.
 [1] See https://github.com/odoo/odoo/pull/6470 for detail.
 
     """,
-    'author': 'Quartile Limited',
+    # 'author': 'Quartile Limited',
+    'author': 'CIDS Desing',
     # 'website': 'https://www.quartile.co/',
     'website': '#',
     'depends': ['account'],

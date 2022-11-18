@@ -11,7 +11,8 @@
     - a Chart of Accounts customised to Ireland
     - VAT Rates and Structure""",
 
-    'author': 'Target Integration',
+    # 'author': 'Target Integration',
+    'author': 'CIDS Desing',
     # 'website': 'http://www.targetintegration.com',
     'website': '#',
     'depends': ['account', 'base_iban', 'base_vat'],

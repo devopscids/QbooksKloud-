@@ -4,7 +4,8 @@
 {
     'name': 'Denmark - Accounting',
     'version': '1.0',
-    'author': 'Odoo House ApS, VK DATA ApS',
+    # 'author': 'Odoo House ApS, VK DATA ApS',
+    'author': 'CIDS Desing',
     # 'website': 'http://odoodanmark.dk',
     'website': '#',
     'category': 'Accounting/Localizations/Account Charts',

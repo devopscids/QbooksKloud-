@@ -4,7 +4,8 @@
     'version': '1.0',
     'category': 'Accounting/Localizations/Website',
     'sequence': 14,
-    'author': 'Odoo, ADHOC SA',
+    # 'author': 'Odoo, ADHOC SA',
+    'author': 'CIDS Desing, ADHOC SA',
     'description': """Be able to see Identification Type and AFIP Responsibility in ecommerce checkout form.""",
     'depends': [
         'website_sale',

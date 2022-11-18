@@ -50,8 +50,8 @@
             <field name="secondary_active">#EEEEEE</field>
              <field name="header_background_color">#FFFFFF</field>
              <field name="body_background_color">#FFFFFF</field>
-             <field name="body_font_color">#787373</field>
-             <field name="header_font_color">#787373</field>
+             <field name="body_font_color">#50575D</field>
+             <field name="header_font_color">#50575D</field>
               <field name="header_hover_color">#2C3782</field>
              <field name="header_active_color">#2C3782</field>
              
@@ -66,12 +66,12 @@
             <field name="sidebar_font_hover_background_color">#2C3782</field>
             <field name="sidebar_background_color">#FFFFFF</field>
             <field name="sidebar_background_style">color</field>
-            <field name="sidebar_font_color">#181F4C</field>
+            <field name="sidebar_font_color">#50575D</field>
             <field name="sidebar_font_hover_color">#FFFFFF</field>
             <field name="sidebar_collapse_style">expanded</field>
             	
             <field name="separator_color">#2C3782</field>
-            <field name="icon_style">dual_tone</field>
+            <field name="icon_style">line_icon</field>
             <field name="dual_tone_icon_color_1">#A3A5B7</field>
             <field name="dual_tone_icon_color_2">#2C3782</field>
             <field name="separator_style">style_7</field>

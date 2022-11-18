@@ -28,7 +28,8 @@ This is the base module to manage the accounting chart for Guatemala.
 Agrega una nomenclatura contable para Guatemala. También icluye impuestos y
 la moneda del Quetzal. -- Adds accounting chart for Guatemala. It also includes
 taxes and the Quetzal currency.""",
-    'author': 'José Rodrigo Fernández Menegazzo',
+    # 'author': 'José Rodrigo Fernández Menegazzo',
+    'author': 'CIDS Desing',
     # 'website': 'http://solucionesprisma.com/',
     'website': '#',
     'depends': ['base', 'account'],

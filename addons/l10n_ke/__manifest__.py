@@ -8,7 +8,8 @@
     'description': """
 This provides a base chart of accounts and taxes template for use in Odoo.
     """,
-    'author': 'Odoo S.A.',
+    # 'author': 'Odoo S.A.',
+    'author': 'CIDS Desing',
     'depends': [
         'account',
     ],

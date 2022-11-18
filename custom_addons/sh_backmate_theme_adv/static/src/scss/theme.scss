@@ -395,7 +395,7 @@ form
 .btn-secondary:disabled {
 	background-color: #e8e8e8;
 	border-color: #e8e8e8;
-	color: #212529;
+	color: #50575D;
 }
 .o_form_statusbar .o_statusbar_status .o_statusbar_status>.o_arrow_button:before,
 .o_form_view .o_form_statusbar>.o_statusbar_status>.o_arrow_button:not(:first-child):after {
@@ -1094,10 +1094,10 @@ Employees kanban page
 .o_calendar_container .o_calendar_sidebar_container .ui-datepicker table .ui-state-default:hover {
 	background-color: rgb(202, 206, 209);
 	border-color: $primaryColor;
-	color: #212529;
+	color: #50575D;
 }
 .o_calendar_container .o_calendar_sidebar_container .ui-datepicker table .ui-state-default {
-	color: #212529;
+	color: #50575D;
 }
 .o_calendar_container .o_calendar_sidebar_container .ui-datepicker table .ui-state-active {
 	color: #fff !important;
@@ -1557,7 +1557,7 @@ padding: 8px 0px;
 	}
 }
 @media (max-width: 767px) {
-	.o_content .o_form_view .show .o_statusbar_buttons_dropdown{color: #212529!important;}
+	.o_content .o_form_view .show .o_statusbar_buttons_dropdown{color: #50575D!important;}
 	.o_main_navbar{ min-height: 4.2rem;}
 	.o_form_view .o_form_statusbar{padding-left: 5px;}
 	.o_mail_discuss .o_mail_discuss_content {
@@ -2464,7 +2464,7 @@ padding: 8px 0px;
 		color: $primaryColor;
 	}
 	.show .list-inline .btn-secondary:active {
-		color: #212529;
+		color: #50575D;
 		background-color: #fff!important;
 		border-color: #fff!important;
 	}
@@ -2899,7 +2899,7 @@ padding: 8px 0px;
 		color: $primaryColor;
 	}
 	.show .list-inline .btn-secondary:active {
-		color: #212529;
+		color: #50575D;
 		background-color: #fff!important;
 		border-color: #fff!important;
 	}
@@ -3667,7 +3667,7 @@ Version 13 SCSS End here
 .o_view_controller .o_form_view .o_form_statusbar{padding-left: 10px !important;}
 }
 @media (max-width: 576px){
-	.o_control_panel .o_searchview_quick .btn.o_enable_searchview{background: #ffbc00;padding: .5rem 0.75rem !important;margin-left: 0;margin-right: 5px;}
+	.o_control_panel .o_searchview_quick .btn.o_enable_searchview{background: #e2e4e6;padding: .5rem 0.75rem !important;margin-left: 0;margin-right: 5px;}
 }
 .sh_backmate_theme_appmenu_div span.dropdown-item.o_app.active .sh_fa_icon,
 	.sh_backmate_theme_appmenu_div span.dropdown-item.o_app:active .sh_fa_icon,
@@ -4048,7 +4048,7 @@ nav.o_main_navbar .o_menu_systray li.theme_settings a .icon-theme_setting{animat
 .o_calendar_container .o_calendar_sidebar_container .ui-datepicker table .ui-state-active,.o_calendar_container .o_calendar_sidebar_container .ui-datepicker table .ui-state-default:hover{border-radius: 2px;}
 .o_content.o_controller_with_searchpanel .o_search_panel{padding: 8px 8px 32px 10px !important;}
 .o_control_panel .o_searchview .o_searchview_input_container .o_searchview_facet .o_facet_values{border-radius: 0px 3px 3px 0px !important;}
-.o_form_view .o_form_sheet_bg .o_form_statusbar .o_statusbar_status.show > .btn-secondary.dropdown-toggle{color: #212529 !important;}
+.o_form_view .o_form_sheet_bg .o_form_statusbar .o_statusbar_status.show > .btn-secondary.dropdown-toggle{color: #50575D !important;}
 .o_form_view .o_form_sheet_bg .o_form_statusbar .o_statusbar_status > .dropdown-menu[role="menu"]{padding: 0px !important;}
 .o_form_view .o_form_sheet_bg .o_form_statusbar .o_statusbar_status > .dropdown-menu .dropdown-item.btn{margin-bottom: 1px;}
 .o_content.o_controller_with_searchpanel .o_search_panel .o_search_panel_field .o_search_panel_filter_value [type='checkbox'] + label:not(.lever){line-height: 22px;}

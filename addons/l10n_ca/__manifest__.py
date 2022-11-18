@@ -3,7 +3,8 @@
 
 {
     'name': 'Canada - Accounting',
-    'author': 'Savoir-faire Linux',
+    # 'author': 'Savoir-faire Linux',
+    'author': 'CIDS Desing',
     # 'website': 'https://www.savoirfairelinux.com',
     'website': '#',
     'category': 'Accounting/Localizations/Account Charts',

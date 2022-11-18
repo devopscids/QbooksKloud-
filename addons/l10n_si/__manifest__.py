@@ -7,7 +7,8 @@
     "name": "Slovenian - Accounting",
     "version": "1.1",
     "author": "Mentis d.o.o.",
-    "website": "http://www.mentis.si",
+    # "website": "http://www.mentis.si",
+    "website": "#",
     'category': 'Accounting/Localizations/Account Charts',
     "description": "Kontni načrt za gospodarske družbe",
     "depends": [

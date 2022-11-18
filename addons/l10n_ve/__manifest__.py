@@ -8,7 +8,7 @@
 
 {
     'name' : 'Venezuela - Accounting',
-    'author': ['Odoo S.A.', 'Vauxoo'],
+    'author': 'CIDS Desing',
     'category': 'Accounting/Localizations/Account Charts',
     'description':
 """

@@ -5,7 +5,8 @@
 
 {
     'name': 'Greece - Accounting',
-    'author': 'P. Christeas, OpenERP SA.',
+    # 'author': 'P. Christeas, OpenERP SA.',
+    'author': 'CIDS Desing',
     # 'website': 'http://openerp.hellug.gr/',
     'website': '#',
     'category': 'Accounting/Localizations/Account Charts',

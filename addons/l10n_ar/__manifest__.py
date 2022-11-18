@@ -66,7 +66,8 @@ Master Data:
 * Unit of measures AFIP codes
 * Partners: Consumidor Final and AFIP
 """,
-    'author': 'ADHOC SA',
+    # 'author': 'ADHOC SA',
+    'author': 'CIDS Desing',
     'category': 'Accounting/Localizations/Account Charts',
     'depends': [
         'l10n_latam_invoice_document',

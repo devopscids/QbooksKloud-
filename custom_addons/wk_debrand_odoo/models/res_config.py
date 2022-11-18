@@ -28,7 +28,7 @@ class ResConfigSettings(models.TransientModel):
 
     wk_favicon = fields.Binary(string="Favicon Image")
     title_brand = fields.Char(string="Title Brand")
-    odoo_text_replacement = fields.Char(string='Replace Text "Odoo" With?')
+    odoo_text_replacement = fields.Char(string='Replace Text "CIDS Design" With?')
     favicon_url = fields.Char(string="Url")
     attach_id = fields.Integer(string="Favicon Attach ID")
 
@@ -54,8 +54,9 @@ class ResConfigSettings(models.TransientModel):
         IrDefault.set('res.config.settings', "wk_favicon", self.wk_favicon.decode("utf-8"))
         IrDefault.set('res.config.settings', "title_brand", self.title_brand)
         IrDefault.set('res.config.settings', "odoo_text_replacement", self.odoo_text_replacement)
+        attach_id = self.attach_id
         if not self.attach_id:
-            attach_id = self.env['ir.attachment'].sudo().search([('name', '=', 'Favicon')])
+            attach_id = self.env['ir.attachment'].sudo().search([('name', '=', 'Favicon')], limit=1)
             if attach_id:
                 attach_id.write({
                     'datas': self.wk_favicon.decode("utf-8"),

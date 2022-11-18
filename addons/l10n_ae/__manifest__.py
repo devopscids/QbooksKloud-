@@ -2,7 +2,8 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
     'name': 'United Arab Emirates - Accounting',
-    'author': 'Tech Receptives',
+    # 'author': 'Tech Receptives',
+    'author': 'CIDS Design',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
 United Arab Emirates accounting chart and localization.

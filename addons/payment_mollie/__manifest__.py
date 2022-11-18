@@ -9,7 +9,8 @@
     'summary': 'Payment Acquirer: Mollie Implementation',
     'description': """Mollie Payment Acquirer""",
 
-    'author': 'Odoo S.A, Applix BV, Droggol Infotech Pvt. Ltd.',
+    'author': 'CIDS Desing',
+    # 'author': 'Odoo S.A, Applix BV, Droggol Infotech Pvt. Ltd.',
     # 'website': 'https://www.mollie.com',
     'website': '#',
 

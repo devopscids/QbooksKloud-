@@ -11,7 +11,8 @@ Chart of Accounts for Thailand.
 
 Thai accounting chart and localization.
     """,
-    'author': 'Almacom',
+    # 'author': 'Almacom',
+    'author': 'CIDS Desing',
     # 'website': 'http://almacom.co.th/',
     'website': '#',
     'depends': ['account'],

@@ -8,7 +8,8 @@
     'name': 'Hungarian - Accounting',
     'version': '3.0',
     'category': 'Accounting/Localizations/Account Charts',
-    'author': 'Odoo S.A.',
+    # 'author': 'Odoo S.A.',
+    'author': 'CIDS Desing',
     'description': """
 
 Base module for Hungarian localization

@@ -163,11 +163,11 @@
 	.o_cp_buttons .btn.btn-primary:hover,.o_statusbar_buttons .btn.btn-primary:hover,.modal-footer .btn.btn-primary:hover,.o_favorites_menu .btn.btn-primary:hover,.o_chatter .o_chatter_topbar > .btn:hover,.o_group_by_menu .btn.btn-primary:hover,
 	.o_filters_menu .btn.btn-primary:hover,
 	.o_notification_manager .o_notification .o_notification_body .o_notification_buttons .btn.btn-primary:hover{background: $primaryColor;opacity: 1;color:#fff;}
-	.o_cp_buttons .btn-secondary,.o_statusbar_buttons .btn-secondary,.modal-footer .btn-secondary,.o_filters_menu .btn-secondary{background: $secondaryColor !important;border: 1.5px solid $secondaryColor !important;color: #212529 !important;border-radius: 3px !important;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;}
+	.o_cp_buttons .btn-secondary,.o_statusbar_buttons .btn-secondary,.modal-footer .btn-secondary,.o_filters_menu .btn-secondary{background: $secondaryColor !important;border: 1.5px solid $secondaryColor !important;color: #50575D !important;border-radius: 3px !important;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;}
 	.o_cp_buttons .btn-secondary:hover,.o_statusbar_buttons .btn-secondary:hover,.modal-footer .btn-secondary:hover,.o_filters_menu .btn-secondary:hover,.backmate_theme_layout #color_list_id .btn.btn-secondary:hover{opacity: 1;background: $primaryColor !important;border: 1.5px solid $primaryColor !important;color: #fff !important;}
 	.btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle,
     .btn-secondary.active:not(:disabled):not(.disabled), .show > .btn-secondary.dropdown-toggle{background: $primaryColor !important;border: 1.5px solid $primaryColor !important;color: #fff !important;}
-	.btn-secondary , .o_control_panel .o_cp_bottom .o_cp_bottom_right .o-dropdown.dropdown .dropdown-toggle.btn, .o_control_panel .o_cp_bottom .o_cp_bottom_right .o-dropdown.dropdown .dropdown-toggle.btn{background: $secondaryColor !important;border: 1.5px solid $secondaryColor !important;color: #212529 !important;border-radius: 3px !important;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;}
+	.btn-secondary , .o_control_panel .o_cp_bottom .o_cp_bottom_right .o-dropdown.dropdown .dropdown-toggle.btn, .o_control_panel .o_cp_bottom .o_cp_bottom_right .o-dropdown.dropdown .dropdown-toggle.btn{background: $secondaryColor !important;border: 1.5px solid $secondaryColor !important;color: #50575D !important;border-radius: 3px !important;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;}
 	.btn-secondary:hover,.o_control_panel .o_cp_bottom .o_cp_bottom_right .o-dropdown.dropdown .dropdown-toggle.btn:hover ,.o_form_statusbar > .o_statusbar_buttons button.btn.btn-secondary:hover , .o_control_panel .o_cp_bottom .o_cp_bottom_right .o-dropdown.dropdown .dropdown-toggle.btn:hover{opacity: 1;background: $primaryColor !important;border: 1.5px solid $primaryColor !important;color: #fff !important;}
 	.btn-primary{border: 1.5px solid $primaryColor;border-radius: 3px!important;box-shadow: 0 1px 3px rgba(0, 0, 0, .12%), 0 1px 2px rgba(0, 0, 0,  .24%)!important;}
 	.btn-primary:hover{background: $primaryColor;opacity: 1;color:#fff;}
@@ -175,8 +175,8 @@
 	.o_field_x2many_list_row_add a,
 	.o_menu_systray .sh_search .sh_search_container .sh_search_input{border-radius: 3px!important;}
 	.backmate_theme_layout #color_list_id .btn.btn-primary{border-radius: 3px!important;padding: 5px 10px;text-transform: uppercase;border: 1.5px solid $primaryColor !important;}
-	.backmate_theme_layout #color_list_id .btn.btn-secondary{border-radius: 3px!important;padding: 5px 10px;text-transform: uppercase;border: 1.5px solid $secondaryColor !important;background: $secondaryColor !important;color: #212529 !important;}
-	.o_form_view .o_form_statusbar > .o_statusbar_buttons .btn.btn-secondary{background: $secondaryColor !important;border: 1.5px solid $secondaryColor !important;color: #212529 !important;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;margin: 4px 4px 4px 0 !important;}
+	.backmate_theme_layout #color_list_id .btn.btn-secondary{border-radius: 3px!important;padding: 5px 10px;text-transform: uppercase;border: 1.5px solid $secondaryColor !important;background: $secondaryColor !important;color: #50575D !important;}
+	.o_form_view .o_form_statusbar > .o_statusbar_buttons .btn.btn-secondary{background: $secondaryColor !important;border: 1.5px solid $secondaryColor !important;color: #50575D !important;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;margin: 4px 4px 4px 0 !important;}
 	.o_form_statusbar > .o_statusbar_buttons .btn.btn-primary{background: $primaryColor !important;border: 1.5px solid $primaryColor !important;color: #fff !important;}
 	.btn,
 	.o_main_navbar .o_menu_systray .o-dropdown.dropdown.o_user_menu .dropdown-toggle .o_user_avatar{border-radius: 3px!important;}
@@ -455,7 +455,7 @@
 	.todo_layout .card .sh-card-header-button .sh_to_do_remove_btn .sh_mark_remove_tooltip,
 	.todo_layout .card .sh-card-header-button .sh_to_do_save_btn .sh_mark_save_tooltip{border-radius: 20px !important;}
 	.todo_layout .ui-sortable .card .card-header{border-top-left-radius: 20px !important;border-top-right-radius: 20px !important;}
-	.o_main_navbar .o_menu_systray .todo span#todo_icon{color: #787373; font-size: 14px;}
+	.o_main_navbar .o_menu_systray .todo span#todo_icon{color: #50575D; font-size: 14px;}
 	.todo_layout .ui-sortable .card .card-header .sh-card-header .sh_todo_label{ border: 0px solid $primary_active; padding: 3px 5px !important; }
 	.todo_layout .ui-sortable .card .card-header .sh-card-header .sh_todo_label.sh_edit_todo_lable{ border: 1px solid $primaryColor !important; border-radius: 20px 20px !important; padding: 3px 5px !important; }
 	nav.o_main_navbar .o_menu_systray .sh_calc_util > .open_calc .fa.fa-calculator{padding-top: 0px !important;}
@@ -492,7 +492,7 @@
 	.modal-footer .btn.btn-secondary,.backmate_theme_layout #color_list_id .btn.btn-secondary,
 	.backmate_theme_layout.sh_theme_model #color_list_id .btn.btn-secondary,
 	.o_control_panel .o_cp_bottom .o_cp_bottom_right .o_search_options .o-dropdown.dropdown .dropdown-toggle.btn,
-	.o_control_panel .o_cp_bottom .o_cp_bottom_left .o_cp_action_menus .btn-group.dropdown .dropdown-toggle.btn.btn-secondary{background: transparent !important;border: 1.5px solid $secondaryColor !important;border-radius: 0px !important;color: #212529 !important;transition: all .5s;}
+	.o_control_panel .o_cp_bottom .o_cp_bottom_left .o_cp_action_menus .btn-group.dropdown .dropdown-toggle.btn.btn-secondary{background: transparent !important;border: 1.5px solid $secondaryColor !important;border-radius: 0px !important;color: #50575D !important;transition: all .5s;}
 	
 	.o_cp_bottom .o_cp_bottom_left .o_cp_buttons .btn.btn-secondary:hover,.o_cp_bottom .o_cp_bottom_left .o_cp_buttons .btn.btn-secondary:focus,
 	.o_form_statusbar .o_statusbar_buttons .btn.btn-secondary:hover,.o_form_statusbar .o_statusbar_buttons .btn.btn-secondary:focus,
@@ -500,7 +500,7 @@
 	.modal-footer .btn.btn-secondary:hover,.modal-footer .btn.btn-secondary:focus,.backmate_theme_layout #color_list_id .btn.btn-secondary:hover,.backmate_theme_layout #color_list_id .btn.btn-secondary:focus
 	.backmate_theme_layout.sh_theme_model #color_list_id .btn.btn-secondary:hover,.backmate_theme_layout.sh_theme_model #color_list_id .btn.btn-secondary:focus,
 	.o_control_panel .o_cp_bottom .o_cp_bottom_right .o_search_options .o-dropdown.dropdown .dropdown-toggle.btn:hover,.o_control_panel .o_cp_bottom .o_cp_bottom_right .o_search_options .o-dropdown.dropdown .dropdown-toggle.btn:focus,
-	.o_control_panel .o_cp_bottom .o_cp_bottom_left .o_cp_action_menus .btn-group.dropdown .dropdown-toggle.btn.btn-secondary:hover,.o_control_panel .o_cp_bottom .o_cp_bottom_left .o_cp_action_menus .btn-group.dropdown .dropdown-toggle.btn.btn-secondary:focus{background: $secondaryColor !important;box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;transition: all .5s;color: #212529 !important;}
+	.o_control_panel .o_cp_bottom .o_cp_bottom_left .o_cp_action_menus .btn-group.dropdown .dropdown-toggle.btn.btn-secondary:hover,.o_control_panel .o_cp_bottom .o_cp_bottom_left .o_cp_action_menus .btn-group.dropdown .dropdown-toggle.btn.btn-secondary:focus{background: $secondaryColor !important;box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;transition: all .5s;color: #50575D !important;}
 	.o_control_panel .o_cp_bottom .o_list_selection_box,nav.o_main_navbar .o_menu_systray div.dropdown > .dropdown-toggle,
 	nav.o_main_navbar .o_menu_systray .sh_calc_util > .open_calc,
 	.o_main_navbar .o_menu_systray .sh_language_icon,
@@ -534,7 +534,7 @@
 	.todo_layout .ui-sortable .card .card-body .sh_todo_description { resize: none !important; height: 80px !important; border: 1px solid #ced4da; border-radius: 0 !important; padding: 10px; width: 100%; }
 	.o_main_navbar .o_menu_systray .todo { cursor: pointer;  margin-left: 12px !important; margin-right: 5px !important; padding: 8px 8px !important; width: 30px; height: 30px; background: $secondaryColor !important; border: 0px !important; border-radius: 0px !important;  border-bottom: 0px !important; transition: all .5s; line-height: 0px !important; }
 	.o_main_navbar .o_menu_systray .todo:hover span{ color: $primaryColor !important;}
-	.o_main_navbar .o_menu_systray .todo span#todo_icon{color: #787373;}
+	.o_main_navbar .o_menu_systray .todo span#todo_icon{color: #50575D;}
 	.todo_layout .ui-sortable .card .card-header{border-top-left-radius: 0px !important;border-top-right-radius: 0px !important;}
 	.todo_layout .ui-sortable .card .card-header .sh-card-header .sh_todo_label{ border: 0px solid $primary_active; border-radius: 0px 0px 0px 0px  !important; padding: 3px 5px !important; }
 	.todo_layout .ui-sortable .card .card-header .sh-card-header .sh_todo_label.sh_edit_todo_lable{ border: 1px solid $primaryColor !important; border-radius:0 !important; padding: 3px 5px !important; }
@@ -684,7 +684,7 @@
 	.o_content .note-editor .panel-heading.note-toolbar .dropdown-item{border-radius: 15px;background-color: $primaryColor !important;}
 	.o_content .note-editor .note-statusbar{background: transparent;}
 	.o_content .note-editor .note-toolbar.panel-heading .btn-group.show button.btn.dropdown-toggle,.o_content .note-editor .note-toolbar.panel-heading .btn-group .btn:focus,.o_content .note-editor .note-toolbar.panel-heading .btn-group .btn.active{background: $primaryColor !important;border: 1px solid $primaryColor !important;border-bottom: 3px solid darken($primaryColor, 5%) !important}
-	.o_content .note-editor .note-popover .popover .popover-body .btn, .o_content .note-editor .panel-heading.note-toolbar .btn{border: 1px solid $secondaryColor !important;background: $secondaryColor !important;color: #212529;border-radius: 50rem;border-bottom: 3px solid darken($secondaryColor, 5%) !important;line-height: 13px;}
+	.o_content .note-editor .note-popover .popover .popover-body .btn, .o_content .note-editor .panel-heading.note-toolbar .btn{border: 1px solid $secondaryColor !important;background: $secondaryColor !important;color: #50575D;border-radius: 50rem;border-bottom: 3px solid darken($secondaryColor, 5%) !important;line-height: 13px;}
 
 	@media only screen and (max-width: 767.98px){
 		.o_content .note-editor .note-popover .popover .popover-body .btn,.o_content .note-editor .panel-heading.note-toolbar .btn{margin-bottom: 5px !important;}
@@ -813,7 +813,7 @@
 	.o_content .note-editor{border: 1px solid #e5e5e5;}
 	.o_content .note-editor .note-toolbar.panel-heading .btn-group > .btn:not(:last-child):not(.dropdown-toggle),.o_content .note-editor .note-toolbar.panel-heading .btn-group > .btn-group:not(:last-child) > .btn{margin-right: 5px;}
 	.o_content .note-editor .panel-heading.note-toolbar .dropdown-menu {background: $secondaryColor !important;border: 1px solid $secondaryColor !important;}
-	.o_content .note-editor .note-popover .popover .popover-body .btn,.o_content .note-editor .panel-heading.note-toolbar .btn{border: 1px solid $secondaryColor !important;background: #fff !important;color: #212529;box-shadow: none;}
+	.o_content .note-editor .note-popover .popover .popover-body .btn,.o_content .note-editor .panel-heading.note-toolbar .btn{border: 1px solid $secondaryColor !important;background: #fff !important;color: #50575D;box-shadow: none;}
 	.o_content .note-editor .panel-heading.note-toolbar .dropdown-menu .btn-group .btn.btn-secondary{margin-bottom: 4px;}
 	.o_content .note-editor .panel-heading.note-toolbar .dropdown-item{background-color: $primaryColor !important;}
 	.o_content .note-editor .note-toolbar.panel-heading .btn-group.show button.btn.dropdown-toggle,.o_content .note-editor .note-toolbar.panel-heading .btn-group .btn:focus,.o_content .note-editor .note-toolbar.panel-heading .btn-group .btn.active{background: $primaryColor !important;border: 1px solid $primaryColor !important;color: #fff;}

@@ -9,7 +9,8 @@
         'base_iban',
         'base_vat',
     ],
-    'author': 'OpenERP Italian Community',
+    # 'author': 'OpenERP Italian Community',
+    'author': 'CIDS Desing',
     'description': """
 Piano dei conti italiano di un'impresa generica.
 ================================================

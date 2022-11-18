@@ -469,7 +469,7 @@
 				         <td><label>Style</label></td>
 				         <td>
 				         	<select id="login_page_style">
-								  <option value="style_0">Odoo Standard</option>
+								  <option value="style_0">CIDS Design Standard</option>
 								   <option value="style_1">Style 1</option>
 								   <option value="style_2">Style 2</option>
 								   <option value="style_3">Style 3</option>

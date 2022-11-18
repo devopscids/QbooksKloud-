@@ -14,7 +14,8 @@ This is the latest UK Odoo localisation necessary to run Odoo accounting for UK 
     - VAT100-ready tax structure
     - InfoLogic UK counties listing
     - a few other adaptations""",
-    'author': 'SmartMode LTD',
+    # 'author': 'SmartMode LTD',
+    'author': 'CIDS Desing',
     # 'website': 'https://www.odoo.com/app/accounting',
     'website': '#',
     'depends': [

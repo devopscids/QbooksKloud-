@@ -245,12 +245,12 @@
       nav.o_main_navbar .o_menu_systray li.sh_search .sh_search_container .sh_search_input .usermenu_search_input2{display: none;}
       nav.o_main_navbar .o_menu_systray div.dropdown.sh_search:first-child{padding: 0 16px;} 
       .o_control_panel .btn.o_enable_searchview{padding: 0;}
-      .o_control_panel .o_cp_searchview .o_searchview .o_enable_searchview.fa-close{padding: 0.5rem 0.75rem;background: #ffbc00;}
+      .o_control_panel .o_cp_searchview .o_searchview .o_enable_searchview.fa-close{padding: 0.5rem 0.75rem;background: #e2e4e6;}
       .o_control_panel .o_cp_searchview .o_searchview{text-align: right !important;border-width: 0px !important;transition: none;}
       .o_control_panel .o_cp_searchview .o_searchview:hover{border-width: 0px !important;transition: none;}
       .o_cp_searchview.o_searchview_quick .o_searchview,
       .o_cp_searchview.o_searchview_quick .o_searchview:hover{border-width: 1px !important;transition: none;}
-      .o_control_panel .o_cp_searchview .o_searchview .o_toggle_searchview_full.fa-filter{background: #ffbc00;}
+      .o_control_panel .o_cp_searchview .o_searchview .o_toggle_searchview_full.fa-filter{background: #e2e4e6;}     
       .o_field_partner_autocomplete.dropdown{display: inline-block;width: 100%;} 
    }
    @media only screen and (max-width: 450px){
@@ -535,7 +535,7 @@ nav.o_main_navbar .o_menu_systray li.theme_settings .theme_setting_img{font-size
 	.o_control_panel .o_cp_searchview.o_searchview_quick .o_searchview{display: flex;}
 	.o_control_panel .o_cp_right > .o_cp_switch_buttons > .btn:first-child{margin-top: 0px;}
 	.o_touch_device .o_control_panel .o_cp_searchview .o_searchview{padding: 1px 3px 2px 3px !important;}
-    .o_control_panel .o_cp_searchview.o_searchview_quick .o_searchview .o_enable_searchview{background: #ffbc00;font-size: 15px !important;margin-right: 5px;}
+    .o_control_panel .o_cp_searchview.o_searchview_quick .o_searchview .o_enable_searchview{background: #e2e4e6;font-size: 15px !important;margin-right: 5px;}
     .o_form_view .o_form_statusbar > .o_statusbar_status{padding-left: 0 !important;}
     .modal-footer{padding: 10px;}
 	.o_content .o_form_view .o_form_sheet, .o_content .o_form_view .oe_chatter, .modal-content .o_form_view .o_form_sheet, .modal-content .o_form_view .oe_chatter{width: 100%;}
@@ -556,8 +556,8 @@ nav.o_main_navbar .o_menu_systray li.theme_settings .theme_setting_img{font-size
    .o_searchview_quick .o_searchview .btn.o_enable_searchview.fa-close:before{position: unset;}
    .o_searchview_quick .o_searchview .btn.o_enable_searchview.fa-close{padding: .5rem 0.75rem;font-size: 16px !important;}
    .o_searchview .o_searchview_input_container .o_searchview_facet .o_facet_remove:before{position: unset;}
-   .o_searchview_quick .o_searchview .btn.o_enable_searchview.fa-close{background: #ffbc00;margin-left: 5px !important;}
-   .o_searchview_quick .o_searchview .btn.o_toggle_searchview_full.fa-filter{background: #ffbc00;margin-left: 5px !important;}
+   .o_searchview_quick .o_searchview .btn.o_enable_searchview.fa-close{background: #e2e4e6;margin-left: 5px !important;}
+   .o_searchview_quick .o_searchview .btn.o_toggle_searchview_full.fa-filter{background: #e2e4e6;margin-left: 5px !important;}
    .o_touch_device .o_control_panel .o_cp_searchview .o_searchview{padding: 0 !important;transition: none;}
    .o_control_panel .btn.o_enable_searchview{font-size: 16px !important;}
    .o_touch_device .o_control_panel .o_cp_right{flex: 0 0 33% !important;}

@@ -9,7 +9,8 @@
     'description': """
        Auto-complete partner companies' data
     """,
-    'author': "Odoo SA",
+    # 'author': "Odoo SA",
+    'author': "CIDS Desing",
     'category': 'Hidden/Tools',
     'depends': [
         'iap_mail',

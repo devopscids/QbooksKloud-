@@ -26,7 +26,7 @@ class SendNotification(models.Model):
             try:
                 from pyfcm import FCMNotification
             except ImportError:
-                raise UserError ("This module use pyfcm python library. Please install library in odoo server using below commands:\n \n 1) for python 3 using command : pip3 installl pyfcm \n 2) for python 2 use command : pip install pyfcm")
+                raise UserError ("This module use pyfcm python library. Please install library in CIDS Design server using below commands:\n \n 1) for python 3 using command : pip3 installl pyfcm \n 2) for python 2 use command : pip install pyfcm")
             try:
                 domain = ([])
                 api_key = self.env.company.api_key

@@ -4,7 +4,8 @@
 
 {
     'name': 'Ukraine - Accounting',
-    'author': 'ERP Ukraine',
+    # 'author': 'ERP Ukraine',
+    'author': 'CIDS Desing',
     # 'website': 'https://erp.co.ua',
     'website': '#',
     'version': '1.4',

@@ -8,7 +8,8 @@
     "category": "Accounting/Localizations/Account Charts",
     "version": "1.0",
     "author": "Odoo PS",
-    "website": "https://www.odoo.com",
+    # "website": "https://www.odoo.com",
+    "website": "#",
     "depends": [
         "account",
         "base_vat",

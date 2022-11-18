@@ -170,7 +170,7 @@
 	height: 46px;
 }
 .sh_color_box_2 {
-	background: #ffbc00;
+	background: #FFBC00;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08), 0 6px 6px rgba(0, 0, 0, 0.11);
 	border-radius: 4px;
 	overflow: hidden;
@@ -294,7 +294,7 @@ display:none;
 
 /* primary color */
 .backmate_theme_layout  #primaryColors{padding: 10px;}
-.backmate_theme_layout  #primaryColors table tr td label{font-size: 14px;color: #787373;font-weight: normal;}
+.backmate_theme_layout  #primaryColors table tr td label{font-size: 14px;color: #50575D;font-weight: normal;}
 .backmate_theme_layout  #primaryColors #primary_color_id,
 .backmate_theme_layout  #primaryColors #secondary_color_id,
 .backmate_theme_layout  #primaryColors #primary_hover_id,
@@ -305,7 +305,7 @@ display:none;
 /* header color */
 .backmate_theme_layout #color_list_id #headerColors{padding: 10px;}
 .backmate_theme_layout #color_list_id #headerColors tr th {padding-bottom: 15px;font-size: 16px;font-weight: 600;}
-.backmate_theme_layout #color_list_id #headerColors tr td label{font-size: 14px;color: #787373;font-weight: normal;}
+.backmate_theme_layout #color_list_id #headerColors tr td label{font-size: 14px;color: #50575D;font-weight: normal;}
 .backmate_theme_layout #color_list_id #headerColors tr input{padding-top: 0;padding-bottom: 0;width: 50px;}
 .backmate_theme_layout #color_list_id #headerColors tr td #body_font_family,
 .backmate_theme_layout #color_list_id #predefined_list_view_style{width: 85%;color: #616161;border-radius: 3px;font-size: 12px;padding: 3px 5px;}
@@ -313,13 +313,13 @@ display:none;
 
 /* font color */
 .backmate_theme_layout #color_list_id #fontColors{padding: 10px;}
-.backmate_theme_layout #color_list_id #fontColors tr td label{font-size: 14px;color: #787373;font-weight: normal;margin: 0;padding-right: 10px;}
+.backmate_theme_layout #color_list_id #fontColors tr td label{font-size: 14px;color: #50575D;font-weight: normal;margin: 0;padding-right: 10px;}
 .backmate_theme_layout #color_list_id #fontColors tr:first-child td {padding-bottom: 15px;}
 .backmate_theme_layout #color_list_id #fontColors tr td input{width: 45px;text-align: center;color: #616161;font-weight: 600;font-size: 12px;}
 
 /* button color */
 .backmate_theme_layout #color_list_id #buttonSeprator{padding: 10px;}
-.backmate_theme_layout #color_list_id #buttonSeprator tr td label{font-size: 14px;color: #787373;font-weight: normal;margin: 0;}
+.backmate_theme_layout #color_list_id #buttonSeprator tr td label{font-size: 14px;color: #50575D;font-weight: normal;margin: 0;}
 .backmate_theme_layout #color_list_id #buttonSeprator tr td #button_style,
 .backmate_theme_layout #color_list_id #buttonSeprator tr td #separator_style,
 .backmate_theme_layout #color_list_id #buttonSeprator tr td #icon_style,
@@ -331,7 +331,7 @@ display:none;
 
 /* sidebar */
 .backmate_theme_layout #color_list_id #sidebarStyle{padding: 10px;}
-.backmate_theme_layout #color_list_id #sidebarStyle tr td label{font-size: 14px; color: #787373;font-weight: normal;margin: 0;}
+.backmate_theme_layout #color_list_id #sidebarStyle tr td label{font-size: 14px; color: #50575D;font-weight: normal;margin: 0;}
 .backmate_theme_layout #color_list_id #sidebarStyle tr td #sidebar_style{width: 75%;color: #616161;border-radius: 3px;font-size: 12px;padding: 3px 5px;}
 .backmate_theme_layout #color_list_id #sidebarStyle tr td{padding-bottom: 10px;}
 .backmate_theme_layout #color_list_id #sidebarStyle tr:last-child td{padding-bottom: 0px;}
@@ -342,7 +342,7 @@ display:none;
 
 /* list view table */
 .backmate_theme_layout #color_list_id #listViewTable{padding: 10px;}
-.backmate_theme_layout #color_list_id #listViewTable tr td label{font-size: 14px;color: #787373;font-weight: normal;margin: 0;}
+.backmate_theme_layout #color_list_id #listViewTable tr td label{font-size: 14px;color: #50575D;font-weight: normal;margin: 0;}
 .backmate_theme_layout #color_list_id #listViewTable #list_view_border{width: 80%;color: #616161;border-radius: 3px;font-size: 12px;padding: 3px 5px;}
 .backmate_theme_layout #color_list_id #listViewTable tr td{padding-bottom: 10px;}
 .backmate_theme_layout #color_list_id #listViewTable tr:last-child td{padding-bottom: 0px;}
@@ -352,12 +352,12 @@ display:none;
 
 /* login page */
 .backmate_theme_layout #color_list_id #loginPopup{padding: 10px;}
-.backmate_theme_layout #color_list_id #loginPopup tr td label{font-size: 14px;color: #787373;font-weight: normal;margin: 0;}
+.backmate_theme_layout #color_list_id #loginPopup tr td label{font-size: 14px;color: #50575D;font-weight: normal;margin: 0;}
 .backmate_theme_layout #color_list_id #loginPopup tr td #login_page_style{width: 90%;color: #616161;border-radius: 3px;font-size: 12px;padding: 3px 5px;}
 
 /* sticy popup */
 .backmate_theme_layout #color_list_id #stickyPopup{padding: 10px;}
-.backmate_theme_layout #color_list_id #stickyPopup tr td label{font-size: 14px;color: #787373;font-weight: normal;margin: 0;}
+.backmate_theme_layout #color_list_id #stickyPopup tr td label{font-size: 14px;color: #50575D;font-weight: normal;margin: 0;}
 .backmate_theme_layout #color_list_id #stickyPopup tr td{padding-bottom: 10px;}
 .backmate_theme_layout #color_list_id #stickyPopup tr td #modal_popup_style{width: 75%;color: #616161;border-radius: 3px;font-size: 12px;padding: 3px 5px;}
 
@@ -400,7 +400,7 @@ list-style: none;
 .sh_style_box_3{box-shadow: none;}
 .backmate_theme_layout #color_list_id .btn.btn-secondary{border: 1.5px solid #f1f0f4 !important;}
 
-.backmate_theme_layout #color_list_id .btn.btn-secondary:hover{background: #f1f0f4 !important;color: #212529 !important;}
+.backmate_theme_layout #color_list_id .btn.btn-secondary:hover{background: #f1f0f4 !important;color: #50575D !important;}
 .backmate_theme_layout #color_list_id .btn.btn-secondary,
 .backmate_theme_layout #color_list_id .btn.btn-primary{padding: 5px 15px !important;}
 

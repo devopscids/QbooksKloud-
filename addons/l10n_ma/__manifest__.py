@@ -5,7 +5,8 @@
 
 {
     'name': 'Maroc - Accounting',
-    'author': 'kazacube',
+    # 'author': 'kazacube',
+    'author': 'CIDS Desing',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
 This is the base module to manage the accounting chart for Maroc.

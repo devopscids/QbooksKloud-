@@ -6,7 +6,8 @@
     'version': '1.0',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """ This is the base module to manage chart of accounting and localization for Hong Kong """,
-    'author': 'Odoo SA',
+    # 'author': 'Odoo SA',
+    'author': 'CIDS Desing',
     'depends': ['account'],
     'data': [
         'data/account_chart_template_data.xml',

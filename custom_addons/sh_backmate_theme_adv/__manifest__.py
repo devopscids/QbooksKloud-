@@ -2,8 +2,10 @@
 # Part of Softhealer Technologies.
 {
     "name": "Backmate Backend Theme Advance",
-    "author": "Softhealer Technologies",
-    "website": "https://www.softhealer.com",
+    # "author": "Softhealer Technologies",
+    "author": "CIDS Design",
+    # "website": "https://www.softhealer.com",
+    "website": "#",
     "support": "support@softhealer.com",
     "description": """
                 Are you bored with your standard CIDS Design backend theme? Are You are looking for modern, creative, clean, clear, materialize CIDS Design theme for your backend? So you are at right place, We have made sure that this theme is highly customizable and it comes with a premium look and feel. Our theme is not only beautifully designed but also fully functional, flexible, fast, lightweight, animated and modern multipurpose theme. Our backend theme is suitable for almost every purpose.

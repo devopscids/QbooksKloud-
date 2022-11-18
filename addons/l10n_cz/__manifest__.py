@@ -3,7 +3,8 @@
 {
     'name': 'Czech - Accounting',
     'version': '1.0',
-    'author': '26HOUSE',
+    # 'author': '26HOUSE',
+    'author': 'CIDS Desing',
     'website': '#',
     # 'website': 'http://www.26house.com',
     'category': 'Accounting/Localizations/Account Charts',

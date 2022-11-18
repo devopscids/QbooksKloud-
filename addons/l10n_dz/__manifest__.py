@@ -10,7 +10,8 @@ This is the module to manage the accounting chart for Algeria in Odoo.
 ======================================================================
 This module applies to companies based in Algeria.
 """,
-    'author': 'Osis',
+    # 'author': 'Osis',
+    'author': 'CIDS Desing',
     'depends': ['account'],
     'data': [
         'data/account_chart_template_data.xml',
