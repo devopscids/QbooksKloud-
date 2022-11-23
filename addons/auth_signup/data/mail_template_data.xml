@@ -41,7 +41,7 @@
                         You may change your password by following this link which will remain valid during 24 hours:<br/>
                         <div style="margin: 16px 0px 16px 0px;">
                             <a t-att-href="object.signup_url"
-                                style="background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;">
+                                style="background-color: #ffbc00; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;">
                                 Change password
                             </a>
                         </div>
@@ -86,8 +86,8 @@
 <tr><td align="center" style="min-width: 590px;">
     <table border="0" cellpadding="0" cellspacing="0" width="590" style="min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;">
       <tr><td style="text-align: center; font-size: 13px;">
-<!--        Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth" style="color: #875A7B;">Odoo</a>-->
-        Powered by <a target="_blank" href="#" style="color: #875A7B;">CIDS Design</a>
+<!--        Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth" style="color: #ffbc00;">Odoo</a>-->
+        Powered by <a target="_blank" href="#" style="color: #ffbc00;">CIDS Design</a>
       </td></tr>
     </table>
 </td></tr>
@@ -136,7 +136,7 @@
                         You have been invited by <t t-out="object.create_uid.name or ''">CIDS Design Bot</t> of <t t-out="object.company_id.name or ''">YourCompany</t> to connect on CIDS Design.
                         <div style="margin: 16px 0px 16px 0px;">
                             <a t-att-href="object.signup_url"
-                                style="background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;">
+                                style="background-color: #FFBC00; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;">
                                 Accept invitation
                             </a>
                         </div>
@@ -145,7 +145,8 @@
                         Your sign in email is: <b><a t-attf-href="/web/login?login={{ object.email }}" target="_blank" t-out="object.email or ''">mark.brown23@example.com</a></b><br /><br />
                         Never heard of CIDS Design? It’s an all-in-one business software loved by 7+ million users. It will considerably improve your experience at work and increase your productivity.
                         <br /><br />
-                        Have a look at the <a href="https://www.odoo.com/page/tour?utm_source=db&amp;utm_medium=auth" style="color: #875A7B;">CIDS Design Tour</a> to discover the tool.
+<!--                        Have a look at the <a href="https://www.odoo.com/page/tour?utm_source=db&amp;utm_medium=auth" style="color: #ffbc00;">CIDS Design Tour</a> to discover the tool.-->
+                        Have a look at the <a href="#" style="color: #ffbc00;">CIDS Design Tour</a> to discover the tool.
                         <br /><br />
                         Enjoy CIDS Design!<br />
                         --<br/>The <t t-out="object.company_id.name or ''">YourCompany</t> Team
@@ -183,7 +184,7 @@
 <tr><td align="center" style="min-width: 590px;">
     <table border="0" cellpadding="0" cellspacing="0" width="590" style="min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;">
       <tr><td style="text-align: center; font-size: 13px;">
-        Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth" style="color: #875A7B;">Odoo</a>
+        Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth" style="color: #ffbc00;">Odoo</a>
       </td></tr>
     </table>
 </td></tr>
@@ -284,7 +285,7 @@
                         To gain access to your account, you can use the following link:
                         <div style="margin: 16px 0px 16px 0px;">
                             <a t-attf-href="/web/login?auth_login={{object.email}}"
-                                style="background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;">
+                                style="background-color: #ffbc00; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;">
                                 Go to My Account
                             </a>
                         </div>
@@ -329,7 +330,7 @@
 <tr><td align="center" style="min-width: 590px;">
     <table border="0" cellpadding="0" cellspacing="0" width="590" style="min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;">
       <tr><td style="text-align: center; font-size: 13px;">
-        Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth" style="color: #875A7B;">Odoo</a>
+        Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth" style="color: #ffbc00;">Odoo</a>
       </td></tr>
     </table>
 </td></tr>

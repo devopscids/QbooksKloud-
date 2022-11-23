@@ -461,8 +461,8 @@ class TestChannelInternals(MailCommon):
     def test_channel_should_generate_correct_default_avatar(self):
         channel = self.env['mail.channel'].create({'name': '', 'uuid': 'test-uuid'})
         bgcolor = html_escape('hsl(288, 51%, 45%)')  # depends on uuid
-        expceted_avatar_channel = (channel_avatar.replace('fill="#875a7b"', f'fill="{bgcolor}"')).encode()
-        expected_avatar_group = (group_avatar.replace('fill="#875a7b"', f'fill="{bgcolor}"')).encode()
+        expceted_avatar_channel = (channel_avatar.replace('fill="#ffbc00"', f'fill="{bgcolor}"')).encode()
+        expected_avatar_group = (group_avatar.replace('fill="#ffbc00"', f'fill="{bgcolor}"')).encode()
 
         channel.channel_type = 'group'
         self.assertEqual(base64.b64decode(channel.avatar_128), expected_avatar_group)
