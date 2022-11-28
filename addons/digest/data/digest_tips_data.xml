@@ -18,7 +18,7 @@
 <div>
     <p class="tip_title">Tip: Speed up your workflow with shortcuts</p>
     <p class="tip_content">Press ALT in any screen to highlight shortcuts for every button in the screen. It is useful to process multiple documents in batch.</p>
-    <img src="/digest/static/src/img/alt-shortcuts.gif" class="illustration_border" />
+<!--    <img src="/digest/static/src/img/alt-shortcuts.gif" class="illustration_border" />-->
 </div>
             </field>
         </record>
@@ -30,7 +30,7 @@
 <div>
     <p class="tip_title">Tip: Click on an avatar to chat with a user</p>
     <p class="tip_content">Have a question about a document? Click on the responsible user's picture to start a conversation. If his avatar has a green dot, he is online.</p>
-    <img src="/digest/static/src/img/avatar.gif" class="illustration_border" />
+<!--    <img src="/digest/static/src/img/avatar.gif" class="illustration_border" />-->
 </div>
             </field>
         </record>

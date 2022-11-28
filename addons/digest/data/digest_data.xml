@@ -18,7 +18,7 @@
                 font-family: Arial, Helvetica, Verdana, sans-serif;
             }
             #header_background {
-                background-color: #875a7b;
+                background-color: #ffbc00;
             }
             .global_layout {
                 max-width: 588px;
@@ -40,7 +40,7 @@
             }
             .button {
                 float: right;
-                background-color: #875a7b;
+                background-color: #ffbc00;
                 color: #ffffff;
                 border-radius: 5px;
             }
@@ -61,7 +61,7 @@
                 text-justify: inter-word;
             }
             .tip_button {
-                background-color: #875a7b;
+                background-color: #ffbc00;
                 border-radius: 5px;
                 margin: 14px 16px 14px 0px;
                 padding: 10px;
@@ -97,7 +97,7 @@
                 padding-top: 2px;
             }
             .kpi_cell_center {
-                border-top: 2px solid #875A7B;
+                border-top: 2px solid #ffbc00;
             }
             .kpi_cell_border {
                 border-top: 2px solid #00A09D;
@@ -108,7 +108,7 @@
                 text-decoration: none;
             }
             .kpi_center_col {
-                color: #875A7B;
+                color: #ffbc00;
             }
             .kpi_border_col {
                 color: #00A09D;
@@ -164,7 +164,7 @@
             }
             .odoo_link_text {
                 font-weight: bold;
-                color: #875a7b;
+                color: #ffbc00;
             }
             .run_business {
                 color: #2d2a26;
@@ -260,8 +260,8 @@
                 }
                 #header {
                     padding: 20px 30px 25px 30px;
-                    border-left: 1px solid #875a7b;
-                    border-right: 1px solid #875a7b;
+                    border-left: 1px solid #ffbc00;
+                    border-right: 1px solid #ffbc00;
                 }
                 .global_layout {
                     padding: 25px 30px 30px 30px;
@@ -401,7 +401,7 @@
                 <t t-out="preference"/>
             </div>
             <div class="by_odoo">
-                Sent by <a href="https://www.cids.design.com" target="_blank" class="odoo_link"><span class="odoo_link_text">Odoo</span></a>
+                Sent by <a href="https://www.cids.design.com" target="_blank" class="odoo_link"><span class="odoo_link_text">CIDS Design</span></a>
                 <t t-if="unsubscribe_token">
                     –
                     <a t-attf-href="/digest/#{object.id}/unsubscribe?token=#{unsubscribe_token}&amp;user_id=#{user.id}"
@@ -439,17 +439,17 @@
     <template id="digest_section_mobile">
 <div class="global_layout" style="overflow: auto;">
     <div style="width: 50%; float: left; text-align: right;">
-        <img src="https://www.odoo.com/web/image/24717933/odoo-mobile.png" alt="Odoo Mobile" />
+<!--        <img src="https://www.odoo.com/web/image/24717933/odoo-mobile.png" alt="CIDS Design Mobile" />-->
     </div>
     <div style="width: 50%; float: left;">
         <p class="run_business">Run your business from anywhere with <b>CIDS Design Mobile</b>.</p>
         <div>
 <!--            <a href="https://play.google.com/store/apps/details?id=com.odoo.mobile" target="_blank"><img class="download_app" src="https://www.odoo.com/digest/static/src/img/google_play.png" /></a>-->
-            <a href="#" target="_blank"><img class="download_app" src="https://www.odoo.com/digest/static/src/img/google_play.png" /></a>
+<!--            <a href="#" target="_blank"><img class="download_app" src="https://www.odoo.com/digest/static/src/img/google_play.png" /></a>-->
         </div>
         <div>
 <!--            <a href="https://itunes.apple.com/us/app/odoo/id1272543640" target="_blank"><img class="download_app" src="https://www.odoo.com/digest/static/src/img/app_store.png" /></a>-->
-            <a href="#" target="_blank"><img class="download_app" src="https://www.odoo.com/digest/static/src/img/app_store.png" /></a>
+<!--            <a href="#" target="_blank"><img class="download_app" src="https://www.odoo.com/digest/static/src/img/app_store.png" /></a>-->
         </div>
     </div>
 </div>

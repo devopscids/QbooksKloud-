@@ -27,7 +27,8 @@ class TestWebsiteResetPassword(TransactionCase):
         self.assertEqual(image.format, 'ICO')
 
         # Test setting a JPEG file that is too big, done through write
-        bg_color = (135, 90, 123)
+        # bg_color = (135, 90, 123)
+        bg_color = (225, 188, 000)
         image = Image.new('RGB', (1920, 1080), color=bg_color)
         website.favicon = image_to_base64(image, 'JPEG')
         image = base64_to_image(website.favicon)

@@ -45,7 +45,7 @@
 <div>
     <p class="tip_title">Tip: Use illustrations to spice up your website</p>
     <p class="tip_content">Not only can you search for royalty-free illustrations, their colors are also converted so that they always fit your Theme.</p>
-    <img src="/website/static/src/img/digest_tip_website_illustrations.gif" class="illustration_border" />
+<!--    <img src="/website/static/src/img/digest_tip_website_illustrations.gif" class="illustration_border" />-->
 </div>
             </field>
         </record>
