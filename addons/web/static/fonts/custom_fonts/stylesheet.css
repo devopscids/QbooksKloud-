@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Lorin';
+    src: url('Lorin-Regular.eot');
+    src: local('Lorin Regular'), local('Lorin-Regular'),
+        url('Lorin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Lorin-Regular.woff2') format('woff2'),
+        url('Lorin-Regular.woff') format('woff'),
+        url('Lorin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lorin';
+    src: url('Lorin-Bold.eot');
+    src: local('Lorin Bold'), local('Lorin-Bold'),
+        url('Lorin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Lorin-Bold.woff2') format('woff2'),
+        url('Lorin-Bold.woff') format('woff'),
+        url('Lorin-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lorin';
+    src: url('Lorin-Light.eot');
+    src: local('Lorin Light'), local('Lorin-Light'),
+        url('Lorin-Light.eot?#iefix') format('embedded-opentype'),
+        url('Lorin-Light.woff2') format('woff2'),
+        url('Lorin-Light.woff') format('woff'),
+        url('Lorin-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lorin';
+    src: url('Lorin-ExtraBold.eot');
+    src: local('Lorin ExtraBold'), local('Lorin-ExtraBold'),
+        url('Lorin-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Lorin-ExtraBold.woff2') format('woff2'),
+        url('Lorin-ExtraBold.woff') format('woff'),
+        url('Lorin-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
