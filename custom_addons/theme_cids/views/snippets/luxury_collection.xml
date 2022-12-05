@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="luxury" name="Luxury Collection">
+        <section class="s_carousel_wrapper custom-h" data-vxml="001" data-snippet="s_carousel"
+                 data-name="Carousel">
+            <div class="s_carousel s_carousel_default carousel slide" data-interval="10000"
+                 id="myCarousel1669894252450" style="background-image: none;" data-original-title=""
+                 title="" aria-describedby="tooltip502966">
+                <ol class="carousel-indicators o_we_no_overlay">
+                    <li data-slide-to="0" class="active" data-target="#myCarousel1669894252450"/>
+                    <li data-target="#myCarousel1669894252450" data-slide-to="1"/>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item pt152 pb152 o_colored_level oe_img_bg o_bg_img_center active"
+                         style="background-image: url(&quot;/theme_cids/static/src/img/img3.jpg&quot;);"
+                         data-name="Slide" data-original-id="522"
+                         data-original-src="/theme_cids/static/src/img/img3.jpg"
+                         data-mimetype="image/jpeg" data-resize-width="1920">
+                        <div class="container oe_unremovable">
+                            <div class="row content">
+                                <div class="carousel-content col-lg-6 o_colored_level bg-black-50 p-5"
+                                     style="">
+                                    <h2 class="font-weight-bold">
+                                        LUXURY COLLECTION
+                                    </h2>
+                                    <p class="lead">
+                                        <font class=" text-primary">Use this snippet to presents
+                                            your content in a slideshow-like format. Don't write
+                                            about products or services here, write about solutions.
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt152 pb152 o_colored_level oe_img_bg o_bg_img_center"
+                         style="background-image: url(&quot;/theme_cids/static/src/img/img.jpg&quot;);"
+                         data-name="Slide" data-original-id="523"
+                         data-original-src="/theme_cids/static/src/img/img.jpg"
+                         data-mimetype="image/jpeg" data-resize-width="1920">
+                        <div class="container oe_unremovable">
+                            <div class="row content">
+                                <div class="carousel-content col-lg-6 o_colored_level bg-black-50 p-5"
+                                     style="">
+                                    <h2 class="font-weight-bold">
+                                        LUXURY COLLECTION
+                                    </h2>
+                                    <p class="lead">
+                                        <font class="text-primary">Use this snippet to presents
+                                            your content in a slideshow-like format. Don't write
+                                            about products or services here, write about solutions.
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev o_not_editable o_we_no_overlay " data-slide="prev"
+                   role="img" aria-label="Previous" title="Previous"
+                   href="#myCarousel1669894252450">
+                    <!--                                        <span class="carousel-control-prev-icon "/>-->
+                    <span class="fa fa-angle-double-left text-primary"/>
+                    <span class="sr-only o_default_snippet_text">Previous</span>
+                </a>
+                <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next"
+                   role="img" aria-label="Next" title="Next" href="#myCarousel1669894252450">
+                    <!--                                        <span class="carousel-control-next-icon" data-original-title="" title=""-->
+                    <!--                                              aria-describedby="tooltip469293"/>-->
+                    <span class="fa fa-angle-double-right text-primary"/>
+                    <span class="sr-only o_default_snippet_text">Next</span>
+                </a>
+            </div>
+        </section>
+    </template>
+</odoo>

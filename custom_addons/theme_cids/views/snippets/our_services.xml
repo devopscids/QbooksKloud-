@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="services" name="Our Services">
+        <section class="s_title pt64 o_colored_level sec-title text-center" data-vcss="001"
+                 data-snippet="s_title"
+                 data-name="Title" style="background-image: none;">
+            <div class="container s_allow_columns">
+                <h1 style="text-align: center;">
+                    OUR SERVICES
+                    <br/>
+                </h1>
+            </div>
+        </section>
+        <section class="thr-img s_three_columns pb64 o_colored_level o_cc o_cc1 pt0" data-vcss="001"
+                 data-snippet="s_three_columns" data-name="Columns" style="">
+            <div class="container-fluid">
+                <div class="row d-flex align-items-stretch">
+                    <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                        <div class="card bg-white h-100">
+                            <img class="card-img-top"
+                                 src="/theme_cids/static/src/img/fur.png" alt=""
+                                 loading="lazy" data-original-title="" title=""
+                                 aria-describedby="tooltip167325" data-original-id="402"
+                                 data-mimetype="image/jpeg" data-resize-width="690"/>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                        <div class="card bg-white h-100">
+                            <img class="card-img-top"
+                                 src="/theme_cids/static/src/img/fur.png" alt=""
+                                 loading="lazy" data-original-title="" title=""
+                                 aria-describedby="tooltip167325" data-original-id="402"
+                                 data-mimetype="image/jpeg" data-resize-width="690"/>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                        <div class="card bg-white h-100">
+                            <img class="card-img-top"
+                                 src="/theme_cids/static/src/img/fur.png" alt=""
+                                 loading="lazy" data-original-title="" title=""
+                                 aria-describedby="tooltip167325" data-original-id="402"
+                                 data-mimetype="image/jpeg" data-resize-width="690"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

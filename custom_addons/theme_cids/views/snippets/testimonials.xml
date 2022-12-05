@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="testimonials" name="Testimonials">
+        <section class="theme-testimonials s_quotes_carousel_wrapper o_colored_level"
+                 data-vxml="001" data-vcss="001" data-snippet="s_quotes_carousel" data-name="Quotes"
+                 style="background-image: none;">
+            <div class="s_quotes_carousel s_carousel_default carousel slide o_cc o_cc2"
+                 data-interval="10000" id="myCarousel1669897385300" style="background-image: none;">
+                <ol class="carousel-indicators o_we_no_overlay d-lg-none d-md-none">
+                    <li data-slide-to="0" class="active" data-target="#myCarousel1669897385300"/>
+                    <li data-target="#myCarousel1669897385300" data-slide-to="1"/>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item pt80 pb80 o_colored_level oe_img_bg o_bg_img_center active"
+                         style="background-image: url(&quot;/theme_cids/static/src/img/img3.jpg&quot;); background-position: 50% 50%;"
+                         data-name="Slide" data-original-id="522"
+                         data-original-src="/theme_cids/static/src/img/img3.jpg"
+                         data-mimetype="image/jpeg" data-resize-width="1920">
+                        <div class="container">
+                            <blockquote
+                                    class="s_blockquote s_blockquote_classic blockquote w-50 mx-auto"
+                                    data-name="Blockquote">
+                                <div class="s_blockquote_content o_cc1 bg-black-50 text-center"
+                                     style="">
+                                    <img src="/web/image/website.s_quotes_carousel_demo_image_3"
+                                         class="s_blockquote_avatar img rounded-circle mr-2 w-25"
+                                         alt="" loading="lazy" data-original-id="282"
+                                         data-original-src="/website/static/src/img/snippets_demo/s_team_member_3.png"
+                                         data-mimetype="image/png" style=""/>
+                                    <p class="o_default_snippet_text">
+                                        <font class="text-o-color-4">Lorem ipsum dolor sit amet,
+                                            consectetuer adipiscing elit, sed
+                                            diam nonummy nibh euismod tincidunt ut laoreet.
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                            elit, sed
+                                            diam nonummy nibh euismod
+                                        </font>
+                                    </p>
+                                    <footer class="blockquote-footer">
+                                        <span class="s_blockquote_author o_default_snippet_text text-o-color-4">
+                                            <b class="o_default_snippet_text text-primary">Jane
+                                                DOE
+                                            </b>
+                                            <br/>
+                                            <b class="text-white">• CEO of MyCompany</b>
+                                        </span>
+                                    </footer>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt80 pb80 o_colored_level oe_img_bg o_bg_img_center"
+                         style="background-image: url(&quot;/theme_cids/static/src/img/img3.jpg&quot;); background-position: 50% 50%;"
+                         data-name="Slide" data-original-id="522"
+                         data-original-src="/theme_cids/static/src/img/img3.jpg"
+                         data-mimetype="image/jpeg" data-resize-width="1920">
+                        <div class="container">
+                            <blockquote
+                                    class="s_blockquote s_blockquote_classic blockquote w-50 mx-auto"
+                                    data-name="Blockquote">
+                                <div class="s_blockquote_content o_cc1 bg-black-50 text-center"
+                                     style="">
+                                    <img src="/web/image/website.s_quotes_carousel_demo_image_3"
+                                         class="s_blockquote_avatar img rounded-circle mr-2 w-25"
+                                         alt="" loading="lazy" data-original-id="282"
+                                         data-original-src="/website/static/src/img/snippets_demo/s_team_member_3.png"
+                                         data-mimetype="image/png" style=""/>
+                                    <p class="o_default_snippet_text">
+                                        <font class="text-o-color-4">Lorem ipsum dolor sit amet,
+                                            consectetuer adipiscing elit, sed
+                                            diam nonummy nibh euismod tincidunt ut laoreet.
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                            elit, sed
+                                            diam nonummy nibh euismod
+                                        </font>
+                                    </p>
+                                    <footer class="blockquote-footer">
+                                        <span class="s_blockquote_author o_default_snippet_text text-o-color-4">
+                                            <b class="o_default_snippet_text text-primary">Jane
+                                                DOE
+                                            </b>
+                                            <br/>
+                                            <b class="text-white">• CEO of MyCompany</b>
+                                        </span>
+                                    </footer>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev"
+                     role="img" aria-label="Previous" title="Previous"
+                     data-target="#myCarousel1669897385300">
+                    <!--                                        <span class="carousel-control-prev-icon"/>-->
+                    <span class="fa fa-angle-double-left text-primary"/>
+                    <span class="sr-only o_default_snippet_text">Previous</span>
+                </div>
+                <div class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next"
+                     role="img" aria-label="Next" title="Next"
+                     data-target="#myCarousel1669897385300">
+                    <!--                                        <span class="carousel-control-next-icon"/>-->
+                    <span class="fa fa-angle-double-right text-primary"/>
+                    <span class="sr-only o_default_snippet_text">Next</span>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

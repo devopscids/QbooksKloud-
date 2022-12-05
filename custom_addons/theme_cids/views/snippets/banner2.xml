@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="banner2" name="Banner 2">
+        <section
+                class="s_banner pt96 pb96 o_colored_level s_parallax_no_overflow_hidden oe_img_bg o_bg_img_center"
+                data-scroll-background-ratio="0" data-snippet="s_banner" data-name="Banner"
+                style="height:90vh;background-position:bottom;background-image: url(&quot;/theme_cids/static/src/img/img2.jpg&quot;);"
+                data-mimetype="image/jpeg" data-resize-width="1920">
+            <div class="container">
+                <div class="row s_nb_column_fixed">
+                    <div class="jumbotron rounded pt96 pb96 mt96 mb96 o_colored_level offset-lg-2 col-lg-8"
+                         data-name="Box">
+                        <h1 class="text-100" style="text-align: center;">
+                            A LEADING <span class="text-primary">GLOBAL</span> FIRM
+                            <br/>
+                        </h1>
+                        <p class="text-100 lead" style="text-align: center;">Hospitality and
+                            Commercial
+                            Buildings Interior Design Encapsulating<br/>highest Quality Standards
+                            &amp;amp; Detailing In Our DNA
+                            <br/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

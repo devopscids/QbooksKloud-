@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="home_page" model="ir.ui.view">
+            <field name="name">Home Page</field>
+            <field name="type">qweb</field>
+            <field name="key">website.homepage1</field>
+            <field name="mode">primary</field>
+            <field name="active">True</field>
+            <field name="arch" type="xml">
+                <t name="Homepage" t-name="website.homepage1">
+                    <t t-call="website.layout">
+                        <t t-set="pageName" t-value="'homepage'"/>
+                        <div id="wrap" class="oe_structure oe_empty">
+                            <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel"
+                                     data-name="Carousel">
+                                <div class="s_carousel carousel carousel-fade slide s_carousel_boxed"
+                                     data-interval="10000" id="myCarousel1669999409569" style="background-image: none;max-width:100%;padding:0;">
+                                    <ol class="carousel-indicators o_we_no_overlay">
+                                        <li data-slide-to="0" data-target="#myCarousel1669999409569" class="active"/>
+                                        <li data-target="#myCarousel1669999409569" data-slide-to="1"/>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item pt96 pb96 o_colored_level oe_img_bg o_bg_img_center active"
+                                             style="background-image: url(&quot;/theme_cids/static/src/img/img2.jpg&quot;);"
+                                             data-name="Slide">
+                                            <div class="container oe_unremovable">
+                                                <div class="row content">
+                                                    <div class="carousel-content col-lg-8 offset-lg-2 bg-white-25 text-center mt96 mb96 o_colored_level banner-border-rd">
+                                                        <div class="jumbotron rounded  o_colored_level" data-name="Box">
+                                                            <h1 class="text-black font-weight-bold" style="text-align: center;">
+                                                                A LEADING <span class="text-primary">GLOBAL</span> FIRM
+                                                            </h1>
+                                                            <p class="text-black lead" style="text-align: center;">
+                                                                Hospitality and
+                                                                Commercial
+                                                                Buildings Interior Design Encapsulating<br/>highest
+                                                                Quality Standards
+                                                                &amp;amp; Detailing In Our DNA
+                                                                <br/>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item pt96 pb96 o_colored_level oe_img_bg o_bg_img_center"
+                                             style="background-image: url(&quot;/theme_cids/static/src/img/img.jpg&quot;);"
+                                             data-name="Slide">
+                                            <div class="container oe_unremovable">
+                                                <div class="row content">
+                                                    <div class="carousel-content col-lg-8 offset-lg-2 bg-white-25 text-center mt96 mb96 o_colored_level banner-border-rd">
+                                                        <div class="jumbotron rounded  o_colored_level "
+                                                             data-name="Box">
+                                                            <h1 class="text-black font-weight-bold" style="text-align: center;">
+                                                                A LEADING <span class="text-primary">GLOBAL</span> FIRM
+                                                            </h1>
+                                                            <p class="text-black lead" style="text-align: center;">
+                                                                Hospitality and
+                                                                Commercial
+                                                                Buildings Interior Design Encapsulating<br/>highest
+                                                                Quality Standards
+                                                                &amp;amp; Detailing In Our DNA
+                                                                <br/>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev"
+                                       role="img" aria-label="Previous" title="Previous"
+                                       href="#myCarousel1669999409569">
+<!--                                        <span class="carousel-control-prev-icon"/>-->
+                                        <span class="fa fa-angle-double-left text-primary banner-arrow-bg"/>
+                                        <span class="sr-only o_default_snippet_text">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next"
+                                       role="img" aria-label="Next" title="Next" href="#myCarousel1669999409569">
+<!--                                        <span class="carousel-control-next-icon"/>-->
+                                        <span class="fa fa-angle-double-right text-primary banner-arrow-bg"/>
+                                        <span class="sr-only o_default_snippet_text">Next</span>
+                                    </a>
+                                </div>
+                            </section>
+                            <!--                            <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel"-->
+                            <!--                                     data-name="Carousel">-->
+                            <!--                                <div class="s_carousel s_carousel_default carousel slide" data-interval="10000"-->
+                            <!--                                     id="myCarousel1669999409569" style="background-image: none;">-->
+                            <!--                                    <ol class="carousel-indicators o_we_no_overlay">-->
+                            <!--                                        <li data-slide-to="0" data-target="#myCarousel1669999409569" class="active"/>-->
+                            <!--                                        <li data-target="#myCarousel1669999409569" data-slide-to="1"/>-->
+                            <!--                                    </ol>-->
+                            <!--                                    <div class="carousel-inner">-->
+                            <!--                                        <div class="carousel-item pt96 pb96 oe_img_bg o_bg_img_center o_colored_level active"-->
+                            <!--                                             style="background-image: url(&quot;/theme_cids/static/src/img/img2.jpg&quot;);"-->
+                            <!--                                             data-name="Slide">-->
+                            <!--                                            <div class="container oe_unremovable">-->
+                            <!--                                                <div class="row content">-->
+                            <!--                                                    <div class="carousel-content col-lg-8 offset-lg-2 bg-black-50 text-center mt96 mb96 o_colored_level">-->
+                            <!--                                                        <div class="jumbotron rounded  o_colored_level"-->
+                            <!--                                                             data-name="Box">-->
+                            <!--                                                            <h1 class="text-100" style="text-align: center;">-->
+                            <!--                                                                A LEADING <span class="text-primary">GLOBAL</span> FIRM-->
+                            <!--                                                            </h1>-->
+                            <!--                                                            <p class="text-100 lead" style="text-align: center;">-->
+                            <!--                                                                Hospitality and-->
+                            <!--                                                                Commercial-->
+                            <!--                                                                Buildings Interior Design Encapsulating<br/>highest-->
+                            <!--                                                                Quality Standards-->
+                            <!--                                                                &amp;amp; Detailing In Our DNA-->
+                            <!--                                                                <br/>-->
+                            <!--                                                            </p>-->
+                            <!--                                                        </div>-->
+
+                            <!--                                                    </div>-->
+                            <!--                                                </div>-->
+                            <!--                                            </div>-->
+                            <!--                                        </div>-->
+                            <!--                                        <div class="carousel-item pt96 pb96 o_colored_level oe_img_bg o_bg_img_center"-->
+                            <!--                                             style="background-image: url(&quot;/theme_cids/static/src/img/img.jpg&quot;);"-->
+                            <!--                                             data-name="Slide">-->
+                            <!--                                            <div class="container oe_unremovable">-->
+                            <!--                                                <div class="row content">-->
+                            <!--                                                    <div class="carousel-content col-lg-8 offset-lg-2 bg-black-50 text-center mt96 mb96 o_colored_level">-->
+                            <!--                                                        <div class="jumbotron rounded  o_colored_level "-->
+                            <!--                                                             data-name="Box">-->
+                            <!--                                                            <h1 class="text-100" style="text-align: center;">-->
+                            <!--                                                                A LEADING <span class="text-primary">GLOBAL</span> FIRM-->
+                            <!--                                                            </h1>-->
+                            <!--                                                            <p class="text-100 lead" style="text-align: center;">-->
+                            <!--                                                                Hospitality and-->
+                            <!--                                                                Commercial-->
+                            <!--                                                                Buildings Interior Design Encapsulating<br/>highest-->
+                            <!--                                                                Quality Standards-->
+                            <!--                                                                &amp;amp; Detailing In Our DNA-->
+                            <!--                                                                <br/>-->
+                            <!--                                                            </p>-->
+                            <!--                                                        </div>-->
+
+                            <!--                                                    </div>-->
+                            <!--                                                </div>-->
+                            <!--                                            </div>-->
+                            <!--                                        </div>-->
+                            <!--                                    </div>-->
+                            <!--                                    <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev"-->
+                            <!--                                       role="img" aria-label="Previous" title="Previous"-->
+                            <!--                                       href="#myCarousel1669999409569">-->
+                            <!--                                        <span class="carousel-control-prev-icon"/>-->
+                            <!--                                        <span class="sr-only o_default_snippet_text">Previous</span>-->
+                            <!--                                    </a>-->
+                            <!--                                    <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next"-->
+                            <!--                                       role="img" aria-label="Next" title="Next" href="#myCarousel1669999409569">-->
+                            <!--                                        <span class="carousel-control-next-icon"/>-->
+                            <!--                                        <span class="sr-only o_default_snippet_text">Next</span>-->
+                            <!--                                    </a>-->
+                            <!--                                </div>-->
+                            <!--                            </section>-->
+
+                            <!--                            <section-->
+                            <!--                                    class="s_banner pt96 pb96 o_colored_level s_parallax_no_overflow_hidden oe_img_bg o_bg_img_center"-->
+                            <!--                                    data-scroll-background-ratio="0" data-snippet="s_banner" data-name="Banner"-->
+                            <!--                                    style="background-position:bottom;background-image: url(&quot;/theme_cids/static/src/img/img2.jpg&quot;);"-->
+                            <!--                                    data-mimetype="image/jpeg" data-resize-width="1920">-->
+                            <!--                                <div class="container">-->
+                            <!--                                    <div class="row s_nb_column_fixed">-->
+                            <!--                                        <div class="jumbotron rounded pt96 pb96 o_colored_level offset-lg-2 col-lg-8"-->
+                            <!--                                             data-name="Box">-->
+                            <!--                                            <h1 class="text-100" style="text-align: center;">-->
+                            <!--                                                A LEADING <span class="text-primary">GLOBAL</span> FIRM-->
+                            <!--                                                <br/>-->
+                            <!--                                            </h1>-->
+                            <!--                                            <p class="text-100 lead" style="text-align: center;">Hospitality and-->
+                            <!--                                                Commercial-->
+                            <!--                                                Buildings Interior Design Encapsulating<br/>highest Quality Standards-->
+                            <!--                                                &amp;amp; Detailing In Our DNA-->
+                            <!--                                                <br/>-->
+                            <!--                                            </p>-->
+                            <!--                                        </div>-->
+                            <!--                                    </div>-->
+                            <!--                                </div>-->
+                            <!--                            </section>-->
+                            <section class="s_text_image pt32 pb32 o_colored_level about-sec"
+                                     data-snippet="s_text_image"
+                                     data-name="Text - Image" style="background-image: none;">
+                                <div class="container">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-5 offset-lg-1 pt16 pb16 o_colored_level">
+                                            <h2 class="ab-title mb32">About Us</h2>
+                                            <h4 class="txt-title">How Can Strategic
+                                                <br/>
+                                                Commercial Interior
+                                                <br/>
+                                                Design Solutions Pave
+                                                <br/>
+                                                The Way For A Successful
+                                                <br/>
+                                                Project?
+                                            </h4>
+                                            <p class="mt32 mb32 abt-txt">Take A Look At Our Award Winning Hotels &amp;
+                                                Resorts
+                                            </p>
+                                            <p data-original-title="" title="" aria-describedby="tooltip946591">
+                                                <a href="#" class="mb-2 btn btn-primary" data-original-title=""
+                                                   title="">
+                                                    <span style="font-size: 14px;">[View All Our Recent Works]</span>
+                                                </a>
+                                            </p>
+                                            <br/>
+                                        </div>
+                                        <div class="col-lg-6 pt16 pb16 o_colored_level">
+                                            <img src="/theme_cids/static/src/img/d1.png"
+                                                 class="img img-fluid mx-auto" alt="" loading="lazy"
+                                                 data-original-id="286"
+                                                 data-mimetype="image/jpeg"/>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="s_title pt40 pb40 o_colored_level sec-title text-center" data-vcss="001"
+                                     data-snippet="s_title"
+                                     data-name="Title" style="background-image: none;">
+                                <div class="container s_allow_columns">
+                                    <h1 style="text-align: center;">
+                                        ACCREDITATION &amp;amp; RECOGNITION
+                                        <br/>
+                                    </h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        <br/>
+                                        diam nonummy nibh euismod tincidunt ut laoreet
+                                    </p>
+                                </div>
+                            </section>
+
+                            <section class="s_numbers pt24 pb24 o_colored_level o_cc o_cc1 sec-numbers"
+                                     data-snippet="s_numbers"
+                                     data-name="Numbers" style="">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="text-center pt24 pb24 o_colored_level col-lg-2">
+                                            <span class="s_number display-4 o_default_snippet_text">200+</span>
+                                            <br/>
+                                            <h6 class="o_default_snippet_text">Project
+                                                <br/>
+                                                Completed
+                                            </h6>
+                                        </div>
+                                        <div class="text-center pt24 pb24 o_colored_level col-lg-3">
+                                            <span class="s_number display-4">100+</span>
+                                            <br/>
+                                            <h6 class="o_default_snippet_text">Global Hospitality
+                                                <br/>
+                                                Clientele
+                                            </h6>
+                                        </div>
+                                        <div class="text-center pt24 pb24 o_colored_level col-lg-2">
+                                            <span class="s_number display-4 o_default_snippet_text">150+</span>
+                                            <br/>
+                                            <h6 class="o_default_snippet_text">Interior Designer
+                                                <br/>
+                                                Worldwide
+                                            </h6>
+                                        </div>
+                                        <div class="text-center pt24 pb24 o_colored_level col-lg-3" style="">
+                                            <span class="s_number display-4">80+</span>
+                                            <br/>
+                                            <h6 class="o_default_snippet_text">Strategic<br/>Partnership
+                                            </h6>
+                                        </div>
+                                        <div class="text-center pt24 pb24 o_colored_level col-lg-2" style="">
+                                            <span class="s_number display-4 o_default_snippet_text">300+</span>
+                                            <br/>
+                                            <h6 class="o_default_snippet_text">Furniture Designer,<br/>Manufacturers
+                                                Minority Women
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section
+                                    class="ins-section s_banner pt96 pb96 o_colored_level s_parallax_no_overflow_hidden oe_img_bg o_bg_img_center"
+                                    data-scroll-background-ratio="0" data-snippet="s_banner" data-name="Banner"
+                                    style="background-image: url(&quot;/theme_cids/static/src/img/iStock-1332176252.jpg&quot;);">
+                                <div class="container">
+                                    <div class="row s_nb_column_fixed">
+                                        <div class="col-lg-6 jumbotron rounded pt32 pb32 o_colored_level o_cc bg-black-75"
+                                             data-name="Box">
+                                            <h1>
+                                                <span class="text-primary">Inspired</span>
+                                                By The Details
+                                            </h1>
+                                            <p class="lead o_default_snippet_text ">Lorem ipsum dolor sit amet,
+                                                consectetuer adipiscing elit,
+                                                sed diam nonummy nibh euismod tincidunt ut laoreet
+                                                dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                                                veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                                                aliquip ex ea commodo consequat. Duis autem
+                                                vel eum iriure dolor in hendrerit in vulputate velit esse mo
+                                            </p>
+                                            <p data-original-title="" title="" aria-describedby="tooltip946591">
+                                                <a href="#" class="mb-2 btn btn-primary" data-original-title=""
+                                                   title="">
+                                                    <span style="font-size: 14px;color:#fff;">KNOW MORE ABOUT US</span>
+                                                    <span>
+                                                        <i class="fa fa-angle-double-right text-white"/>
+                                                    </span>
+                                                </a>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="s_title pt64 o_colored_level sec-title text-center" data-vcss="001"
+                                     data-snippet="s_title"
+                                     data-name="Title" style="background-image: none;">
+                                <div class="container s_allow_columns">
+                                    <h1 style="text-align: center;">
+                                        OUR SERVICES
+                                        <br/>
+                                    </h1>
+                                </div>
+                            </section>
+                            <section class="thr-img s_three_columns pb64 o_colored_level o_cc o_cc1 pt0" data-vcss="001"
+                                     data-snippet="s_three_columns" data-name="Columns" style="">
+                                <div class="container-fluid">
+                                    <div class="row d-flex align-items-stretch">
+                                        <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                                            <div class="card bg-white h-100">
+                                                <img class="card-img-top"
+                                                     src="/theme_cids/static/src/img/fur.png" alt=""
+                                                     loading="lazy" data-original-title="" title=""
+                                                     aria-describedby="tooltip167325" data-original-id="402"
+                                                     data-mimetype="image/jpeg" data-resize-width="690"/>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                                            <div class="card bg-white h-100">
+                                                <img class="card-img-top"
+                                                     src="/theme_cids/static/src/img/fur.png" alt=""
+                                                     loading="lazy" data-original-title="" title=""
+                                                     aria-describedby="tooltip167325" data-original-id="402"
+                                                     data-mimetype="image/jpeg" data-resize-width="690"/>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                                            <div class="card bg-white h-100">
+                                                <img class="card-img-top"
+                                                     src="/theme_cids/static/src/img/fur.png" alt=""
+                                                     loading="lazy" data-original-title="" title=""
+                                                     aria-describedby="tooltip167325" data-original-id="402"
+                                                     data-mimetype="image/jpeg" data-resize-width="690"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="s_carousel_wrapper custom-h" data-vxml="001" data-snippet="s_carousel"
+                                     data-name="Carousel">
+                                <div class="s_carousel s_carousel_default carousel slide" data-interval="10000"
+                                     id="myCarousel1669894252450" style="background-image: none;" data-original-title=""
+                                     title="" aria-describedby="tooltip502966">
+                                    <ol class="carousel-indicators o_we_no_overlay">
+                                        <li data-slide-to="0" class="active" data-target="#myCarousel1669894252450"/>
+                                        <li data-target="#myCarousel1669894252450" data-slide-to="1"/>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item pt152 pb152 o_colored_level oe_img_bg o_bg_img_center active"
+                                             style="background-image: url(&quot;/web/image/524-5a68d5eb/img3.jpg&quot;);"
+                                             data-name="Slide" data-original-id="522"
+                                             data-original-src="/web/image/522-1ab65f7d/img3.jpg"
+                                             data-mimetype="image/jpeg" data-resize-width="1920">
+                                            <div class="container oe_unremovable">
+                                                <div class="row content">
+                                                    <div class="carousel-content col-lg-6 o_colored_level bg-black-50 p-5"
+                                                         style="">
+                                                        <h2 class="font-weight-bold">
+                                                            LUXURY COLLECTION
+                                                        </h2>
+                                                        <p class="lead">
+                                                            <font class=" text-primary">Use this snippet to presents
+                                                                your content in a slideshow-like format. Don't write
+                                                                about products or services here, write about solutions.
+                                                            </font>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item pt152 pb152 o_colored_level oe_img_bg o_bg_img_center"
+                                             style="background-image: url(&quot;/web/image/525-696a2911/img.jpg&quot;);"
+                                             data-name="Slide" data-original-id="523"
+                                             data-original-src="/web/image/523-93370312/img.jpg"
+                                             data-mimetype="image/jpeg" data-resize-width="1920">
+                                            <div class="container oe_unremovable">
+                                                <div class="row content">
+                                                    <div class="carousel-content col-lg-6 o_colored_level bg-black-50 p-5"
+                                                         style="">
+                                                        <h2 class="font-weight-bold">
+                                                            LUXURY COLLECTION
+                                                        </h2>
+                                                        <p class="lead">
+                                                            <font class="text-primary">Use this snippet to presents
+                                                                your content in a slideshow-like format. Don't write
+                                                                about products or services here, write about solutions.
+                                                            </font>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev o_not_editable o_we_no_overlay " data-slide="prev"
+                                       role="img" aria-label="Previous" title="Previous"
+                                       href="#myCarousel1669894252450">
+                                        <!--                                        <span class="carousel-control-prev-icon "/>-->
+                                        <span class="fa fa-angle-double-left text-primary"/>
+                                        <span class="sr-only o_default_snippet_text">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next"
+                                       role="img" aria-label="Next" title="Next" href="#myCarousel1669894252450">
+                                        <!--                                        <span class="carousel-control-next-icon" data-original-title="" title=""-->
+                                        <!--                                              aria-describedby="tooltip469293"/>-->
+                                        <span class="fa fa-angle-double-right text-primary"/>
+                                        <span class="sr-only o_default_snippet_text">Next</span>
+                                    </a>
+                                </div>
+                            </section>
+
+                            <section class="s_references pt48 pb32 o_colored_level bg-primary"
+                                     data-snippet="s_references"
+                                     data-name="References" style="background-image: none;">
+                                <div class="container">
+
+
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-3 pt16 pb16 o_colored_level">
+                                            <p class="text-white">Use this snippet to presents
+                                                your content in a slideshow-like format
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-9 pt16 pb16 o_colored_level row">
+                                            <div class="col-lg-2 pt16 pb16 o_colored_level">
+                                                <img src="/web/image/website.s_reference_demo_image_1"
+                                                     class="img img-fluid mx-auto" alt="" loading="lazy"
+                                                     data-original-id="296"
+                                                     data-original-src="/website/static/src/img/snippets_demo/s_references_1.png"
+                                                     data-mimetype="image/png"/>
+                                            </div>
+                                            <div class="col-lg-2 pt16 pb16 o_colored_level">
+                                                <img src="/web/image/website.s_reference_demo_image_2"
+                                                     class="img img-fluid mx-auto" alt="" loading="lazy"
+                                                     data-original-id="297"
+                                                     data-original-src="/website/static/src/img/snippets_demo/s_references_2.png"
+                                                     data-mimetype="image/png"/>
+                                            </div>
+                                            <div class="col-lg-2 pt16 pb16 o_colored_level">
+                                                <img src="/web/image/website.s_reference_demo_image_3"
+                                                     class="img img-fluid mx-auto" alt="" loading="lazy"
+                                                     data-original-id="298"
+                                                     data-original-src="/website/static/src/img/snippets_demo/s_references_3.png"
+                                                     data-mimetype="image/png"/>
+                                            </div>
+                                            <div class="col-lg-2 pt16 pb16 o_colored_level">
+                                                <img src="/web/image/website.s_reference_demo_image_4"
+                                                     class="img img-fluid mx-auto" alt="" loading="lazy"
+                                                     data-original-id="299"
+                                                     data-original-src="/website/static/src/img/snippets_demo/s_references_4.png"
+                                                     data-mimetype="image/png"/>
+                                            </div>
+                                            <div class="col-lg-2 pt16 pb16 o_colored_level">
+                                                <img src="/web/image/website.s_reference_demo_image_5"
+                                                     class="img img-fluid mx-auto" alt="" loading="lazy"
+                                                     data-original-id="300"
+                                                     data-original-src="/website/static/src/img/snippets_demo/s_references_5.png"
+                                                     data-mimetype="image/png"/>
+                                            </div>
+                                            <div class="col-lg-2 pt16 pb16 o_colored_level">
+                                                <img src="/web/image/website.s_reference_default_image_6"
+                                                     class="img img-fluid mx-auto" alt="" loading="lazy"
+                                                     data-original-id="301"
+                                                     data-original-src="/website/static/src/img/snippets_demo/s_references_6.png"
+                                                     data-mimetype="image/png"/>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="theme-testimonials s_quotes_carousel_wrapper o_colored_level"
+                                     data-vxml="001" data-vcss="001" data-snippet="s_quotes_carousel" data-name="Quotes"
+                                     style="background-image: none;">
+                                <div class="s_quotes_carousel s_carousel_default carousel slide o_cc o_cc2"
+                                     data-interval="10000" id="myCarousel1669897385300" style="background-image: none;">
+                                    <ol class="carousel-indicators o_we_no_overlay d-lg-none d-md-none">
+                                        <li data-slide-to="0" class="active" data-target="#myCarousel1669897385300"/>
+                                        <li data-target="#myCarousel1669897385300" data-slide-to="1"/>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item pt80 pb80 o_colored_level oe_img_bg o_bg_img_center active"
+                                             style="background-image: url(&quot;/web/image/550-5a68d5eb/img3.jpg&quot;); background-position: 50% 50%;"
+                                             data-name="Slide" data-original-id="522"
+                                             data-original-src="/web/image/522-1ab65f7d/img3.jpg"
+                                             data-mimetype="image/jpeg" data-resize-width="1920">
+                                            <div class="container">
+                                                <blockquote
+                                                        class="s_blockquote s_blockquote_classic blockquote w-50 mx-auto"
+                                                        data-name="Blockquote">
+                                                    <div class="s_blockquote_content o_cc1 bg-black-50 text-center"
+                                                         style="">
+                                                        <img src="/web/image/website.s_quotes_carousel_demo_image_3"
+                                                             class="s_blockquote_avatar img rounded-circle mr-2 w-25"
+                                                             alt="" loading="lazy" data-original-id="282"
+                                                             data-original-src="/website/static/src/img/snippets_demo/s_team_member_3.png"
+                                                             data-mimetype="image/png" style=""/>
+                                                        <p class="o_default_snippet_text">
+                                                            <font class="text-o-color-4">Lorem ipsum dolor sit amet,
+                                                                consectetuer adipiscing elit, sed
+                                                                diam nonummy nibh euismod tincidunt ut laoreet.
+                                                                Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                                elit, sed
+                                                                diam nonummy nibh euismod
+                                                            </font>
+                                                        </p>
+                                                        <footer class="blockquote-footer">
+                                                            <span class="s_blockquote_author o_default_snippet_text text-o-color-4">
+                                                                <b class="o_default_snippet_text text-primary">Jane
+                                                                    DOE
+                                                                </b>
+                                                                <br/>
+                                                                <b class="text-white">• CEO of MyCompany</b>
+                                                            </span>
+                                                        </footer>
+                                                    </div>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item pt80 pb80 o_colored_level oe_img_bg o_bg_img_center"
+                                             style="background-image: url(&quot;/web/image/550-5a68d5eb/img3.jpg&quot;); background-position: 50% 50%;"
+                                             data-name="Slide" data-original-id="522"
+                                             data-original-src="/web/image/522-1ab65f7d/img3.jpg"
+                                             data-mimetype="image/jpeg" data-resize-width="1920">
+                                            <div class="container">
+                                                <blockquote
+                                                        class="s_blockquote s_blockquote_classic blockquote w-50 mx-auto"
+                                                        data-name="Blockquote">
+                                                    <div class="s_blockquote_content o_cc1 bg-black-50 text-center"
+                                                         style="">
+                                                        <img src="/web/image/website.s_quotes_carousel_demo_image_3"
+                                                             class="s_blockquote_avatar img rounded-circle mr-2 w-25"
+                                                             alt="" loading="lazy" data-original-id="282"
+                                                             data-original-src="/website/static/src/img/snippets_demo/s_team_member_3.png"
+                                                             data-mimetype="image/png" style=""/>
+                                                        <p class="o_default_snippet_text">
+                                                            <font class="text-o-color-4">Lorem ipsum dolor sit amet,
+                                                                consectetuer adipiscing elit, sed
+                                                                diam nonummy nibh euismod tincidunt ut laoreet.
+                                                                Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                                elit, sed
+                                                                diam nonummy nibh euismod
+                                                            </font>
+                                                        </p>
+                                                        <footer class="blockquote-footer">
+                                                            <span class="s_blockquote_author o_default_snippet_text text-o-color-4">
+                                                                <b class="o_default_snippet_text text-primary">Jane
+                                                                    DOE
+                                                                </b>
+                                                                <br/>
+                                                                <b class="text-white">• CEO of MyCompany</b>
+                                                            </span>
+                                                        </footer>
+                                                    </div>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev"
+                                         role="img" aria-label="Previous" title="Previous"
+                                         data-target="#myCarousel1669897385300">
+                                        <!--                                        <span class="carousel-control-prev-icon"/>-->
+                                        <span class="fa fa-angle-double-left text-primary"/>
+                                        <span class="sr-only o_default_snippet_text">Previous</span>
+                                    </div>
+                                    <div class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next"
+                                         role="img" aria-label="Next" title="Next"
+                                         data-target="#myCarousel1669897385300">
+                                        <!--                                        <span class="carousel-control-next-icon"/>-->
+                                        <span class="fa fa-angle-double-right text-primary"/>
+                                        <span class="sr-only o_default_snippet_text">Next</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+        <record id="home_demo_page" model="website.page">
+            <field name="name">Home Page</field>
+            <field name="url">/home</field>
+            <field name="view_id" ref="theme_cids.home_page"/>
+            <field name="website_indexed">True</field>
+            <field name="website_published">True</field>
+            <field name="website_id" ref="website.default_website"/>
+            <field name="is_homepage">True</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="clients" name="Clients">
+        <section class="s_references pt48 pb32 o_colored_level bg-primary"
+                 data-snippet="s_references"
+                 data-name="References" style="background-image: none;">
+            <div class="container">
+
+
+                <div class="row align-items-center">
+                    <div class="col-lg-3 pt16 pb16 o_colored_level">
+                        <p class="text-white">Use this snippet to presents
+                            your content in a slideshow-like format
+                        </p>
+                    </div>
+                    <div class="col-lg-9 pt16 pb16 o_colored_level row">
+                        <div class="col-lg-2 pt16 pb16 o_colored_level">
+                            <img src="/web/image/website.s_reference_demo_image_1"
+                                 class="img img-fluid mx-auto" alt="" loading="lazy"
+                                 data-original-id="296"
+                                 data-original-src="/website/static/src/img/snippets_demo/s_references_1.png"
+                                 data-mimetype="image/png"/>
+                        </div>
+                        <div class="col-lg-2 pt16 pb16 o_colored_level">
+                            <img src="/web/image/website.s_reference_demo_image_2"
+                                 class="img img-fluid mx-auto" alt="" loading="lazy"
+                                 data-original-id="297"
+                                 data-original-src="/website/static/src/img/snippets_demo/s_references_2.png"
+                                 data-mimetype="image/png"/>
+                        </div>
+                        <div class="col-lg-2 pt16 pb16 o_colored_level">
+                            <img src="/web/image/website.s_reference_demo_image_3"
+                                 class="img img-fluid mx-auto" alt="" loading="lazy"
+                                 data-original-id="298"
+                                 data-original-src="/website/static/src/img/snippets_demo/s_references_3.png"
+                                 data-mimetype="image/png"/>
+                        </div>
+                        <div class="col-lg-2 pt16 pb16 o_colored_level">
+                            <img src="/web/image/website.s_reference_demo_image_4"
+                                 class="img img-fluid mx-auto" alt="" loading="lazy"
+                                 data-original-id="299"
+                                 data-original-src="/website/static/src/img/snippets_demo/s_references_4.png"
+                                 data-mimetype="image/png"/>
+                        </div>
+                        <div class="col-lg-2 pt16 pb16 o_colored_level">
+                            <img src="/web/image/website.s_reference_demo_image_5"
+                                 class="img img-fluid mx-auto" alt="" loading="lazy"
+                                 data-original-id="300"
+                                 data-original-src="/website/static/src/img/snippets_demo/s_references_5.png"
+                                 data-mimetype="image/png"/>
+                        </div>
+                        <div class="col-lg-2 pt16 pb16 o_colored_level">
+                            <img src="/web/image/website.s_reference_default_image_6"
+                                 class="img img-fluid mx-auto" alt="" loading="lazy"
+                                 data-original-id="301"
+                                 data-original-src="/website/static/src/img/snippets_demo/s_references_6.png"
+                                 data-mimetype="image/png"/>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

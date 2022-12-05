@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="theme_bottom_footer" inherit_id="portal.frontend_layout">
+        <xpath expr="//footer/div[@id='footer']" position="replace">
+            <div class="oe_structure oe_structure_solo" id="footer" t-ignore="true" t-if="not no_footer">
+                <section class="s_references o_colored_level bg-primary pt32 pb16"
+                         data-snippet="s_references"
+                         data-name="References" style="background-image: none;">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 o_colored_level">
+                                <div class="row">
+                                    <span class="text-black col text-right" style="margin-top:6px;">FOLLOW US AT</span>
+                                    <span class="col">
+                                        <ul class="d-flex">
+                                            <li class="py-1">
+
+                                                <a href="/website/social/facebook" target="_blank">
+                                                    <i class="fa fa-1x fa-fw fa-facebook-square mr-2 text-black"/>
+                                                </a>
+                                            </li>
+                                            <li class="py-1">
+
+                                                <a href="/website/social/twitter" target="_blank">
+                                                    <i class="fa fa-1x fa-fw fa-twitter-square mr-2 text-black"/>
+                                                </a>
+                                            </li>
+                                            <li class="py-1">
+
+                                                <a href="/website/social/linkedin" target="_blank">
+                                                    <i class="fa fa-1x fa-fw fa-linkedin-square mr-2 text-black"/>
+                                                </a>
+                                            </li>
+                                            <li class="py-1">
+
+                                                <a href="/website/social/instagram" target="_blank">
+                                                    <i class="fa fa-1x fa-fw fa-instagram mr-2 text-black"/>
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 o_colored_level">
+                                <ul class="d-inline-flex footer-li">
+                                    <li>
+                                        <a href="#" class="text-black">Case Studies</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-black">Awards &amp; Accolades</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-black">Testimonials</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-black">Press Releases</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-black">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </section>
+
+                <section class="s_text_block pt48 pb16 bg-white theme-link" data-snippet="s_text_block"
+                         data-name="Text">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col pb16">
+                                <br/>
+                                <a href="/" t-attf-class=" logo #{_link_class}">
+                                    <img class="img img-fludi" src="/theme_cids/static/src/img/logo.png" style="width:80%;"/>
+<!--                                    <span t-field="website.logo" t-options="{'widget': 'image'}" role="img"-->
+<!--                                          t-att-aria-label="'Logo of %s' % website.name" t-att-title="website.name"/>-->
+                                </a>
+
+                                <p class="text-secondary mt16" style="font-size:11px;">Copyright - CIDS Design</p>
+                            </div>
+                            <div class="col pb16">
+                                <h5>Services</h5>
+                                <ul class="list-unstyled">
+                                    <li class="py-1">
+                                        <a href="#">Design Studio</a>
+                                    </li>
+                                    <li class="py-1">
+                                        <a href="#">Luxury Residential Planning</a>
+                                    </li>
+                                    <li class="py-1">
+                                        <a href="#">Creative Consultants</a>
+                                    </li>
+                                </ul>
+
+                                <div class="mt16 mb16">
+                                    <h5>Practices</h5>
+                                    <ul class="list-unstyled">
+                                        <li class="py-1">
+                                            <a href="#">HOSPITALITY</a>
+                                        </li>
+                                        <li class="py-1">
+                                            <a href="#">RESORTS</a>
+                                        </li>
+                                        <li class="py-1">
+                                            <a href="#">CASINOS</a>
+                                        </li>
+                                        <li class="py-1">
+                                            <a href="#">COMMERCIAL</a>
+                                        </li>
+                                        <li class="py-1">
+                                            <a href="#">FINANCIAL</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col pb16">
+                                <br/>
+                                <ul class="list-unstyled">
+                                    <li class="py-1">
+                                        <a href="#">Brighten</a>
+                                    </li>
+                                    <li class="py-1">
+                                        <a href="#">Procurments</a>
+                                    </li>
+                                    <li class="py-1">
+                                        <a href="#">Visuals</a>
+                                    </li>
+                                </ul>
+
+                                <div class="mt16 mb16">
+                                    <br/>
+                                    <br/>
+                                    <ul class="list-unstyled">
+                                        <li class="py-1">
+                                            <a href="#">RESIDENTIAL MIX USE</a>
+                                        </li>
+                                        <li class="py-1">
+                                            <a href="#">REAL ESTATE</a>
+                                        </li>
+                                        <li class="py-1">
+                                            <a href="#">DEVELOPERS</a>
+                                        </li>
+                                        <li class="py-1">
+                                            <a href="#">SPORTS</a>
+                                        </li>
+                                        <li class="py-1">
+                                            <a href="#">TECHNOLOGY CENTERS</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+
+                            </div>
+                            <div class="col pb16">
+                                <br/>
+                                <ul class="list-unstyled">
+                                    <li class="py-1">
+                                        <a href="#">Resorts</a>
+                                    </li>
+                                    <li class="py-1">
+                                        <a href="#">Food &amp; Beverage</a>
+                                    </li>
+                                    <li class="py-1">
+                                        <a href="#">Innovation</a>
+                                    </li>
+                                </ul>
+                                <div class="mt16 mb16">
+                                    <br/>
+                                    <br/>
+                                    <ul class="list-unstyled">
+                                        <li class="py-1">
+                                            <a href="#">ENTERTAINMENT</a>
+                                        </li>
+                                        <li class="py-1">
+                                            <a href="#">TOURISM, TRAVEL, AIRPORTS</a>
+                                        </li>
+                                        <li class="py-1">
+                                            <a href="#">RETAIL</a>
+                                        </li>
+                                        <li class="py-1">
+                                            <a href="#">HEALTH, HOSPITALS</a>
+                                        </li>
+                                        <li class="py-1">
+                                            <a href="#">MISSION CRITICAL</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="col pb16">
+                                <br/>
+                                <ul class="list-unstyled" style="opacity:0;">
+                                    <li class="py-1">
+                                        <a href="#">Resorts</a>
+                                    </li>
+                                    <li class="py-1">
+                                        <a href="#">Food &amp; Beverage</a>
+                                    </li>
+                                    <li class="py-1">
+                                        <a href="#">Innovation</a>
+                                    </li>
+                                </ul>
+                                <div class="mt16 mb16">
+                                    <br/>
+                                    <br/>
+                                    <ul class="list-unstyled">
+                                        <li class="py-1">
+                                            <a href="#">ENTERTAINMENT</a>
+                                        </li>
+                                        <li class="py-1">
+                                            <a href="#">TOURISM, TRAVEL, AIRPORTS</a>
+                                        </li>
+                                        <li class="py-1">
+                                            <a href="#">RETAIL</a>
+                                        </li>
+                                        <li class="py-1">
+                                            <a href="#">HEALTH, HOSPITALS</a>
+                                        </li>
+                                        <li class="py-1">
+                                            <a href="#">MISSION CRITICAL</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="col pb16">
+                                <div class="card p-4 shadow" style="border-radius: 30px !important;">
+                                    <h5>UNITED STATES</h5>
+
+                                    <ul class="list-unstyled mb-0 pl-2">
+                                        <li class="d-grid">
+                                            <i class="fa fa-map-marker fa-fw mr-2 text-primary fa-2x mt16 mb16 d-flex"/>
+                                            <span class="o_force_ltr">CIDS Design</span>
+                                            <span class="o_force_ltr">4945 Forest Avenue,New York,</span>
+                                            <span class="o_force_ltr">1004,United States</span>
+                                        </li>
+                                        <li class="d-grid">
+                                            <i class="fa fa-1x fa-fw fa-envelope mr-2 text-primary fa-2x mt16 mb16"/>
+                                            <span>info@yourcompany.example.com</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p data-original-title="" title="" aria-describedby="tooltip946591" class="mt16 mb16">
+                                    <a href="#" class="mb-2 btn btn-primary bg-primary" data-original-title="" title="">
+                                        <span style="font-size: 14px;color:#333;">LEARN MORE ABOUT OTHER PRESENCE</span>
+
+                                    </a>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </xpath>
+    </template>
+</odoo>

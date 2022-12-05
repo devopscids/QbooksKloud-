@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="about" name="About Us">
+        <section class="s_text_image pt32 pb32 o_colored_level about-sec"
+                 data-snippet="s_text_image"
+                 data-name="Text - Image" style="background-image: none;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 offset-lg-1 pt16 pb16 o_colored_level">
+                        <h2 class="ab-title mb32">About Us</h2>
+                        <h4 class="txt-title">How Can Strategic
+                            <br/>
+                            Commercial Interior
+                            <br/>
+                            Design Solutions Pave
+                            <br/>
+                            The Way For A Successful
+                            <br/>
+                            Project?
+                        </h4>
+                        <p class="mt32 mb32 abt-txt">Take A Look At Our Award Winning Hotels &amp;
+                            Resorts
+                        </p>
+                        <p data-original-title="" title="" aria-describedby="tooltip946591">
+                            <a href="#" class="mb-2 btn btn-primary" data-original-title=""
+                               title="">
+                                <span style="font-size: 14px;">[View All Our Recent Works]</span>
+                            </a>
+                        </p>
+                        <br/>
+                    </div>
+                    <div class="col-lg-6 pt16 pb16 o_colored_level">
+                        <img src="/theme_cids/static/src/img/d1.png"
+                             class="img img-fluid mx-auto" alt="" loading="lazy"
+                             data-original-id="286"
+                             data-mimetype="image/jpeg"/>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>
