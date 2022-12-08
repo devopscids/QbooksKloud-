@@ -12,6 +12,7 @@
             <t t-snippet="cids_theme_odoo_15.designer_work" t-thumbnail=""/>
             <t t-snippet="cids_theme_odoo_15.services" t-thumbnail=""/>
             <t t-snippet="cids_theme_odoo_15.testimonal" t-thumbnail=""/>
+            <t t-snippet="cids_theme_odoo_15.follow_us" t-thumbnail=""/>
         </xpath>
     </template>
 </odoo>

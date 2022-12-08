@@ -16,7 +16,8 @@
         'views/snippets/case_studies.xml',
         'views/snippets/designer_work.xml',
         'views/snippets/services.xml',
-        'views/snippets/testimonal.xml'
+        'views/snippets/testimonal.xml',
+        'views/snippets/follow_us.xml'
     ],
     'images': [
     ],
