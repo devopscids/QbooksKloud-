@@ -98,7 +98,7 @@
           if (columns.xl) {
             columnClasses += ` col-xl-${Math.ceil(12 / columns.xl)}`;
           }
-          element.wrap(`<div class='item-column mb-4${columnClasses}'></div>`);
+          element.wrap(`<div class='item-column ${columnClasses}'></div>`);
         } else {
           console.error(
             `Columns should be defined as numbers or objects. ${typeof columns} is not supported.`
@@ -167,7 +167,7 @@
         });
         let activeTag = $(".tags-bar a.active-tag").data("images-toggle");
         let imagesCollection = [];
-        if (activeTag === "all") {
+        if (activeTag === "All") {
           $(".item-column").each(function() {
             if ($(this).children("img").length) {
               imagesCollection.push($(this).children("img"));
@@ -220,12 +220,12 @@
       },
       showItemTags(gallery, position, tags) {
         var tagItems =
-          '<li class="nav-item"><a class="nav-link active active-tag" href="#" data-images-toggle="all">all</a></li>';
+          '<li class="nav-item"><a class="nav-link active active-tag"  data-images-toggle="all">all</a></li>';
         $.each(tags, function(index, value) {
           tagItems += `<li class="nav-item active">
-                  <a class="nav-link" href="#" data-images-toggle="${value}">${value}</a></li>`;
+                  <a class="nav-link"  data-images-toggle="${value}">${value}</a></li>`;
         });
-        var tagsRow = `<ul class="my-4 tags-bar nav nav-pills">${tagItems}</ul>`;
+        var tagsRow = `<ul class="tags-bar nav nav-pills">${tagItems}</ul>`;
   
         if (position === "bottom") {
           gallery.append(tagsRow);
