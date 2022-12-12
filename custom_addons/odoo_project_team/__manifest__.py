@@ -31,30 +31,30 @@ projects team
 project team
 team member
 team user
-odoo team
+CIDS Design team
 job team
 construction team
 contracting team
 job contracting team
 team
 teams
-team odoo
+team CIDS Design
 job cost sheet
-Odoo Job Costing And Job Cost Sheet (Contracting)
-Odoo job cost sheet
-job cost sheet odoo
-contracting odoo
-odoo construction
+CIDS Design Job Costing And Job Cost Sheet (Contracting)
+CIDS Design job cost sheet
+job cost sheet CIDS Design
+contracting CIDS Design
+CIDS Design construction
 job costing (Contracting)
-odoo job costing (Contracting)
-odoo job costing Contracting
-job order odoo
-work order odoo
+CIDS Design job costing (Contracting)
+CIDS Design job costing Contracting
+job order CIDS Design
+work order CIDS Design
 job Contracting
 job costing
 job cost Contracting
-odoo Contracting
-Contracting odoo job
+CIDS Design Contracting
+Contracting CIDS Design job
 Jobs
 Jobs/Configuration
 Jobs/Configuration/Job Types
@@ -79,7 +79,7 @@ Jobs/Projects/Project Notes
 Jobs/Projects/Projects
 Jobs/Sub Contractors 
 Jobs/Sub Contractors /Sub Contractors
-material requision odoo
+material requision CIDS Design
 Contracting
 job Contracting
 job sheet
