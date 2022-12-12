@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="inspired" name="Inspired">
+        <section
+                class="ins-section s_banner pt96 pb96 o_colored_level s_parallax_no_overflow_hidden oe_img_bg o_bg_img_center"
+                data-scroll-background-ratio="0" data-snippet="s_banner" data-name="Banner"
+                style="background-image: url(&quot;/theme_cids/static/src/img/iStock-1332176252.jpg&quot;);">
+            <div class="container">
+                <div class="row s_nb_column_fixed">
+                    <div class="col-lg-6 jumbotron rounded pt32 pb32 o_colored_level o_cc bg-black-75"
+                         data-name="Box">
+                        <h1>
+                            <span class="text-primary">Inspired</span>
+                            By The Details
+                        </h1>
+                        <p class="lead o_default_snippet_text ">Lorem ipsum dolor sit amet,
+                            consectetuer adipiscing elit,
+                            sed diam nonummy nibh euismod tincidunt ut laoreet
+                            dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                            veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                            aliquip ex ea commodo consequat. Duis autem
+                            vel eum iriure dolor in hendrerit in vulputate velit esse mo
+                        </p>
+                        <p data-original-title="" title="" aria-describedby="tooltip946591">
+                            <a href="#" class="mb-2 btn btn-primary" data-original-title=""
+                               title="">
+                                <span style="font-size: 14px;color:#fff;">KNOW MORE ABOUT US</span>
+                                <span>
+                                    <i class="fa fa-angle-double-right text-white"/>
+                                </span>
+                            </a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="why_us" name="CIDS Why Us">
+        <section class="why-us">
+     <div class="abs-why-us">
+     <div class="why-us-inner">
+        <div class="process-header">
+            <h1>what makes us unique</h1>
+            <p>At CIDS.DESIGN, we combine our commitment, curiosity, and expertise with a self-driven attitude,
+            enabling our clients to benefit the most from their investment. Our team creates remarkable spaces
+            using futuristic hospitality designs to uplift property value and enhance guest experiences. Our undivided
+            attention to detail
+         and dedication to achieving excellence sets us apart from the market competition.  </p>
+
+                <a class="why-us-contact" href="#">Get in touch </a>
+        </div>
+     </div>
+     </div>
+    </section>
+    </template>
+</odoo>

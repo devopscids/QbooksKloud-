@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="snippet_custom" name="Snippet Custom"
+              inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']//div[hasclass('o_panel_body')]"
+               position="inside">
+            <t t-snippet="theme_cids.banner" t-thumbnail=""/>
+            <t t-snippet="theme_cids.banner2" t-thumbnail=""/>
+            <t t-snippet="theme_cids.about" t-thumbnail=""/>
+            <t t-snippet="theme_cids.recognization" t-thumbnail=""/>
+            <t t-snippet="theme_cids.inspired" t-thumbnail=""/>
+            <t t-snippet="theme_cids.services" t-thumbnail=""/>
+            <t t-snippet="theme_cids.luxury" t-thumbnail=""/>
+            <t t-snippet="theme_cids.clients" t-thumbnail=""/>
+            <t t-snippet="theme_cids.testimonials" t-thumbnail=""/>
+        </xpath>
+    </template>
+</odoo>

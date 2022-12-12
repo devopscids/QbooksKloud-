@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="cids_process" name="CIDS Process">
+        <section class="cid-process ">
+        <div class="process-header">
+            <h1>How We Translate Your Vision Into A Successful Project?</h1>
+            <p>We connect people and communities together through impactful and creative hospitality
+            interior design solutions. The key to our success is to ensure that the end result is a crystal-clear
+            reflection of our client’s demands, visions, and aspirations. To transform your ideas into reality,
+            we start with a detailed discussion, analyze your project requirements, and offer
+            purposeful hospitality interior design services with a striking impact.</p>
+        </div>
+
+        <div class="process-types">
+          <div>
+            <div>
+           <img src="https://dev.cids.design/web/image/1934-f0c83f1d/cidConcept.png"/>
+           <h2>1.Conceptualization</h2>
+           <p>Keeping our client’s goals, budget, timeline, and demands at the forefront, we kick-start the project
+           by understanding the scope of work, formulating results-driven design strategies,
+           and creating realistic 3D renderings to conceptualize the core vision.</p>
+            </div>
+          </div>
+
+          <div>
+            <div>
+           <img src="https://dev.cids.design/web/image/1936-7902ac2b/cideDesign.png"/>
+           <h2>2.Design</h2>
+           <p>We implement the latest design concepts into our hospitality interior designing approach,
+           helping brands to future-proof the success of their properties. At CIDS.DESIGN, we offer a personal touch to
+           every project with holistic interior design solutions connected to your brand’s DNA. </p>
+            </div>
+          </div>
+
+          <div>
+            <div>
+           <img src="https://dev.cids.design/web/image/1938-073dbb19/cidDelivery.png"/>
+           <h2>3.Delivery</h2>
+           <p>Our multidisciplinary team manages the entire design process to ensure all projects meet creative,
+           technical, and operational requirements. Extensive care is taken throughout the design journey to make every
+           single detail reflect
+           the initial conceptualization without any shortcuts.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    </template>
+</odoo>

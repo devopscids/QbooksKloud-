@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="case_studies" name="CIDS Case Studies">
+<section class="luxuryCarsiuel o_colored_level" style="background-image: none;">
+          <div class="case">
+            <h2>CASE STUDIES</h2>
+          </div>
+          <div class="owl-carousel  luxuryCarsiuel">
+
+                  <div class="item">
+                    <div class="item-inner">
+                      <img src="https://dev.cids.design/web/image/805-60e1e401/iStock-1292354653.jpg" alt="Los Angeles" loading="lazy" style="" width="1100" height="500"/>
+                      <div class="carousel-caption">
+                        <h3>LUXURY COLLECTION</h3>
+                        <p>HOTEL INTERRIO</p>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="item">
+                    <div class="item-inner">
+                      <img src="https://dev.cids.design/web/image/805-60e1e401/iStock-1292354653.jpg" alt="Los Angeles" loading="lazy" style="" width="1100" height="500"/>
+                      <div class="carousel-caption">
+                        <h3>LUXURY COLLECTION</h3>
+                        <p>HOTEL INTERRIO</p>
+                      </div>
+                    </div>
+                  </div>
+                   <div class="item">
+                    <div class="item-inner">
+                      <img src="https://dev.cids.design/web/image/805-60e1e401/iStock-1292354653.jpg" alt="Los Angeles" loading="lazy" style="" width="1100" height="500"/>
+                      <div class="carousel-caption">
+                        <h3>LUXURY COLLECTION</h3>
+                        <p>HOTEL INTERRIO</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </section>
+    </template>
+</odoo>

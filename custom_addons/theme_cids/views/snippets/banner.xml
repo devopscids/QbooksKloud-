@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="banner" name="Banner">
+        <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel"
+                 data-name="Carousel">
+            <div class="s_carousel carousel carousel-fade slide s_carousel_boxed"
+                 data-interval="10000" id="myCarousel1669999409569"
+                 style="background-image: none;max-width:100%;padding:0;">
+                <ol class="carousel-indicators o_we_no_overlay">
+                    <li data-slide-to="0" data-target="#myCarousel1669999409569" class="active"/>
+                    <li data-target="#myCarousel1669999409569" data-slide-to="1"/>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item pt96 pb96 o_colored_level oe_img_bg o_bg_img_center active"
+                         style="background-image: url(&quot;/theme_cids/static/src/img/img2.jpg&quot;);"
+                         data-name="Slide">
+                        <div class="container oe_unremovable">
+                            <div class="row content">
+                                <div class="carousel-content col-lg-8 offset-lg-2 bg-white-25 text-center mt96 mb96 o_colored_level banner-border-rd">
+                                    <div class="jumbotron rounded  o_colored_level" data-name="Box">
+                                        <h1 class="text-black font-weight-bold" style="text-align: center;">
+                                            A LEADING <span class="text-primary">GLOBAL</span> FIRM
+                                        </h1>
+                                        <p class="text-black lead" style="text-align: center;">
+                                            Hospitality and
+                                            Commercial
+                                            Buildings Interior Design Encapsulating<br/>highest
+                                            Quality Standards
+                                            &amp;amp; Detailing In Our DNA
+                                            <br/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt96 pb96 o_colored_level oe_img_bg o_bg_img_center"
+                         style="background-image: url(&quot;/theme_cids/static/src/img/img.jpg&quot;);"
+                         data-name="Slide">
+                        <div class="container oe_unremovable">
+                            <div class="row content">
+                                <div class="carousel-content col-lg-8 offset-lg-2 bg-white-25 text-center mt96 mb96 o_colored_level banner-border-rd">
+                                    <div class="jumbotron rounded  o_colored_level "
+                                         data-name="Box">
+                                        <h1 class="text-black font-weight-bold" style="text-align: center;">
+                                            A LEADING <span class="text-primary">GLOBAL</span> FIRM
+                                        </h1>
+                                        <p class="text-black lead" style="text-align: center;">
+                                            Hospitality and
+                                            Commercial
+                                            Buildings Interior Design Encapsulating<br/>highest
+                                            Quality Standards
+                                            &amp;amp; Detailing In Our DNA
+                                            <br/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev"
+                   role="img" aria-label="Previous" title="Previous"
+                   href="#myCarousel1669999409569">
+<!--                    <span class="carousel-control-prev-icon"/>-->
+                    <span class="fa fa-angle-double-left text-primary banner-arrow-bg"/>
+                    <span class="sr-only o_default_snippet_text">Previous</span>
+                </a>
+                <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next"
+                   role="img" aria-label="Next" title="Next" href="#myCarousel1669999409569">
+<!--                    <span class="carousel-control-next-icon"/>-->
+                    <span class="fa fa-angle-double-right text-primary banner-arrow-bg"/>
+                    <span class="sr-only o_default_snippet_text">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <!--        <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">-->
+        <!--            <div class="s_carousel s_carousel_default carousel slide" data-interval="10000" id="myCarousel1669997460516"-->
+        <!--                 style="background-image: none;">-->
+        <!--                <ol class="carousel-indicators o_we_no_overlay">-->
+        <!--                    <li data-slide-to="0" data-target="#myCarousel1669997460516" class="active"/>-->
+        <!--                    <li data-target="#myCarousel1669997460516" data-slide-to="1"/>-->
+        <!--                    <li data-target="#myCarousel1669997460516" data-slide-to="2"/>-->
+        <!--                </ol>-->
+        <!--                <div class="carousel-inner">-->
+        <!--                    <div class="carousel-item pt96 pb96 o_colored_level oe_img_bg o_bg_img_center active"-->
+        <!--                         style="background-image: url(&quot;/theme_cids/static/src/img/img.jpg&quot;);"-->
+        <!--                         data-name="Slide">-->
+        <!--                        <div class="container oe_unremovable">-->
+        <!--                            <div class="row content">-->
+        <!--                                <div class="carousel-content col-lg-9 offset-lg-1 text-center pt48 pb40 o_colored_level bg-black-50"-->
+        <!--                                     style="">-->
+        <!--                                    <div class="jumbotron rounded pt96 pb96 o_colored_level offset-lg-2 col-lg-8"-->
+        <!--                                         data-name="Box">-->
+        <!--                                        <h1 class="text-100" style="text-align: center;">-->
+        <!--                                            A LEADING <span class="text-primary">GLOBAL</span> FIRM-->
+        <!--                                            <br/>-->
+        <!--                                        </h1>-->
+        <!--                                        <p class="text-100 lead" style="text-align: center;">Hospitality and-->
+        <!--                                            Commercial-->
+        <!--                                            Buildings Interior Design Encapsulating<br/>highest Quality Standards-->
+        <!--                                            &amp;amp; Detailing In Our DNA-->
+        <!--                                            <br/>-->
+        <!--                                        </p>-->
+        <!--                                    </div>-->
+
+        <!--                                </div>-->
+        <!--                            </div>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                    <div class="carousel-item pt96 pb96 o_colored_level oe_img_bg o_bg_img_center"-->
+        <!--                         style="background-image: url(&quot;/theme_cids/static/src/img/img2.jpg&quot;);"-->
+        <!--                         data-name="Slide">-->
+        <!--                        <div class="container oe_unremovable">-->
+        <!--                            <div class="row content">-->
+        <!--                                <div class="carousel-content col-lg-9 offset-lg-1 text-center pt48 pb40 o_colored_level bg-black-50"-->
+        <!--                                     style="">-->
+        <!--                                    <div class="jumbotron rounded pt96 pb96 o_colored_level offset-lg-2 col-lg-8"-->
+        <!--                                         data-name="Box">-->
+        <!--                                        <h1 class="text-100" style="text-align: center;">-->
+        <!--                                            A LEADING <span class="text-primary">GLOBAL</span> FIRM-->
+        <!--                                            <br/>-->
+        <!--                                        </h1>-->
+        <!--                                        <p class="text-100 lead" style="text-align: center;">Hospitality and-->
+        <!--                                            Commercial-->
+        <!--                                            Buildings Interior Design Encapsulating<br/>highest Quality Standards-->
+        <!--                                            &amp;amp; Detailing In Our DNA-->
+        <!--                                            <br/>-->
+        <!--                                        </p>-->
+        <!--                                    </div>-->
+
+        <!--                                </div>-->
+        <!--                            </div>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                    <div class="carousel-item pt96 pb96 o_colored_level oe_img_bg o_bg_img_center"-->
+        <!--                         style="background-image: url(&quot;/theme_cids/static/src/img/img3.jpg&quot;);"-->
+        <!--                         data-name="Slide">-->
+        <!--                        <div class="container oe_unremovable">-->
+        <!--                            <div class="row content">-->
+        <!--                                <div class="carousel-content col-lg-1 offset-lg-1 text-center pt48 pb40 o_colored_level bg-black-50"-->
+        <!--                                     style="">-->
+        <!--                                    <div class="jumbotron rounded pt96 pb96 o_colored_level offset-lg-2 col-lg-8"-->
+        <!--                                         data-name="Box">-->
+        <!--                                        <h1 class="text-100" style="text-align: center;">-->
+        <!--                                            A LEADING <span class="text-primary">GLOBAL</span> FIRM-->
+        <!--                                            <br/>-->
+        <!--                                        </h1>-->
+        <!--                                        <p class="text-100 lead" style="text-align: center;">Hospitality and-->
+        <!--                                            Commercial-->
+        <!--                                            Buildings Interior Design Encapsulating<br/>highest Quality Standards-->
+        <!--                                            &amp;amp; Detailing In Our DNA-->
+        <!--                                            <br/>-->
+        <!--                                        </p>-->
+        <!--                                    </div>-->
+
+        <!--                                </div>-->
+        <!--                            </div>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--                <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev" role="img"-->
+        <!--                   aria-label="Previous" title="Previous" href="#myCarousel1669997460516">-->
+        <!--                    <span class="carousel-control-prev-icon"/>-->
+        <!--                    <span class="sr-only o_default_snippet_text">Previous</span>-->
+        <!--                </a>-->
+        <!--                <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next" role="img"-->
+        <!--                   aria-label="Next" title="Next" href="#myCarousel1669997460516">-->
+        <!--                    <span class="carousel-control-next-icon"/>-->
+        <!--                    <span class="sr-only o_default_snippet_text">Next</span>-->
+        <!--                </a>-->
+        <!--            </div>-->
+        <!--        </section>-->
+        <!--        <section-->
+        <!--                class="s_banner pt96 pb96 o_colored_level s_parallax_no_overflow_hidden oe_img_bg o_bg_img_center"-->
+        <!--                data-scroll-background-ratio="0" data-snippet="s_banner" data-name="Banner"-->
+        <!--                style="height:92vh;background-position:bottom;background-image: url(&quot;/theme_cids/static/src/img/img2.jpg&quot;);"-->
+        <!--                data-mimetype="image/jpeg" data-resize-width="1920">-->
+        <!--            <div class="container">-->
+        <!--                <div class="row s_nb_column_fixed">-->
+        <!--                    <div class="jumbotron rounded pt96 pb96 o_colored_level offset-lg-2 col-lg-8"-->
+        <!--                         data-name="Box">-->
+        <!--                        <h1 class="text-100" style="text-align: center;">-->
+        <!--                            A LEADING <span class="text-primary">GLOBAL</span> FIRM-->
+        <!--                            <br/>-->
+        <!--                        </h1>-->
+        <!--                        <p class="text-100 lead" style="text-align: center;">Hospitality and-->
+        <!--                            Commercial-->
+        <!--                            Buildings Interior Design Encapsulating<br/>highest Quality Standards-->
+        <!--                            &amp;amp; Detailing In Our DNA-->
+        <!--                            <br/>-->
+        <!--                        </p>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </section>-->
+    </template>
+</odoo>

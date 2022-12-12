@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="recognization" name="Recognization">
+        <section class="s_title pt40 pb40 o_colored_level sec-title text-center" data-vcss="001"
+                 data-snippet="s_title"
+                 data-name="Title" style="background-image: none;">
+            <div class="container s_allow_columns">
+                <h1 style="text-align: center;">
+                    ACCREDITATION &amp;amp; RECOGNITION
+                    <br/>
+                </h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                    <br/>
+                    diam nonummy nibh euismod tincidunt ut laoreet
+                </p>
+            </div>
+        </section>
+        <section class="s_numbers pt24 pb24 o_colored_level o_cc o_cc1 sec-numbers"
+                 data-snippet="s_numbers"
+                 data-name="Numbers" style="">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center pt24 pb24 o_colored_level col-lg-2">
+                        <span class="s_number display-4 o_default_snippet_text">200+</span>
+                        <br/>
+                        <h6 class="o_default_snippet_text">Project
+                            <br/>
+                            Completed
+                        </h6>
+                    </div>
+                    <div class="text-center pt24 pb24 o_colored_level col-lg-3">
+                        <span class="s_number display-4">100+</span>
+                        <br/>
+                        <h6 class="o_default_snippet_text">Global Hospitality
+                            <br/>
+                            Clientele
+                        </h6>
+                    </div>
+                    <div class="text-center pt24 pb24 o_colored_level col-lg-2">
+                        <span class="s_number display-4 o_default_snippet_text">150+</span>
+                        <br/>
+                        <h6 class="o_default_snippet_text">Interior Designer
+                            <br/>
+                            Worldwide
+                        </h6>
+                    </div>
+                    <div class="text-center pt24 pb24 o_colored_level col-lg-3" style="">
+                        <span class="s_number display-4">80+</span>
+                        <br/>
+                        <h6 class="o_default_snippet_text">Strategic<br/>Partnership
+                        </h6>
+                    </div>
+                    <div class="text-center pt24 pb24 o_colored_level col-lg-2" style="">
+                        <span class="s_number display-4 o_default_snippet_text">300+</span>
+                        <br/>
+                        <h6 class="o_default_snippet_text">Furniture Designer,<br/>Manufacturers
+                            Minority Women
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </template>
+</odoo>
