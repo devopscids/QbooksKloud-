@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="home" name="CIDS Home">
+        <section class="banner-cover">
+              <div class="owl-carousel  bannerwork">
+
+                    <div class="item">
+                        <div class="banner-inner">
+                             <img src="https://dev.cids.design/web/image/867-ee6dbd86/iStock-1292354653.jpg" loading="lazy" style=""/>
+                             <div class="banner-caption">
+                                  <h1 style="text-align: center;" class="lead-heading">
+                                 <span>A LEADING
+                              <font style="color:rgb(255, 188, 0);">GLOBAL</font> FIRM
+                          </span>
+                            <br/>
+                         </h1>
+
+             <h2 class="lead" style="text-align: center;">
+              <span>Hospitality and Commercial Buildings Interior Design Encapsulating</span>
+              <br/>
+              <span> highest Quality Standards &amp;amp; Detailing in Our DNA.</span>
+            </h2>
+                             </div>
+                        </div>
+
+
+                    </div>
+
+                   <div class="item">
+                        <div class="banner-inner">
+                             <img src="https://dev.cids.design/web/image/867-ee6dbd86/iStock-1292354653.jpg" loading="lazy" style=""/>
+                             <div class="banner-caption">
+                                  <h1 style="text-align: center;" class="lead-heading">
+              <span>EXCEPOTIONAL DESIGN
+
+                              <font style="color:rgb(255, 188, 0);">STARTS WITH</font> TRUSTED PARTNERSHIP
+                          </span>
+              <br/>
+            </h1>
+
+             <h2 class="lead" style="text-align: center;">
+              <span>HWe Focus On Versatility &amp; Customer Satisfaction</span>
+              <br/>
+              <span>We Nurture Valuable Growth Partnerships</span>
+            </h2>
+                             </div>
+                        </div>
+
+
+                    </div>
+                     <div class="item">
+                        <div class="banner-inner">
+                             <img src="https://dev.cids.design/web/image/867-ee6dbd86/iStock-1292354653.jpg" loading="lazy" style=""/>
+                             <div class="banner-caption">
+                                  <h1 style="text-align: center;" class="lead-heading">
+              <span>WE CRAFT UNIQUE INTERIOR
+
+                              <font style="color:rgb(255, 188, 0);">DESIGNS THAT</font> DRIVE INNOVATION
+                          </span>
+              <br/>
+            </h1>
+
+             <h2 class="lead" style="text-align: center;">
+              <span>From Conception To Completion, We Perfect Every Single Element In Your Space
+</span>
+              <br/>
+
+            </h2>
+                             </div>
+                        </div>
+
+
+                    </div>
+
+            </div>
+
+
+        </section>
+        <section class="about-us o_colored_level" style="background-image: none;">
+          <div class="custom-container">
+            <div class="left-content">
+              <h3>About us</h3>
+              <h2>How Can Strategic
+  Commercial Interior
+  Design Solutions Pave
+  The Way For A Successful
+  Project?</h2>
+              <p>Take A Look At Our Award Winning Hotels &amp;amp; Resorts</p>
+              <a>[View All Our Recent Works]</a>
+            </div>
+            <div class="right-img">
+              <img src="https://dev.cids.design/web/image/1449-ee6da408/iStock-1372400701.jpg" loading="lazy" style="" data-original-title="" title="" aria-describedby="tooltip41230" alt="" data-original-id="692" data-original-src="https://dev.cids.design/web/image/692-07680531/iStock-1372400701.jpg" data-mimetype="image/jpeg" data-resize-width="308"/>
+            </div>
+          </div>
+        </section>
+        <section class="s_title o_colored_level pb24 pt32" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-image: none;">
+          <div class="s_allow_columns custom-container">
+            <h1 class="accred">
+              <span style="font-size: 18px;">ACCREDITATION &amp;amp; RECOGNITION</span>
+            </h1>
+            <p>Success &amp; Achievements Comes With Trust, Quality,
+Transparency, And Hard Work. <br/>
+
+There is no shortcut to creating impeccable designs !
+
+                      </p>
+          </div>
+        </section>
+        <section class="s_numbers o_cc  o_colored_level pt0 pb0" data-snippet="s_numbers" data-name="Numbers" style="background-image: none;">
+          <div class="custom-container">
+            <div class="counting-holder">
+              <div class="c-inner">
+                <span class="s_number display-4">
+                  <span style="font-size: 36px;">200+</span>
+                </span>
+                <br/>
+                <h6 class="o_default_snippet_text">Projects <br/>Completed</h6>
+              </div>
+              <div class="c-inner">
+                <span class="s_number display-4">
+                  <span style="font-size: 36px;">100+</span>
+                </span>
+                <br/>
+                <h6 class="o_default_snippet_text">Global Hospitality<br/> Clientele</h6>
+              </div>
+              <div class="c-inner">
+                <span class="s_number display-4">
+                  <span style="font-size: 36px;">150+</span>
+                </span>
+                <br/>
+                <h6 class="o_default_snippet_text">Interior Designers,<br/> Worldwide</h6>
+              </div>
+              <div class="c-inner">
+                <span class="s_number display-4">
+                  <span style="font-size: 36px;">80+</span>
+                </span>
+                <br/>
+                <h6>Strategic <br/>Partnerships</h6>
+              </div>
+              <div class="c-inner">
+                <span class="s_number display-4 o_default_snippet_text">
+                  <span style="font-size: 36px;">300+</span>
+                </span>
+                <br/>
+                <h6>Furniture Designers,<br/> Manufacturers Minority Women</h6>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_carousel_wrapper " data-vxml="001" data-snippet="s_carousel" data-name="Carousel" style="">
+          <div class="s_carousel s_carousel_default carousel slide" data-interval="10000" id="myCarousel1669379151017" style="background-image: none;">
+            <ol class="carousel-indicators o_we_no_overlay d-none">
+              <li data-slide-to="0" class="active" data-target="#myCarousel1669379151017"/>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item pb96 o_colored_level pt232 oe_img_bg o_bg_img_center active" style="background-image: url(&quot;https://dev.cids.design/web/image/787-4c3c290d/iStock-1332176252.jpg&quot;); height:100%!important; min-height:auto!important;" data-name="Slide" data-original-id="786" data-original-src="https://dev.cids.design/web/image/786-3ca407ce/iStock-1332176252.jpg" data-mimetype="image/jpeg" data-resize-width="1920">
+                <div class="oe_unremovable inspire-container">
+                  <div class="row content">
+                    <div class="inspired carousel-content text-center  o_colored_level  col-lg-6  rounded" data-original-title="" title="" aria-describedby="tooltip897789" style="border-radius: 50px !important;">
+                      <span style="font-size: 30px;text-align:left;display:block; margin-bottom:10px; color:#fff; font-family: 'Lorin';"><font style="color: rgb(255, 188, 0);font-family: 'Lorin';">Inspired</font> By The Details
+                                          </span>
+                      <div class="inspiredp">
+                                           We are putting innovation at the
+forefront of everything we do,
+CIDS.DESIGN transforms concepts into
+full - functioning spaces. B eing stic k lers
+for details, we wor k hard to understand
+your brand, space, and objectives
+through meticulous consultancy and
+translate them into a solid design
+strategy par excellence .
+
+                                             <p><a href="#">KNOW MORE ABOUT US &amp;gt;&amp;gt;</a></p>
+                                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev o_not_editable o_we_no_overlay d-none" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#myCarousel1669379151017">
+              <span class="carousel-control-prev-icon"/>
+              <span class="sr-only o_default_snippet_text">Previous</span>
+            </a>
+            <a class="carousel-control-next o_not_editable o_we_no_overlay d-none" data-slide="next" role="img" aria-label="Next" title="Next" href="#myCarousel1669379151017">
+              <span class="carousel-control-next-icon"/>
+              <span class="sr-only o_default_snippet_text">Next</span>
+            </a>
+          </div>
+        </section>
+        <section style="background-image: none;" class="o_colored_level">
+          <div class="services">
+            <div class="service-text">
+              <h2>OUR SERVICES</h2>
+            </div>
+            <div class="owl-carousel  services">
+
+                    <div class="item">
+                      <img src="https://dev.cids.design/web/image/504-f9467535/int2.jpg" loading="lazy" style=""/>
+                    </div>
+
+
+                    <div class="item">
+                      <img src="https://dev.cids.design/web/image/505-be52c383/INT.jpg" loading="lazy" style=""/>
+                    </div>
+
+
+                    <div class="item">
+                      <img src="https://dev.cids.design/web/image/website.s_three_columns_default_image_3" loading="lazy" style=""/>
+                    </div>
+
+
+                    <div class="item">
+                      <img src="https://dev.cids.design/web/image/504-f9467535/int2.jpg" loading="lazy" style=""/>
+                    </div>
+
+
+                    <div class="item">
+                      <img src="https://dev.cids.design/web/image/website.s_three_columns_default_image_3" loading="lazy" style=""/>
+                    </div>
+
+                    <div class="item">
+                      <img src="https://dev.cids.design/web/image/website.s_three_columns_default_image_3" loading="lazy" style=""/>
+                    </div>
+            </div>
+          </div>
+        </section>
+        <section class="luxuryCarsiuel o_colored_level" style="background-image: none;">
+          <div class="case">
+            <h2>CASE STUDIES</h2>
+          </div>
+          <div class="owl-carousel  luxuryCarsiuel">
+
+                  <div class="item">
+                    <div class="item-inner">
+                      <img src="https://dev.cids.design/web/image/805-60e1e401/iStock-1292354653.jpg" alt="Los Angeles" loading="lazy" style="" width="1100" height="500"/>
+                      <div class="carousel-caption">
+                        <h3>LUXURY COLLECTION</h3>
+                        <p>HOTEL INTERRIO</p>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="item">
+                    <div class="item-inner">
+                      <img src="https://dev.cids.design/web/image/805-60e1e401/iStock-1292354653.jpg" alt="Los Angeles" loading="lazy" style="" width="1100" height="500"/>
+                      <div class="carousel-caption">
+                        <h3>LUXURY COLLECTION</h3>
+                        <p>HOTEL INTERRIO</p>
+                      </div>
+                    </div>
+                  </div>
+                   <div class="item">
+                    <div class="item-inner">
+                      <img src="https://dev.cids.design/web/image/805-60e1e401/iStock-1292354653.jpg" alt="Los Angeles" loading="lazy" style="" width="1100" height="500"/>
+                      <div class="carousel-caption">
+                        <h3>LUXURY COLLECTION</h3>
+                        <p>HOTEL INTERRIO</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </section>
+        <section class="designer-work">
+          <div class="designer-work-inner">
+            <div class="dwork-left">
+              <p>Our Designers have worked extensively with industry leading brands:</p>
+            </div>
+            <div class="dwork-right">
+              <div class="owl-carousel owl-theme designwork">
+
+                      <div class="item">
+                        <h4><img src="https://dev.cids.design/web/image/1558-ec4205dc/logo1.png"/></h4>
+                      </div>
+
+                      <div class="item">
+                        <h4><img src="https://dev.cids.design/web/image/1560-a261da89/logo2.png"/></h4>
+                      </div>
+
+                      <div class="item">
+                       <h4><img src="https://dev.cids.design/web/image/1558-ec4205dc/logo1.png"/></h4>
+                      </div>
+
+
+                      <div class="item">
+                          <h4><img src="https://dev.cids.design/web/image/1560-a261da89/logo2.png"/></h4>
+                      </div>
+
+
+                      <div class="item">
+                       <h4><img src="https://dev.cids.design/web/image/1558-ec4205dc/logo1.png"/></h4>
+                      </div>
+
+
+                      <div class="item">
+                        <h4><img src="https://dev.cids.design/web/image/1560-a261da89/logo2.png"/></h4>
+                      </div>
+
+                      <div class="item">
+                         <h4><img src="https://dev.cids.design/web/image/1558-ec4205dc/logo1.png"/></h4>
+                      </div>
+
+
+                      <div class="item">
+                       <h4><img src="https://dev.cids.design/web/image/1560-a261da89/logo2.png"/></h4>
+                      </div>
+
+
+
+                      <div class="item">
+                         <h4><img src="https://dev.cids.design/web/image/1560-a261da89/logo2.png"/></h4>
+                      </div>
+
+
+                      <div class="item">
+                         <h4><img src="https://dev.cids.design/web/image/1558-ec4205dc/logo1.png"/></h4>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+
+        </section>
+        <section class="testimonal">
+
+          <div class="owl-carousel owl-theme testimonial">
+                <div class="item">
+                <div class="item-holder">
+                      <img src="https://dev.cids.design/web/image/1438-42bb4d28/vklogo.jpg" loading="lazy" style=""/>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+  sed diam nonummy nibh euismod tincidunt ut laoreet
+  dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+  veniam, quis nostrud exerci tation ullamcorper suscipit lob-</p>
+                  <div class="author-info">
+                    <p>April Bowlby</p>
+                    <span>United States</span>
+                  </div>
+                </div>
+                </div>
+                <div class="item">
+                  <div class="item-holder">
+                      <img src="https://dev.cids.design/web/image/748-9d85f92e/iStock-1372400701.jpg" loading="lazy" style=""/>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+  sed diam nonummy nibh euismod tincidunt ut laoreet
+  dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+  veniam, quis nostrud exerci tation ullamcorper suscipit lob-</p>
+                  <div class="author-info">
+                    <p>April Bowlby</p>
+                    <span>United States</span>
+                  </div>
+                </div>
+                </div>
+                <div class="item">
+                   <div class="item-holder">
+                      <img src="https://dev.cids.design/web/image/748-9d85f92e/iStock-1372400701.jpg" loading="lazy" style=""/>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+  sed diam nonummy nibh euismod tincidunt ut laoreet
+  dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+  veniam, quis nostrud exerci tation ullamcorper suscipit lob-</p>
+                  <div class="author-info">
+                    <p>April Bowlby</p>
+                    <span>United States</span>
+                  </div>
+                </div>
+                </div>
+
+              </div>
+  </section>
+        <section class="followus">
+               <div class="follow-inner">
+                   <div class="follow-icons">
+                       <p>Follow us at</p>
+                       <div class="iholder">
+                           <a href=""><i class="fa fa-facebook" style="font-size:24px"></i></a>
+                           <a href="#"><i class="fa fa-twitter" style="font-size:24px"></i></a>
+                           <a href="#"><i class="fa fa-youtube-play" style="font-size:24px"></i></a>
+                           <a href="#"><i class="fa fa-linkedin" style="font-size:24px"></i></a>
+                           <a href="#"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+                       </div>
+                   </div>
+                   <div class="follow-links">
+                       <a href="#">Case studies</a>
+                       <a href="#">Awards and accolades</a>
+                           <a href="#">Testimonials</a>
+                               <a href="#">Press release</a>
+                                   <a href="#">Privacy policy</a>
+                   </div>
+               </div>
+   </section>
+    </template>
+</odoo>
