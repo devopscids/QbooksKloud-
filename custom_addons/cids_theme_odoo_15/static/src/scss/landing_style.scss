@@ -18,7 +18,7 @@
         }
 
         .about-banner {
-            background-image: url('https://dev.cids.design/web/image/1999-3b89f7e8/heroimg.png');
+            background-image: url('/cids_theme_odoo_15/static/src/img/landing/heroimg.png');
             height: 100vh;
             background-repeat: no-repeat;
             background-size: cover;
@@ -397,7 +397,7 @@ letter-spacing:1px;
 
         .happy-customers{
             min-height:700px;
-            background: linear-gradient(rgba(80,87,93,.91), rgba(80,87,93,.91)),url('https://dev.cids.design/web/image/1999-3b89f7e8/heroimg.png');
+            background: linear-gradient(rgba(80,87,93,.91), rgba(80,87,93,.91)),url('/cids_theme_odoo_15/static/src/img/landing/heroimg.png');
             padding:85px 62px 62px 62px;
         }
         .happy-customers p{
@@ -469,7 +469,7 @@ color: #50575D;
         }
 
         .why-us{
-            background-image:url("https://dev.cids.design/web/image/2012-25863ef5/LOFT%20IN%20RIGA%20CITY%201.png");
+            background-image:url("/cids_theme_odoo_15/static/src/img/landing/LOFT IN RIGA CITY 1.png");
             background-repeat: no-repeat;
             height:700px;
             background-size:cover;
