@@ -144,7 +144,7 @@
             '/simplify_access_management/static/src/js/action_items.js',
             "/simplify_access_management/static/src/js/widget/DomainSelector.js",
             "/simplify_access_management/static/src/js/widget/ModelRecordSelector.js",
-            "/simplify_access_management/static/src/js/views_service.js"
+            # "/simplify_access_management/static/src/js/views_service.js"
         ],
         
     },
