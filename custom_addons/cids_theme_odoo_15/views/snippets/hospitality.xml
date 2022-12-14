@@ -10,11 +10,11 @@
             <div class="h-inner-holder">
                 <div class="h-top">
                     <div class="email">
-                        <img src="cids_theme_odoo_15/static/src/img/landing/emailIcon.png" />
+                        <img src="/cids_theme_odoo_15/static/src/img/landing/emailIcon.png" />
                         <a href="#">Cid.design@gmail.com</a>
                     </div>
                     <div class="phone">
-                        <img src="cids_theme_odoo_15/static/src/img/landing/phoneIcon.png" />
+                        <img src="/cids_theme_odoo_15/static/src/img/landing/phoneIcon.png" />
                         <a href="#">+91 2345687892</a>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
             <div class="h-inner-holder">
                 <div class="h-bottom-holder">
                     <div class="logo-holder">
-                        <img src="cids_theme_odoo_15/static/src/img/landing/logo.png" />
+                        <img src="/cids_theme_odoo_15/static/src/img/landing/logo.png" />
                     </div>
                     <div class="h-links">
                         <a href="#">Commercial</a>
@@ -53,9 +53,9 @@
             <div class="backcolored-div">
             </div>
             <div class="absimagediv">
-                <img src="cids_theme_odoo_15/static/src/img/landing/about-center.png" />
-                <img src="cids_theme_odoo_15/static/src/img/landing/about-left.png" />
-                <img src="cids_theme_odoo_15/static/src/img/landing/about-right.png" />
+                <img src="/cids_theme_odoo_15/static/src/img/landing/about-center.png" />
+                <img src="/cids_theme_odoo_15/static/src/img/landing/about-left.png" />
+                <img src="/cids_theme_odoo_15/static/src/img/landing/about-right.png" />
             </div>
         </div>
         <div class="cids-right">
@@ -100,7 +100,7 @@
         <div class="process-types">
             <div>
                 <div>
-                    <img src="cids_theme_odoo_15/static/src/img/landing/cidConcept.png" />
+                    <img src="/cids_theme_odoo_15/static/src/img/landing/cidConcept.png" />
                     <h2>1.&amp;nbsp;Conceptualization</h2>
                     <p>Keeping our client’s goals, budget, timeline, and demands at the forefront, we kick-start the
                         project by understanding the scope of work, formulating results-driven design strategies, and
@@ -110,7 +110,7 @@
 
             <div>
                 <div>
-                    <img src="cids_theme_odoo_15/static/src/img/landing/cideDesign.png" />
+                    <img src="/cids_theme_odoo_15/static/src/img/landing/cideDesign.png" />
                     <h2>2.&amp;nbsp;Design</h2>
                     <p>We implement the latest design concepts into our hospitality interior designing approach, helping
                         brands to future-proof the success of their properties. At CIDS.DESIGN, we offer a personal
@@ -121,7 +121,7 @@
 
             <div>
                 <div>
-                    <img src="cids_theme_odoo_15/static/src/img/landing/cidDelivery.png" />
+                    <img src="/cids_theme_odoo_15/static/src/img/landing/cidDelivery.png" />
                     <h2>3.&amp;nbsp;Delivery</h2>
                     <p>Our multidisciplinary team manages the entire design process to ensure all projects meet
                         creative, technical, and operational requirements. Extensive care is taken throughout the design
@@ -144,19 +144,19 @@
 
         <div class="hservice-inner">
             <div>
-                <img src="cids_theme_odoo_15/static/src/img/landing/service1.png" />
+                <img src="/cids_theme_odoo_15/static/src/img/landing/service1.png" />
                 <div class="absdiv">
                     <p><span>01</span>Hotels &amp; Resorts</p>
                 </div>
             </div>
             <div>
-                <img src="cids_theme_odoo_15/static/src/img/landing/service2.png" />
+                <img src="/cids_theme_odoo_15/static/src/img/landing/service2.png" />
                 <div class="absdiv">
                     <p><span>02</span>Bars &amp; Restaurants</p>
                 </div>
             </div>
             <div>
-                <img src="cids_theme_odoo_15/static/src/img/landing/service3.png" />
+                <img src="/cids_theme_odoo_15/static/src/img/landing/service3.png" />
                 <div class="absdiv">
                     <p><span>03</span>Spas &amp; wellness centers</p>
                 </div>
@@ -172,7 +172,7 @@
 
         <div class="gallery" style="display:none;">
             <div class="gallery-item h-100" data-gallery-tag="Hotels">
-                <img class="gallery-item" data-gallery-tag="Hotels" src="cids_theme_odoo_15/static/src/img/landing/g1.png" />
+                <img class="gallery-item" data-gallery-tag="Hotels" src="/cids_theme_odoo_15/static/src/img/landing/g1.png" />
                 <div
                     class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
                     <p class="lead m-0 spa"><span>SPA</span></p>
@@ -182,7 +182,7 @@
 
 
             <div class="gallery-item h-100" data-gallery-tag="Resorts">
-                <img class="gallery-item" data-gallery-tag="Resorts" src="cids_theme_odoo_15/static/src/img/landing/g2.png" />
+                <img class="gallery-item" data-gallery-tag="Resorts" src="/cids_theme_odoo_15/static/src/img/landing/g2.png" />
                 <div
                     class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
                     <p class="lead m-0 spa"><span>SPA</span></p>
@@ -191,7 +191,7 @@
             </div>
 
             <div class="gallery-item h-100" data-gallery-tag="Bars &amp; Restaurant">
-                <img class="gallery-item" data-gallery-tag="Bars &amp; Restaurant" src="cids_theme_odoo_15/static/src/img/landing/g3.png" />
+                <img class="gallery-item" data-gallery-tag="Bars &amp; Restaurant" src="/cids_theme_odoo_15/static/src/img/landing/g3.png" />
                 <div
                     class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
                     <p class="lead m-0 spa"><span>SPA</span></p>
@@ -199,7 +199,7 @@
                 </div>
             </div>
             <div class="gallery-item h-100">
-                <img data-gallery-tag="Hotels" class="gallery-item" src="cids_theme_odoo_15/static/src/img/landing/g4.png" />
+                <img data-gallery-tag="Hotels" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/landing/g4.png" />
                 <div
                     class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
                     <p class="lead m-0 spa"><span>SPA</span></p>
@@ -208,7 +208,7 @@
             </div>
 
             <div class="gallery-item h-100">
-                <img data-gallery-tag="Hotels" class="gallery-item" src="cids_theme_odoo_15/static/src/img/landing/g5.png" />
+                <img data-gallery-tag="Hotels" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/landing/g5.png" />
                 <div
                     class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
                     <p class="lead m-0 spa"><span>SPA</span></p>
@@ -216,7 +216,7 @@
                 </div>
             </div>
             <div class="gallery-item h-100">
-                <img data-gallery-tag="Resorts" class="gallery-item" src="cids_theme_odoo_15/static/src/img/landing/g6.png" />
+                <img data-gallery-tag="Resorts" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/landing/g6.png" />
                 <div
                     class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
                     <p class="lead m-0 spa"><span>SPA</span></p>
@@ -224,7 +224,7 @@
                 </div>
             </div>
             <div class="gallery-item h-100">
-                <img data-gallery-tag="Bars &amp; Restaurant" class="gallery-item" src="cids_theme_odoo_15/static/src/img/landing/g7.png" />
+                <img data-gallery-tag="Bars &amp; Restaurant" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/landing/g7.png" />
                 <div
                     class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
                     <p class="lead m-0 spa"><span>SPA</span></p>
@@ -232,7 +232,7 @@
                 </div>
             </div>
             <div class="gallery-item h-100">
-                <img data-gallery-tag="Hotels" class="gallery-item" src="cids_theme_odoo_15/static/src/img/landing/g8.png" />
+                <img data-gallery-tag="Hotels" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/landing/g8.png" />
                 <div
                     class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
                     <p class="lead m-0 spa"><span>SPA</span></p>
@@ -240,7 +240,7 @@
                 </div>
             </div>
             <div class="gallery-item h-100">
-                <img data-gallery-tag="Hotels" class="gallery-item" src="cids_theme_odoo_15/static/src/img/landing/g9.png" />
+                <img data-gallery-tag="Hotels" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/landing/g9.png" />
                 <div
                     class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
                     <p class="lead m-0 spa"><span>SPA</span></p>
@@ -262,18 +262,18 @@
             <div class="item">
                 <div class="item-customers">
                     <div class="item-cust-left">
-                        <img src="cids_theme_odoo_15/static/src/img/landing/happyclient.png" />
+                        <img src="/cids_theme_odoo_15/static/src/img/landing/happyclient.png" />
                     </div>
                     <div class="item-cust-right">
                         <div class="star-holder">
-                            <img src="cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
                         </div>
                         <div class="appre-text">
-                            <img class="simg" src="cids_theme_odoo_15/static/src/img/landing/exclm.png" />
+                            <img class="simg" src="/cids_theme_odoo_15/static/src/img/landing/exclm.png" />
                             <p>We have had the absolute pleasure of working with the interior design experts at
                                 CIDS.DESIGN on a
                                 recent project here in Arizona. They were knowledgeable on various interior design,
@@ -285,7 +285,7 @@
                                 recommend them highly enough ~ they have surpassed all our expectations! Fabulous work,
                                 team.
                                 Keep up the great work.</p>
-                            <img class="limg" src="cids_theme_odoo_15/static/src/img/landing/exclm.png" />
+                            <img class="limg" src="/cids_theme_odoo_15/static/src/img/landing/exclm.png" />
                         </div>
                         <div class="cust-name">
                             <h4>Hampton Inn</h4>
@@ -297,18 +297,18 @@
             <div class="item">
                 <div class="item-customers">
                     <div class="item-cust-left">
-                        <img src="cids_theme_odoo_15/static/src/img/landing/happyclient.png" />
+                        <img src="/cids_theme_odoo_15/static/src/img/landing/happyclient.png" />
                     </div>
                     <div class="item-cust-right">
                         <div class="star-holder">
-                            <img src="cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
                         </div>
                         <div class="appre-text">
-                            <img class="simg" src="cids_theme_odoo_15/static/src/img/landing/exclm.png" />
+                            <img class="simg" src="/cids_theme_odoo_15/static/src/img/landing/exclm.png" />
                             <p>We have had the absolute pleasure of working with the interior design experts at
                                 CIDS.DESIGN on a
                                 recent project here in Arizona. They were knowledgeable on various interior design,
@@ -320,7 +320,7 @@
                                 recommend them highly enough ~ they have surpassed all our expectations! Fabulous work,
                                 team.
                                 Keep up the great work.</p>
-                            <img class="limg" src="cids_theme_odoo_15/static/src/img/landing/exclm.png" />
+                            <img class="limg" src="/cids_theme_odoo_15/static/src/img/landing/exclm.png" />
                         </div>
                         <div class="cust-name">
                             <h4>Hampton Inn</h4>
@@ -332,18 +332,18 @@
             <div class="item">
                 <div class="item-customers">
                     <div class="item-cust-left">
-                        <img src="cids_theme_odoo_15/static/src/img/landing/happyclient.png" />
+                        <img src="/cids_theme_odoo_15/static/src/img/landing/happyclient.png" />
                     </div>
                     <div class="item-cust-right">
                         <div class="star-holder">
-                            <img src="cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
                         </div>
                         <div class="appre-text">
-                            <img class="simg" src="cids_theme_odoo_15/static/src/img/landing/exclm.png" />
+                            <img class="simg" src="/cids_theme_odoo_15/static/src/img/landing/exclm.png" />
                             <p>We have had the absolute pleasure of working with the interior design experts at
                                 CIDS.DESIGN on a
                                 recent project here in Arizona. They were knowledgeable on various interior design,
@@ -355,7 +355,7 @@
                                 recommend them highly enough ~ they have surpassed all our expectations! Fabulous work,
                                 team.
                                 Keep up the great work.</p>
-                            <img class="limg" src="cids_theme_odoo_15/static/src/img/landing/exclm.png" />
+                            <img class="limg" src="/cids_theme_odoo_15/static/src/img/landing/exclm.png" />
                         </div>
                         <div class="cust-name">
                             <h4>Hampton Inn</h4>
@@ -387,7 +387,7 @@
     <section class="h-footer">
         <div class="h-footer-inner">
             <div class="b-logo">
-                <img src="cids_theme_odoo_15/static/src/img/landing/logo.png" />
+                <img src="/cids_theme_odoo_15/static/src/img/landing/logo.png" />
             </div>
             <div class="f-services">
                 <h1>Services </h1>
@@ -419,17 +419,17 @@
             <div class="f-contact">
                 <h1>Contact us</h1>
                 <div class="email">
-                    <img src="cids_theme_odoo_15/static/src/img/landing/emailIcon.png" />
+                    <img src="/cids_theme_odoo_15/static/src/img/landing/emailIcon.png" />
                     <a href="#">Cid.design@gmail.com</a>
                 </div>
                 <div class="phone">
-                    <img src="cids_theme_odoo_15/static/src/img/landing/phoneIcon.png" />
+                    <img src="/cids_theme_odoo_15/static/src/img/landing/phoneIcon.png" />
                     <a href="#">+91 2345687892</a>
                 </div>
                 <div class="sicons">
-                    <a href="#"><img src="cids_theme_odoo_15/static/src/img/landing/insta.png"/></a>
-                    <a href="#"><img src="cids_theme_odoo_15/static/src/img/landing/twitter.png"/></a>
-                    <a href="#"><img src="cids_theme_odoo_15/static/src/img/landing/youtube.png"/></a>
+                    <a href="#"><img src="/cids_theme_odoo_15/static/src/img/landing/insta.png"/></a>
+                    <a href="#"><img src="/cids_theme_odoo_15/static/src/img/landing/twitter.png"/></a>
+                    <a href="#"><img src="/cids_theme_odoo_15/static/src/img/landing/youtube.png"/></a>
                 </div>
             </div>
         </div>
