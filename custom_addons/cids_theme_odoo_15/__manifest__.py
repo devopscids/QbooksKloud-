@@ -10,7 +10,8 @@
         'views/header.xml',
         'views/footer.xml',
         'views/snippets/home.xml',
-        'views/snippets/landing.xml'
+        'views/snippets/landing.xml',
+        'views/snippets/hospitality.xml'
         # 'views/snippets/home/banner.xml',
         # 'views/snippets/home/about_us.xml',
         # 'views/snippets/home/about_us2.xml',
@@ -34,6 +35,7 @@
         'web.assets_frontend': [
             'cids_theme_odoo_15/static/src/scss/style.scss',
             'cids_theme_odoo_15/static/src/scss/landing_style.scss',
+            'cids_theme_odoo_15/static/src/scss/hospitality_style.scss',
             'cids_theme_odoo_15/static/src/scss/owl.scss',
             'cids_theme_odoo_15/static/src/scss/owltheme.scss',
             'cids_theme_odoo_15/static/src/js/cids.js',
