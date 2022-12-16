@@ -1,7 +1,7 @@
 <odoo>
     <template id="custom_footer" inherit_id="website.layout" name="Custom Footer">
         <xpath expr="//footer" position="replace">
- <section class="footer">
+            <section class="footer">
           <div class="custom-footer">
             <div class="logo">
               <img src="https://dev.cids.design/web/image/1544-da6007e0/vklogo.png" loading="lazy" style=""/>
@@ -138,7 +138,6 @@
              </div>
 
         </section>
-
         </xpath>
     </template>
 </odoo>
