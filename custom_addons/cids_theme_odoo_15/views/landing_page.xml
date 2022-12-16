@@ -11,7 +11,7 @@
         <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/owl.js"/>
         <script>
              $(document).ready(function() {
-                var owl5 = $('.owl-carousel.happyclients');
+                var owl5 = $('.owl-carousel.happyclients123');
                 owl5.owlCarousel({
                   margin: 10,
                   nav: true,
@@ -29,8 +29,8 @@
                     }
                   }
                 });
-                 $( ".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/abutarrow.png"/>');
-                 $( ".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/abutarrow.png"/>');
+                 $( ".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+                 $( ".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
               });
         </script>
         <t t-call="website.layout">
@@ -325,7 +325,7 @@ increase business growth &amp; profitability.
                 Take a look at what our valued clients have to say about our interior design services. </p>
             </div>
 
-              <div class="owl-carousel owl-theme happyclients">
+              <div class="owl-carousel owl-theme happyclients123">
                     <div class="item">
 
             <div class="item-customers">

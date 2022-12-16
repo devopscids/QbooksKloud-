@@ -1,0 +1,617 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        :root {
+            --font-size-48: 3.34vw;
+            --font-size-32: 2.23vw;
+            --font-size-18: 1.25vw;
+            --font-size-16: 1.12vw;
+            --font-size-14: 0.98vw;
+            --font-size-60: 4.16vw;
+
+            --font-size-30: 2.08vw;
+
+            --padding-4: 0.28vw;
+            --padding-80: 5.56vw;
+            --padding-45: 3.13vw;
+
+            /*margin*/
+            --margin-28: 1.38vw;
+
+            --white: #fff;
+            --yellow: #ffbc00;
+            --text-color: #50575d;
+            --light-grey: #d9d9d9;
+
+            --height-863: 59.93vw;
+            --height-875: 60.76vw;
+
+            --width-28: 1.95vw;
+            --width-718: 49.86vw;
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .top-banner .owl-carousel .owl-item img {
+            height: 100vh;
+            object-fit: cover;
+        }
+
+        .hotel-banner {
+            position: absolute;
+            top: 50%;
+            left: 5%;
+            transform: translateY(-50%);
+            width: 50%;
+
+        }
+
+        .active .hotel-banner {
+            animation: slideInUp;
+            animation-duration: 1s;
+
+            animation-timing-function: ease-out;
+
+        }
+
+        .hotel-banner h1 {
+            font-family: 'Lorin-xbold';
+            font-size:var( --font-size-60);
+            color: #FFFFFF;
+        }
+
+        .hotel-banner h1 span {
+            color: #FFBC00 !important;
+        }
+
+        .hotel-banner p {
+            font-family: 'Lorin';
+            font-size: 18px;
+            color: #FFFFFF;
+            margin: 30px 0px;
+        }
+
+        .hotel-banner .hbtns {
+            margin-top: 45px;
+        }
+
+        .hotel-banner .hbtns a.explore {
+            padding: 16px 24px;
+            background: #FFBC00;
+            font-family: 'Lorin';
+            font-size: 16px;
+            color: #FFFFFF;
+            text-decoration: none;
+            margin-right: 16px;
+        }
+
+        .hotel-banner .hbtns a.contact {
+            padding: 16px 24px;
+            background: transparent;
+            font-family: 'Lorin';
+            font-size: 16px;
+            color: #FFFFFF;
+            border: 1px solid #FFBC00;
+            color: #FFBC00;
+            text-decoration: none;
+        }
+
+        .view-projects {
+
+            padding: 16px 24px;
+            background: transparent;
+            font-family: 'Lorin';
+            font-size: 16px;
+            color: #FFFFFF;
+            border: 1px solid #FFBC00;
+            color: #FFBC00;
+            text-decoration: none;
+            margin-top: 40px;
+            display: inline-block;
+        }
+
+        .top-banner .owl-theme .owl-nav,
+        .top-banner .owl-theme .owl-dots {
+            display: none;
+        }
+
+        .about-us {
+
+            width: 100%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .about-left {
+            width: 30%;
+            padding: 0px var(--padding-45) 0px var(--padding-80);
+            display: flex;
+            align-items: center;
+        }
+
+        .about-ltext {
+            width: 100%;
+
+        }
+
+        .about-ltext p {
+            font-family: 'Lorin';
+            font-size: 18px;
+            line-height: 150%;
+
+            color: #50575D;
+        }
+
+        .about-right {
+            width: 70%;
+        }
+
+        /*header css starts from here*/
+        .nav-bar.f-nav .nav-inner {
+            padding: 5px 0px;
+        }
+
+        .nav-inner {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .menu ul:first-child {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+
+
+        .child-menu {
+            display: none;
+        }
+
+        .nav-inner {
+            width: 90%;
+            margin: auto;
+            align-items: center;
+        }
+
+        .search-div input[type="text"] {
+            background-image: url('/cids_theme_odoo_15/static/src/img/images/Search.png');
+            background-repeat: no-repeat;
+            width: 39px;
+            height: 39px;
+            border-radius: 50%;
+            border-color: transparent;
+            background-position: center;
+            cursor: pointer;
+            -webkit-transition: width .35s linear;
+            transition: width .35s linear;
+            outline: none;
+        }
+
+        .search-div input[type=text]:focus {
+            width: 80%;
+            border-radius: 5px;
+            background-position: 95% 10px;
+            padding-left: 10px;
+            padding-right: 20px;
+            border-color: transparent;
+            outline: none;
+            border: 1px solid #333333;
+
+        }
+
+        .logo {
+            width: 15%;
+        }
+
+        .menu {
+            width: 60%;
+        }
+
+        .nav-bar .menu ul li a {
+            font-family: 'Lorin-xbold';
+            font-size: var(--font-size-14);
+            line-height: 120%;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .search a.contact-search {
+            font-family: 'Lorin-xbold';
+            font-size: var(--font-size-14);
+            line-height: 120%;
+            color: #FFFFFF;
+            text-decoration: none;
+            margin-left: 24px;
+            background: #FFBC00;
+            padding: 10px 5px;
+            display: flex;
+            align-items: center;
+            min-width: 25%;
+            justify-content: center;
+        }
+
+        .search a.login-search {
+            font-family: 'Lorin-xbold';
+            font-size: 14px;
+            line-height: 120%;
+            color: #FFFFFF;
+            text-decoration: none;
+            margin-left: 24px;
+            border: 2px solid #FFBC00;
+            padding: 10px 5px;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            min-width: 25%;
+            justify-content: center;
+        }
+
+        .search {
+            width: 30%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+        .nav-bar {
+            position: absolute;
+            z-index: 99;
+            left: 0;
+            right: 0;
+            top: 20px;
+            transition: all .35s linear;
+        }
+
+        .f-nav.nav-bar {
+            position: fixed;
+            background-color: #fff;
+            top: 0px;
+            box-shadow: 0px 15px 10px -15px #111;
+        }
+
+        .f-nav.nav-bar .menu ul li a {
+            font-family: 'Lorin-xbold';
+            font-size: 14px;
+            line-height: 120%;
+            color: #333333;
+            ;
+            text-decoration: none;
+        }
+
+        @-webkit-keyframes slideInUp {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(2000px);
+                transform: translateY(2000px);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInUp {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(2000px);
+                -ms-transform: translateY(2000px);
+                transform: translateY(2000px);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                -ms-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+
+        .slideInUp {
+            -webkit-animation-name: slideInUp;
+            animation-name: slideInUp;
+        }
+
+        @-webkit-keyframes slideOutDown {
+            0% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+            }
+
+            100% {
+                opacity: 0;
+                -webkit-transform: translateY(2000px);
+                transform: translateY(2000px);
+            }
+        }
+
+        @keyframes slideOutDown {
+            0% {
+                -webkit-transform: translateY(0);
+                -ms-transform: translateY(0);
+                transform: translateY(0);
+            }
+
+            100% {
+                opacity: 0;
+                -webkit-transform: translateY(2000px);
+                -ms-transform: translateY(2000px);
+                transform: translateY(2000px);
+            }
+        }
+
+        .slideOutDown {
+            -webkit-animation-name: slideOutDown;
+            animation-name: slideOutDown;
+        }
+
+        /*.top-banner .item img{
+    position:relative;
+}
+
+.top-banner .item img::after{
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+  background-color: linear-gradient(90.49deg, rgba(0, 0, 0, 0.6) 1.47%, rgba(0, 0, 0, 0) 29.5%), linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 27.99%), linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}*/
+        /*header menu ends here*/
+
+        .service-practise {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .h-footer {
+            width: 90%;
+            margin: auto;
+        }
+
+        .f-contact {
+            width: 30%;
+        }
+
+        .f-services {
+            width: 70%;
+            display: flex;
+        }
+
+        .services-tp {
+            width: 30%;
+        }
+
+        .pratices-tp {
+            width: 70%;
+        }
+
+        .services-tp>a {
+            display: block;
+        }
+
+        .pratices-tp>a {
+            font-family: 'Lorin';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 200%;
+            text-transform: capitalize;
+            color: #50575D;
+        }
+
+        .f-services h1,
+        .add-detail h1,
+        .cont-detail h1 {
+            font-family: 'Lorin-xbold';
+            font-size: 16px;
+            line-height: 105%;
+            text-transform: uppercase;
+            color: #FFBC00;
+            margin-bottom: 16px;
+        }
+
+        .add-detail>*,
+        .email>a,
+        .phone a {
+
+            font-family: 'Lorin';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 200%;
+            text-transform: capitalize;
+            color: #50575D;
+        }
+
+        .services-tp>a {
+            font-family: 'Lorin';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 200%;
+            text-transform: capitalize;
+            color: #50575D;
+        }
+
+        .pratise-inner {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .pratise-inner>* {
+            width: 45%;
+            font-family: 'Lorin';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 200%;
+            text-transform: capitalize;
+            color: #50575D;
+        }
+
+        .b-logo {
+            margin-bottom: 60px;
+        }
+
+        .b-logo img {
+            width: 200px;
+        }
+
+        .cont-detail {
+            margin-top: 68px;
+        }
+
+        .light {
+            display: block;
+        }
+
+        .dark {
+            display: none;
+            width: 100px;
+        }
+
+        .nav-bar.f-nav .dark {
+            display: block;
+        }
+
+        .nav-bar.f-nav .light {
+            display: none;
+        }
+
+        .nav-bar.f-nav .search a.login-search {
+            color: #FFBC00;
+        }
+
+        .about-right
+        {
+            height: var(--height-863);
+        }
+        .about-right .owl-nav,.about-right .owl-dots{
+    display:none;
+}
+        .aboutcarsouel.owl-carousel .owl-item img
+        {
+            height: var(--height-863);
+            object-fit: cover;
+           /* max-width: 100%;*/
+            width:100%;
+        }
+
+
+        .about-head {
+            font-size: var(--font-size-30);
+            font-family: 'Lorin-xbold';
+            line-height: 150%;
+            text-transform: capitalize;
+            color: #50575D;
+        }
+
+        .inspired-by {
+            background-image: url('/cids_theme_odoo_15/static/src/img/images/inspiredBy.png');
+            height: var(--height-863);
+            background-size: cover;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .abs-inspired {
+            width: var(--width-718);
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            margin-left: var(--padding-80);
+            padding: var(--padding-45);
+        }
+
+        .abs-inspired h1 {
+            font-size: var(--font-size-32);
+            font-family: 'Lorin-xbold';
+            line-height: 120%;
+            text-transform: capitalize;
+            margin-bottom: var(--font-size-32);
+            color: #FFBC00;
+        }
+
+        .abs-inspired p {
+            font-family: 'Lorin';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #FFFFFF;
+        }
+
+        .ins-more {
+            padding: 16px 24px;
+            background: #FFBC00;
+            font-family: 'Lorin';
+            font-size: 16px;
+            color: #FFFFFF;
+            text-decoration: none;
+            margin-right: 16px;
+            display: inline-block;
+            margin-top: var(--margin-28);
+        }
+
+        .wedoimg {
+            height: var(--height-863);
+            width: 60%;
+        }
+
+        .wedoimg img {
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .wedo-text {
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding:0px var(--padding-80);
+        }
+
+        .whatwedo {
+            display: flex;
+        }
+        .wedotext-inner h2{
+            font-family: 'Lorin-xbold';
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.14em;
+text-transform: uppercase;
+color: #FFBC00;
+        }
+
+        .wedotext-inner   h1{
+            font-family: 'Lorin-xbold';
+margin-bottom: var(--font-size-32);
+line-height: 150%;
+text-transform: capitalize;
+color: #50575D;
+        }
+
+        .wedotext-inner   p{
+            font-family: 'Lorin';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #50575D;
+        }

@@ -28,11 +28,14 @@
                     }
                   }
                 });
-                 $( ".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/abutarrow.png"/>');
-                 $( ".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/abutarrow.png"/>');
+                 $( ".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+                 $( ".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
               });
         </script>
         <style>
+            a{
+                 text-decoration: none !important;
+                }
             .header{display:none !important;}
             .footer{display:none !important;}
                     html,
@@ -1187,6 +1190,7 @@
             }
             .services-tp>a,.pratices-tp>a{
                 width:50%!important;
+                text-decoration: none !important;
             }
         }
 
@@ -1508,10 +1512,10 @@
                         <img src="/cids_theme_odoo_15/static/src/img/landing/logo.png" />
                     </div>
                     <div class="h-links">
-                        <a href="#">Commercial</a>
-                        <a class="active" href="about.html">Hospitality</a>
-                        <a href="#">FF&amp;E</a>
-                        <a href="#" class="h-contact">Contact us</a>
+                        <a href="/commercial">Commercial</a>
+                        <a class="active" href="/hospitality">Hospitality</a>
+                        <a href="/ffe">FF&amp;E</a>
+                        <a href="/contactus" class="h-contact">Contact us</a>
                     </div>
                 </div>
             </div>

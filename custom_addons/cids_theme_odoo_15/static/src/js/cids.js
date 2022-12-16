@@ -223,4 +223,87 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
     });
 });
 
+
+$(document).ready(function () {
+            var owl = $('.owl-carousel.tpbanner');
+            owl.owlCarousel({
+                margin: 10,
+                nav: true,
+                autoplay: true,
+                animateOut: 'fadeOut',
+                animateIn: 'fadeIn',
+                loop: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            })
+        });
+
+        $("document").ready(function () {
+            var nav = $('.nav-bar');
+            console.log("aakash", $(this).scrollTop())
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    nav.addClass("f-nav");
+                } else {
+                    nav.removeClass("f-nav");
+                }
+            });
+        });
+
+        $(document).ready(function () {
+            var owl4 = $('.owl-carousel.address');
+            owl4.owlCarousel({
+                margin: 10,
+                nav: false,
+                autoplay: false,
+                loop: true,
+
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    769: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            });
+            $(".owl-prev").html('<img src="/web/image/1433-e2b28c47/Element-arrow-2.svg"/>');
+            $(".owl-next").html('<img src="/web/image/1433-e2b28c47/Element-arrow-2.svg"/>');
+        });
+
+        $(document).ready(function () {
+            var owl5 = $('.owl-carousel.aboutcarsouel');
+            owl5.owlCarousel({
+                margin:0,
+                nav: true,
+                autoplay: true,
+                loop: true,
+
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    769: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            });
+               });
+
 })

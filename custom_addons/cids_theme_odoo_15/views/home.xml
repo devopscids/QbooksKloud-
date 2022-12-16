@@ -1,0 +1,157 @@
+<odoo>
+    <template id="home" name="Custom Home">
+        <t t-call="website.layout">
+<!--    <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/footer.scss"/>-->
+<!--    <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.scss"/>-->
+<!--        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owltheme.scss"/>-->
+<!--        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/cidsjquery.js"/>-->
+<!--        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/gallery.js"/>-->
+<!--        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/owl.js"/>-->
+
+            <section class="about-us">
+                <div class="about-left">
+                    <div class="about-ltext">
+                        <h4 class="about-head">
+                            How can strategic commercial interior design solutions pave the way for a successful project ?
+                        </h4>
+                        <p>Take a look at our award winning Hotels and Resorts.</p>
+                        <a href="#" class="view-projects">View Projects</a>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <div class="owl-carousel owl-theme aboutcarsouel">
+                        <div class="item">
+                            <img src="/cids_theme_odoo_15/static/src/img/images/strategy-right.png"/>
+                            <div class="about-txt">
+
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="/cids_theme_odoo_15/static/src/img/images/strategy-right.png"/>
+                            <div class="about-txt">
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </section>
+            <section class="inspired-by">
+                    <div class="abs-inspired">
+                        <h1>Inspired by the details</h1>
+                        <p>We are putting innovation at the forefront of everything we do, CIDS.DESIGN transforms concepts into full
+                            - functioning spaces. B eing stic k lers for details, we wor k hard to understand your brand, space, and
+                            objectives through meticulous consultancy and translate them into a solid design strategy par excellence
+                        </p>
+                        <a class="ins-more" href="#"> Know More</a>
+                    </div>
+                </section>
+            <section class="whatwedo">
+                <div class="wedo-text">
+                    <div class="wedotext-inner">
+                    <h2>What we Do</h2>
+                    <h1>We Emphasise Every Single Detail Right From Start To Finish No Exceptions</h1>
+                    <p>At CIDS.DESIGN, we craft impeccable hospitality experiences that live and breathe your brand. From luxury
+                        hotels to bustling commercial spaces, leisure resorts to everything in between – we push all boundaries
+                        in delivering distinctive interior design solutions that transcend the limits of finesse and elegance.
+                        Our global team of certified &amp; trained interior designers provides comprehensive design services
+                        including architecture design, schematic design, procurement, interior design, space planning, and
+                        project consultancy.</p>
+                    <p>We ensure 100% project transparency and trusted partnership with clear communications and consistent
+                        updates. You dream, we design! </p>
+                    </div>
+                </div>
+                <div class="wedoimg">
+                    <img src="/cids_theme_odoo_15/static/src/img/images/whatWeDo.png" />
+                </div>
+            </section>
+
+<!--    <script>-->
+<!--        $(document).ready(function () {-->
+<!--            var owl = $('.owl-carousel.tpbanner');-->
+<!--            owl.owlCarousel({-->
+<!--                margin: 10,-->
+<!--                nav: true,-->
+<!--                autoplay: true,-->
+<!--                animateOut: 'fadeOut',-->
+<!--                animateIn: 'fadeIn',-->
+<!--                loop: true,-->
+<!--                responsive: {-->
+<!--                    0: {-->
+<!--                        items: 1-->
+<!--                    },-->
+<!--                    600: {-->
+<!--                        items: 1-->
+<!--                    },-->
+<!--                    1000: {-->
+<!--                        items: 1-->
+<!--                    }-->
+<!--                }-->
+<!--            })-->
+<!--        });-->
+
+<!--        $("document").ready(function () {-->
+<!--            var nav = $('.nav-bar');-->
+
+<!--            $(window).scroll(function () {-->
+<!--                if ($(this).scrollTop() > 50) {-->
+<!--                    nav.addClass("f-nav");-->
+<!--                } else {-->
+<!--                    nav.removeClass("f-nav");-->
+<!--                }-->
+<!--            });-->
+<!--        });-->
+
+<!--        $(document).ready(function () {-->
+<!--            var owl4 = $('.owl-carousel.address');-->
+<!--            owl4.owlCarousel({-->
+<!--                margin: 10,-->
+<!--                nav: false,-->
+<!--                autoplay: false,-->
+<!--                loop: true,-->
+
+<!--                responsive: {-->
+<!--                    0: {-->
+<!--                        items: 1-->
+<!--                    },-->
+<!--                    769: {-->
+<!--                        items: 1-->
+<!--                    },-->
+<!--                    1000: {-->
+<!--                        items: 1-->
+<!--                    }-->
+<!--                }-->
+<!--            });-->
+<!--            $(".owl-prev").html('<img src="/web/image/1433-e2b28c47/Element-arrow-2.svg"/>');-->
+<!--            $(".owl-next").html('<img src="/web/image/1433-e2b28c47/Element-arrow-2.svg"/>');-->
+<!--        });-->
+
+<!--        $(document).ready(function () {-->
+<!--            var owl5 = $('.owl-carousel.aboutcarsouel');-->
+<!--            owl5.owlCarousel({-->
+<!--                margin:0,-->
+<!--                nav: true,-->
+<!--                autoplay: true,-->
+<!--                loop: true,-->
+
+<!--                responsive: {-->
+<!--                    0: {-->
+<!--                        items: 1-->
+<!--                    },-->
+<!--                    769: {-->
+<!--                        items: 1-->
+<!--                    },-->
+<!--                    1000: {-->
+<!--                        items: 1-->
+<!--                    }-->
+<!--                }-->
+<!--            });-->
+<!--               });-->
+<!--    </script>-->
+
+        </t>
+    </template>
+</odoo>
