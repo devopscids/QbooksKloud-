@@ -9,6 +9,7 @@
         'views/assets.xml',
         'views/header.xml',
         'views/landing_page.xml',
+        'views/hospitality.xml',
         'views/commercial.xml',
         'views/footer.xml',
         'views/snippets/home.xml',
