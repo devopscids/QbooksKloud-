@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="commercial" name="CIDS Commercial">
-        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/commercial.scss"/>
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/commercial_style.scss"/>
         <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/style.scss"/>
 <!--        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/landing_style.scss"/>-->
         <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.scss"/>

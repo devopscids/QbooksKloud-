@@ -42,8 +42,8 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                     }
                   }
                 });
-                 $( ".owl-prev").html('<img src="/cids_theme_odoo_15/static/src/img/home/Element-arrow-2.svg"/>');
-   $( ".owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/home/Element-arrow-2.svg"/>');
+                 $( ".owl-prev").html('<img src="cids_theme_odoo_15/static/src/img/home/Element-arrow-2.svg"/>');
+   $( ".owl-next").html('<img src="cids_theme_odoo_15/static/src/img/home/Element-arrow-2.svg"/>');
               });
 
                $(document).ready(function() {
@@ -96,8 +96,8 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                     }
                   }
                 });
-                 $( ".owl-prev").html('<img src="/cids_theme_odoo_15/static/src/img/home/Element-arrow-2.svg"/>');
-   $( ".owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/home/Element-arrow-2.svg"/>');
+                 $( ".owl-prev").html('<img src="cids_theme_odoo_15/static/src/img/home/Element-arrow-2.svg"/>');
+   $( ".owl-next").html('<img src="cids_theme_odoo_15/static/src/img/home/Element-arrow-2.svg"/>');
               });
 
               $(document).ready(function() {
@@ -120,8 +120,8 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                     }
                   }
                 });
-                 $( ".owl-prev").html('<img src="/cids_theme_odoo_15/static/src/img/home/Element-arrow-2.svg"/>');
-   $( ".owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/home/Element-arrow-2.svg"/>');
+                 $( ".owl-prev").html('<img src="cids_theme_odoo_15/static/src/img/home/Element-arrow-2.svg"/>');
+   $( ".owl-next").html('<img src="cids_theme_odoo_15/static/src/img/home/Element-arrow-2.svg"/>');
               });
 
 
@@ -179,8 +179,8 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                     }
                   }
                 });
-                 $( ".owl-prev").html('<img src="/cids_theme_odoo_15/static/src/img/home/Element-arrow-2.svg"/>');
-   $( ".owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/home/Element-arrow-2.svg"/>');
+                 $( ".owl-prev").html('<img src="cids_theme_odoo_15/static/src/img/home/Element-arrow-2.svg"/>');
+   $( ".owl-next").html('<img src="cids_theme_odoo_15/static/src/img/home/Element-arrow-2.svg"/>');
               });
 
             $(document).ready(function() {
@@ -202,8 +202,8 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                     }
                   }
                 });
-                 $( ".owl-prev").html('<img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
-   $( ".owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+                 $( ".owl-prev").html('<img src="cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+   $( ".owl-next").html('<img src="cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
               });
 
 
