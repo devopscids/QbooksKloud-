@@ -1029,3 +1029,9 @@ color:var(--white);
 .pratise-inner > *{
     font-size:var(--font-size-16)!important;
 }
+
+
+.nav-bar .menu ul li a:hover {
+    color: #ffbc00;
+    text-decoration: underline 1px;
+}

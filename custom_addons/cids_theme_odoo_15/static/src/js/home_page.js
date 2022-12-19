@@ -124,10 +124,6 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
             });
         });
    $(document).ready(function () {
-
-
-})
-   $(document).ready(function () {
             var owl9 = $('.owl-carousel.clientFeedbackCarsouel');
             owl9.owlCarousel({
                 margin: 0,

@@ -24,17 +24,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <img src="/cids_theme_odoo_15/static/src/img/images/hotelbanner.png"/>
+
+                     <div class="item">
+                        <img src="/cids_theme_odoo_15/static/src/img/images/2.png"/>
 
                         <div class="hotel-banner">
-                            <h1>A Leading
+                            <h1>Exceptional Design Starts Trusted
                                 <br/>
-                                <span>Global</span>
-                                Firm.
+                                <span>Partnerships</span>
+
                             </h1>
-                            <p>Hospitality and Commercial Buildings Interior Design Encapsulating
-                                highest Quality Standards &amp;amp; Detailing in Our DNA.
+                            <p>We Focus On Versatility &amp; Customer Satisfaction  We Nurture Valuable Growth Partnerships
                             </p>
                             <div class="hbtns">
                                 <a class="explore" href="#">Explore
@@ -48,20 +48,15 @@
 
                     </div>
 
-
-
-                     <div class="item">
-                        <img src="/cids_theme_odoo_15/static/src/img/images/hotelbanner.png"/>
-
+                      <div class="item">
+                        <img src="/cids_theme_odoo_15/static/src/img/images/3.png"/>
                         <div class="hotel-banner">
-                            <h1>A Leading
+                            <h1>We Craft Unique
                                 <br/>
-                                <span>Global</span>
-                                Firm.
+                                <span>Interior Designs </span><br/>
+                                That Drive Innovation
                             </h1>
-                            <p>Hospitality and Commercial Buildings Interior Design Encapsulating
-                                highest Quality Standards &amp;amp; Detailing in Our DNA.
-                            </p>
+                            <p>From Conception To Completion, We Perfect Every Single Element In Your Space</p>
                             <div class="hbtns">
                                 <a class="explore" href="#">Explore
                                     <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/>

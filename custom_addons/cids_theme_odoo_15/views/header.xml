@@ -11,19 +11,19 @@
             <div class="menu">
                 <ul>
                     <li>
-                        <a href="#">We design</a>
+                        <a href="#">How we design</a>
                     </li>
                     <li>
-                        <a href="#">We innovate</a>
+                        <a href="#">How we innovate</a>
                     </li>
                     <li>
-                        <a href="#">Our specilization</a>
+                        <a href="#">Specilization</a>
                     </li>
                     <li>
-                        <a href="#">Our projects</a>
+                        <a href="#">Projects</a>
                     </li>
                     <li>
-                        <a href="#">We design</a>
+                        <a href="#">Join our team</a>
                     </li>
                     <li class="drop-down">
                         <a href="#">About us<img src="/cids_theme_odoo_15/static/src/img/images/downarr.png"/></a>
