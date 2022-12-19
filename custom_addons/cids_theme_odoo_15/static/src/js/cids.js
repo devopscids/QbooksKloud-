@@ -249,9 +249,7 @@ $(document).ready(function () {
 
         $("document").ready(function () {
             var nav = $('.nav-bar');
-            console.log("aakash", $(this).scrollTop())
-
-            $(window).scroll(function () {
+            $('#wrapwrap').scroll(function () {
                 if ($(this).scrollTop() > 50) {
                     nav.addClass("f-nav");
                 } else {
@@ -259,6 +257,8 @@ $(document).ready(function () {
                 }
             });
         });
+
+
 
         $(document).ready(function () {
             var owl4 = $('.owl-carousel.address');

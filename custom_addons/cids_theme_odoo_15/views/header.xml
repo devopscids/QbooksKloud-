@@ -2,86 +2,51 @@
     <template id="custom_header" inherit_id="website.layout" name="Custom Header">
         <xpath expr="//header" position="replace">
             <header>
-                <section class="nav-bar">
-                    <div class="nav-inner">
-                        <div class="logo">
-                            <img class="light" src="/cids_theme_odoo_15/static/src/img/images/logo.png" />
-                            <img class="dark" src="/cids_theme_odoo_15/static/src/img/images/logo-dark.png" />
-                        </div>
-                        <div class="menu">
-                            <ul>
-                                <li>
-                                    <a href="#">We design</a>
-                                </li>
-                                <li>
-                                    <a href="#">We innovate</a>
-                                </li>
-                                <li>
-                                    <a href="#">Our specilization</a>
-                                </li>
-                                <li>
-                                    <a href="#">Our projects</a>
-                                </li>
-                                <li>
-                                    <a href="#">We design</a>
-                                </li>
-                                <li class="drop-down">
-                                    <a href="#">About us</a>
-                                    <ul class="child-menu">
-                                        <li>About us1</li>
-                                        <li>About us2</li>
-                                        <li>About us3</li>
-                                    </ul>
-                                </li>
+                 <section class="nav-bar">
+        <div class="nav-inner">
+            <div class="logo">
+                <img class="light" src="/cids_theme_odoo_15/static/src/img/images/cids-logo.png" />
 
-                            </ul>
-                        </div>
-                        <div class="search">
-                            <div class="search-div">
-                                <input type="text" name="search"/>
-                            </div>
-                            <a class="contact-search" href="#">Contact Us</a>
-                            <a class="login-search" href="#">Login</a>
-                        </div>
-                    </div>
-                </section>
-                <section class="top-banner">
-                <div class="owl-carousel owl-theme tpbanner">
-                    <div class="item">
-                        <img src="/cids_theme_odoo_15/static/src/img/landing/hotelbanner.png"/>
-                        <div class="hotel-banner">
-                            <h1>A Leading <br/><span>Global</span> Firm.</h1>
-                            <p>Hospitality and Commercial Buildings Interior Design Encapsulating
-                                highest Quality Standards &amp; Detailing in Our DNA.</p>
-                            <div class="hbtns">
-                                <a class="explore" href="#">Explore</a>
-                                <a class="contact" href="#">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="/cids_theme_odoo_15/static/src/img/landing/hotelbanner.png"/>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#">We design</a>
+                    </li>
+                    <li>
+                        <a href="#">We innovate</a>
+                    </li>
+                    <li>
+                        <a href="#">Our specilization</a>
+                    </li>
+                    <li>
+                        <a href="#">Our projects</a>
+                    </li>
+                    <li>
+                        <a href="#">We design</a>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#">About us<img src="/cids_theme_odoo_15/static/src/img/images/downarr.png"/></a>
+                        <ul class="child-menu">
+                            <li>About us1</li>
+                            <li>About us2</li>
+                            <li>About us3</li>
+                        </ul>
+                    </li>
 
-                        <div class="hotel-banner">
-                            <h1>A Leading <br/><span>Global</span> Firm.</h1>
-                            <p>Hospitality and Commercial Buildings Interior Design Encapsulating
-                                highest Quality Standards &amp; Detailing in Our DNA.</p>
-                            <div class="hbtns">
-                                <a class="explore" href="#">Explore</a>
-                                <a class="contact" href="#">Contact Us</a>
-                            </div>
-
-                        </div>
-
-                    </div>
+                </ul>
 
 
 
 
+
+            </div>
+            <div class="search">
+                <a class="contact-search" href="/contactus">Contact Us</a>
+                <a class="login-search" href="/web/login">Login</a>
+            </div>
         </div>
-
     </section>
-
 
             </header>
         </xpath>

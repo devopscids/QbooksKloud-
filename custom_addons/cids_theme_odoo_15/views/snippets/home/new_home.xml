@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="new_home_page" name="CIDS Follow Us">
+<section class="top-banner">
+                <div class="owl-carousel owl-theme tpbanner">
+                    <div class="item">
+                        <img src="/cids_theme_odoo_15/static/src/img/landing/hotelbanner.png"/>
+                        <div class="hotel-banner">
+                            <h1>A Leading <br/><span>Global</span> Firm.</h1>
+                            <p>Hospitality and Commercial Buildings Interior Design Encapsulating
+                                highest Quality Standards &amp; Detailing in Our DNA.</p>
+                            <div class="hbtns">
+                                <a class="explore" href="#">Explore</a>
+                                <a class="contact" href="#">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/cids_theme_odoo_15/static/src/img/landing/hotelbanner.png"/>
+
+                        <div class="hotel-banner">
+                            <h1>A Leading <br/><span>Global</span> Firm.</h1>
+                            <p>Hospitality and Commercial Buildings Interior Design Encapsulating
+                                highest Quality Standards &amp; Detailing in Our DNA.</p>
+                            <div class="hbtns">
+                                <a class="explore" href="#">Explore</a>
+                                <a class="contact" href="#">Contact Us</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+
+        </div>
+
+    </section>
+    </template>
+</odoo>

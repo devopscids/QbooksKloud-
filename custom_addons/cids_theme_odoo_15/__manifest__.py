@@ -10,10 +10,10 @@
         'views/header.xml',
         'views/home.xml',
         'views/footer.xml',
-        'views/commercial.xml',
-        'views/landing_page.xml',
-        'views/ffe.xml',
-        'views/hospitality.xml'
+        # 'views/commercial.xml',
+        # 'views/landing_page.xml',
+        # 'views/ffe.xml',
+        # 'views/hospitality.xml'
         # 'views/snippets/home.xml',
         # 'views/snippets/landing.xml',
         # 'views/snippets/hospitality.xml',
@@ -40,14 +40,17 @@
     'assets':{
         'web.assets_frontend': [
             # 'cids_theme_odoo_15/static/src/scss/style.scss',
-            'cids_theme_odoo_15/static/src/scss/footer.scss',
+            # 'cids_theme_odoo_15/static/src/scss/footer.scss',
+            'cids_theme_odoo_15/static/src/scss/header.scss',
+            'cids_theme_odoo_15/static/src/scss/home_page.scss',
             # 'cids_theme_odoo_15/static/src/scss/landing_style.scss',
             # 'cids_theme_odoo_15/static/src/scss/hospitality_style.scss',
             # 'cids_theme_odoo_15/static/src/scss/commercial_style.scss',
             'cids_theme_odoo_15/static/src/scss/owl.scss',
             'cids_theme_odoo_15/static/src/scss/owltheme.scss',
             # 'cids_theme_odoo_15/static/src/js/cidsjquery.js',
-            'cids_theme_odoo_15/static/src/js/cids.js',
+            # 'cids_theme_odoo_15/static/src/js/cids.js',
+            'cids_theme_odoo_15/static/src/js/home_page.js',
             'cids_theme_odoo_15/static/src/js/owl.js',
             'cids_theme_odoo_15/static/src/js/gallery.js',
 

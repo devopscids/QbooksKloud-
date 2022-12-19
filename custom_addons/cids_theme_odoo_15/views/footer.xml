@@ -2,240 +2,100 @@
     <template id="custom_footer" inherit_id="website.layout" name="Custom Footer">
         <xpath expr="//footer" position="replace">
             <footer>
-
-            <section class="h-footer">
-        <div class="h-footer-inner">
-            <div class="b-logo">
+                <section class="h-footer">
+                    <div class="h-footer-inner">
+                         <div class="b-logo">
                 <img src="/cids_theme_odoo_15/static/src/img/images/logo-dark.png" />
+                <img src="/cids_theme_odoo_15/static/src/img/images/nmsdc.png"/>
             </div>
-            <div class="service-practise">
-                <div class="f-contact">
-                    <div class="add-detail">
-                        <h1>Address</h1>
-                        <div class="address">
-                            <div class="owl-carousel address">
+
+                        <div class="service-practise">
+                            <div class="f-contact">
+                                <div class="add-detail">
+                                    <h1>Address</h1>
+                                    <div class="address addholder">
+                                        <div class="owl-carousel address">
 
 
+                                            <div class="item">
+                                                <div class="address-holder">
 
-                                <div class="item">
-                                    <div class="address-holder">
+                                                    <div class="addrtext">
 
-                                        <div class="addrtext">
+                                                        <p>CIDS Design,</p>
+                                                        <p>4945 Forest Avenue, New York,</p>
+                                                        <p>1004, United States</p>
+                                                    </div>
 
-                                            <p>CIDS Design,</p>
-                                            <p>4945 Forest Avenue, New York,</p>
-                                            <p>1004, United States</p>
+                                                </div>
+                                            </div>
+
+
                                         </div>
-
                                     </div>
+                                </div>
+                                <div class="cont-detail">
+                                    <h1>Contact us</h1>
+                                    <div class="email">
+                                        <img src="/cids_theme_odoo_15/static/src/img/images/msgyellow.png"/>
+                                        <a href="#">Cid.design@gmail.com</a>
+                                    </div>
+                                    <div class="phone">
+                                        <img src="/cids_theme_odoo_15/static/src/img/images/phoneyellow.png"/>
+                                        <a href="#">+91 2345687892</a>
+                                    </div>
+
                                 </div>
 
 
                             </div>
-                        </div>
-                    </div>
-                    <div class="cont-detail">
-                        <h1>Contact us</h1>
-                        <div class="email">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/emailIcon.png" />
-                            <a href="#">cid.design@gmail.com</a>
-                        </div>
-                        <div class="phone">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/phoneIcon.png" />
-                            <a href="#">+91 2345687892</a>
-                        </div>
-<!--                        <div class="sicons">-->
-<!--                            <a href="#"><img src="images/insta.png"/></a>-->
-<!--                            <a href="#"><img src="images/twitter.png"/></a>-->
-<!--                            <a href="#"><img src="images/youtube.png"/></a>-->
-<!--                        </div>-->
-                    </div>
+                            <div class="f-services">
 
+                                <div class="services-tp">
+                                    <h1>Services</h1>
+                                    <a href="#">Design studio</a>
+                                    <a href="#">Procurement</a>
+                                    <a href="#">food &amp; beverage</a>
+                                    <a href="#">Brighten</a>
+                                    <a href="#">Visuals</a>
+                                    <a href="#">creative and consulatants</a>
+                                    <a href="#">resorts</a>
+                                    <a href="#">innovation</a>
+                                    <a href="#">Luxury resedential planning</a>
+                                </div>
 
-                </div>
-                <div class="f-services">
+                                <div class="pratices-tp">
+                                    <h1>practices</h1>
+                                    <div class="pratise-inner">
+                                        <a href="#">Design studio</a>
+                                        <a href="#">Procurement</a>
+                                        <a href="#">food &amp; beverage</a>
+                                        <a href="#">Brighten</a>
+                                        <a href="#">Visuals</a>
+                                        <a href="#">creative and consulatants</a>
+                                        <a href="#">resorts</a>
+                                        <a href="#">innovation</a>
+                                        <a href="#">Luxury resedential planning</a>
+                                        <a href="#">Design studio</a>
+                                        <a href="#">Procurement</a>
+                                        <a href="#">food &amp; beverage</a>
+                                        <a href="#">Brighten</a>
+                                        <a href="#">Visuals</a>
+                                        <a href="#">creative and consulatants</a>
+                                        <a href="#">resorts</a>
+                                        <a href="#">innovation</a>
+                                        <a href="#">Luxury resedential planning</a>
 
-                    <div class="services-tp">
-                        <h1>Services </h1>
-                        <a href="#">Design studio</a>
-                        <a href="#">Procurement</a>
-                        <a href="#">food &amp; beverage</a>
-                        <a href="#">Brighten</a>
-                        <a href="#"> Visuals </a>
-                        <a href="#">creative and consulatants</a>
-                        <a href="#">resorts</a>
-                        <a href="#">innovation</a>
-                        <a href="#">Luxury resedential planning </a>
-                    </div>
+                                    </div>
 
-                    <div class="pratices-tp">
-                        <h1>practices</h1>
-                        <div class="pratise-inner">
-                            <a href="#">Design studio</a>
-                            <a href="#">Procurement</a>
-                            <a href="#">food &amp; beverage</a>
-                            <a href="#">Brighten</a>
-                            <a href="#"> Visuals </a>
-                            <a href="#">creative and consulatants</a>
-                            <a href="#">resorts</a>
-                            <a href="#">innovation</a>
-                            <a href="#">Luxury resedential planning </a>
-                            <a href="#">Design studio</a>
-                            <a href="#">Procurement</a>
-                            <a href="#">food &amp; beverage</a>
-                            <a href="#">Brighten</a>
-                            <a href="#"> Visuals </a>
-                            <a href="#">creative and consulatants</a>
-                            <a href="#">resorts</a>
-                            <a href="#">innovation</a>
-                            <a href="#">Luxury resedential planning </a>
+                                </div>
+                            </div>
 
                         </div>
-
                     </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
+                </section>
             </footer>
-<!-- <section class="footer">-->
-<!--          <div class="custom-footer">-->
-<!--            <div class="logo">-->
-<!--              <img src="https://dev.cids.design/web/image/1544-da6007e0/vklogo.png" loading="lazy" style=""/>-->
-<!--              <p>Copyright-CIDS Design</p>-->
-<!--            </div>-->
-<!--            <div class="services-practise">-->
-<!--              <div class="service-row">-->
-<!--                <h2>SERVICES</h2>-->
-<!--                <div class="service-holder">-->
-<!--                  <a href="#">Design Studio</a>-->
-<!--                  <a href="#">Brighten</a>-->
-<!--                  <a href="#">Resorts</a>-->
-<!--                  <a href="#">Luxury Resential Planing</a>-->
-<!--                  <a href="#">Procurment</a>-->
-<!--                  <a href="#">Food &amp;Beverage</a>-->
-<!--                  <a href="#">Creative Consultants</a>-->
-<!--                  <a href="#">Visuals </a>-->
-<!--                  <a href="#">Innovation</a>-->
-<!--                </div>-->
-<!--              </div>-->
 
-<!--              <div class="practise-row">-->
-<!--                <h2>PRACTICES</h2>-->
-<!--                <div class="practise-holder">-->
-<!--                  <a href="#">Hospitality</a>-->
-<!--                  <a href="#">Resential Mix use</a>-->
-<!--                  <a href="#">Entertainment</a>-->
-<!--                  <a href="#">Life Sciences</a>-->
-<!--                  <a href="#">Resorts</a>-->
-<!--                  <a href="#">Real Estate</a>-->
-<!--                  <a href="#">Tourism, Travel , Airports </a>-->
-<!--                  <a href="#">Wellness</a>-->
-<!--                  <a href="#">Casinos</a>-->
-<!--                  <a href="#">Developers</a>-->
-<!--                  <a href="#">Retail </a>-->
-<!--                  <a href="#">Schools, Universities</a>-->
-<!--                  <a href="#">Commercial</a>-->
-<!--                  <a href="#">Sports</a>-->
-<!--                  <a href="#">Health, Hospitals </a>-->
-<!--                  <a href="#">Government</a>-->
-<!--                  <a href="#"> Financial</a>-->
-<!--                  <a href="#">Technology Centers</a>-->
-<!--                  <a href="#">Mission Critical</a>-->
-<!--                  <a href="#">Cultural,Community centers</a>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--           </div>-->
-
-
-
-<!--            <div class="address">-->
-<!--              <div class="owl-carousel address">-->
-
-<!--                      <div class="item">-->
-<!--                        <div class="address-holder">-->
-<!--                          <h4>UNITED STATES</h4>-->
-<!--                          <div class="addr">-->
-<!--                            <div class="addricon">-->
-<!--                                <i class="fa fa-map-marker"></i>-->
-<!--                            </div>-->
-<!--                            <div class="addrtext">-->
-<!--                              <h2>Address</h2>-->
-<!--                              <p>CIDS Design,</p>-->
-<!--                              <p>4945 Forest Avenue, New York,</p>-->
-<!--                              <p>1004, United States</p>-->
-<!--                            </div>-->
-<!--                          </div>-->
-<!--                          <div class="eml">-->
-<!--                           <div class="addricon">-->
-<!--                             <i class="fa fa-envelope"></i>-->
-<!--                            </div>-->
-<!--                            <div class="emltext">-->
-<!--                              <h2>Email</h2>-->
-<!--                              <p>info@domina.com</p>-->
-<!--                            </div>-->
-<!--                          </div>-->
-<!--                        </div>-->
-<!--                      </div>-->
-
-<!--                       <div class="item">-->
-<!--                        <div class="address-holder">-->
-<!--                          <h4>UNITED STATES</h4>-->
-<!--                          <div class="addr">-->
-<!--                            <div class="addricon">-->
-<!--                                <i class="fa fa-map-marker"></i>-->
-<!--                            </div>-->
-<!--                            <div class="addrtext">-->
-<!--                              <h2>Address</h2>-->
-<!--                              <p>CIDS Design,</p>-->
-<!--                              <p>4945 Forest Avenue, New York,</p>-->
-<!--                              <p>1004, United States</p>-->
-<!--                            </div>-->
-<!--                          </div>-->
-<!--                          <div class="eml">-->
-<!--                           <div class="addricon">-->
-<!--                             <i class="fa fa-envelope"></i>-->
-<!--                            </div>-->
-<!--                            <div class="emltext">-->
-<!--                              <h2>Email</h2>-->
-<!--                              <p>info@domina.com</p>-->
-<!--                            </div>-->
-<!--                          </div>-->
-<!--                        </div>-->
-<!--                      </div>-->
-<!--                          <div class="item">-->
-<!--                        <div class="address-holder">-->
-<!--                          <h4>UNITED STATES</h4>-->
-<!--                          <div class="addr">-->
-<!--                            <div class="addricon">-->
-<!--                                <i class="fa fa-map-marker"></i>-->
-<!--                            </div>-->
-<!--                            <div class="addrtext">-->
-<!--                              <h2>Address</h2>-->
-<!--                              <p>CIDS Design,</p>-->
-<!--                              <p>4945 Forest Avenue, New York,</p>-->
-<!--                              <p>1004, United States</p>-->
-<!--                            </div>-->
-<!--                          </div>-->
-<!--                          <div class="eml">-->
-<!--                           <div class="addricon">-->
-<!--                             <i class="fa fa-envelope"></i>-->
-<!--                            </div>-->
-<!--                            <div class="emltext">-->
-<!--                              <h2>Email</h2>-->
-<!--                              <p>info@domina.com</p>-->
-<!--                            </div>-->
-<!--                          </div>-->
-<!--                        </div>-->
-<!--                      </div>-->
-
-<!--                </div>-->
-<!--              </div>-->
-
-<!--             </div>-->
-
-<!--        </section>-->
 
         </xpath>
     </template>
