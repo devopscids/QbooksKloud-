@@ -59,6 +59,7 @@
     --height-523:36.31vw;
     --height-505:35.06vw;
     --height-155:10.76vw;
+     --height-102:7.08vw;
 
 
     /* Width */
@@ -971,4 +972,43 @@ color:var(--white);
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+}
+
+
+/*new css*/
+.f-nav.nav-bar .menu ul li a
+{
+    font-size:var(--font-size-14)!important;
+}
+
+.search a.login-search{
+    font-size:var(--font-size-14)!important;
+}
+.hotel-banner .hbtns a.explore
+{
+    font-size:var(--font-size-16)!important;
+}
+
+.about-ltext p{
+    font-size:var(--font-size-18)!important;
+}
+.view-projects{
+    font-size:var(--font-size-16)!important;
+}
+
+.achiv-holder>div{
+    position:relative;
+}
+.achiv-holder>div::after{
+    content:"";
+    width:1px;
+    height:var(--height-102);
+    background-color: var(--yellow);
+    position:absolute;
+    right:0;
+    top:var(--font-size-20);
+}
+
+.achiv-holder>div:last-child::after{
+    display:none;
 }

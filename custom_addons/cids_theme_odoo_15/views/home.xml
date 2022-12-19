@@ -1,6 +1,7 @@
 <odoo>
     <template id="home" name="Home">
         <t t-call="website.layout">
+
             <section class="top-banner">
 
                 <div class="owl-carousel owl-theme tpbanner">
