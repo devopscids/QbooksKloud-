@@ -48,6 +48,32 @@
                     </div>
 
 
+
+                     <div class="item">
+                        <img src="/cids_theme_odoo_15/static/src/img/images/hotelbanner.png"/>
+
+                        <div class="hotel-banner">
+                            <h1>A Leading
+                                <br/>
+                                <span>Global</span>
+                                Firm.
+                            </h1>
+                            <p>Hospitality and Commercial Buildings Interior Design Encapsulating
+                                highest Quality Standards &amp;amp; Detailing in Our DNA.
+                            </p>
+                            <div class="hbtns">
+                                <a class="explore" href="#">Explore
+                                    <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/>
+                                </a>
+
+                                <!-- <a class="contact" href="#">Contact Us</a>-->
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
                 </div>
 
             </section>

@@ -50,9 +50,10 @@
             'cids_theme_odoo_15/static/src/scss/owltheme.scss',
             # 'cids_theme_odoo_15/static/src/js/cidsjquery.js',
             # 'cids_theme_odoo_15/static/src/js/cids.js',
-            'cids_theme_odoo_15/static/src/js/home_page.js',
+
             'cids_theme_odoo_15/static/src/js/owl.js',
             'cids_theme_odoo_15/static/src/js/gallery.js',
+            'cids_theme_odoo_15/static/src/js/home_page.js',
 
         ],
     },

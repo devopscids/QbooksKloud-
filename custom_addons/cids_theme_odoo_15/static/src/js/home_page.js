@@ -1,28 +1,7 @@
 odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
     var ajax = require("web.ajax");
     var core = require('web.core');
-   $(document).ready(function (){
-            var owl = $('.owl-carousel.tpbanner');
-            owl.owlCarousel({
-                margin: 10,
-                nav: true,
-                autoplay: true,
-                animateOut: 'zoomOut',
-                animateIn: 'fadeIn',
-                loop: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 1
-                    },
-                    1000: {
-                        items: 1
-                    }
-                }
-            })
-        });
+
    $(document).ready(function() {
             var nav = $('.nav-bar');
             $('#wrapwrap').scroll(function () {
@@ -173,4 +152,28 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
             $(".client-feedback .owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/images/whiteRight.png"/>');
         });
 
+
+
+     $(document).ready(function (){
+            var owl = $('.owl-carousel.tpbanner');
+            owl.owlCarousel({
+                margin: 10,
+                nav: true,
+                autoplay: true,
+                animateOut: 'zoomOut',
+                animateIn: 'fadeIn',
+                loop: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            })
+        });
 })
