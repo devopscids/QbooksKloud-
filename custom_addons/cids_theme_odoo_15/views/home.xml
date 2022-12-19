@@ -1,5 +1,5 @@
 <odoo>
-    <template id="home" name="Custom Home">
+    <template id="home" name="Home">
         <t t-call="website.layout">
             <section class="top-banner">
 
