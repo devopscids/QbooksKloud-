@@ -2,6 +2,7 @@
 .nav-bar.f-nav {
     background-color: rgba(80, 87, 93, 0.9);
 }
+
 .nav-bar.f-nav .nav-inner {
     padding: 5px 0px;
 }
@@ -30,6 +31,7 @@
     margin: auto;
     align-items: center;
 }
+
 /*.search-div{width:50%; text-align: right;}
 .search-div input[type="text"] {
     background-image: url('../hotel-landing/Search.png');
@@ -65,16 +67,17 @@
     width: 60%;
 }
 
-.top-banner .owl-carousel .owl-item img.unionpng
- {
-    width:31px!important;
-    height:6px!important;
-    margin-left:var(--padding-23);
+.top-banner .owl-carousel .owl-item img.unionpng {
+    width: 31px !important;
+    height: 6px !important;
+    margin-left: var(--padding-23);
 }
-.drop-down a img{
+
+.drop-down a img {
     width: 10px;
     margin-left: 5px;
 }
+
 .nav-bar .menu ul li a {
     font-family: 'Lorin-xbold';
     font-size: var(--font-size-14);
@@ -93,7 +96,7 @@
     padding: 10px 5px;
     display: flex;
     align-items: center;
-   width:45%;
+    width: 45%;
     justify-content: center;
 }
 
@@ -109,12 +112,12 @@
     background-color: transparent;
     display: flex;
     align-items: center;
-    width:45%;
+    width: 45%;
     justify-content: center;
 }
 
 .search {
-    width:20%;
+    width: 20%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -127,14 +130,14 @@
     right: 0;
     top: 0px;
     transition: all .35s linear;
-    background-color:rgba(80,87,93, 0%);
-    padding:var(--padding-23) 0px;
+    background-color: rgba(80, 87, 93, 0.5);
+    padding: var(--padding-23) 0px;
 }
 
 .f-nav.nav-bar {
     position: fixed;
-    background-color:rgba(80, 87, 93, 0.9);
-    padding:15px 0px;
+    background-color: rgba(80, 87, 93, 0.9);
+    padding: 15px 0px;
     top: 0px;
 }
 
@@ -228,39 +231,9 @@ left:0;
 right:0;
 background-color: linear-gradient(90.49deg, rgba(0, 0, 0, 0.6) 1.47%, rgba(0, 0, 0, 0) 29.5%), linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 27.99%), linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 }*/
+/*header menu ends here*/
 
-  @font-face {
-    font-family:'Lorin';
-    src: url('/web/static/src/custom_fonts/Lorin-Regular.eot');
-    src: local('/web/static/src/custom_fonts/Lorin Regular'), local('/web/static/src/custom_fonts/Lorin-Regular'),
-        url('/web/static/src/custom_fonts/Lorin-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/web/static/src/custom_fonts/Lorin-Regular.woff2') format('woff2'),
-        url('/web/static/src/custom_fonts/Lorin-Regular.woff') format('woff'),
-        url('/web/static/src/custom_fonts/Lorin-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
-@font-face {
-    font-family:'Lorin-bold';
-    src: url('/web/static/src/custom_fonts/Lorin-Bold.eot');
-    src: local('/web/static/src/custom_fonts/Lorin Bold'), local('Lorin-Bold'),
-        url('/web/static/src/custom_fonts/Lorin-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/web/static/src/custom_fonts/Lorin-Bold.woff2') format('woff2'),
-        url('/web/static/src/custom_fonts/Lorin-Bold.woff') format('woff'),
-        url('/web/static/src/custom_fonts/Lorin-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family:'Lorin-xbold';
-    src: url('/web/static/src/custom_fonts/Lorin-ExtraBold.eot');
-    src: local('/web/static/src/custom_fonts/Lorin ExtraBold'), local('Lorin-ExtraBold'),
-        url('/web/static/src/custom_fonts/Lorin-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('/web/static/src/custom_fonts/Lorin-ExtraBold.woff2') format('woff2'),
-        url('/web/static/src/custom_fonts/Lorin-ExtraBold.woff') format('woff'),
-        url('/web/static/src/custom_fonts/Lorin-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
+.oe_website_login_container {
+    padding-top: 50px;
 }

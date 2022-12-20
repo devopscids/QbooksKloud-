@@ -12,7 +12,41 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                 }
             });
    })
-   $(document).ready(function () {
+   
+
+
+
+          $(document).ready(function () {
+            var owl = $('.owl-carousel.tpbanner');
+            owl.owlCarousel({
+                margin: 10,
+                nav: true,
+                autoplay: true,
+                animateOut: 'zoomOut',
+                animateIn: 'fadeIn',
+                loop: true,
+
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            })
+        });
+        
+        $("document").ready(function () {
+            $('.humburger').click(function(){
+               $('.menu').toggleClass('mobileMenu');
+               
+            });
+        });
+        $(document).ready(function () {
             var owl4 = $('.owl-carousel.address');
             owl4.owlCarousel({
                 margin: 10,
@@ -32,16 +66,22 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                     }
                 }
             });
-
+            $(".addholder .owl-prev").html('<img src="/cids_theme_odoo_15/static/src/img/images/footerLeft.png"/>');
+            $(".addholder .owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/images/footerRight.png"/>');
+           
         });
-   $(document).ready(function () {
+
+        $(document).ready(function () {
             var owl5 = $('.owl-carousel.aboutcarsouel');
             owl5.owlCarousel({
                 margin: 0,
                 nav: true,
                 autoplay: true,
                 loop: true,
-
+                slideTransition: 'linear',
+            autoplayTimeout: 4000,
+            autoplaySpeed: 1500,
+            autoplayHoverPause: true,
                 responsive: {
                     0: {
                         items: 1
@@ -55,7 +95,8 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                 }
             });
         });
-   $(document).ready(function () {
+
+        $(document).ready(function () {
             var owl6 = $('.owl-carousel.hotelServicesCarsouel');
             owl6.owlCarousel({
                 margin: 0,
@@ -75,15 +116,16 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                     }
                 }
             });
-            $(".owl-prev").html('<img src="/cids_theme_odoo_15/static/src/img/images/Left.png"/>');
-            $(".owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/images/Right.png"/>');
+            $(".hotel-services .owl-prev").html('<img src="/cids_theme_odoo_15/static/src/img/images/Left.png"/>');
+            $(".hotel-services .owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/images/Right.png"/>');
         });
-   $(document).ready(function () {
+
+        $(document).ready(function () {
             var owl7 = $('.owl-carousel.hotelCaseCarsouel');
             owl7.owlCarousel({
                 margin: 32,
                 nav: true,
-                stagePadding: 170,
+                
                 autoplay: false,
                 loop: true,
 
@@ -92,23 +134,29 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                         items: 1
                     },
                     769: {
-                        items: 1
+                        items: 1,
+                        stagePadding:0
                     },
                     1000: {
-                        items: 1
+                        items: 1,
+                        stagePadding: 170,
                     }
                 }
             });
-            $(".owl-prev").html('<img src="/cids_theme_odoo_15/static/src/img/images/Left.png"/>');
-            $(".owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/images/Right.png"/>');
+            $(".hotel-case .owl-prev").html('<img src="/cids_theme_odoo_15/static/src/img/images/Left.png"/>');
+            $(".hotel-case .owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/images/Right.png"/>');
         });
-   $(document).ready(function () {
+
+        $(document).ready(function () {
             var owl8 = $('.owl-carousel.hotelClientCarsouel');
             owl8.owlCarousel({
                 margin: 150,
                 nav: true,
-                autoplay: false,
+                autoplay: true,
                 loop: true,
+                autoplayTimeout: 4000,
+            autoplaySpeed: 3500,
+            autoplayHoverPause: true,
 
                 responsive: {
                     0: {
@@ -123,12 +171,13 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                 }
             });
         });
-   $(document).ready(function () {
+
+        $(document).ready(function () {
             var owl9 = $('.owl-carousel.clientFeedbackCarsouel');
             owl9.owlCarousel({
                 margin: 0,
                 nav: true,
-                stagePadding: 170,
+               
                 autoplay: false,
                 loop: true,
 
@@ -137,10 +186,12 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                         items: 1
                     },
                     769: {
-                        items: 1
+                        items: 1,
+                        stagePadding:0
                     },
                     1000: {
-                        items: 1
+                        items: 1,
+                        stagePadding: 170,
                     }
                 }
             });
@@ -148,28 +199,5 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
             $(".client-feedback .owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/images/whiteRight.png"/>');
         });
 
-
-
-     $(document).ready(function (){
-            var owl = $('.owl-carousel.tpbanner');
-            owl.owlCarousel({
-                margin: 10,
-                nav: true,
-                autoplay: true,
-                animateOut: 'zoomOut',
-                animateIn: 'fadeIn',
-                loop: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 1
-                    },
-                    1000: {
-                        items: 1
-                    }
-                }
-            })
-        });
+  
 })

@@ -2,387 +2,308 @@
     <template id="home" name="Home">
         <t t-call="website.layout">
 
-            <section class="top-banner">
+         <section class="top-banner">
 
-                <div class="owl-carousel owl-theme tpbanner">
-                    <div class="item">
-                        <img src="/cids_theme_odoo_15/static/src/img/images/hotelbanner.png"/>
-                        <div class="hotel-banner">
-                            <h1>A Leading
-                                <br/>
-                                <span>Global</span>
-                                Firm.
-                            </h1>
-                            <p>Hospitality and Commercial Buildings Interior Design Encapsulating
-                                highest Quality Standards &amp;amp; Detailing in Our DNA.
-                            </p>
-                            <div class="hbtns">
-                                <a class="explore" href="#">Explore
-                                    <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/>
-                                </a>
-                                <!-- <a class="contact" href="#">Contact Us</a>-->
-                            </div>
-                        </div>
-                    </div>
-
-                     <div class="item">
-                        <img src="/cids_theme_odoo_15/static/src/img/images/2.png"/>
-
-                        <div class="hotel-banner">
-                            <h1>Exceptional Design Starts Trusted
-                                <br/>
-                                <span>Partnerships</span>
-
-                            </h1>
-                            <p>We Focus On Versatility &amp; Customer Satisfaction  We Nurture Valuable Growth Partnerships
-                            </p>
-                            <div class="hbtns">
-                                <a class="explore" href="#">Explore
-                                    <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/>
-                                </a>
-
-                                <!-- <a class="contact" href="#">Contact Us</a>-->
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                      <div class="item">
-                        <img src="/cids_theme_odoo_15/static/src/img/images/3.png"/>
-                        <div class="hotel-banner">
-                            <h1>We Craft Unique
-                                <br/>
-                                <span>Interior Designs </span><br/>
-                                That Drive Innovation
-                            </h1>
-                            <p>From Conception To Completion, We Perfect Every Single Element In Your Space</p>
-                            <div class="hbtns">
-                                <a class="explore" href="#">Explore
-                                    <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/>
-                                </a>
-
-                                <!-- <a class="contact" href="#">Contact Us</a>-->
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-            </section>
-
-            <section class="about-us">
-                <div class="about-left">
-                    <div class="about-ltext">
-                        <h4 class="about-head">
-                            How can strategic commercial interior design solutions pave the way for a <span>successful
-                        </span> project ?
-                        </h4>
-                        <p>Take a look at our <span>award winning</span> Hotels and Resorts.
-                        </p>
-                        <a href="#" class="view-projects">View Projects
-                            <img class="uyellow" src="/cids_theme_odoo_15/static/src/img/images/UnionYellow.png"/>
-                        </a>
+        <div class="owl-carousel owl-theme tpbanner">
+            <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/images/hotelbanner.png"/>
+                <div class="hotel-banner">
+                    <h1>A Leading <br /><span>Global</span> Firm.</h1>
+                    <p>Hospitality and Commercial Buildings Interior Design Encapsulating
+                        highest Quality Standards &amp; Detailing in Our DNA.</p>
+                    <div class="hbtns">
+                        <a class="explore" href="#">Explore <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
+                      <!-- <a class="contact" href="#">Contact Us</a>--> 
                     </div>
                 </div>
-                <div class="about-right">
+            </div>
+            <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/images/2.png"/>
 
-
-                    <div class="owl-carousel owl-theme aboutcarsouel">
-                        <div class="item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/strategy-right.png"/>
-                            <div class="about-txt">
-                                <p>An Artisanal Approach</p>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/strategy-right.png"/>
-                            <div class="about-txt">
-                                <p>An Artisanal Approach</p>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/strategy-right.png"/>
-                            <div class="about-txt">
-                                <p>An Artisanal Approach</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            <section class="inspired-by">
-                <div class="abs-inspired">
-                    <h1>Inspired by the details</h1>
-                    <p>We are putting innovation at the forefront of everything we do, CIDS.DESIGN transforms concepts
-                        into full
-                        - functioning spaces. B eing stic k lers for details, we wor k hard to understand your brand,
-                        space, and
-                        objectives through meticulous consultancy and translate them into a solid design strategy par
-                        excellence
-                    </p>
-                    <a class="ins-more" href="#">Know More
-                        <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/>
-                    </a>
-                </div>
-            </section>
-
-
-            <section class="whatwedo">
-                <div class="wedo-text">
-                    <div class="wedotext-inner">
-                        <h2><img class="line" src="/cids_theme_odoo_15/static/src/img/images/line.png"/>What we Do
-                        </h2>
-                        <h1>We Emphasise Every Single Detail Right From Start To Finish No Exceptions</h1>
-                        <p>At CIDS.DESIGN, we craft impeccable hospitality experiences that live and breathe your brand.
-                            From
-                            luxury
-                            hotels to bustling commercial spaces, leisure resorts to everything in between – we push all
-                            boundaries
-                            in delivering distinctive interior design solutions that transcend the limits of finesse and
-                            elegance.
-                            Our global team of certified &amp; trained interior designers provides comprehensive design
-                            services
-                            including architecture design, schematic design, procurement, interior design, space
-                            planning, and
-                            project consultancy.
-                        </p>
-                        <br/>
-                        <p>We ensure 100% project transparency and trusted partnership with clear communications and
-                            consistent
-                            updates.
-                            <span class="clored">You dream, we design!</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="wedoimg">
-                    <img src="/cids_theme_odoo_15/static/src/img/images/whatWeDo.png"/>
-                </div>
-            </section>
-
-            <section class="certifications">
-                <div class="certificate-inner">
-                    <h3>Certifications
-                        <img class="line" src="/cids_theme_odoo_15/static/src/img/images/line.png"/>
-                    </h3>
-                    <h1>FIDER, CDA ACCREDITED</h1>
-                    <p>Success &amp; Achievements Comes With Trust, Quality, Transparency, And Hard Work.There is no
-                        shortcut to
-                        creating impeccable designs !
-                    </p>
-                </div>
-                <div class="achiv-holder">
-                    <div>
-                        <h1>200+</h1>
-                        <p>Projects Completed</p>
-                    </div>
-                    <div>
-                        <h1>100+</h1>
-                        <p>Global Hospitality Clientele</p>
-                    </div>
-                    <div>
-                        <h1>150+</h1>
-                        <p>Interior Designers Worldwide</p>
-                    </div>
-                    <div>
-                        <h1>80+</h1>
-                        <p>Strategic Partnerships</p>
-                    </div>
-                    <div>
-                        <h1>200+</h1>
-                        <p>Furniture Designers Manufacturers Minority Women</p>
-                    </div>
-                </div>
-            </section>
-
-
-            <section class="hotel-services">
-                <h1>Our
-                    <span>Services</span>
-                </h1>
-                <div class="owl-carousel owl-theme hotelServicesCarsouel">
-                    <div class="item">
-                        <div class="serive-item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>
-                            <div class="service-txt">
-                                <h1>Procurement</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="serive-item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/services2.png"/>
-                            <div class="service-txt">
-                                <h1>Visuals</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="serive-item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/services3.png"/>
-                            <div class="service-txt">
-                                <h1>Resorts</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="serive-item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>
-                            <div class="service-txt">
-                                <h1>Innovation</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="serive-item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>
-                            <div class="service-txt">
-                                <h1>Procurement</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="serive-item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/services2.png"/>
-                            <div class="service-txt">
-                                <h1>Visuals</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="serive-item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/services3.png"/>
-                            <div class="service-txt">
-                                <h1>Resorts</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="serive-item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>
-                            <div class="service-txt">
-                                <h1>Innovation</h1>
-                            </div>
-                        </div>
+                <div class="hotel-banner">
+                    <h1>Exceptional Design <br /> Starts with trusted <span>partnerships</span></h1>
+                    <p>We focus on verstality and customer satisfaction. We nurture valueable growth partnerships.</p>
+                    <div class="hbtns">
+                        <a class="explore" href="#">Explore <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
+              
+                         <!-- <a class="contact" href="#">Contact Us</a>--> 
                     </div>
 
                 </div>
 
-            </section>
+            </div>
+            <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/images/3.png"/>
 
-
-            <section class="hotel-case">
-                <h1>Case
-                    <span>Studies</span>
-                </h1>
-                <div class="owl-carousel owl-theme hotelCaseCarsouel">
-                    <div class="item">
-                        <div class="case-item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>
-                            <div class="case-txt">
-                                <p>Luxury Collection</p>
-                                <h1>Procurement</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="case-item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>
-                            <div class="case-txt">
-                                <p>Luxury Collection</p>
-                                <h1>Procurement</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="case-item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>
-                            <div class="case-txt">
-                                <p>Luxury Collection</p>
-                                <h1>Procurement</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="case-item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>
-                            <div class="case-txt">
-                                <p>Luxury Collection</p>
-                                <h1>Procurement</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="case-item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>
-                            <div class="case-txt">
-                                <p>Luxury Collection</p>
-                                <h1>Procurement</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="case-item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>
-                            <div class="case-txt">
-                                <p>Luxury Collection</p>
-                                <h1>Procurement</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="case-item">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>
-                            <div class="case-txt">
-                                <p>Luxury Collection</p>
-                                <h1>Procurement</h1>
-                            </div>
-                        </div>
+                <div class="hotel-banner">
+                    <h1>We craft unique <br /> <span>interior designs </span>that <br/> drive innovation</h1>
+                    <p>From conception to completion, we perfect every single element in youe space</p>
+                    <div class="hbtns">
+                        <a class="explore" href="#">Explore <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
+              
+                         <!-- <a class="contact" href="#">Contact Us</a>--> 
                     </div>
 
                 </div>
 
-            </section>
+            </div>
 
-             <section class="hotel-client">
+
+
+        </div>
+
+    </section>
+    <section class="about-us">
+        <div class="about-left">
+            <div class="about-ltext">
+                <h4 class="about-head">
+                    How can strategic commercial interior design solutions pave the way for a <span>successful</span> project ?
+                </h4>
+                <p>Take a look at our <span>award winning</span> Hotels and Resorts.</p>
+                <a href="#" class="view-projects">View Projects<img class="uyellow" src="/cids_theme_odoo_15/static/src/img/images/UnionYellow.png"/></a>
+            </div>
+        </div>
+        <div class="about-right">
+
+
+            <div class="owl-carousel owl-theme aboutcarsouel">
+                <div class="item">
+                    <img src="/cids_theme_odoo_15/static/src/img/images/strategy-right.png"/>
+                    <div class="about-txt">
+                        <div class="about-txt">
+                            <p>An Artisanal Approach</p>
+                           </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="/cids_theme_odoo_15/static/src/img/images/strategy2.jpg"/>
+                    <div class="about-txt">
+                        <div class="about-txt">
+                            <p>Incorporating an eye for detail</p>
+                          
+                           </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="/cids_theme_odoo_15/static/src/img/images/strategy3.jpg"/>
+                    <div class="about-txt">
+                        <div class="about-txt">
+                            <p>Bleanding feelings of passion &amp; affinity</p>
+                           </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="inspired-by">
+        <div class="abs-inspired">
+            <h1>Inspired by the details</h1>
+            <p>We are putting innovation at the forefront of everything we do, CIDS.DESIGN transforms concepts into full
+                - functioning spaces. B eing stic k lers for details, we wor k hard to understand your brand, space, and
+                objectives through meticulous consultancy and translate them into a solid design strategy par excellence
+            </p>
+            <a class="ins-more" href="#"> Know More <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
+        </div>
+    </section>
+
+    <section class="whatwedo">
+        <div class="wedo-text">
+            <div class="wedotext-inner">
+                <h2><img class="line" src="/cids_theme_odoo_15/static/src/img/images/line.png"/>What we Do</h2>
+                <h1>We Emphasise Every Single Detail Right From Start To Finish No Exceptions</h1>
+                <p>At CIDS.DESIGN, we craft impeccable hospitality experiences that live and breathe your brand. From
+                    luxury
+                    hotels to bustling commercial spaces, leisure resorts to everything in between – we push all
+                    boundaries
+                    in delivering distinctive interior design solutions that transcend the limits of finesse and
+                    elegance.
+                    Our global team of certified &amp; trained interior designers provides comprehensive design services
+                    including architecture design, schematic design, procurement, interior design, space planning, and
+                    project consultancy.</p>
+                    <br/>
+                <p>We ensure 100% project transparency and trusted partnership with clear communications and consistent
+                    updates. <span class="clored">You dream, we design! </span></p>
+            </div>
+        </div>
+        <div class="wedoimg">
+            <img src="/cids_theme_odoo_15/static/src/img/images/whatWeDo.png" />
+        </div>
+    </section>
+
+    <section class="certifications">
+        <div class="certificate-inner">
+            <h3>Certifications<img class="line" src="/cids_theme_odoo_15/static/src/img/images/line.png"/></h3>
+            <h1>FIDER, CDA ACCREDITED</h1>
+            <p>Success &amp; Achievements Comes With Trust, Quality, Transparency, And Hard Work.There is no shortcut to
+                creating impeccable designs ! </p>
+        </div>
+        <div class="achiv-holder">
+            <div>
+                <h1>200+</h1>
+                <p>Projects Completed </p>
+            </div>
+            <div>
+                <h1>100+</h1>
+                <p>Global Hospitality Clientele </p>
+            </div>
+            <div>
+                <h1>150+</h1>
+                <p>Interior Designers Worldwide </p>
+            </div>
+            <div>
+                <h1>80+</h1>
+                <p>Strategic Partnerships</p>
+            </div>
+            <div>
+                <h1>200+</h1>
+                <p>Furniture Designers Manufacturers Minority Women </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hotel-services">
+        <h1>Our <span>Services</span></h1>
+        <div class="owl-carousel owl-theme hotelServicesCarsouel">
+            <div class="item">
+                <div class="serive-item">
+                    <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>
+                    <div class="service-txt">
+                        <h1>Procurement</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="serive-item">
+                    <img src="/cids_theme_odoo_15/static/src/img/images/services2.png"/>
+                    <div class="service-txt">
+                        <h1>Visuals</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="serive-item">
+                    <img src="/cids_theme_odoo_15/static/src/img/images/services3.png"/>
+                    <div class="service-txt">
+                        <h1>Resorts</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="serive-item">
+                    <img src="/cids_theme_odoo_15/static/src/img/images/services4.png"/>
+                    <div class="service-txt">
+                        <h1>Innovation</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="serive-item">
+                    <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>
+                    <div class="service-txt">
+                        <h1>Procurement</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="serive-item">
+                    <img src="/cids_theme_odoo_15/static/src/img/images/services2.png"/>
+                    <div class="service-txt">
+                        <h1>Visuals</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="serive-item">
+                    <img src="/cids_theme_odoo_15/static/src/img/images/services3.png"/>
+                    <div class="service-txt">
+                        <h1>Resorts</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="serive-item">
+                    <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>
+                    <div class="service-txt">
+                        <h1>Innovation</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="hotel-case">
+        <h1>Case <span>Studies</span></h1>
+        <div class="owl-carousel owl-theme hotelCaseCarsouel">
+            <div class="item">
+                <div class="case-item">
+                    <img src="/cids_theme_odoo_15/static/src/img/images/case1.jpg"/>
+                    <div class="case-txt">
+                        <p>Luxury Collection</p>
+                        <h1>Resorts</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="case-item">
+                    <img src="/cids_theme_odoo_15/static/src/img/images/case2.jpg"/>
+                    <div class="case-txt">
+                        <p>Luxury Collection</p>
+                        <h1>Office Inerior</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="case-item">
+                    <img src="/cids_theme_odoo_15/static/src/img/images/case3.jpg"/>
+                    <div class="case-txt">
+                        <p>Luxury Collection</p>
+                        <h1>Hotel Interior</h1>
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+    </section>
+
+    <section class="hotel-client">
         <h1>Our <span>Clients</span></h1>
         <p>Our Designers have worked extensively with industry leading brands:</p>
         <div class="clientContainer">
             <div class="owl-carousel owl-theme hotelClientCarsouel">
                 <div class="item">
                     <div class="client-item">
-                        <img src="/cids_theme_odoo_15/static/src/img/images/hilton1.png"/>
+                        <img src="/cids_theme_odoo_15/static/src/img/images/hilton2.png"/>
                     </div>
                 </div>
                 <div class="item">
                     <div class="client-item">
-                        <img src="/cids_theme_odoo_15/static/src/img/images/ihg1.png"/>
+                        <img src="/cids_theme_odoo_15/static/src/img/images/ihg.png"/>
                     </div>
                 </div>
                 <div class="item">
                     <div class="client-item">
-                        <img src="/cids_theme_odoo_15/static/src/img/images/laq.png"/>
+                        <img src="/cids_theme_odoo_15/static/src/img/images/laquinta.png"/>
                     </div>
                 </div>
                 <div class="item">
                     <div class="client-item">
-                        <img src="/cids_theme_odoo_15/static/src/img/images/marriott1.png"/>
+                        <img src="/cids_theme_odoo_15/static/src/img/images/marriott2.png"/>
                     </div>
                 </div>
 
@@ -393,180 +314,138 @@
 
     </section>
 
-            <section class="client-feedback">
-                <div class="owl-carousel owl-theme clientFeedbackCarsouel">
-                    <div class="item">
-                        <div class="feedback-item">
-                            <span>Testimonials</span>
-                            <h1>What our clients Say</h1>
-                            <div class="feedback-txt">
-                                <p>The design team was eventually involved in all the project's major aspects, including
-                                    3D
-                                    designs, furniture selection, procurement, and complete interior finishes. We are
-                                    delighted
-                                    to say that they brought the perfect balance of style and functionality to our
-                                    suites and
-                                    worked with us pleasantly but highly professional. We definitely enjoyed their
-                                    commitment
-                                    and passion for our project and would like to recommend their work to everyone in
-                                    the
-                                    hospitality and commercial business.
-                                </p>
-                            </div>
-                            <div class="nmloc">
-                                <h2>-Homewood Suites</h2>
-                                <p>West Chester, OH</p>
-                            </div>
-                        </div>
+    <section class="client-feedback">
+        <div class="owl-carousel owl-theme clientFeedbackCarsouel">
+            <div class="item">
+                <div class="feedback-item">
+                    <span>Testimonials</span>
+                    <h1>What our clients Say</h1>
+                    <div class="feedback-txt">
+                        <p>The design team was eventually involved in all the project's major aspects, including 3D
+                            designs, furniture selection, procurement, and complete interior finishes. We are delighted
+                            to say that they brought the perfect balance of style and functionality to our suites and
+                            worked with us pleasantly but highly professional. We definitely enjoyed their commitment
+                            and passion for our project and would like to recommend their work to everyone in the
+                            hospitality and commercial business.</p>
                     </div>
-                    <div class="item">
-                        <div class="feedback-item">
-                            <span>Testimonials</span>
-                            <h1>What our clients Say</h1>
-                            <div class="feedback-txt">
-                                <p>The design team was eventually involved in all the project's major aspects, including
-                                    3D
-                                    designs, furniture selection, procurement, and complete interior finishes. We are
-                                    delighted
-                                    to say that they brought the perfect balance of style and functionality to our
-                                    suites and
-                                    worked with us pleasantly but highly professional. We definitely enjoyed their
-                                    commitment
-                                    and passion for our project and would like to recommend their work to everyone in
-                                    the
-                                    hospitality and commercial business.
-                                </p>
-                            </div>
-                            <div class="nmloc">
-                                <h2>-Homewood Suites</h2>
-                                <p>West Chester, OH</p>
-                            </div>
-                        </div>
+                    <div class="nmloc">
+                        <h2>-Homewood Suites</h2>
+                        <p>West Chester, OH</p>
                     </div>
-                    <div class="item">
-                        <div class="feedback-item">
-                            <span>Testimonials</span>
-                            <h1>What our clients Say</h1>
-                            <div class="feedback-txt">
-                                <p>The design team was eventually involved in all the project's major aspects, including
-                                    3D
-                                    designs, furniture selection, procurement, and complete interior finishes. We are
-                                    delighted
-                                    to say that they brought the perfect balance of style and functionality to our
-                                    suites and
-                                    worked with us pleasantly but highly professional. We definitely enjoyed their
-                                    commitment
-                                    and passion for our project and would like to recommend their work to everyone in
-                                    the
-                                    hospitality and commercial business.
-                                </p>
-                            </div>
-                            <div class="nmloc">
-                                <h2>-Homewood Suites</h2>
-                                <p>West Chester, OH</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="feedback-item">
-                            <span>Testimonials</span>
-                            <h1>What our clients Say</h1>
-                            <div class="feedback-txt">
-                                <p>The design team was eventually involved in all the project's major aspects, including
-                                    3D
-                                    designs, furniture selection, procurement, and complete interior finishes. We are
-                                    delighted
-                                    to say that they brought the perfect balance of style and functionality to our
-                                    suites and
-                                    worked with us pleasantly but highly professional. We definitely enjoyed their
-                                    commitment
-                                    and passion for our project and would like to recommend their work to everyone in
-                                    the
-                                    hospitality and commercial business.
-                                </p>
-                            </div>
-                            <div class="nmloc">
-                                <h2>-Homewood Suites</h2>
-                                <p>West Chester, OH</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="feedback-item">
-                            <span>Testimonials</span>
-                            <h1>What our clients Say</h1>
-                            <div class="feedback-txt">
-                                <p>The design team was eventually involved in all the project's major aspects, including
-                                    3D
-                                    designs, furniture selection, procurement, and complete interior finishes. We are
-                                    delighted
-                                    to say that they brought the perfect balance of style and functionality to our
-                                    suites and
-                                    worked with us pleasantly but highly professional. We definitely enjoyed their
-                                    commitment
-                                    and passion for our project and would like to recommend their work to everyone in
-                                    the
-                                    hospitality and commercial business.
-                                </p>
-                            </div>
-                            <div class="nmloc">
-                                <h2>-Homewood Suites</h2>
-                                <p>West Chester, OH</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="feedback-item">
-                            <span>Testimonials</span>
-                            <h1>What our clients Say</h1>
-                            <div class="feedback-txt">
-                                <p>The design team was eventually involved in all the project's major aspects, including
-                                    3D
-                                    designs, furniture selection, procurement, and complete interior finishes. We are
-                                    delighted
-                                    to say that they brought the perfect balance of style and functionality to our
-                                    suites and
-                                    worked with us pleasantly but highly professional. We definitely enjoyed their
-                                    commitment
-                                    and passion for our project and would like to recommend their work to everyone in
-                                    the
-                                    hospitality and commercial business.
-                                </p>
-                            </div>
-                            <div class="nmloc">
-                                <h2>-Homewood Suites</h2>
-                                <p>West Chester, OH</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="feedback-item">
-                            <span>Testimonials</span>
-                            <h1>What our clients Say</h1>
-                            <div class="feedback-txt">
-                                <p>The design team was eventually involved in all the project's major aspects, including
-                                    3D
-                                    designs, furniture selection, procurement, and complete interior finishes. We are
-                                    delighted
-                                    to say that they brought the perfect balance of style and functionality to our
-                                    suites and
-                                    worked with us pleasantly but highly professional. We definitely enjoyed their
-                                    commitment
-                                    and passion for our project and would like to recommend their work to everyone in
-                                    the
-                                    hospitality and commercial business.
-                                </p>
-                            </div>
-                            <div class="nmloc">
-                                <h2>-Homewood Suites</h2>
-                                <p>West Chester, OH</p>
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
-            </section>
+            </div>
+            <div class="item">
+                <div class="feedback-item">
+                    <span>Testimonials</span>
+                    <h1>What our clients Say</h1>
+                    <div class="feedback-txt">
+                        <p>The design team was eventually involved in all the project's major aspects, including 3D
+                            designs, furniture selection, procurement, and complete interior finishes. We are delighted
+                            to say that they brought the perfect balance of style and functionality to our suites and
+                            worked with us pleasantly but highly professional. We definitely enjoyed their commitment
+                            and passion for our project and would like to recommend their work to everyone in the
+                            hospitality and commercial business.</p>
+                    </div>
+                    <div class="nmloc">
+                        <h2>-Homewood Suites</h2>
+                        <p>West Chester, OH</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="feedback-item">
+                    <span>Testimonials</span>
+                    <h1>What our clients Say</h1>
+                    <div class="feedback-txt">
+                        <p>The design team was eventually involved in all the project's major aspects, including 3D
+                            designs, furniture selection, procurement, and complete interior finishes. We are delighted
+                            to say that they brought the perfect balance of style and functionality to our suites and
+                            worked with us pleasantly but highly professional. We definitely enjoyed their commitment
+                            and passion for our project and would like to recommend their work to everyone in the
+                            hospitality and commercial business.</p>
+                    </div>
+                    <div class="nmloc">
+                        <h2>-Homewood Suites</h2>
+                        <p>West Chester, OH</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="feedback-item">
+                    <span>Testimonials</span>
+                    <h1>What our clients Say</h1>
+                    <div class="feedback-txt">
+                        <p>The design team was eventually involved in all the project's major aspects, including 3D
+                            designs, furniture selection, procurement, and complete interior finishes. We are delighted
+                            to say that they brought the perfect balance of style and functionality to our suites and
+                            worked with us pleasantly but highly professional. We definitely enjoyed their commitment
+                            and passion for our project and would like to recommend their work to everyone in the
+                            hospitality and commercial business.</p>
+                    </div>
+                    <div class="nmloc">
+                        <h2>-Homewood Suites</h2>
+                        <p>West Chester, OH</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="feedback-item">
+                    <span>Testimonials</span>
+                    <h1>What our clients Say</h1>
+                    <div class="feedback-txt">
+                        <p>The design team was eventually involved in all the project's major aspects, including 3D
+                            designs, furniture selection, procurement, and complete interior finishes. We are delighted
+                            to say that they brought the perfect balance of style and functionality to our suites and
+                            worked with us pleasantly but highly professional. We definitely enjoyed their commitment
+                            and passion for our project and would like to recommend their work to everyone in the
+                            hospitality and commercial business.</p>
+                    </div>
+                    <div class="nmloc">
+                        <h2>-Homewood Suites</h2>
+                        <p>West Chester, OH</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="feedback-item">
+                    <span>Testimonials</span>
+                    <h1>What our clients Say</h1>
+                    <div class="feedback-txt">
+                        <p>The design team was eventually involved in all the project's major aspects, including 3D
+                            designs, furniture selection, procurement, and complete interior finishes. We are delighted
+                            to say that they brought the perfect balance of style and functionality to our suites and
+                            worked with us pleasantly but highly professional. We definitely enjoyed their commitment
+                            and passion for our project and would like to recommend their work to everyone in the
+                            hospitality and commercial business.</p>
+                    </div>
+                    <div class="nmloc">
+                        <h2>-Homewood Suites</h2>
+                        <p>West Chester, OH</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="feedback-item">
+                    <span>Testimonials</span>
+                    <h1>What our clients Say</h1>
+                    <div class="feedback-txt">
+                        <p><img style="width:30px;height:30px;" src="/cids_theme_odoo_15/static/src/img/images/exmdown.png"/>The design team was eventually involved in all the project's major aspects, including 3D
+                            designs, furniture selection, procurement, and complete interior finishes. We are delighted
+                            to say that they brought the perfect balance of style and functionality to our suites and
+                            worked with us pleasantly but highly professional. We definitely enjoyed their commitment
+                            and passion for our project and would like to recommend their work to everyone in the
+                            hospitality and commercial business.<img style="width:30px; height:30px;" src="/cids_theme_odoo_15/static/src/img/images/exmup.png"/></p>
+                    </div>
+                    <div class="nmloc">
+                        <h2>-Homewood Suites</h2>
+                        <p>West Chester, OH</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
 
         </t>
     </template>
