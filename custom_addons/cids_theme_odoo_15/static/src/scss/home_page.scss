@@ -6,36 +6,36 @@
 
 @font-face {
     font-family: 'Lorin';
-    src: url('/web/static/src/custom_fonts/Lorin-Regular.eot');
-    src: local('/web/static/src/custom_fonts/Lorin Regular'), local('/web/static/src/custom_fonts/Lorin-Regular'),
-        url('/web/static/src/custom_fonts/Lorin-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/web/static/src/custom_fonts/Lorin-Regular.woff2') format('woff2'),
-        url('/web/static/src/custom_fonts/Lorin-Regular.woff') format('woff'),
-        url('/web/static/src/custom_fonts/Lorin-Regular.ttf') format('truetype');
+    src: url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.eot');
+    src: local('https://dev.cids.design/web/static/src/custom_fonts/Lorin Regular'), local('/web/static/src/custom_fonts/Lorin-Regular'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.woff2') format('woff2'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.woff') format('woff'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lorin-bold';
-    src: url('/web/static/src/custom_fonts/Lorin-Bold.eot');
-    src: local('/web/static/src/custom_fonts/Lorin Bold'), local('Lorin-Bold'),
-        url('/web/static/src/custom_fonts/Lorin-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/web/static/src/custom_fonts/Lorin-Bold.woff2') format('woff2'),
-        url('/web/static/src/custom_fonts/Lorin-Bold.woff') format('woff'),
-        url('/web/static/src/custom_fonts/Lorin-Bold.ttf') format('truetype');
+    src: url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.eot');
+    src: local('https://dev.cids.design/web/static/src/custom_fonts/Lorin Bold'), local('Lorin-Bold'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.woff2') format('woff2'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.woff') format('woff'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lorin-xbold';
-    src: url('/web/static/src/custom_fonts/Lorin-ExtraBold.eot');
-    src: local('/web/static/src/custom_fonts/Lorin ExtraBold'), local('Lorin-ExtraBold'),
-        url('/web/static/src/custom_fonts/Lorin-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('/web/static/src/custom_fonts/Lorin-ExtraBold.woff2') format('woff2'),
-        url('/web/static/src/custom_fonts/Lorin-ExtraBold.woff') format('woff'),
-        url('/web/static/src/custom_fonts/Lorin-ExtraBold.ttf') format('truetype');
+    src: url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.eot');
+    src: local('https://dev.cids.design/web/static/src/custom_fonts/Lorin ExtraBold'), local('Lorin-ExtraBold'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.woff2') format('woff2'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.woff') format('woff'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
@@ -110,6 +110,12 @@
     --width-194: 13.47;
 
 }
+
+.explore.absexplore{
+    position:absolute;
+}
+
+.testimg{width:35px!important; height:24px;}
 
 a {
     text-decoration: none;
@@ -238,7 +244,6 @@ a {
     width: 70%;
 }
 
-
 .service-practise {
     display: flex;
     justify-content: space-between;
@@ -261,11 +266,11 @@ a {
 }
 
 .services-tp {
-    width: 30%;
+    width: 40%;
 }
 
 .pratices-tp {
-    width: 70%;
+    width: 60%;
 }
 
 .services-tp>a {
@@ -348,6 +353,7 @@ a {
     margin-bottom: var(--margin-70);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .b-logo img:nth-child(2) {
@@ -405,6 +411,8 @@ a {
     background-color: var(--white);
     padding: var(--padding-19) var(--padding-47);
     position: relative;
+    font-size:var(--font-size-18);
+    font-family: 'Lorin-bold';
 }
 
 .about-txt p::after {
@@ -620,6 +628,7 @@ a {
     text-align: left;
     display: flex;
     align-items: center;
+    letter-spacing: 0.14em;
 }
 
 .certificate-inner h3 .line {
@@ -691,6 +700,9 @@ a {
     font-size: var(--font-size-30);
     margin-bottom: var(--margin-49);
     text-align: center;
+    font-family: 'Lorin-xbold';
+    text-transform: capitalize;
+    color:var(--text-color);
 }
 
 .hotel-services h1 span {
@@ -738,9 +750,10 @@ a {
 
 .serive-item .service-txt h1 {
     color: var(--white);
-    font-size: var(--font-size-32);
+    font-size: var(--font-size-24);
     font-family: 'Lorin-xbold';
     line-height: 150%;
+    margin-bottom:0px;
 }
 
 /*case studies*/
@@ -832,6 +845,7 @@ a {
 .hotel-case .owl-carousel .owl-item .case-txt p {
     font-size: var(--font-size-16);
     color: var(--white);
+    text-transform: uppercase;
 }
 
 .hotel-case .owl-carousel .owl-item .case-txt h1 {
@@ -863,7 +877,7 @@ a {
     display: flex !important;
     align-items: center;
     justify-content: space-between;
-    padding: var(--padding-45) 0px;
+    padding: var(--padding-12) 0px;
 }
 
 .hotelClientCarsouel {
@@ -897,17 +911,28 @@ a {
     line-height: 150%;
     text-align: center;
     color: var(--white);
-
-
+    position:relative;
+}
+.feedback-txt p img{
+    position: absolute;
 }
 
+.feedback-txt p img:first-child{
+    left:-44px;
+}
+
+.feedback-txt p img:nth-child(2)
+{
+    right:-10px;
+    transform: rotate(180deg);
+}
 .client-feedback .owl-item .feedback-item {
 
     text-align: center;
     opacity: .5;
 }
 
-.feedback-item span {
+.feedback-item h3 {
     font-family: 'Lorin-xbold';
     font-size: var(--font-size-16);
     line-height: 150%;
@@ -915,10 +940,21 @@ a {
     text-transform: uppercase;
     color: var(--yellow);
     padding-bottom: var(--padding-28);
-}
+    display:inline-block;
+    position: relative;
+    margin-left:-185px;
 
+}
+.feedback-item h3::after{
+    content:"";
+    position: absolute;
+    width:var(--width-102);
+    height:1px;
+    background-color: var(--yellow);
+    top:13px;
+}
 .feedback-item h1 {
-    font-family: 'Lorin-xbold';
+    font-family:'Lorin-xbold';
     font-size: var(--font-size-30);
     line-height: 150%;
     letter-spacing: 0.14em;
@@ -1026,7 +1062,10 @@ a {
 
 .hotel-banner .hbtns a.explore {
     font-size: var(--font-size-16) !important;
+
 }
+
+
 
 .about-ltext p {
     font-size: var(--font-size-18) !important;
@@ -1143,13 +1182,13 @@ body {
 
 .addholder .owl-carousel .owl-nav button.owl-next img {
     position: absolute;
-    right: 0px;
+    right:-5px;
     width: 11px;
 }
 
 .addholder .owl-carousel .owl-nav button.owl-prev img {
     position: absolute;
-    left: -24px;
+    left: -30px;
     width: 11px;
 }
 
@@ -1199,11 +1238,13 @@ body {
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .bottom-inner>div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .bottom-inner>div a,.bottom-inner>div p {
@@ -1216,8 +1257,25 @@ body {
 
 }
 
-
-
+.owl-theme .owl-nav [class*=owl-] img{
+    transition:all .35s linear;
+}
+.owl-theme .owl-nav [class*=owl-] img:hover{
+    background:var(--yellow);
+    color: #FFF;
+    text-decoration: none;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background:transparent;
+    color: #FFF;
+    text-decoration: none;
+}
+@media screen and (max-width:1600px)
+{
+    .feedback-item h3::after{
+        top:9px;
+    }
+}
 @media screen and (max-width:990px) {
     :root {
         /* Font Size */
@@ -1368,11 +1426,18 @@ body {
         margin-top: 10px;
         padding: 10px;
     }
-
+    .feedback-txt p{
+        font-size:14px;
+    }
+    .feedback-item h1{
+        font-size:20px;
+    }
     .achiv-holder {
         flex-direction: column;
     }
-
+    .feedback-item h3{margin-left:0px;}
+    .nmloc h2{font-size:18px;}
+    .testimg{display:none!important;}
     .achiv-holder>div::after {
         display: none;
     }
@@ -1413,7 +1478,7 @@ body {
     }
 
     .client-feedback .owl-item.active .feedback-item {
-        width: 90%;
+        width: 80%;
     }
 }
 
@@ -1484,11 +1549,15 @@ body {
 
     .inspired-by {
         height: auto;
-        padding: 20px 0px;
+        padding: 40px 0px;
     }
 
     .achiv-holder>div p {
-        font-size: 16px;
+        font-size: 14px;
+        font-family: 'Lorin';
+    }
+    .abs-inspired h1{
+        font-size:18px;
     }
 
     .certificate-inner p {
@@ -1510,7 +1579,7 @@ body {
     }
 
     .about-head {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     :root {
@@ -1539,6 +1608,14 @@ body {
         margin: auto;
     }
 
+    .about-left {
+        width: 90%;
+        padding: 45px 0px;
+    }
+    .owl-theme .owl-nav [class*=owl-] img{
+        width:30px!important;
+        height:30px!important;
+    }
 
 }
 
@@ -1620,6 +1697,14 @@ body {
         width:auto;
     }
 }
+
+
+
+
+
+
+
+
 
 @-webkit-keyframes zoomOut {
   0% {

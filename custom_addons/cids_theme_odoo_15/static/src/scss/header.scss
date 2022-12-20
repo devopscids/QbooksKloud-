@@ -17,6 +17,7 @@
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    margin-bottom:0px;
 
 }
 
@@ -71,7 +72,10 @@
     width: 31px !important;
     height: 6px !important;
     margin-left: var(--padding-23);
+
 }
+
+
 
 .drop-down a img {
     width: 10px;
@@ -87,7 +91,7 @@
 }
 
 .search a.contact-search {
-    font-family: 'Lorin-xbold';
+    font-family: 'Lorin-bold';
     font-size: var(--font-size-14);
     line-height: 120%;
     color: #FFFFFF;
@@ -98,13 +102,19 @@
     align-items: center;
     width: 45%;
     justify-content: center;
+    transition:all .35s linear;
+}
+
+.search a.contact-search:hover{
+    background-color: var(--white);
+    color:var(--yellow);
 }
 
 .search a.login-search {
     font-family: 'Lorin-xbold';
     font-size: 14px;
     line-height: 120%;
-    color: #FFFFFF;
+    color:var(--yellow);
     text-decoration: none;
     margin-left: 24px;
     border: 2px solid #FFBC00;
@@ -114,6 +124,12 @@
     align-items: center;
     width: 45%;
     justify-content: center;
+    transition:all .35s linear;
+}
+
+.search a.login-search :hover{
+    background-color: var(--white);
+    color:var(--yellow);
 }
 
 .search {
@@ -130,13 +146,14 @@
     right: 0;
     top: 0px;
     transition: all .35s linear;
-    background-color: rgba(80, 87, 93, 0.5);
+   /* background-color: rgba(80, 87, 93, 0.5);*/
     padding: var(--padding-23) 0px;
 }
 
 .f-nav.nav-bar {
     position: fixed;
     background-color: rgba(80, 87, 93, 0.9);
+    backdrop-filter: blur(7.5px);
     padding: 15px 0px;
     top: 0px;
 }
@@ -233,7 +250,9 @@ background-color: linear-gradient(90.49deg, rgba(0, 0, 0, 0.6) 1.47%, rgba(0, 0,
 }*/
 /*header menu ends here*/
 
-
 .oe_website_login_container {
     padding-top: 50px;
+}
+.addrtext p{
+margin-bottom:0px !important
 }

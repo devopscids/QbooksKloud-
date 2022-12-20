@@ -25,6 +25,8 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                 animateOut: 'zoomOut',
                 animateIn: 'fadeIn',
                 loop: true,
+                autoplayTimeout: 4000,
+                autoplaySpeed: 1500,
 
                 responsive: {
                     0: {
@@ -39,7 +41,7 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                 }
             })
         });
-        
+
         $("document").ready(function () {
             $('.humburger').click(function(){
                $('.menu').toggleClass('mobileMenu');
