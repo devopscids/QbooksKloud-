@@ -1,19 +1,19 @@
 <odoo>
     <template id="home" name="Home">
         <t t-call="website.layout">
-
-         <section class="top-banner">
+               <section class="top-banner">
 
         <div class="owl-carousel owl-theme tpbanner">
             <div class="item">
                 <img src="/cids_theme_odoo_15/static/src/img/images/hotelbanner.png"/>
-                <div class="hotel-banner">
+                <div class="hotel-banner animated">
                     <h1>A Leading <br /><span>Global</span> Firm.</h1>
                     <p>Hospitality and Commercial Buildings Interior Design Encapsulating
-                        highest Quality Standards &amp;amp; Detailing in Our DNA.</p>
+                        highest Quality Standards &amp; Detailing in Our DNA.</p>
                     <div class="hbtns">
                         <a class="explore" href="#">Explore <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
-                          <!-- <a class="contact" href="#">Contact Us</a>--> 
+                        <a class="explore absexplore" href="#">Explore <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
+                      <!-- <a class="contact" href="#">Contact Us</a>-->
                     </div>
                 </div>
             </div>
@@ -25,8 +25,8 @@
                     <p>We focus on verstality and customer satisfaction. We nurture valueable growth partnerships.</p>
                     <div class="hbtns">
                         <a class="explore" href="#">Explore <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
-               
-                         <!-- <a class="contact" href="#">Contact Us</a>--> 
+
+                         <!-- <a class="contact" href="#">Contact Us</a>-->
                     </div>
 
                 </div>
@@ -40,8 +40,8 @@
                     <p>From conception to completion, we perfect every single element in youe space</p>
                     <div class="hbtns">
                         <a class="explore" href="#">Explore <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
-               
-                         <!-- <a class="contact" href="#">Contact Us</a>--> 
+
+                         <!-- <a class="contact" href="#">Contact Us</a>-->
                     </div>
 
                 </div>
@@ -53,9 +53,7 @@
         </div>
 
     </section>
-
-
-  <section class="about-us">
+    <section class="about-us">
         <div class="about-left">
             <div class="about-ltext">
                 <h4 class="about-head">
@@ -69,25 +67,20 @@
 
 
             <div class="owl-carousel owl-theme aboutcarsouel">
-
-
-
-                <div class="item">
+                 <div class="item">
                     <img src="/cids_theme_odoo_15/static/src/img/images/strategy-right.png"/>
                     <div class="about-txt">
                         <div class="about-txt">
                             <p>An Artisanal Approach</p>
-
                            </div>
                     </div>
                 </div>
-
                 <div class="item">
                     <img src="/cids_theme_odoo_15/static/src/img/images/strategy2.jpg"/>
                     <div class="about-txt">
                         <div class="about-txt">
                             <p>Incorporating an eye for detail</p>
-                          
+
                            </div>
                     </div>
                 </div>
@@ -95,7 +88,7 @@
                     <img src="/cids_theme_odoo_15/static/src/img/images/strategy3.jpg"/>
                     <div class="about-txt">
                         <div class="about-txt">
-                            <p>Bleanding feelings of passion &amp;amp; affinity</p>
+                            <p>Bleanding feelings of passion &amp; affinity</p>
                            </div>
                     </div>
                 </div>
@@ -105,11 +98,11 @@
         </div>
     </section>
 
-            
-   <section class="inspired-by">
+    <section class="inspired-by">
         <div class="abs-inspired">
             <h1><span>Inspired</span> by the details</h1>
-            <p>We are putting innovation at the forefront of everything we do,CIDS.DESIGN transforms concepts into full-functioning spaces.Being sticklers for details, we wor k hard to understand your brand, space, and
+            <p>We are putting innovation at the forefront of everything we do, CIDS.DESIGN transforms concepts into full
+                - functioning spaces. B eing stic k lers for details, we wor k hard to understand your brand, space, and
                 objectives through meticulous consultancy and translate them into a solid design strategy par excellence
             </p>
             <a class="ins-more" href="#"> Know More <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
@@ -140,10 +133,11 @@
         </div>
     </section>
 
-       <section class="certifications">
+    <section class="certifications">
         <div class="certificate-inner">
-            <h3>Certifications<img class="line" src="/cids_theme_odoo_15/static/src/img/images/line.png"/></h3>
+           <!--- <h3>Certifications<img class="line" src="/cids_theme_odoo_15/static/src/img/images/line.png"/></h3>-->
             <h1>FIDER, CDA ACCREDITED</h1>
+            <h3>Minorty and women own bussiness</h3>
             <p>Success &amp; Achievements Comes With Trust, Quality, Transparency, And Hard Work.There is no shortcut to
                 creating impeccable designs ! </p>
         </div>
@@ -166,13 +160,12 @@
             </div>
             <div>
                 <h1>200+</h1>
-                <p>Furniture Designers Manufacturers Minority Women </p>
+                <p>Furniture Designers Manufacturers </p>
             </div>
         </div>
     </section>
 
-
-     <section class="hotel-services">
+    <section class="hotel-services">
         <h1>Our <span>Services</span></h1>
         <div class="owl-carousel owl-theme hotelServicesCarsouel">
             <div class="item">
@@ -249,7 +242,7 @@
 
     </section>
 
-     <section class="hotel-case">
+    <section class="hotel-case">
         <h1>Case <span>Studies</span></h1>
         <div class="owl-carousel owl-theme hotelCaseCarsouel">
             <div class="item">
@@ -282,7 +275,7 @@
                 </div>
             </div>
 
-            
+
 
         </div>
 
@@ -295,30 +288,33 @@
             <div class="owl-carousel owl-theme hotelClientCarsouel">
                 <div class="item">
                     <div class="client-item">
-                        <img src="/cids_theme_odoo_15/static/src/img/images/hilton2.png"/>
+                        <img src="/cids_theme_odoo_15/static/src/img/images/hilton1.png"/>
                     </div>
                 </div>
                 <div class="item">
                     <div class="client-item">
-                        <img src="/cids_theme_odoo_15/static/src/img/images/ihg.png"/>
+                        <img src="/cids_theme_odoo_15/static/src/img/images/ihg234.png"/>
                     </div>
                 </div>
                 <div class="item">
                     <div class="client-item">
-                        <img src="/cids_theme_odoo_15/static/src/img/images/laquinta.png"/>
+                        <img src="/cids_theme_odoo_15/static/src/img/images/laquinta234.png"/>
                     </div>
                 </div>
                 <div class="item">
                     <div class="client-item">
-                        <img src="/cids_theme_odoo_15/static/src/img/images/marriott2.png"/>
+                        <img src="/cids_theme_odoo_15/static/src/img/images/marriott123.png"/>
                     </div>
                 </div>
+
+
+
             </div>
         </div>
 
     </section>
 
-     <section class="client-feedback">
+    <section class="client-feedback">
         <div class="owl-carousel owl-theme clientFeedbackCarsouel">
             <div class="item">
                 <div class="feedback-item">
@@ -374,13 +370,12 @@
                     </div>
                 </div>
             </div>
-           
-            
+
+
 
 
         </div>
     </section>
-
         </t>
     </template>
 </odoo>

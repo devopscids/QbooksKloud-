@@ -6,7 +6,7 @@
         <div class="nav-inner">
             <div class="logo">
                 <img class="light" src="/cids_theme_odoo_15/static/src/img/images/cids-logo.png" />
-
+             
             </div>
             <div class="menu">
                 <ul>
@@ -43,9 +43,11 @@
                 <span></span>
             </div>
             <div class="search">
-
-                <a class="contact-search" href="/contactus">Contact</a>
-                <a class="login-search" href="/web/login">Login</a>
+               
+               <!-- <a class="contact-search" href="#">Contact</a>
+                <a class="login-search" href="#">Login</a>-->
+                <a  href="/contactus"><img src="/cids_theme_odoo_15/static/src/img/images/call.png"/></a>
+                <a href="/web/login"><img src="/cids_theme_odoo_15/static/src/img/images/login.png"/></a>
             </div>
         </div>
     </section>

@@ -12,21 +12,19 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                 }
             });
    })
-   
 
-
-
-          $(document).ready(function () {
+    $(document).ready(function () {
             var owl = $('.owl-carousel.tpbanner');
             owl.owlCarousel({
                 margin: 10,
                 nav: true,
                 autoplay: true,
+                autoplayTimeout:6000,
+            autoplaySpeed:5500,
+            autoplayHoverPause: true,
                 animateOut: 'zoomOut',
                 animateIn: 'fadeIn',
                 loop: true,
-                autoplayTimeout: 4000,
-                autoplaySpeed: 1500,
 
                 responsive: {
                     0: {
@@ -42,13 +40,15 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
             })
         });
 
+
         $("document").ready(function () {
             $('.humburger').click(function(){
                $('.menu').toggleClass('mobileMenu');
-               
+
             });
         });
-        $(document).ready(function () {
+
+          $(document).ready(function () {
             var owl4 = $('.owl-carousel.address');
             owl4.owlCarousel({
                 margin: 10,
@@ -70,8 +70,9 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
             });
             $(".addholder .owl-prev").html('<img src="/cids_theme_odoo_15/static/src/img/images/footerLeft.png"/>');
             $(".addholder .owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/images/footerRight.png"/>');
-           
+
         });
+
 
         $(document).ready(function () {
             var owl5 = $('.owl-carousel.aboutcarsouel');
@@ -98,7 +99,8 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
             });
         });
 
-        $(document).ready(function () {
+
+         $(document).ready(function () {
             var owl6 = $('.owl-carousel.hotelServicesCarsouel');
             owl6.owlCarousel({
                 margin: 0,
@@ -122,12 +124,13 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
             $(".hotel-services .owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/images/Right.png"/>');
         });
 
-        $(document).ready(function () {
+
+          $(document).ready(function () {
             var owl7 = $('.owl-carousel.hotelCaseCarsouel');
             owl7.owlCarousel({
                 margin: 32,
                 nav: true,
-                
+
                 autoplay: false,
                 loop: true,
 
@@ -149,7 +152,8 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
             $(".hotel-case .owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/images/Right.png"/>');
         });
 
-        $(document).ready(function () {
+
+          $(document).ready(function () {
             var owl8 = $('.owl-carousel.hotelClientCarsouel');
             owl8.owlCarousel({
                 margin: 150,
@@ -173,8 +177,10 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                 }
             });
         });
-
-        $(document).ready(function () {
+    
+    
+    
+     $(document).ready(function () {
             var owl9 = $('.owl-carousel.clientFeedbackCarsouel');
             owl9.owlCarousel({
                 margin: 0,
@@ -200,6 +206,16 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
             $(".client-feedback .owl-prev").html('<img src="/cids_theme_odoo_15/static/src/img/images/whiteLeft.png"/>');
             $(".client-feedback .owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/images/whiteRight.png"/>');
         });
+
+   
+
+
+
+
+
+
+
+
 
   
 })

@@ -111,6 +111,13 @@
 
 }
 
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
 .explore.absexplore{
     position:absolute;
 }
@@ -128,7 +135,7 @@ a {
 
 .hotel-banner {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 5%;
     transform: translateY(-50%);
     width: 50%;
@@ -137,15 +144,16 @@ a {
 
 .active .hotel-banner {
     animation: slideInUp;
-    animation-duration: 1s;
-
-    animation-timing-function: ease-out;
+    animation-duration:2s;
+    animation-timing-function:linear;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 
 }
 
 .hotel-banner h1 {
     font-family: 'Lorin-xbold';
-    font-size: var(--font-size-60);
+    font-size: var(--font-size-50);
     color: #FFFFFF;
 }
 
@@ -155,7 +163,7 @@ a {
 
 .hotel-banner p {
     font-family: 'Lorin';
-    font-size: var(--font-size-18);
+    font-size: var(--font-size-14);
     width: var(--width-485);
     color: #FFFFFF;
     margin: 30px 0px;
@@ -170,7 +178,7 @@ a {
     padding: 16px 24px;
     background: #FFBC00;
     font-family: 'Lorin';
-    font-size: 16px;
+    font-size:var(--font-size-14);
     color: #FFFFFF;
     text-decoration: none;
     margin-right: 16px;
@@ -243,6 +251,8 @@ a {
 .about-right {
     width: 70%;
 }
+
+
 
 .service-practise {
     display: flex;
@@ -372,6 +382,8 @@ a {
 
 .light {
     display: block;
+    width:126px;
+    height:50px;
 }
 
 
@@ -468,10 +480,11 @@ a {
 
 .abs-inspired {
     width: var(--width-718);
-    background-color: rgba(255, 255, 255, 0.1);
+    /*background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px);
-    margin-left: var(--padding-80);
+    margin-left: var(--padding-80);*/
     padding: var(--padding-45);
+    padding-left:5%;
 }
 
 .abs-inspired h1 {
@@ -575,9 +588,11 @@ a {
 
 /*certifications*/
 .certifications {
-    background-color: #50575D;
+    background-image:linear-gradient(180.09deg, rgba(0, 0, 0, 0.76) 0.08%, rgba(0, 0, 0, 0.62) 55.92%, rgba(0, 0, 0, 0.83) 99.92%),url('/cids_theme_odoo_15/static/src/img/images/p3.png');
+    background-repeat: no-repeat;
     height: var(--height-889);
     padding: var(--padding-202) 0px;
+    background-size: cover;
 }
 
 .certificate-inner {
@@ -603,29 +618,30 @@ a {
 }
 
 .certificate-inner h1 {
-    padding: var(--padding-28) 0px var(--padding-32) 0px;
+    padding: var(--padding-28) 0px var(--padding-23) 0px;
     font-size: var(--font-size-30);
     color: var(--white);
-    font-family: 'Lorin-xbold';
+    font-family: 'Lorin-bold';
     line-height: 150%;
-    width: var(--width-485);
+    /*width: var(--width-485);*/
     margin: auto;
-    text-align: left;
+    text-align: center;
 
 
 }
 
 .certificate-inner h3 {
     font-size: var(--font-size-16);
+    padding: var(--padding-12) 0px var(--padding-12) 0px;
     color: var(--yellow);
     position: relative;
-    font-family: 'Lorin-xbold';
+    font-family: 'Lorin-bold';
     line-height: 150%;
-    width: var(--width-357);
+   /* width: var(--width-357);*/
     margin: auto;
-    text-transform: uppercase;
+   /* text-transform: uppercase;*/
     position: relative;
-    text-align: left;
+    justify-content: center;
     display: flex;
     align-items: center;
     letter-spacing: 0.14em;
@@ -671,14 +687,14 @@ a {
     font-size: var(--font-size-50);
     color: var(--yellow);
     padding-bottom: var(--padding-12);
-    font-family: 'Lorin-xbold';
+    font-family: 'Lorin-bold';
     line-height: 150%;
 }
 
 .achiv-holder>div p {
     font-size: var(--font-size-16);
     color: var(--white);
-    font-family: 'Lorin-xbold';
+    font-family: 'Lorin-bold';
     line-height: 150%;
 }
 
@@ -700,9 +716,8 @@ a {
     font-size: var(--font-size-30);
     margin-bottom: var(--margin-49);
     text-align: center;
-    font-family: 'Lorin-xbold';
-    text-transform: capitalize;
     color:var(--text-color);
+    font-family: 'Lorin-xbold';
 }
 
 .hotel-services h1 span {
@@ -815,7 +830,7 @@ a {
     right: 0;
     top: 0;
     bottom: 0;
-    background: #0000008a;
+   /* background: #0000008a;*/
 }
 
 .hotel-case .owl-carousel .owl-item.active {
@@ -835,7 +850,7 @@ a {
     right: 0;
     top: 0;
     bottom: 0;
-    background: #0000008a;
+    /*background: #0000008a;*/
     text-align: center;
     display: flex;
     justify-content: flex-end;
@@ -907,7 +922,7 @@ a {
 
 .feedback-txt p {
     font-family: 'Lorin';
-    font-size: var(--font-size-20);
+    font-size: var(--font-size-18);
     line-height: 150%;
     text-align: center;
     color: var(--white);
@@ -969,7 +984,7 @@ a {
 
 .nmloc h2 {
     font-family: 'Lorin-xbold';
-    font-size: var(--font-size-24);
+    font-size: var(--font-size-20);
     line-height: 150%;
     text-transform: capitalize;
     color: var(--white);
@@ -1203,8 +1218,9 @@ body {
     height: 30px;
     display: none;
     position: absolute;
-    background-color: var(--yellow);
+   /* background-color: var(--yellow);*/
     right: 5%;
+    top:18px;
 }
 
 .humburger span {
@@ -1254,6 +1270,8 @@ body {
     line-height: 200%;
     text-transform: capitalize;
     color: #FFFFFF;
+    margin:0px;
+    padding:10px;
 
 }
 
@@ -1269,6 +1287,15 @@ body {
     background:transparent;
     color: #FFF;
     text-decoration: none;
+}
+
+.search a img{
+    width:40px;
+}
+
+.search a:nth-child(2) img
+{
+    margin-left:var(--margin-28);
 }
 @media screen and (max-width:1600px)
 {
@@ -1307,7 +1334,7 @@ body {
     .menu {
         width: 100%;
         position: absolute;
-        left: 100%;
+        left:0;
         top: 60px;
         background: #393b3a;
         text-align: center;
@@ -1315,6 +1342,7 @@ body {
         border-top: 1px solid #f2f2f214;
         z-index: -1;
         transition: all .35s linear;
+        opacity:0;
     }
 
     .search {
@@ -1326,7 +1354,7 @@ body {
     }
 
     .nav-bar .menu ul li {
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     }
 
     .nav-bar .menu ul li a {
@@ -1345,13 +1373,13 @@ body {
     .nav-bar {
         background-color: #393b3a;
         padding: var(--padding-23) 0px;
-        height: 60px;
+        height:72px;
     }
 
     .f-nav.nav-bar {
         background-color: #393b3a;
         padding: var(--padding-23) 0px;
-        height: 60px;
+        height:72px;
     }
 
     .search a.contact-search,
@@ -1361,7 +1389,7 @@ body {
     }
 
     .menu.mobileMenu {
-        left: 0;
+        opacity:1;
     }
 
     .wedo-text,
@@ -1511,7 +1539,7 @@ body {
 
     .hotel-banner {
         width: 100%;
-        top: 83%;
+        top: 35%;
         height: 300px;
     }
 
@@ -1539,6 +1567,7 @@ body {
 }
 
 @media screen and (max-width:580px) {
+    .humburger{top:5px;}
     .abs-inspired h1 {
         margin-bottom: 10px;
     }
@@ -1561,7 +1590,7 @@ body {
     }
 
     .certificate-inner p {
-        font-size: 16px;
+        font-size:var(--font-size-14);
     }
 
     .achiv-holder>div h1 {
@@ -1579,7 +1608,7 @@ body {
     }
 
     .about-head {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     :root {
@@ -1590,17 +1619,17 @@ body {
     .nav-bar {
         background-color: #393b3a;
         padding: var(--padding-23) 0px;
-        height: 49px;
+        height:40px;
     }
 
     .f-nav.nav-bar {
         background-color: #393b3a;
         padding: var(--padding-23) 0px;
-        height: 49px;
+        height:40px;
     }
 
     .menu {
-        top: 49px;
+        top:40px;
     }
 
     .service-practise {
@@ -1617,13 +1646,62 @@ body {
         height:30px!important;
     }
 
+    .about-right{height:250px;}
+    .aboutcarsouel.owl-carousel .owl-item img{height:200px;}
+    .search a img{width:28px;}
+    .search a:nth-child(2) img{margin-left:11px;}
+    .about-txt p{font-size:12px;}
+    .about-ltext p {
+        font-size: var(--font-size-14)!important;
+    }
+    .view-projects {
+        font-size: var(--font-size-14)!important;
+    }
+    .light{width:80px; height:auto;}
+    .abs-inspired p, .ins-more{
+        font-size: var(--font-size-14)!important;
+    }
+    .wedotext-inner h1{
+        font-size: var(--font-size-18)!important;
+    }
+    .wedotext-inner p{
+        font-size: var(--font-size-14)!important;
+    }
+    .certificate-inner h1{
+        font-size: var(--font-size-18)!important;
+    }
+    .serive-item{height:200px;}
+    .hotel-services .owl-carousel .owl-item img{height:200px;}
+    .hotel-case .owl-carousel .owl-item img{height:200px;}
+    .hotel-case .owl-carousel .owl-item.active img{height:200px;}
+    .clientContainer{height:60px;}
+    .feedback-item h1 {
+        font-size: 16px;
+    }
+    .nmloc h2 {
+        font-size: 16px;
+    }
+    nmloc p {
+        font-family: 'Lorin-bold';
+        font-size:14px;
+    }
+    .bottom-inner>div {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .nav-bar .menu ul li a{
+        font-family: 'Lorin-bold';
+        font-size:14px;
+    }
+
 }
 
 @media screen and (max-width:480px) {
     .light {
         width: 70px;
     }
-    .bottom-inner>div{flex-wrap: wrap;}
+
     .search a.contact-search,
     .search a.login-search {
         font-size: 12px !important;
@@ -1697,13 +1775,6 @@ body {
         width:auto;
     }
 }
-
-
-
-
-
-
-
 
 
 @-webkit-keyframes zoomOut {
