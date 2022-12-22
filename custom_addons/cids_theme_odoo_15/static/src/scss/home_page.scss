@@ -85,7 +85,7 @@
     --text-color: #50575d;
     --light-grey: #d9d9d9;
 
-    /* Height */
+   /* Height dec2022*/
     --height-863: 59.93vw;
     --height-875: 60.76vw;
     --height-889: 61.73vw;
@@ -95,8 +95,9 @@
     --height-505: 35.06vw;
     --height-155: 10.76vw;
     --height-102: 7.08vw;
+    --height-51:3.54vw;
 
-    /* Width */
+    /* Width dec2022*/
     --width-28: 1.95vw;
     --width-718: 49.86vw;
     --width-634: 44.02vw;
@@ -107,8 +108,9 @@
     --width-600: 41.66vw;
     --width-536: 37.22vw;
     --width-102: 7.08vw;
-    --width-194: 13.47;
-
+    --width-194: 13.47vw;
+    --width-162:11.25vw;
+    --width-211:14.65vw;
 }
 
 .animated {
@@ -512,16 +514,22 @@ a {
 }
 
 .ins-more {
-    padding: 16px 24px;
-    background: #FFBC00;
-    font-family: 'Lorin';
-    font-size: 16px;
-    color: #FFFFFF;
-    text-decoration: none;
-    margin-right: 16px;
-    display: inline-block;
-    align-items: center;
+   height:var(--height-51);
+    width:var(--width-194);
+     background: #FFBC00;
+     font-family: 'Lorin';
+     font-size:var(--font-size-14);
+     color: #FFFFFF;
+     text-decoration: none;
+     margin-right: 16px;
+     display: flex;
+     align-items: center;
+     position: relative;
+     cursor: pointer;
+     justify-content: center;
+     overflow:hidden;
     margin-top: var(--margin-28);
+
 }
 
 .ins-more .unionpng {
@@ -1325,6 +1333,7 @@ body {
 
     .humburger {
         display: block;
+
     }
 
     .menu ul:first-child {
@@ -1347,6 +1356,7 @@ body {
 
     .search {
         margin-right: 50px;
+        padding-right: 6%;
     }
 
     .light {
@@ -1405,6 +1415,17 @@ body {
         height: auto;
         padding: 50px 0px;
     }
+
+
+
+.search {
+    width: 50%;
+    padding-right: 5%;
+}
+.humburger{top:7px;}
+
+.menu{top:55px;}
+
 }
 
 @media screen and (max-width:845px) {
@@ -1619,13 +1640,13 @@ body {
     .nav-bar {
         background-color: #393b3a;
         padding: var(--padding-23) 0px;
-        height:40px;
+        height:51px;
     }
 
     .f-nav.nav-bar {
         background-color: #393b3a;
         padding: var(--padding-23) 0px;
-        height:40px;
+        height:51px;
     }
 
     .menu {
@@ -1695,7 +1716,19 @@ body {
         font-size:14px;
     }
 
+.f-nav.nav-bar{height:50px;}
+.nav-bar{height:50px;}
+.menu{top:40px;}
+.humburger {
+    top: 0px;
 }
+.menu {
+    top: 34px;
+}
+}
+
+
+
 
 @media screen and (max-width:480px) {
     .light {
@@ -1776,6 +1809,11 @@ body {
     }
 }
 
+@media screen and (max-width:400px){
+.menu {
+    top: 34px;
+}
+}
 
 @-webkit-keyframes zoomOut {
   0% {
@@ -1844,3 +1882,133 @@ body {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
+
+
+
+/*updated part dec21*/
+/*new addition 21dec2022*/
+ .ins-more::after{
+     content:"Know More\00a0\00a0\00a0 " url("/cids_theme_odoo_15/static/src/img/images/UnionYellow.png");
+     background-color: var(--white);
+     position:absolute;
+     left:0;
+     right:0;
+     color:var(--yellow);
+     height:0;
+    bottom:0;
+     opacity:0;
+     transition:all .5s linear;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ .ins-more:hover::after{
+ opacity:1;
+     height:var(--height-51);
+
+ }
+
+
+.hotel-banner .hbtns a.explore {
+   height:var(--height-51);
+   min-width:var(--width-162);
+    background: #FFBC00;
+    font-family: 'Lorin';
+    font-size:var(--font-size-14);
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    justify-content: center;
+    overflow:hidden;
+}
+
+
+/*new addition 21dec2022*/
+.hotel-banner .hbtns a.explore::after{
+    content:"Explore\00a0\00a0\00a0 " url("/cids_theme_odoo_15/static/src/img/images/UnionYellow.png");
+    background-color: var(--white);
+    position:absolute;
+    left:0;
+    right:0;
+    color:var(--yellow);
+    height:0;
+   bottom:0;
+    opacity:0;
+    transition:all .5s linear;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hotel-banner .hbtns a.explore:hover::after{
+opacity:1;
+    height:var(--height-51);
+
+}
+
+/*new addion ends here*/
+
+
+
+
+.hotel-banner .hbtns a.contact {
+    padding: 16px 24px;
+    background: transparent;
+    font-family: 'Lorin';
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 1px solid #FFBC00;
+    color: #FFBC00;
+    text-decoration: none;
+}
+/*updated css 21dec2022*/
+.view-projects {
+
+    height:var(--height-51);
+    width:var(--width-211);
+    background: transparent;
+    font-family: 'Lorin';
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 1px solid #FFBC00;
+    color: #FFBC00;
+    text-decoration: none;
+    margin-top: 40px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    justify-content: center;
+    overflow:hidden;
+}
+ /*new addition 21dec2022*/
+ .view-projects::after{
+     content:"View Projects\00a0\00a0\00a0" url("/cids_theme_odoo_15/static/src/img/images/Unionnew.png");
+     background-color: var(--yellow);
+     color:var(--white);
+     position:absolute;
+     left:0;
+     right:0;
+     height:0;
+    bottom:0;
+     opacity:0;
+     transition:all .5s linear;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ .view-projects:hover::after{
+ opacity:1;
+     height:var(--height-51);
+
+ }
