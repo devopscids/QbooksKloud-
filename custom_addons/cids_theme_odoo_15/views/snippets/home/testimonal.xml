@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="testimonal" name="CIDS Testimonal">
+<section class="testimonal">
+
+          <div class="owl-carousel owl-theme testimonial">
+                <div class="item">
+                <div class="item-holder">
+                      <img src="https://dev.cids.design/web/image/1438-42bb4d28/vklogo.jpg" loading="lazy" style=""/>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+  sed diam nonummy nibh euismod tincidunt ut laoreet
+  dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+  veniam, quis nostrud exerci tation ullamcorper suscipit lob-</p>
+                  <div class="author-info">
+                    <p>April Bowlby</p>
+                    <span>United States</span>
+                  </div>
+                </div>
+                </div>
+                <div class="item">
+                  <div class="item-holder">
+                      <img src="https://dev.cids.design/web/image/748-9d85f92e/iStock-1372400701.jpg" loading="lazy" style=""/>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+  sed diam nonummy nibh euismod tincidunt ut laoreet
+  dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+  veniam, quis nostrud exerci tation ullamcorper suscipit lob-</p>
+                  <div class="author-info">
+                    <p>April Bowlby</p>
+                    <span>United States</span>
+                  </div>
+                </div>
+                </div>
+                <div class="item">
+                   <div class="item-holder">
+                      <img src="https://dev.cids.design/web/image/748-9d85f92e/iStock-1372400701.jpg" loading="lazy" style=""/>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+  sed diam nonummy nibh euismod tincidunt ut laoreet
+  dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+  veniam, quis nostrud exerci tation ullamcorper suscipit lob-</p>
+                  <div class="author-info">
+                    <p>April Bowlby</p>
+                    <span>United States</span>
+                  </div>
+                </div>
+                </div>
+
+              </div>
+  </section>
+    </template>
+</odoo>

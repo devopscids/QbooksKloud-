@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="snippet_custom" name="Snippet Custom"
+              inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']//div[hasclass('o_panel_body')]"
+               position="inside">
+<!--            <t t-snippet="cids_theme_odoo_15.home" t-thumbnail=""/>-->
+<!--            <t t-snippet="cids_theme_odoo_15.landing" t-thumbnail=""/>-->
+<!--            <t t-snippet="cids_theme_odoo_15.hospitality" t-thumbnail=""/>-->
+<!--            <t t-snippet="cids_theme_odoo_15.commercial" t-thumbnail=""/>-->
+<!--            <t t-snippet="cids_theme_odoo_15.new_home_page" t-thumbnail=""/>-->
+
+            <!--<t t-snippet="cids_theme_odoo_15.banner" t-thumbnail=""/>
+            <t t-snippet="cids_theme_odoo_15.about_us" t-thumbnail=""/>
+            <t t-snippet="cids_theme_odoo_15.about_us2" t-thumbnail=""/>
+            <t t-snippet="cids_theme_odoo_15.accreditation" t-thumbnail=""/>
+            <t t-snippet="cids_theme_odoo_15.case_studies" t-thumbnail=""/>
+            <t t-snippet="cids_theme_odoo_15.designer_work" t-thumbnail=""/>
+            <t t-snippet="cids_theme_odoo_15.services" t-thumbnail=""/>
+            <t t-snippet="cids_theme_odoo_15.testimonal" t-thumbnail=""/>
+            <t t-snippet="cids_theme_odoo_15.about_banner" t-thumbnail=""/>
+            <t t-snippet="cids_theme_odoo_15.about_cids" t-thumbnail=""/>
+            <t t-snippet="cids_theme_odoo_15.cids_process" t-thumbnail=""/>
+            <t t-snippet="cids_theme_odoo_15.hotel_services" t-thumbnail=""/>
+            <t t-snippet="cids_theme_odoo_15.hotel_projects" t-thumbnail=""/>
+            <t t-snippet="cids_theme_odoo_15.happy_customers" t-thumbnail=""/>
+            <t t-snippet="cids_theme_odoo_15.why_us" t-thumbnail=""/>-->
+        </xpath>
+    </template>
+</odoo>

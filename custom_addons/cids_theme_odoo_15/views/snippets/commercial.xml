@@ -1,0 +1,1771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="commercial" name="CIDS Commercial">
+<!--        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/commercial_style.scss"/>-->
+        <style>
+            .header{display:none !important;}
+            .footer{display:none !important;}
+                    a{
+            text-decoration: none!important;
+        }
+        .projects{
+            margin-top:100px;
+        }
+        *{
+            box-sizing: border-box;
+        }
+.modal.fade{
+    display: none;
+}
+        .item-column {
+            width:33.3%!important;
+        }
+        .gallery-items-row{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+          .gallery-item {
+            width:33.3%;
+            height: 351px;
+            object-fit: cover;
+        }
+        .gallery .nav-pills .nav-link {
+                font-size: 12px;
+            }
+            .tags-bar {
+            background-color: #50575D;
+            justify-content: center;
+            display: flex;
+            padding:23px;
+        }
+
+        .gallery .nav-item{
+            list-style-type: none;
+        }
+
+        .gallery .nav-pills .nav-link {
+            border-radius: 0px;
+        }
+
+        .gallery .nav-pills .nav-link.active {
+            color: #FFBC00 !important;
+            background-color: #6B7379 !important;
+        }
+
+        .gallery .nav-pills .nav-link {
+            color: #949494 !important;
+            cursor: pointer;
+            font-family: 'Lorin-bold';
+            padding: 23px;
+            font-size: 18px;
+            text-transform: capitalize;
+        }
+
+        .gallery .h-100 {
+            overflow: hidden;
+            position: relative;
+            transition: all .35s linear;
+        }
+
+        .gallery .img-fluid {
+            max-width: 100%;
+            height: 350px;
+            max-height: 100%;
+            object-fit: cover;
+        }
+
+        .gallery-item+div {
+            position: absolute !important;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        }
+
+        .bg-danger {
+            background-color: #000000bf !important;
+            transition: all .35s linear;
+            opacity: 0;
+        }
+
+        .gallery .h-100:hover .bg-danger {
+            opacity: 1;
+            background-color: #000000bf !important;
+        }
+
+        .spa {
+            color: #fff;
+            font-family: 'Lorin-bold';
+            font-size: 18px;
+            text-transform: capitalize;
+        }
+
+        .hilton {
+            color: #FFBC00;
+            font-family: 'Lorin-bold';
+            font-size: 18px;
+            text-transform: capitalize;
+
+        }
+
+        .gallery {
+            margin-top: 32px;
+        }
+
+        /*header new starts here*/
+        .h-header {
+            position: fixed;
+            left: 0;
+            right: 0;
+            z-index: 99;
+            top: 0;
+            transition: all .35s linear;
+        }
+
+        .f-nav.h-header {
+            position: fixed;
+            left: 0;
+            right: 0;
+            z-index: 99;
+            top: 0;
+        }
+
+        .f-nav.h-header .h-inner {
+            padding: 8px 0px;
+        }
+
+        .f-nav.h-header .logo-holder img {
+            width: 115px;
+        }
+
+        .f-nav.h-header .h-bottom {
+
+            padding: 8px 0px;
+
+        }
+
+        .h-inner-holder {
+            width: 90%;
+            margin: auto;
+
+        }
+
+        .h-inner {
+            background-color: #FFBC00;
+            padding: 16px 0px;
+            transition: all .35s linear;
+
+        }
+
+        .h-top {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .h-top a {
+            color: #fff;
+        }
+
+        .h-top img {
+            width: 17px;
+            height: 17px;
+            margin-right: 10px;
+        }
+
+        .h-top>div {
+            margin-left: 16px;
+            display: flex;
+            align-items: center;
+        }
+
+        .h-bottom {
+            background-color: #50575D;
+            padding: 12px 0px;
+            transition: all .35s linear;
+        }
+
+        .h-bottom-holder {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-holder img {
+            width: 130px;
+            transition: all .35s linear;
+        }
+
+        .h-links a {
+            color: #fff;
+            text-decoration: none;
+            font-family: 'Lorin';
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 150%;
+            margin-left: 20px;
+            display: inline-block;
+            position: relative;
+            text-transform: capitalize;
+        }
+
+        .h-links a.active::after {
+            content: "";
+            background: #FFBC00;
+            border-radius: 8px 8px 0px 0px;
+            transform: matrix(1, 0, 0, -1, 0, 0);
+            height: 4px;
+            position: absolute;
+            top: 27px;
+            left: 0;
+            width: 100%;
+        }
+
+        .h-links a:first-child {
+            margin-left: 0px;
+        }
+
+        .h-contact {
+            background: #FFBC00;
+            border-radius: 8px;
+            font-family: 'Lorin-xbold';
+            font-size: 18px;
+            line-height: 150%;
+            color: #fff;
+            padding: 8px 48px;
+            margin-left: 40px;
+            display: inline-block;
+        }
+
+        /*header new end here*/
+
+
+        /*new footer starts here*/
+        .h-footer {
+            background-color: #50575D;
+            padding: 55px 0px 100px 0px;
+        }
+
+        .h-footer-inner {
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .h-footer-inner>div:first-child {
+            width: 15%;
+        }
+
+        .h-footer-inner>div:last-child {
+            width: 15%;
+        }
+
+        .h-footer-inner>div:nth-child(2) {
+            width: 60%;
+        }
+
+        .b-logo img {
+            width: 130px;
+        }
+
+        .f-services h1 {
+            font-family: 'Lorin-xbold';
+            font-size: 16px;
+            line-height: 105%;
+            text-transform: uppercase;
+            color: #FFBC00;
+        }
+
+        .services-tp {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+        }
+
+        .services-tp>a {
+            width: 30%;
+            font-family: 'Lorin';
+            font-size: 14px;
+            line-height: 105%;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+        }
+
+        .pratices-tp {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+        }
+
+        .pratices-tp>a {
+            width: 30%;
+            font-family: 'Lorin';
+            font-size: 14px;
+            line-height: 105%;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+        }
+
+        .f-contact h1 {
+            font-family: 'Lorin-xbold';
+            font-size: 16px;
+            line-height: 105%;
+            text-transform: uppercase;
+            color: #FFBC00;
+        }
+
+        .f-contact>div {
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 16px;
+
+        }
+
+        .f-contact img {
+            width: 18px;
+            height: 18px;
+            margin-right: 10px;
+        }
+
+        .f-contact a {
+            font-family: 'Lorin-xbold';
+            font-size: 14px;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+
+
+        }
+
+        .sicons img {
+            width: 20px;
+            height: 20px;
+            margin-right: 26px;
+        }
+
+        /*new footer ends here*/
+
+        /*top banner*/
+        * {
+            margin: 0px;
+            padding: 0px
+        }
+
+        .comm-banner {
+            background: linear-gradient(89.76deg, rgba(0, 0, 0, 0.76) 0.18%, rgba(0, 0, 0, 0.51) 99.77%), url('/cids_theme_odoo_15/static/src/img/commercial/commercial-banner.png');
+            height: 100vh;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .banner-text {
+            text-align: center;
+            padding-top: 10%;
+        }
+
+        .banner-text h1 {
+            font-family: 'Lorin-xbold';
+            font-size: 56px;
+            line-height: 105%;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        .banner-text h1 span {
+            font-family: 'Lorin-xbold';
+            font-size: 56px;
+            line-height: 105%;
+            color: #FFBC00;
+        }
+
+        .getInTouch {
+            background: #FFBC00;
+
+            padding: 16px 32px;
+            display: inline-block;
+            margin-top: 34px;
+            text-decoration: none;
+            font-family: 'Lorin-xbold';
+            font-size: 18px;
+
+            text-transform: capitalize;
+
+            color: #FFFFFF;
+        }
+
+        /*top banner ends here*/
+
+
+        /*our values starts*/
+        .our-values {
+            display: flex;
+            background-color: #50575D;
+            ;
+        }
+
+        .our-values>div {
+            width: 33.3%;
+            padding: 28px 65px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .our-values>div img {
+            width: 35px;
+            height: 35px;
+        }
+
+        .our-values>div div {
+            padding-left: 17px;
+        }
+
+        .our-values>div:nth-child(2) {
+            background-color: #626A72;
+        }
+
+        .our-values>div:nth-child(2) h2 {
+            color: #FFBC00;
+        }
+
+        .our-values h2 {
+            font-family: 'Lorin';
+            font-size: 16px;
+            line-height: 150%;
+            color: #FFFFFF;
+            margin-bottom: 4px;
+        }
+
+        .our-values p {
+            font-family: 'Calibri';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FCFCFC;
+
+
+        }
+
+        .happy-customers .owl-theme .owl-nav {
+            position: absolute;
+            top: 40%;
+            left: 0px;
+            right: 0px;
+        }
+
+        .happy-customers .owl-carousel .owl-nav button.owl-prev {
+            width: 50px;
+            left: -30px;
+            position: absolute;
+            transform: rotate(180deg);
+            background: #FFBC00;
+            padding: 10px !important;
+            border-radius: 0px;
+
+        }
+
+
+        .happy-customers .owl-carousel .owl-nav button.owl-next {
+            width: 50px;
+            right: -30px;
+            position: absolute;
+            background: #FFBC00;
+            padding: 10px !important;
+            border-radius: 0px;
+
+        }
+
+        .happy-customers .owl-theme .owl-dots .owl-dot {
+            margin-top: 33px;
+
+        }
+
+        .happy-customers .owl-theme .owl-dots .owl-dot.active span {
+            border: 2px solid #FFBC00;
+        }
+
+        .happy-customers .owl-theme .owl-nav [class*=owl-]:hover {
+            background: #FFBC00 !important;
+        }
+
+
+        /*our values ends here*/
+
+        /*about starts here*/
+        .comm-about {
+            display: flex;
+            padding: 105px 0px;
+            width: 90%;
+            margin: auto;
+            justify-content: space-between;
+        }
+
+        .left-about {
+            width: 50%;
+            background-color: #FFBC00;
+            position: relative;
+        }
+
+        .abs-video {
+            position: absolute;
+            left: 32px;
+            bottom: 30px;
+            right: -32px;
+            top: 0px;
+        }
+
+        .right-about {
+            width: 40%;
+        }
+
+        .right-about h3 {
+            font-family: 'Lorin';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 105%;
+            text-transform: uppercase;
+            color: #FFBC00;
+            position: relative;
+            padding-left: 27px;
+        }
+
+        .right-about h3::after {
+            position: absolute;
+            left: 0;
+            background-color: #50575D;
+            height: 1px;
+            width: 27px;
+            top: 7px;
+            content: "";
+        }
+
+        .right-about h1 {
+            font-family: 'Lorin-xbold';
+            font-size: 32px;
+            line-height: 105%;
+            text-transform: capitalize;
+            color: #50575D;
+            margin: 8px 0px 16px 0px;
+        }
+
+        .right-about p {
+            font-family: 'Lorin';
+            font-size: 16px;
+            line-height: 21px;
+            color: #50575D;
+        }
+
+        .comm-service-inner {
+            width: 90%;
+            margin: auto;
+        }
+
+        .service-content {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .customer-carsouel {
+            width: 90%;
+            margin: auto;
+        }
+
+        .item-customers {
+            position: relative;
+        }
+
+        .img-text {
+            position: absolute;
+            bottom: 0;
+            background-color: #50575D;
+            padding: 18px;
+            justify-content: center;
+            align-items: center;
+            left: 0px;
+            right: 0px;
+            display: flex;
+            color: #fff;
+        }
+
+        .img-text span {
+            font-family: 'Lorin-xbold';
+            font-size: 24px;
+            line-height: 106%;
+            letter-spacing: 0.08em;
+            color: #FFBC00;
+        }
+
+        .img-text p {
+            font-family: 'Lorin-xbold';
+            font-size: 18px;
+            line-height: 106%;
+            letter-spacing: 0.08em;
+            color: #FFFFFF;
+            padding-left: 8px;
+        }
+
+        .service-content {
+            margin-bottom: 16px;
+        }
+
+        .service-content h2 {
+            font-family: 'Lorin-xbold';
+            font-size: 18px;
+            line-height: 105%;
+            text-transform: uppercase;
+            color: #FFBC00;
+            display: inline-block;
+            position: relative;
+            padding-left: 27px;
+        }
+
+        .service-content h2::after {
+            position: absolute;
+            left: 0;
+            background-color: #50575D;
+            height: 1px;
+            width: 27px;
+            top: 7px;
+            content: "";
+        }
+
+        .service-content h1 {
+            font-family: 'Lorin-xbold';
+            font-size: 32px;
+            line-height: 105%;
+            text-transform: capitalize;
+            color: #50575D;
+            margin: 8px 0px 16px 0px;
+        }
+
+        .service-content p {
+            font-family: 'Lorin';
+            font-size: 16px;
+            line-height: 21px;
+            text-align: center;
+            color: #50575D;
+        }
+
+        .projects-text p {
+            font-family: 'Lorin';
+            font-size: 16px;
+            line-height: 21px;
+            text-align: center;
+            color: #50575D;
+        }
+
+        /*gallary starts*/
+        .projects-text h3 {
+            font-family: 'Lorin-xbold';
+            font-size: 18px;
+            line-height: 105%;
+            text-transform: uppercase;
+            color: #FFBC00;
+            display: inline-block;
+            position: relative;
+            padding-left: 27px;
+        }
+
+        .projects-text h3::after {
+            position: absolute;
+            left: 0;
+            background-color: #50575D;
+            height: 1px;
+            width: 27px;
+            top: 7px;
+            content: "";
+        }
+
+        .projects-text h1 {
+            font-family: 'Lorin-xbold';
+            font-size: 32px;
+            line-height: 105%;
+            text-transform: capitalize;
+            margin: 8px 0px 24px 0px;
+            color: #50575D;
+        }
+
+        .projects-text {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .worked-with {
+            background-color: rgba(80, 87, 93, 0.05);
+        }
+
+        .owl-carousel.worked-with .owl-item img {
+            width: auto;
+            display: block;
+            margin: auto;
+        }
+
+        .owl-carousel.worked-with .owl-item .item {
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+        }
+
+        .worked-with .owl-stage-outer {
+            background: #f6f6f7;
+            margin-top: 10px;
+        }
+
+        .worked-with-inner h3 {
+            font-family: 'Lorin-xbold';
+            font-size: 18px;
+            line-height: 105%;
+            text-transform: uppercase;
+            color: #FFBC00;
+            display: inline-block;
+            position: relative;
+            padding-left: 27px;
+        }
+
+        .worked-with-inner h3::after {
+            position: absolute;
+            left: 0;
+            background-color: #50575D;
+            height: 1px;
+            width: 27px;
+            top: 7px;
+            content: "";
+        }
+
+        .worked-with-inner {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            margin: 40px auto 20px auto;
+            padding: 40px;
+        }
+
+        .w-inner-text {
+            width: 65%;
+            margin: auto;
+        }
+
+        .worked-with-inner p {
+            font-family: 'Lorin';
+            font-size: 16px;
+            line-height: 21px;
+            text-align: center;
+            color: #50575D;
+        }
+
+        /*gallary ends*/
+        /*about ends here*/
+
+        /*why us starts*/
+        .why-us {
+            margin: 50px 0px 70px 0px;
+        }
+
+        .why-left {
+            background-image: url('/cids_theme_odoo_15/static/src/img/commercial/whyus.png');
+            min-height: 450px;
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .why-us-inner {
+            display: flex;
+            width: 90%;
+            margin: auto;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        .why-us-inner>div:first-child {
+            width: 70%;
+        }
+
+        .why-us-inner>div:nth-child(2) {
+            width: 50%;
+        }
+
+        .why-right {
+            background-color: #50575D;
+            position: absolute;
+            right: 0px;
+            top: 54px;
+            padding: 42px 34px;
+        }
+
+        .why-right h3 {
+            font-family: 'Lorin-xbold';
+            font-size: 18px;
+            line-height: 105%;
+            text-transform: uppercase;
+            color: #FFBC00;
+            position: relative;
+            padding-left: 27px;
+        }
+
+        .why-right h3::after {
+            position: absolute;
+            left: 0;
+            background-color: #FFFFFF;
+            height: 1px;
+            width: 27px;
+            top: 7px;
+            content: "";
+        }
+
+
+        .map-right h3 {
+            font-family: 'Lorin-xbold';
+            font-size: 18px;
+            line-height: 105%;
+            text-transform: uppercase;
+            color: #FFBC00;
+            position: relative;
+            padding-left:27px;
+        }
+        .map-right h3::after{
+            position: absolute;
+            left: 0;
+            background-color: #50575D;
+            height:1px;
+            width:27px;
+            top:7px;
+            content:"";
+        }
+        .map-right input {
+            border: 1px solid #D6D6D6 !important;
+            border-radius: 4px;
+            width: 100%;
+            padding: 15px 16px;
+            margin-bottom: 12px;
+            border: none;
+        }
+
+        .map-right textarea {
+            border: 1px solid #D6D6D6;
+            border-radius: 4px;
+            width: 100%;
+            padding: 15px 16px;
+            margin-bottom: 12px;
+        }
+
+        .map-right p {
+            font-family: 'Lorin';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            margin: 8px 0px 30px 0px;
+            color: #50575D;
+
+
+        }
+
+        .why-right h1 {
+            font-family: 'Lorin-xbold';
+            font-size: 32px;
+            line-height: 105%;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            margin-bottom: 24px;
+            margin-top: 8px;
+        }
+
+        .why-right ul li {
+            font-family: 'Lorin';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+            list-style-type: none;
+            margin-bottom: 16px;
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .why-right ul li::after {
+            content: url('/cids_theme_odoo_15/static/src/img/commercial/yellow-tick.png');
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 20px;
+        }
+
+        .gallery-item {
+            width: 100%;
+            height: 351px;
+            object-fit: cover;
+        }
+
+        /*why us ends*/
+
+        /*map addr starts*/
+        .map-addr {
+            background: rgba(80, 87, 93, 0.15);
+        }
+
+        .map-right {
+            background-color: #fff;
+        }
+
+        form>* {
+            display: block;
+        }
+
+        .map-addr-inner {
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            padding: 68px 0px;
+        }
+
+        .map-addr-inner>div {
+            width: 50%;
+        }
+
+        .map-addr-inner>div:nth-child(2) {
+            padding: 50px 70px;
+        }
+
+        .sendbtn {
+            background-color: #FFBC00;
+            width: 79px!important;
+            padding: 8px 16px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        /*map addr ends*/
+
+
+        /*client testimonial*/
+
+        .client-testimoinal {
+            background-image: linear-gradient(180.09deg, rgba(0, 0, 0, 0.76) 0.08%, rgba(0, 0, 0, 0.62) 55.92%, rgba(0, 0, 0, 0.83) 99.92%), url('/cids_theme_odoo_15/static/src/img/commercial/testimonial-bg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 60px 0px;
+        }
+
+        .stars {
+            display: flex;
+            margin-bottom: 19px;
+        }
+
+        .stars img {
+            width: 17px !important;
+            height: 17px;
+            margin-right: 6px;
+        }
+
+        .client-cont p {
+            font-family: 'Lorin';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+
+            color: #50575D;
+
+
+        }
+
+        .client-cred {
+            display: flex;
+            margin-top: 18px;
+            align-items: center;
+        }
+
+        .client-name p {
+            font-family: 'Lorin-xbold';
+            font-size: 16px;
+            line-height: 16px;
+
+            /* identical to box height */
+
+            color: #50575D;
+        }
+
+        .client-img {
+            margin-right: 15px;
+        }
+
+        .client-name span {
+            font-family: 'Lorin';
+            font-size: 14px;
+            line-height: 18px;
+            color: #80868B;
+        }
+
+        .client-img img {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            display: block;
+        }
+
+        .testimo-text {
+            width:30%;
+            margin: auto;
+        }
+
+        .owl-carousel.client-testimo {
+            width: 90%;
+            margin: auto;
+        }
+
+        .testimo-text h3 {
+            font-family: 'Lorin-xbold';
+            font-size: 18px;
+            line-height: 105%;
+            text-transform: uppercase;
+            color: #FFBC00;
+            margin-bottom: 9px;
+            position: relative;
+            padding-left: 27px;
+        }
+
+        .testimo-text h3::after {
+            position: absolute;
+            left: 0;
+            background-color: #50575D;
+            height: 1px;
+            width: 27px;
+            top: 7px;
+            content: "";
+        }
+
+        .testimo-text h1 {
+            font-family: 'Lorin-xbold';
+            font-size: 32px;
+            line-height: 105%;
+            text-transform: lowercase;
+            color: #FFFFFF;
+            margin-bottom:50px;
+        }
+
+        .client-inner {
+            background: #fff;
+            padding: 20px 30px;
+            position: relative;
+
+        }
+
+        .owl-carousel.client-testimo .owl-item.active .item .client-inner::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background: linear-gradient(89.58deg, rgba(0, 0, 0, 0.15) 0.31%, rgba(0, 0, 0, 0.3) 46.95%, rgba(0, 0, 0, 0.6) 99.6%);
+        }
+
+        /*client testimonial ends here*/
+
+
+        /*reponsive starts here*/
+
+        @media screen and (max-width:768px)
+        {
+            .our-values>div{
+                padding:20px 10px;
+            }
+            .banner-text h1{
+                font-size:30px;
+            }
+            .banner-text h1 span{
+                font-size:30px;
+            }
+
+            .right-about h1,.service-content h1,.why-right h1,.projects-text h1,.testimo-text h1{
+                font-size:22px;
+
+            }
+            .why-us-inner>div:nth-child(2){
+                width:90%;
+            }
+            .map-addr-inner>div:nth-child(2){
+                padding:30px;
+            }
+            .h-footer-inner>div:nth-child(2){
+                width:50%;
+            }
+            .h-footer-inner>div:last-child{
+                width:20%;
+            }
+        }
+
+        @media screen and (max-width:767px)
+        {
+             .our-values{
+                flex-direction: column;
+             }
+             .our-values>div{
+                width:100%;
+                margin-bottom:10px;
+             }
+        }
+        @media screen and (max-width:680px) {
+            .h-top {
+                justify-content: flex-start !important;
+            }
+
+            .h-contact {
+                position: absolute !important;
+                right: 0 !important;
+                top: 10px !important;
+                background: #50565e !important;
+                padding: 5px 10px !important;
+                right: 5% !important;
+            }
+
+            .logo-holder img {
+                width: 95px !important;
+                transition: all .35s linear;
+            }
+        }
+
+
+        /*responsive ends here*/
+        </style>
+        <section class="h-header">
+        <div class="h-inner">
+            <div class="h-inner-holder">
+                <div class="h-top">
+                    <div class="email">
+                        <img src="/cids_theme_odoo_15/static/src/img/landing/emailIcon.png" />
+                        <a href="#">Cid.design@gmail.com</a>
+                    </div>
+                    <div class="phone">
+                        <img src="/cids_theme_odoo_15/static/src/img/landing/phoneIcon.png" />
+                        <a href="#">+91 2345687892</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h-bottom">
+            <div class="h-inner-holder">
+                <div class="h-bottom-holder">
+                    <div class="logo-holder">
+                        <img src="/cids_theme_odoo_15/static/src/img/landing/logo.png" />
+                    </div>
+                    <div class="h-links">
+                        <a class="active" href="#">Commercial Buildings</a>
+                        <a href="about.html">Hospitality</a>
+                        <a href="#">FF&amp;E</a>
+                        <a href="#" class="h-contact">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+        <section class="comm-banner">
+            <div class="banner-text">
+                <h1><span>Commercial Interior</span> Designs.</h1>
+                <h1>Focused On <span>Details.</span></h1>
+                <a class="getInTouch" href="#">Get in touch</a>
+            </div>
+        </section>
+        <section class="our-values">
+            <div class="val1">
+                <img src="/cids_theme_odoo_15/static/src/img/commercial/v1.png" />
+                <div>
+                    <h2>Best Quality - Guaranteed</h2>
+                    <p>Keeping the highest quality and industry standards in mind,we create unique spaces with new-age design,material,furnishings and equipments.</p>
+
+                </div>
+            </div>
+            <div class="val2">
+                <img src="/cids_theme_odoo_15/static/src/img/commercial/v2.png" />
+                <div>
+                    <h2>Full Project Transparency</h2>
+                    <p>With crisp and clear communication , we ensure your peace of mind with regular project updates,on-time delivery,and zero surprises.</p>
+
+                </div>
+            </div>
+            <div class="val3">
+                <img src="/cids_theme_odoo_15/static/src/img/commercial/v3.png" />
+                <div>
+                    <h2>100% Client Satisfaction </h2>
+                    <p>From conceptualization to final delivery,our team goes to extra length to fullfill every client's demand with the upmost precision and attention to detail.</p>
+
+                </div>
+            </div>
+        </section>
+        <section class="comm-about">
+            <div class="left-about">
+                <div class="abs-video">
+<!--                    <video width="100%" height="100%" controls muted loop autoplay style="object-fit:cover;">-->
+<!--                        <source src="https://www.cids.design/web/static/src/img/CIDS-DESIGN-FINAL-INTRO-VIDEO.mp4"-->
+<!--                            type="video/mp4"/>-->
+<!--                        <source src="https://www.cids.design/web/static/src/img/CIDS-DESIGN-FINAL-INTRO-VIDEO.mp4"-->
+<!--                            type="video/ogg"/>-->
+<!--                        Your browser does not support the video tag.-->
+<!--                    </video>-->
+                    <video playsinline="true" autoplay="true" muted="true"  loop="true" preload="auto" style="object-fit:cover;max-width: 100%;">
+                        <source src="/cids_theme_odoo_15/static/src/video/CIDS-DESIGN-FINAL-INTRO-VIDEO.mp4" type="video/mp4"/>
+                    </video>
+                </div>
+            </div>
+            <div class="right-about">
+                <h3>About us</h3>
+                <h1>Passionate For Innovation.</h1>
+                <p>CIDS.DESIGN is a commercial interior designing firm that establishes community engagement and
+                    unforgettable human experiences through futuristic designs. Combining intuitive strategies with a
+                    one-of-a-kind design approach, we ensure that every space we shape establishes emotional connections
+                    with people and tells pulsating stories of opulence and transformation. Our multi-disciplinary team
+                    consists of certified, trained, and creative industry experts who take the time to hear your vision,
+                    goals, and challenges. Whether it is commercial buildings, retail stores, or office spaces, we provide
+                    you with comprehensive assistance throughout the design journey – no exceptions.</p>
+                <a class="getInTouch" href="#">Get in touch</a>
+
+            </div>
+        </section>
+        <section class="comm-services happy-customers">
+            <div class="comm-service-inner">
+                <div class="service-content">
+                    <h2>our services</h2>
+                    <h1>Commercial Interior Designing.</h1>
+                    <p>Our commercial interior design services include space planning, interior designing, custom 3D
+                        designs, renovation, FF&amp;E procurement, and project consultancy. Everything from selecting the
+                        finest-quality fabric, materials, and equipment to installing state-of-the-art lighting fixtures,
+                        furniture, and artwork – we take care of all! </p>
+                </div>
+            </div>
+            <div class="customer-carsouel">
+                <div class="owl-carousel owl-theme happy-customers">
+                    <div class="item">
+                        <div class="item-customers">
+                            <img src="/cids_theme_odoo_15/static/src/img/commercial/service1-comm.png" />
+                            <div class="img-text">
+                                <span>01</span>
+                                <p>Commercial Buildings</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-customers">
+                            <img src="/cids_theme_odoo_15/static/src/img/commercial/service3-comm.png" />
+                            <div class="img-text">
+                                <span>02</span>
+                                <p>Co-working Spaces</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-customers">
+                            <img src="/cids_theme_odoo_15/static/src/img/commercial/service4-comm.png" />
+                            <div class="img-text">
+                                <span>03</span>
+                                <p>Developement Centers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-customers">
+                            <img src="/cids_theme_odoo_15/static/src/img/commercial/service1-comm.png" />
+                            <div class="img-text">
+                                <span>04</span>
+                                <p>Developement Centers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-customers">
+                            <img src="/cids_theme_odoo_15/static/src/img/commercial/service3-comm.png" />
+                            <div class="img-text">
+                                <span>01</span>
+                                <p>Commercial Buildings</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-customers">
+                            <img src="/cids_theme_odoo_15/static/src/img/commercial/service4-comm.png" />
+                            <div class="img-text">
+                                <span>02</span>
+                                <p>Co-working Spaces</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-customers">
+                            <img src="/cids_theme_odoo_15/static/src/img/commercial/service1-comm.png" />
+                            <div class="img-text">
+                                <span>03</span>
+                                <p>Developement Centers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-customers">
+                            <img src="/cids_theme_odoo_15/static/src/img/commercial/service3-comm.png" />
+                            <div class="img-text">
+                                <span>04</span>
+                                <p>Developement Centers</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="why-us">
+            <div class="why-us-inner">
+                <div class="why-left"></div>
+                <div class="why-right">
+                    <h3>WHAT MAKES US DIFFERENT</h3>
+                    <h1>Undivided Attention To Detail.</h1>
+                    <ul>
+                        <li>At CIDS.DESIGN, we emphasize surpassing clients' expectations. Our team designs innate spaces
+                            tailored to their needs from ideation to final delivery.</li>
+                        <li>We understand that every project is unique; therefore, we take care of the design aspects,
+                            goals, and budget. No hidden charges or extra bill surprises, ever!</li>
+                        <li>Blending our knowledge with creativity allows us to create beautiful &amp; immaculate spaces. There
+                            is nothing that can surpass a thoughtfully designed project, honestly!</li>
+                        <li>We keep the client's requirements and choices at the forefront of everything we do. At CIDS.
+                            DESIGN.It is about quality, trust, satisfaction, and long-term relationships.</li>
+                        <li>Our desire to deliver excellence is unparalleled. We know we have succeeded when our clients
+                            feel empowered, connected, and inspired through the spaces we create.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="projects-inner">
+                <div class="projects-text">
+                    <h3>our projects</h3>
+                    <h1>Elevate The Organizational Value.</h1>
+                    <p>We believe in crafting personalized, meaningful, and characterful designs that give substantial value
+                        and
+                        appreciation to the property. Each project we have worked on exudes a distinct sense of charm,
+                        making
+                        them stand out from the rest.</p>
+                </div>
+                <div class="gallery" style="display:none;">
+                    <div class="gallery-item h-100" data-gallery-tag="Hotels">
+                        <img class="gallery-item" data-gallery-tag="Hotels" src="/cids_theme_odoo_15/static/src/img/landing/g1.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+
+
+                    <div class="gallery-item h-100" data-gallery-tag="Resorts">
+                        <img class="gallery-item" data-gallery-tag="Resorts" src="/cids_theme_odoo_15/static/src/img/commercial/p1.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item h-100" data-gallery-tag="Bars &amp; Restaurant">
+                        <img class="gallery-item" data-gallery-tag="Bars &amp;; Restaurant" src="/cids_theme_odoo_15/static/src/img/commercial/p2.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item h-100">
+                        <img data-gallery-tag="Hotels" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/commercial/p3.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item h-100">
+                        <img data-gallery-tag="Hotels" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/commercial/p4.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item h-100">
+                        <img data-gallery-tag="Resorts" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/commercial/p5.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item h-100">
+                        <img data-gallery-tag="Bars &amp; Restaurant" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/commercial/p6.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item h-100">
+                        <img data-gallery-tag="Hotels" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/commercial/p7.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item h-100">
+                        <img data-gallery-tag="Hotels" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/commercial/p1.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+        <section class="worked-with">
+            <div class="worked-with-inner">
+                <div class="w-inner-text">
+                    <h3>Worked With</h3>
+                    <p>Our work speaks for itself and exemplifies our undivided commitment, passion, and dedication. Being
+                        associated with some of the world's biggest brands has allowed us to become an end-to-end interior
+                        design service partner and has fueled us with an ever-growing passion for creativity and diversity.
+                    </p>
+                </div>
+                <div class="owl-carousel owl-theme worked-with">
+                    <div class="item">
+                        <img src="/cids_theme_odoo_15/static/src/img/commercial/hilton.png"/>
+                    </div>
+                    <div class="item">
+                        <img src="/cids_theme_odoo_15/static/src/img/commercial/omani.png"/>
+                    </div>
+                    <div class="item">
+                        <img src="/cids_theme_odoo_15/static/src/img/commercial/hilton.png"/>
+                    </div>
+                    <div class="item">
+                        <img src="/cids_theme_odoo_15/static/src/img/commercial/omani.png"/>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="client-testimoinal happy-customers">
+            <section class="testimonial-inner">
+                <div class="testimo-text">
+                    <h3>testmonials </h3>
+                    <h1>What our clients have to say</h1>
+                </div>
+                <div class="owl-carousel owl-theme client-testimo">
+                    <div class="item">
+                        <div class="client-inner">
+                            <div class="stars">
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            </div>
+                            <div class="client-cont">
+                                <p>The entire CIDS.DESIGN team was absolutely amazing to work with. They captured our vision
+                                    entirely and created distinctive designs for rooms, lobbies, and lounge areas! The best
+                                    part is that the interior designers worked with dedication to provide their </p>
+                            </div>
+                            <div class="client-cred">
+                                <div class="client-img">
+                                    <img src="/cids_theme_odoo_15/static/src/img/commercial/client-img.png" />
+                                </div>
+                                <div class="client-name">
+                                    <p>Holiday Inn Express</p>
+                                    <span>Weston, WV</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-inner">
+                            <div class="stars">
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            </div>
+                            <div class="client-cont">
+                                <p>The entire CIDS.DESIGN team was absolutely amazing to work with. They captured our vision
+                                    entirely and created distinctive designs for rooms, lobbies, and lounge areas! The best
+                                    part is that the interior designers worked with dedication to provide their </p>
+                            </div>
+                            <div class="client-cred">
+                                <div class="client-img">
+                                    <img src="/cids_theme_odoo_15/static/src/img/commercial/client-img.png" />
+                                </div>
+                                <div class="client-name">
+                                    <p>Holiday Inn Express</p>
+                                    <span>Weston, WV</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-inner">
+                            <div class="stars">
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            </div>
+                            <div class="client-cont">
+                                <p>The entire CIDS.DESIGN team was absolutely amazing to work with. They captured our vision
+                                    entirely and created distinctive designs for rooms, lobbies, and lounge areas! The best
+                                    part is that the interior designers worked with dedication to provide their </p>
+                            </div>
+                            <div class="client-cred">
+                                <div class="client-img">
+                                    <img src="/cids_theme_odoo_15/static/src/img/commercial/client-img.png" />
+                                </div>
+                                <div class="client-name">
+                                    <p>Holiday Inn Express</p>
+                                    <span>Weston, WV</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-inner">
+                            <div class="stars">
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            </div>
+                            <div class="client-cont">
+                                <p>The entire CIDS.DESIGN team was absolutely amazing to work with. They captured our vision
+                                    entirely and created distinctive designs for rooms, lobbies, and lounge areas! The best
+                                    part is that the interior designers worked with dedication to provide their </p>
+                            </div>
+                            <div class="client-cred">
+                                <div class="client-img">
+                                    <img src="/cids_theme_odoo_15/static/src/img/commercial/client-img.png" />
+                                </div>
+                                <div class="client-name">
+                                    <p>Holiday Inn Express</p>
+                                    <span>Weston, WV</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-inner">
+                            <div class="stars">
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            </div>
+                            <div class="client-cont">
+                                <p>The entire CIDS.DESIGN team was absolutely amazing to work with. They captured our vision
+                                    entirely and created distinctive designs for rooms, lobbies, and lounge areas! The best
+                                    part is that the interior designers worked with dedication to provide their </p>
+                            </div>
+                            <div class="client-cred">
+                                <div class="client-img">
+                                    <img src="/cids_theme_odoo_15/static/src/img/commercial/client-img.png" />
+                                </div>
+                                <div class="client-name">
+                                    <p>Holiday Inn Express</p>
+                                    <span>Weston, WV</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+        </section>
+        <section class="map-addr">
+            <div class="map-addr-inner">
+                <div class="map-left">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14023.983004079158!2d77.043231395972!3d28.509775561707798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19822ea84aaf%3A0xa054a1b0d0c227ae!2sSector%2023%2C%20Gurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1671024576620!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="map-right">
+                    <h3>Contact us </h3>
+                    <p>All good relationships start with a simple hello! If you are ready to explore how we can transform
+                        your office, lounge, shop, or other commercial spaces, let's talk!</p>
+
+                    <form>
+                        <input type="text" placeholder="Enter your name" />
+                        <input type="text" placeholder=" Enter your email id" />
+                        <textarea name="" placeholder="Enter your message" cols="30" rows="10"></textarea>
+                        <input class="sendbtn" type="submit" value="Send "/>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="h-footer">
+        <div class="h-footer-inner">
+            <div class="b-logo">
+                <img src="/cids_theme_odoo_15/static/src/img/landing/logo.png" />
+            </div>
+            <div class="f-services">
+                <h1>Services </h1>
+                <div class="services-tp">
+                    <a href="#">Design studio</a>
+                    <a href="#">Procurement</a>
+                    <a href="#">food &amp; beverage</a>
+                    <a href="#">Brighten</a>
+                    <a href="#"> Visuals </a>
+                    <a href="#">creative and consulatants</a>
+                    <a href="#">resorts</a>
+                    <a href="#">innovation</a>
+                    <a href="#">Luxury resedential planning </a>
+                </div>
+                <h1>practices</h1>
+                <div class="pratices-tp">
+                    <a href="#">Design studio</a>
+                    <a href="#">Procurement</a>
+                    <a href="#">food &amp; beverage</a>
+                    <a href="#">Brighten</a>
+                    <a href="#"> Visuals </a>
+                    <a href="#">creative and consulatants</a>
+                    <a href="#">resorts</a>
+                    <a href="#">innovation</a>
+                    <a href="#">Luxury resedential planning </a>
+
+                </div>
+            </div>
+            <div class="f-contact">
+                <h1>Contact us</h1>
+                <div class="email">
+                    <img src="/cids_theme_odoo_15/static/src/img/landing/emailIcon.png" />
+                    <a href="#">Cid.design@gmail.com</a>
+                </div>
+                <div class="phone">
+                    <img src="/cids_theme_odoo_15/static/src/img/landing/phoneIcon.png" />
+                    <a href="#">+91 2345687892</a>
+                </div>
+                <div class="sicons">
+                    <a href="#"><img src="/cids_theme_odoo_15/static/src/img/landing/insta.png"/></a>
+                    <a href="#"><img src="/cids_theme_odoo_15/static/src/img/landing/twitter.png"/></a>
+                    <a href="#"><img src="/cids_theme_odoo_15/static/src/img/landing/youtube.png"/></a>
+                </div>
+            </div>
+        </div>
+    </section>
+        <script>
+        $(document).ready(function () {
+            var owl1 = $('.owl-carousel.happy-customers');
+            owl1.owlCarousel({
+                margin: 15,
+                nav: true,
+                autoplay: true,
+                loop: true,
+                responsive: {
+                    0: {
+                        items: 4
+                    },
+                    600: {
+                        items: 4
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            });
+            $(".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+            $(".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+        });
+
+        $(document).ready(function () {
+            var owl2 = $('.owl-carousel.worked-with');
+            owl2.owlCarousel({
+                margin: 10,
+                nav: true,
+                autoplay: true,
+                loop: true,
+                responsive: {
+                    0: {
+                        items: 2
+                    },
+                    600: {
+                        items: 5
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            });
+            $(".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+            $(".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+        });
+
+        $(document).ready(function () {
+            var owl2 = $('.owl-carousel.client-testimo');
+            owl2.owlCarousel({
+                margin: 30,
+                nav: true,
+                autoplay: true,
+                loop: true,
+                responsive: {
+                    0: {
+                        items: 3
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+            $(".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+            $(".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+        });
+
+
+        $(document).ready(function () {
+            $('.gallery').mauGallery({
+                columns: {
+                    xs: 1,
+                    sm: 2,
+                    md: 3,
+                    lg: 4,
+                    xl: 3
+                },
+                lightBox: true,
+                lightboxId: 'myAwesomeLightbox',
+                showTags: true,
+                tagsPosition: 'top'
+            });
+        });
+    </script>
+    </template>
+</odoo>

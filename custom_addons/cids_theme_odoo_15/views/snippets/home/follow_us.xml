@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="follow_us" name="CIDS Follow Us">
+         <section class="followus">
+               <div class="follow-inner">
+                   <div class="follow-icons">
+                       <p>Follow us at</p>
+                       <div class="iholder">
+                           <a href=""><i class="fa fa-facebook" style="font-size:24px"></i></a>
+                           <a href="#"><i class="fa fa-twitter" style="font-size:24px"></i></a>
+                           <a href="#"><i class="fa fa-youtube-play" style="font-size:24px"></i></a>
+                           <a href="#"><i class="fa fa-linkedin" style="font-size:24px"></i></a>
+                           <a href="#"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+                       </div>
+                   </div>
+                   <div class="follow-links">
+                       <a href="#">Case studies</a>
+                       <a href="#">Awards and accolades</a>
+                           <a href="#">Testimonials</a>
+                               <a href="#">Press release</a>
+                                   <a href="#">Privacy policy</a>
+                   </div>
+               </div>
+   </section>
+    </template>
+</odoo>

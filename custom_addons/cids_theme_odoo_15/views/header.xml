@@ -1,0 +1,57 @@
+<odoo>
+    <template id="custom_header" inherit_id="website.layout" name="Custom Header">
+        <xpath expr="//header" position="replace">
+            <header>
+              <section class="nav-bar">
+        <div class="nav-inner">
+            <div class="logo">
+                <img class="light" src="/cids_theme_odoo_15/static/src/img/images/cids-logo.png" />
+             
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#">How we design</a>
+                    </li>
+                    <li>
+                        <a href="#">How we Innovate</a>
+                    </li>
+                    <li>
+                        <a href="#">Specialisation</a>
+                    </li>
+                    <li>
+                        <a href="#">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#">Join our team</a>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#">About us<img src="/cids_theme_odoo_15/static/src/img/images/downarr.png"/></a>
+                        <ul class="child-menu">
+                            <li>About us1</li>
+                            <li>About us2</li>
+                            <li>About us3</li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="humburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="search">
+               
+               <!-- <a class="contact-search" href="#">Contact</a>
+                <a class="login-search" href="#">Login</a>-->
+                <a  href="/contactus"><img src="/cids_theme_odoo_15/static/src/img/images/call.png"/></a>
+                <a href="/web/login"><img src="/cids_theme_odoo_15/static/src/img/images/login.png"/></a>
+            </div>
+        </div>
+    </section>
+            </header>
+        </xpath>
+    </template>
+</odoo>

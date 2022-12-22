@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="hotel_services" name="CIDS Hotel Services">
+        <section class="hotel-services ">
+        <div class="process-header">
+            <h1>Thoughtful &amp; Functional Interior Design Services</h1>
+            <p>At CIDS.DESIGN, we understand that creating remarkable and cohesive spaces plays a
+            critical role in positioning your brand for future growth. Drawing knowledge from our diverse projects
+            and multi-year experiences, we elevate design through new-age strategies, extensive research, and market insights.
+            From hotels, resorts, and spas to bars, restaurants, and wellness centers,
+            we implement the latest interior design trends that exude finesse and grandiosity.</p>
+        </div>
+
+        <div class="hservice-inner">
+            <div>
+                <img src="https://dev.cids.design/web/image/1989-5ed182db/hotelservice1.png"/>
+                <div class="absdiv">
+                    <p><span>01</span>Hotels &amp; Resorts</p>
+                </div>
+            </div>
+            <div>
+                <img src="https://dev.cids.design/web/image/1991-03001385/hotelservice2.png"/>
+                <div class="absdiv">
+                    <p><span>02</span>Bars &amp; Restaurants</p>
+                </div>
+            </div>
+            <div>
+                <img src="https://dev.cids.design/web/image/1993-9a6e6156/hotelservice3.png"/>
+                <div class="absdiv">
+                    <p><span>03</span>Spa &amp; Wellness centers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </template>
+</odoo>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="hotel_projects" name="CIDS Hotel Projects">
+        <section class="hotel-projects">
+        <div class="process-header ">
+            <h1>View Our Most Celebrated Hospitality Interior Designs</h1>
+            <p>We have had the privilege of building long-term relationships with some
+            incredible brands and hotel chains across the globe including Hilton, IHG, Holiday Inn, Marriott, and more.</p>
+        </div>
+
+         <div class="gallery" style="display:none;">
+            <div class="gallery-item h-100" data-gallery-tag="Hotels">
+            <img style="height:350px;"
+              class="gallery-item"
+              src="https://dev.cids.design/web/image/1972-3a23af2a/ralph-ravi-kayden-mdwOo5PeXpE-unsplash%201.png"
+            />
+            <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+            >
+              <p class="lead m-0 spa"><span>SPA</span></p>
+              <p class="hilton">HILTON</p>
+            </div>
+            </div>
+            <div class="gallery-item h-100"  data-gallery-tag="Hotels">
+                <img style="height:350px;"
+
+                class="gallery-item"
+                src="https://dev.cids.design/web/image/1981-e3f88d64/ralph-ravi-kayden-mdwOo5PeXpE-unsplash%201%281%29.png"
+              />
+              <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+              >
+                <p class="lead m-0 spa"><span>SPA</span></p>
+                <p class="hilton">HILTON</p>
+              </div>
+            </div>
+            <div class="gallery-item h-100"  data-gallery-tag="Resorts">
+            <img style="height:350px;"
+
+              class="gallery-item"
+              src="https://dev.cids.design/web/image/1983-32de0dca/ralph-ravi-kayden-mdwOo5PeXpE-unsplash%201%283%29.png"
+            />
+            <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+            >
+              <p class="lead m-0 spa"><span>SPA</span></p>
+              <p class="hilton">HILTON</p>
+            </div>
+        </div>
+
+        <div class="gallery-item h-100"  data-gallery-tag="Bars &amp; Restaurant">
+            <img style="height:350px;"
+
+              class="gallery-item"
+              src="https://dev.cids.design/web/image/1981-e3f88d64/ralph-ravi-kayden-mdwOo5PeXpE-unsplash%201%281%29.png"
+            />
+            <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+            >
+              <p class="lead m-0 spa"><span>SPA</span></p>
+              <p class="hilton">HILTON</p>
+            </div>
+            </div>
+            <div class="gallery-item h-100" >
+            <img style="height:350px;" data-gallery-tag="Hotels"
+
+              class="gallery-item"
+              src="https://dev.cids.design/web/image/1983-32de0dca/ralph-ravi-kayden-mdwOo5PeXpE-unsplash%201%283%29.png"
+            />
+            <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+            >
+              <p class="lead m-0 spa"><span>SPA</span></p>
+              <p class="hilton">HILTON</p>
+            </div>
+            </div>
+            <div class="gallery-item h-100" >
+            <img style="height:350px;" data-gallery-tag="Resorts"
+
+              class="gallery-item"
+              src="https://dev.cids.design/web/image/1972-3a23af2a/ralph-ravi-kayden-mdwOo5PeXpE-unsplash%201.png"
+            />
+            <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+            >
+              <p class="lead m-0 spa"><span>SPA</span></p>
+              <p class="hilton">HILTON</p>
+            </div>
+            </div>
+            <div class="gallery-item h-100"  >
+            <img data-gallery-tag="Bars &amp; Restaurant" style="height:350px;"
+
+              class="gallery-item"
+              src="https://dev.cids.design/web/image/1983-32de0dca/ralph-ravi-kayden-mdwOo5PeXpE-unsplash%201%283%29.png"
+            />
+            <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+            >
+              <p class="lead m-0 spa"><span>SPA</span></p>
+              <p class="hilton">HILTON</p>
+            </div>
+            </div>
+            <div class="gallery-item h-100">
+            <img style="height:350px;"
+              data-gallery-tag="Hotels"
+              class="gallery-item"
+              src="https://dev.cids.design/web/image/1981-e3f88d64/ralph-ravi-kayden-mdwOo5PeXpE-unsplash%201%281%29.png"
+            />
+            <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+            >
+              <p class="lead m-0 spa"><span>SPA</span></p>
+              <p class="hilton">HILTON</p>
+            </div>
+            </div>
+            <div class="gallery-item h-100">
+            <img style="height:350px;"
+              data-gallery-tag="Hotels"
+              class="gallery-item"
+              src="https://dev.cids.design/web/image/1972-3a23af2a/ralph-ravi-kayden-mdwOo5PeXpE-unsplash%201.png"
+            />
+            <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+            >
+              <p class="lead m-0 spa"><span>SPA</span></p>
+              <p class="hilton">HILTON</p>
+            </div>
+            </div>
+            <div class="gallery-item h-100">
+            <img style="height:350px;"
+              data-gallery-tag="Resorts"
+              class="gallery-item"
+              src="https://dev.cids.design/web/image/1981-e3f88d64/ralph-ravi-kayden-mdwOo5PeXpE-unsplash%201%281%29.png"
+            />
+            <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+            >
+              <p class="lead m-0 spa"><span>SPA</span></p>
+              <p class="hilton">HILTON</p>
+            </div>
+            </div>
+            <div class="gallery-item h-100">
+            <img style="height:350px;"
+              data-gallery-tag="Resorts"
+              class="gallery-item"
+              src="https://dev.cids.design/web/image/1972-3a23af2a/ralph-ravi-kayden-mdwOo5PeXpE-unsplash%201.png"
+            />
+            <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+            >
+              <p class="lead m-0 spa"><span>SPA</span></p>
+              <p class="hilton">HILTON</p>
+            </div>
+            </div>
+
+            <div class="gallery-item h-100">
+            <img style="height:350px;"
+              data-gallery-tag="Bars &amp; Restaurant"
+              class="gallery-item"
+              src="https://dev.cids.design/web/image/1972-3a23af2a/ralph-ravi-kayden-mdwOo5PeXpE-unsplash%201.png"
+            />
+            <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+            >
+              <p class="lead m-0 spa"><span>SPA</span></p>
+              <p class="hilton">HILTON</p>
+            </div>
+            </div>
+
+
+          </div>
+    </section>
+    </template>
+</odoo>
