@@ -708,7 +708,8 @@ opacity:1;
 
 /*certifications*/
 .certifications {
-    background-image:linear-gradient(180.09deg, rgba(0, 0, 0, 0.76) 0.08%, rgba(0, 0, 0, 0.62) 55.92%, rgba(0, 0, 0, 0.83) 99.92%),url('/cids_theme_odoo_15/static/src/img/images/Lobby12.jpg');
+//     background-image:linear-gradient(180.09deg, rgba(0, 0, 0, 0.76) 0.08%, rgba(0, 0, 0, 0.62) 55.92%, rgba(0, 0, 0, 0.83) 99.92%),url('/cids_theme_odoo_15/static/src/img/images/Lobby12.jpg');
+    background-image:url('/cids_theme_odoo_15/static/src/img/images/Lobby12.jpg');
     background-repeat: no-repeat;
     height: var(--height-889);
     padding: var(--padding-202) 0px;

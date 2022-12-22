@@ -130,8 +130,8 @@ transition:all .35s linear;
 }
 
 .search a.contact-search {
-    width:var(--height-51);
-    height:var(--height-51);
+    width:var(--padding-45);
+    height:var(--padding-45);
     background-color:var(--white);
     border-radius:50%;
     justify-content: center;
@@ -143,7 +143,7 @@ transition:all .35s linear;
 .search a.contact-search::after{
     content:url('/cids_theme_odoo_15/static/src/img/images/Profile-1.svg');
     background-color: var(--yellow);
-    width:var(--height-51);
+    width:var(--padding-45);
    height:0px;
    position:absolute;
    bottom: 0px;
@@ -161,7 +161,7 @@ transition:all .35s linear;
 .search a.contact-search:hover::after
 {
    opacity:1;
-    height:var(--height-51);
+    height:var(--padding-45);
 }
 .search a.contact-search:hover{
   /*  background-color: var(--white);dec22*/
@@ -169,8 +169,8 @@ transition:all .35s linear;
 }
 /*dec22*/
 .search a.login-search {
-   width:var(--height-51);
-   height:var(--height-51);
+   width:var(--padding-45);
+   height:var(--padding-45);
    background-color:var(--white);
    border-radius:50%;
    margin-right:var(--width-28);
@@ -184,7 +184,7 @@ transition:all .35s linear;
 .search a.login-search::after{
     content:url('/cids_theme_odoo_15/static/src/img/images/Call-1.svg');
     background-color: var(--yellow);
-    width:var(--height-51);
+    width:var(--padding-45);
    height:0px;
    position:absolute;
    bottom: 0px;
@@ -202,7 +202,7 @@ transition:all .35s linear;
 .search a.login-search:hover::after
 {
    opacity:1;
-    height:var(--height-51);
+    height:var(--padding-45);
 }
 .search a.login-search img{
     width:var(--font-size-30);
