@@ -12,8 +12,7 @@
                         highest Quality Standards &amp; Detailing in Our DNA.</p>
                     <div class="hbtns">
                         <a class="explore" href="#">Explore <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
-<!--                        <a class="explore absexplore" href="#">Explore <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>-->
-                      <!-- <a class="contact" href="#">Contact Us</a>-->
+                              <!-- <a class="contact" href="#">Contact Us</a>--> 
                     </div>
                 </div>
             </div>
@@ -25,8 +24,8 @@
                     <p>We focus on verstality and customer satisfaction. We nurture valueable growth partnerships.</p>
                     <div class="hbtns">
                         <a class="explore" href="#">Explore <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
-
-                         <!-- <a class="contact" href="#">Contact Us</a>-->
+               
+                         <!-- <a class="contact" href="#">Contact Us</a>--> 
                     </div>
 
                 </div>
@@ -40,8 +39,8 @@
                     <p>From conception to completion, we perfect every single element in youe space</p>
                     <div class="hbtns">
                         <a class="explore" href="#">Explore <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
-
-                         <!-- <a class="contact" href="#">Contact Us</a>-->
+               
+                         <!-- <a class="contact" href="#">Contact Us</a>--> 
                     </div>
 
                 </div>
@@ -101,8 +100,7 @@
     <section class="inspired-by">
         <div class="abs-inspired">
             <h1><span>Inspired</span> by the details</h1>
-            <p>We are putting innovation at the forefront of everything we do, CIDS.DESIGN transforms concepts into full
-                - functioning spaces. B eing stic k lers for details, we wor k hard to understand your brand, space, and
+            <p>We are putting innovation at the forefront of everything we do, CIDS.DESIGN transforms concepts into full-functioning spaces.Being sticklers for details, we work hard to understand your brand, space, and
                 objectives through meticulous consultancy and translate them into a solid design strategy par excellence
             </p>
             <a class="ins-more" href="#"> Know More <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
@@ -133,10 +131,10 @@
         </div>
     </section>
 
-    <section class="certifications">
+   <section class="certifications">
         <div class="certificate-inner">
            <!--- <h3>Certifications<img class="line" src="/cids_theme_odoo_15/static/src/img/images/line.png"/></h3>-->
-            <h1>FIDER, CDA ACCREDITED</h1>
+            <h1>FIDER ACCREDITED</h1>
             <h3>Minorty and women own bussiness</h3>
             <p>Success &amp; Achievements Comes With Trust, Quality, Transparency, And Hard Work.There is no shortcut to
                 creating impeccable designs ! </p>
@@ -159,8 +157,8 @@
                 <p>Strategic Partnerships</p>
             </div>
             <div>
-                <h1>200+</h1>
-                <p>Furniture Designers Manufacturers </p>
+                <h1>100+</h1>
+                <p>FF&amp;E Suppliers Worldwide </p>
             </div>
         </div>
     </section>
@@ -203,40 +201,40 @@
                 </div>
             </div>
 
-            <div class="item">
-                <div class="serive-item">
-                    <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>
-                    <div class="service-txt">
-                        <h1>Procurement</h1>
-                    </div>
-                </div>
-            </div>
+<!--            <div class="item">-->
+<!--                <div class="serive-item">-->
+<!--                    <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>-->
+<!--                    <div class="service-txt">-->
+<!--                        <h1>Procurement</h1>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
 
-            <div class="item">
-                <div class="serive-item">
-                    <img src="/cids_theme_odoo_15/static/src/img/images/services2.png"/>
-                    <div class="service-txt">
-                        <h1>Visuals</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="serive-item">
-                    <img src="/cids_theme_odoo_15/static/src/img/images/services3.png"/>
-                    <div class="service-txt">
-                        <h1>Resorts</h1>
-                    </div>
-                </div>
-            </div>
+<!--            <div class="item">-->
+<!--                <div class="serive-item">-->
+<!--                    <img src="/cids_theme_odoo_15/static/src/img/images/services2.png"/>-->
+<!--                    <div class="service-txt">-->
+<!--                        <h1>Visuals</h1>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="item">-->
+<!--                <div class="serive-item">-->
+<!--                    <img src="/cids_theme_odoo_15/static/src/img/images/services3.png"/>-->
+<!--                    <div class="service-txt">-->
+<!--                        <h1>Resorts</h1>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
 
-            <div class="item">
-                <div class="serive-item">
-                    <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>
-                    <div class="service-txt">
-                        <h1>Innovation</h1>
-                    </div>
-                </div>
-            </div>
+<!--            <div class="item">-->
+<!--                <div class="serive-item">-->
+<!--                    <img src="/cids_theme_odoo_15/static/src/img/images/services1.png"/>-->
+<!--                    <div class="service-txt">-->
+<!--                        <h1>Innovation</h1>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
 
         </div>
 
@@ -288,22 +286,22 @@
             <div class="owl-carousel owl-theme hotelClientCarsouel">
                 <div class="item">
                     <div class="client-item">
-                        <img src="/cids_theme_odoo_15/static/src/img/images/hilton1.png"/>
+                        <img src="/cids_theme_odoo_15/static/src/img/images/nnnn/hilton.png"/>
                     </div>
                 </div>
                 <div class="item">
                     <div class="client-item">
-                        <img src="/cids_theme_odoo_15/static/src/img/images/ihg234.png"/>
+                        <img src="/cids_theme_odoo_15/static/src/img/images/nnnn/ihg.png"/>
                     </div>
                 </div>
                 <div class="item">
                     <div class="client-item">
-                        <img src="/cids_theme_odoo_15/static/src/img/images/laquinta234.png"/>
+                        <img src="/cids_theme_odoo_15/static/src/img/images/nnnn/laquinta.png"/>
                     </div>
                 </div>
                 <div class="item">
                     <div class="client-item">
-                        <img src="/cids_theme_odoo_15/static/src/img/images/marriott123.png"/>
+                        <img src="/cids_theme_odoo_15/static/src/img/images/nnnn/marriott.png"/>
                     </div>
                 </div>
 
@@ -321,16 +319,18 @@
                     <h3>Testimonials</h3>
                     <h1>What our clients Say</h1>
                     <div class="feedback-txt">
-                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/images/exmdown.png"/>The design team was eventually involved in all the project's major aspects, including 3D
-                            designs, furniture selection, procurement, and complete interior finishes. We are delighted
-                            to say that they brought the perfect balance of style and functionality to our suites and
-                            worked with us pleasantly but highly professional. We definitely enjoyed their commitment
-                            and passion for our project and would like to recommend their work to everyone in the
-                            hospitality and commercial business.<img class="testimg" src="/cids_theme_odoo_15/static/src/img/images/exmdown.png"/></p>
+                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/images/exmdown.png"/>When we decided to freshen up the look of our hotel,
+                            we were lucky to find CIDS.DESIGN.They spent the time to get to know our property
+                            and understand our requirements, demands, and choices.They did a detailed analysis of our space,
+                            presented some phenomenal design strategies that solved our challenges within the space,and
+                            helped us install unique furnishing, fabrics, materials, and equipment.
+                            When we wanted to add more elements to the interiors,
+                            they quickly came up with outstanding alternatives–all under the decided budget.
+                            <img class="testimg" src="/cids_theme_odoo_15/static/src/img/images/exmdown.png"/></p>
                     </div>
                     <div class="nmloc">
-                        <h2>-Homewood Suites</h2>
-                        <p>West Chester, OH</p>
+                        <h2>-LA Quinta Inn and Suites</h2>
+                        <p>California</p>
                     </div>
                 </div>
             </div>
@@ -344,7 +344,7 @@
                             to say that they brought the perfect balance of style and functionality to our suites and
                             worked with us pleasantly but highly professional. We definitely enjoyed their commitment
                             and passion for our project and would like to recommend their work to everyone in the
-                            hospitality and commercial business.<img class="testimg" src="/cids_theme_odoo_15/static/src/img/images/exmdown.png"/></p>
+                            hospitality and commercial business.<img class="testimg" src="/cids_theme_odoo_15/static/src/img/images/2.jpg"/></p>
                     </div>
                     <div class="nmloc">
                         <h2>-Homewood Suites</h2>
@@ -357,16 +357,17 @@
                     <h3>Testimonials</h3>
                     <h1>What our clients Say</h1>
                     <div class="feedback-txt">
-                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/images/exmdown.png"/>The design team was eventually involved in all the project's major aspects, including 3D
-                            designs, furniture selection, procurement, and complete interior finishes. We are delighted
-                            to say that they brought the perfect balance of style and functionality to our suites and
-                            worked with us pleasantly but highly professional. We definitely enjoyed their commitment
-                            and passion for our project and would like to recommend their work to everyone in the
-                            hospitality and commercial business.<img class="testimg" src="/cids_theme_odoo_15/static/src/img/images/exmup.png"/></p>
+                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/images/exmdown.png"/>
+                            We have had the absolute pleasure of working with the interior design experts at CIDS.DESIGN on a recent project here in Arizona.
+                            They were knowledgeable on various interior design,finish,texture,furniture,and fixture options,
+                            and they put together well-structured packages designed specifically for our target market.
+                            Their ideas aligned well with our goals and budget.
+                            I cannot recommend them highly enough~they have surpassed all our expectations!
+                            Fabulous work, team. Keep up the great work<img class="testimg" src="/cids_theme_odoo_15/static/src/img/images/exmup.png"/></p>
                     </div>
                     <div class="nmloc">
-                        <h2>-Homewood Suites</h2>
-                        <p>West Chester, OH</p>
+                        <h2>-Hampton Inn</h2>
+                        <p>Arizona</p>
                     </div>
                 </div>
             </div>

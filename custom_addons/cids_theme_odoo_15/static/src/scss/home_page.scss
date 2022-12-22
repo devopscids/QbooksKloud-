@@ -6,41 +6,40 @@
 
 @font-face {
     font-family: 'Lorin';
-    src: url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.eot');
-    src: local('https://dev.cids.design/web/static/src/custom_fonts/Lorin Regular'), local('/web/static/src/custom_fonts/Lorin-Regular'),
-        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.eot?#iefix') format('embedded-opentype'),
-        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.woff2') format('woff2'),
-        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.woff') format('woff'),
-        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.ttf') format('truetype');
+    src: url('/web/static/src/custom_fonts/Lorin-Regular.eot');
+    src: local('/web/static/src/custom_fonts/Lorin Regular'), local('/web/static/src/custom_fonts/Lorin-Regular'),
+        url('/web/static/src/custom_fonts/Lorin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/web/static/src/custom_fonts/Lorin-Regular.woff2') format('woff2'),
+        url('/web/static/src/custom_fonts/Lorin-Regular.woff') format('woff'),
+        url('/web/static/src/custom_fonts/Lorin-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lorin-bold';
-    src: url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.eot');
-    src: local('https://dev.cids.design/web/static/src/custom_fonts/Lorin Bold'), local('Lorin-Bold'),
-        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.eot?#iefix') format('embedded-opentype'),
-        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.woff2') format('woff2'),
-        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.woff') format('woff'),
-        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.ttf') format('truetype');
+    src: url('/web/static/src/custom_fonts/Lorin-Bold.eot');
+    src: local('/web/static/src/custom_fonts/Lorin Bold'), local('Lorin-Bold'),
+        url('/web/static/src/custom_fonts/Lorin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/web/static/src/custom_fonts/Lorin-Bold.woff2') format('woff2'),
+        url('/web/static/src/custom_fonts/Lorin-Bold.woff') format('woff'),
+        url('/web/static/src/custom_fonts/Lorin-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lorin-xbold';
-    src: url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.eot');
-    src: local('https://dev.cids.design/web/static/src/custom_fonts/Lorin ExtraBold'), local('Lorin-ExtraBold'),
-        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.woff2') format('woff2'),
-        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.woff') format('woff'),
-        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.ttf') format('truetype');
+    src: url('/web/static/src/custom_fonts/Lorin-ExtraBold.eot');
+    src: local('/web/static/src/custom_fonts/Lorin ExtraBold'), local('Lorin-ExtraBold'),
+        url('/web/static/src/custom_fonts/Lorin-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('/web/static/src/custom_fonts/Lorin-ExtraBold.woff2') format('woff2'),
+        url('/web/static/src/custom_fonts/Lorin-ExtraBold.woff') format('woff'),
+        url('/web/static/src/custom_fonts/Lorin-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
 
-//root
 :root {
     /* Font Size */
     --font-size-48: 3.34vw;
@@ -86,7 +85,7 @@
     --text-color: #50575d;
     --light-grey: #d9d9d9;
 
-   /* Height dec2022*/
+    /* Height dec2022*/
     --height-863: 59.93vw;
     --height-875: 60.76vw;
     --height-889: 61.73vw;
@@ -97,7 +96,8 @@
     --height-155: 10.76vw;
     --height-102: 7.08vw;
     --height-51:3.54vw;
-
+/*dec22*/
+     --height-90:6.25vw;
     /* Width dec2022*/
     --width-28: 1.95vw;
     --width-718: 49.86vw;
@@ -112,6 +112,9 @@
     --width-194: 13.47vw;
     --width-162:11.25vw;
     --width-211:14.65vw;
+    --width-126:9.22vw;
+    /*dec22*/
+
 }
 
 .animated {
@@ -138,7 +141,7 @@ a {
 
 .hotel-banner {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 5%;
     transform: translateY(-50%);
     width: 50%;
@@ -151,6 +154,7 @@ a {
     animation-timing-function:linear;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+    top:50%;
 
 }
 
@@ -177,8 +181,10 @@ a {
     display: flex;
 }
 
+/*updated part dec21*/
 .hotel-banner .hbtns a.explore {
-    padding: 16px 24px;
+   height:var(--height-51);
+   min-width:var(--width-162);
     background: #FFBC00;
     font-family: 'Lorin';
     font-size:var(--font-size-14);
@@ -187,7 +193,41 @@ a {
     margin-right: 16px;
     display: flex;
     align-items: center;
+    position: relative;
+    cursor: pointer;
+    justify-content: center;
+    overflow:hidden;
 }
+
+
+/*new addition 21dec2022*/
+.hotel-banner .hbtns a.explore::after{
+    content:"Explore\00a0\00a0\00a0 " url("/cids_theme_odoo_15/static/src/img/images/UnionYellow.png");
+    background-color: var(--white);
+    position:absolute;
+    left:0;
+    right:0;
+    color:var(--yellow);
+    height:0;
+   bottom:0;
+    opacity:0;
+    transition:all .5s linear;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hotel-banner .hbtns a.explore:hover::after{
+opacity:1;
+    height:var(--height-51);
+
+}
+
+/*new addion ends here*/
+
+
+
 
 .hotel-banner .hbtns a.contact {
     padding: 16px 24px;
@@ -199,10 +239,11 @@ a {
     color: #FFBC00;
     text-decoration: none;
 }
-
+/*updated css 21dec2022*/
 .view-projects {
 
-    padding: 16px 24px;
+    height:var(--height-51);
+    width:var(--width-211);
     background: transparent;
     font-family: 'Lorin';
     font-size: 16px;
@@ -212,8 +253,44 @@ a {
     text-decoration: none;
     margin-top: 40px;
     display: inline-block;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    justify-content: center;
+    overflow:hidden;
 }
+ /*new addition 21dec2022*/
+ .view-projects::after{
+     content:"View Projects\00a0\00a0\00a0" url("/cids_theme_odoo_15/static/src/img/images/Unionnew.png");
+     background-color: var(--yellow);
+     color:var(--white);
+     position:absolute;
+     left:0;
+     right:0;
+     height:0;
+    bottom:0;
+     opacity:0;
+     transition:all .5s linear;
+     display:flex;
+     justify-content: center;
+     align-items: center;
 
+ }
+
+ .view-projects:hover::after{
+ opacity:1;
+     height:var(--height-51);
+
+ }
+
+ /*new addion ends here*/
+
+
+
+
+
+/*ends here*/
 .top-banner .owl-theme .owl-nav,
 .top-banner .owl-theme .owl-dots {
     display: none;
@@ -375,8 +452,8 @@ a {
 }
 
 .b-logo img:nth-child(1) {
-    width: 200px;
-    height: 90px;
+    width: 170px;
+    height: 70px;
 }
 
 .cont-detail {
@@ -385,8 +462,10 @@ a {
 
 .light {
     display: block;
-    width:126px;
-    height:50px;
+    /*dec22*/
+    width:var(--width-126);
+    height:var(--height-51);
+    /*dec22 ends here*/
 }
 
 
@@ -514,8 +593,10 @@ a {
     margin-right: var(--margin-28);
 }
 
+
+/*updated 21dec2022*/
 .ins-more {
-   height:var(--height-51);
+    height:var(--height-51);
     width:var(--width-194);
      background: #FFBC00;
      font-family: 'Lorin';
@@ -530,12 +611,42 @@ a {
      justify-content: center;
      overflow:hidden;
     margin-top: var(--margin-28);
-
 }
 
 .ins-more .unionpng {
     padding-left: var(--padding-23);
 }
+
+
+
+
+ /*new addition 21dec2022*/
+ .ins-more::after{
+     content:"Know More\00a0\00a0\00a0 " url("/cids_theme_odoo_15/static/src/img/images/UnionYellow.png");
+     background-color: var(--white);
+     position:absolute;
+     left:0;
+     right:0;
+     color:var(--yellow);
+     height:0;
+    bottom:0;
+     opacity:0;
+     transition:all .5s linear;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ .ins-more:hover::after{
+ opacity:1;
+     height:var(--height-51);
+
+ }
+
+ /*new addion ends here*/
+
+/*updated ends here*/
 
 .wedoimg {
     height: var(--height-863);
@@ -597,7 +708,7 @@ a {
 
 /*certifications*/
 .certifications {
-    background-image:linear-gradient(180.09deg, rgba(0, 0, 0, 0.76) 0.08%, rgba(0, 0, 0, 0.62) 55.92%, rgba(0, 0, 0, 0.83) 99.92%),url('/cids_theme_odoo_15/static/src/img/images/p3.png');
+    background-image:linear-gradient(180.09deg, rgba(0, 0, 0, 0.76) 0.08%, rgba(0, 0, 0, 0.62) 55.92%, rgba(0, 0, 0, 0.83) 99.92%),url('/cids_theme_odoo_15/static/src/img/images/Lobby12.jpg');
     background-repeat: no-repeat;
     height: var(--height-889);
     padding: var(--padding-202) 0px;
@@ -689,7 +800,7 @@ a {
 
 .achiv-holder>div {
     text-align: center;
-    padding: 0px var(--padding-65);
+    padding: 0px var(--padding-32);
 }
 
 .achiv-holder>div h1 {
@@ -912,7 +1023,7 @@ a {
 /*client feedback*/
 .client-feedback {
     height: var(--height-863);
-    background-image: url('/cids_theme_odoo_15/static/src/img/images/client-feedback.png');
+    background-image: url('/cids_theme_odoo_15/static/src/img/images/2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     /* padding:var(--padding-92) 0px var(--padding-65) 0px;*/
@@ -1170,7 +1281,7 @@ a {
     transition: all .35s linear;
 }
 
-.menu ul li a:hover {
+.menu>ul li a:hover {
     color: var(--yellow) !important;
     cursor: pointer;
 }
@@ -1279,8 +1390,6 @@ body {
     line-height: 200%;
     text-transform: capitalize;
     color: #FFFFFF;
-    margin:0px;
-    padding:10px;
 
 }
 
@@ -1299,13 +1408,13 @@ body {
 }
 
 .search a img{
-    width:40px;
+    width:var(--height-51);
 }
-
+/*dec22
 .search a:nth-child(2) img
 {
     margin-left:var(--margin-28);
-}
+}*/
 @media screen and (max-width:1600px)
 {
     .feedback-item h3::after{
@@ -1328,13 +1437,17 @@ body {
 
     }
 
+    /*dec22*/
+    .nav-bar .menu>ul li{
+        height:auto;
+    }
+
     .certifications {
         height: auto;
     }
 
     .humburger {
         display: block;
-
     }
 
     .menu ul:first-child {
@@ -1357,7 +1470,6 @@ body {
 
     .search {
         margin-right: 50px;
-        padding-right: 6%;
     }
 
     .light {
@@ -1381,9 +1493,10 @@ body {
         width: 50%;
     }
 
+
     .nav-bar {
         background-color: #393b3a;
-        padding: var(--padding-23) 0px;
+       /* padding: var(--padding-23) 0px;dec22*/
         height:72px;
     }
 
@@ -1396,7 +1509,8 @@ body {
     .search a.contact-search,
     .search a.login-search {
 
-        height: 30px;
+        height: 30px!important;
+        width: 30px!important;
     }
 
     .menu.mobileMenu {
@@ -1416,17 +1530,6 @@ body {
         height: auto;
         padding: 50px 0px;
     }
-
-
-
-.search {
-    width: 50%;
-    padding-right: 5%;
-}
-.humburger{top:7px;}
-
-.menu{top:55px;}
-
 }
 
 @media screen and (max-width:845px) {
@@ -1640,14 +1743,14 @@ body {
 
     .nav-bar {
         background-color: #393b3a;
-        padding: var(--padding-23) 0px;
-        height:51px;
+      /*  padding: var(--padding-23) 0px; dec22*/
+        height:40px;
     }
 
     .f-nav.nav-bar {
         background-color: #393b3a;
-        padding: var(--padding-23) 0px;
-        height:51px;
+       /* padding: var(--padding-23) 0px;dec22*/
+        height:40px;
     }
 
     .menu {
@@ -1671,7 +1774,7 @@ body {
     .about-right{height:250px;}
     .aboutcarsouel.owl-carousel .owl-item img{height:200px;}
     .search a img{width:28px;}
-    .search a:nth-child(2) img{margin-left:11px;}
+   /* .search a:nth-child(2) img{margin-left:11px;}dec22*/
     .about-txt p{font-size:12px;}
     .about-ltext p {
         font-size: var(--font-size-14)!important;
@@ -1716,20 +1819,15 @@ body {
         font-family: 'Lorin-bold';
         font-size:14px;
     }
+    .hotel-banner .hbtns a.explore,.view-projects,.ins-more {
+        height: 40px;
+        min-width: 162px}
 
-.f-nav.nav-bar{height:50px;}
-.nav-bar{height:50px;}
-.menu{top:40px;}
-.humburger {
-    top: 0px;
+        .services-tp>a, .pratise-inner>*{
+            width:100%;
+        }
+
 }
-.menu {
-    top: 34px;
-}
-}
-
-
-
 
 @media screen and (max-width:480px) {
     .light {
@@ -1762,7 +1860,7 @@ body {
 
     .services-tp>a,
     .pratise-inner>* {
-        width: 49%;
+        width:100%;
         float: left;
     }
 
@@ -1770,9 +1868,11 @@ body {
     .add-detail h1,
     .cont-detail h1 {
         font-size: 16px;
+        margin-top:10px;
+        margin-bottom: 0px;
     }
 
-    .flinks a{ width:48%;}
+    .flinks a{ width:100%;}
 }
 
 @media screen and (max-width:420px) {
@@ -1789,13 +1889,13 @@ body {
 
     .address.addholder {
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
 
 
     .addholder .owl-carousel .owl-nav button.owl-prev img {
-        left: 5px;
+        left: 88%
     }
 
     .b-logo img {
@@ -1810,206 +1910,21 @@ body {
     }
 }
 
-@media screen and (max-width:400px){
-.menu {
-    top: 34px;
-}
-}
 
-@-webkit-keyframes zoomOut {
-  0% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
+   /*dec22*/
+   .search a{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background-color:var(--white);
+    border-radius:50%;
+}/*dec22*/
 
-  50% {
-    opacity: 0;
-    -webkit-transform: scale(.3);
-    transform: scale(.3);
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes zoomOut {
-  0% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-  }
-
-  50% {
-    opacity: 0;
-    -webkit-transform: scale(.3);
-    -ms-transform: scale(.3);
-    transform: scale(.3);
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-.zoomOut {
-  -webkit-animation-name: zoomOut;
-  animation-name: zoomOut;
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-}
-
-
-
-/*updated part dec21*/
-/*new addition 21dec2022*/
- .ins-more::after{
-     content:"Know More\00a0\00a0\00a0 " url("/cids_theme_odoo_15/static/src/img/images/UnionYellow.png");
-     background-color: var(--white);
-     position:absolute;
-     left:0;
-     right:0;
-     color:var(--yellow);
-     height:0;
-    bottom:0;
-     opacity:0;
-     transition:all .5s linear;
-     display:flex;
-     justify-content: center;
-     align-items: center;
-
- }
-
- .ins-more:hover::after{
- opacity:1;
-     height:var(--height-51);
-
- }
-
-
-.hotel-banner .hbtns a.explore {
-   height:var(--height-51);
-   min-width:var(--width-162);
-    background: #FFBC00;
-    font-family: 'Lorin';
-    font-size:var(--font-size-14);
-    color: #FFFFFF;
-    text-decoration: none;
-    margin-right: 16px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    cursor: pointer;
-    justify-content: center;
-    overflow:hidden;
-}
-
-
-/*new addition 21dec2022*/
-.hotel-banner .hbtns a.explore::after{
-    content:"Explore\00a0\00a0\00a0 " url("/cids_theme_odoo_15/static/src/img/images/UnionYellow.png");
-    background-color: var(--white);
-    position:absolute;
-    left:0;
-    right:0;
-    color:var(--yellow);
-    height:0;
-   bottom:0;
-    opacity:0;
-    transition:all .5s linear;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.social a img{
+width:var(--padding-32);
 
 }
 
-.hotel-banner .hbtns a.explore:hover::after{
-opacity:1;
-    height:var(--height-51);
-
+.copyright p {
+    margin-bottom: 0px !important;
 }
-
-/*new addion ends here*/
-
-
-
-
-.hotel-banner .hbtns a.contact {
-    padding: 16px 24px;
-    background: transparent;
-    font-family: 'Lorin';
-    font-size: 16px;
-    color: #FFFFFF;
-    border: 1px solid #FFBC00;
-    color: #FFBC00;
-    text-decoration: none;
-}
-/*updated css 21dec2022*/
-.view-projects {
-
-    height:var(--height-51);
-    width:var(--width-211);
-    background: transparent;
-    font-family: 'Lorin';
-    font-size: 16px;
-    color: #FFFFFF;
-    border: 1px solid #FFBC00;
-    color: #FFBC00;
-    text-decoration: none;
-    margin-top: 40px;
-    display: inline-block;
-    display: flex;
-    align-items: center;
-    position: relative;
-    cursor: pointer;
-    justify-content: center;
-    overflow:hidden;
-}
- /*new addition 21dec2022*/
- .view-projects::after{
-     content:"View Projects\00a0\00a0\00a0" url("/cids_theme_odoo_15/static/src/img/images/Unionnew.png");
-     background-color: var(--yellow);
-     color:var(--white);
-     position:absolute;
-     left:0;
-     right:0;
-     height:0;
-    bottom:0;
-     opacity:0;
-     transition:all .5s linear;
-     display:flex;
-     justify-content: center;
-     align-items: center;
-
- }
-
- .view-projects:hover::after{
- opacity:1;
-     height:var(--height-51);
-
- }

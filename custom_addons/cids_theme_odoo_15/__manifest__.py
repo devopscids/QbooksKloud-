@@ -42,6 +42,7 @@
             # 'cids_theme_odoo_15/static/src/scss/style.scss',
             # 'cids_theme_odoo_15/static/src/scss/footer.scss',
             'cids_theme_odoo_15/static/src/scss/header.scss',
+            'cids_theme_odoo_15/static/src/scss/animate.css',
             'cids_theme_odoo_15/static/src/scss/home_page.scss',
             # 'cids_theme_odoo_15/static/src/scss/landing_style.scss',
             # 'cids_theme_odoo_15/static/src/scss/hospitality_style.scss',

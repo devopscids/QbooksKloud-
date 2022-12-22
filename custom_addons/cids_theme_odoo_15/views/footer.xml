@@ -2,7 +2,7 @@
     <template id="custom_footer" inherit_id="website.layout" name="Custom Footer">
         <xpath expr="//footer" position="replace">
             <footer>
-                <section class="h-footer">
+                 <section class="h-footer">
         <div class="h-footer-inner">
             <div class="b-logo">
                 <img src="/cids_theme_odoo_15/static/src/img/images/logo-dark.png" />
@@ -21,9 +21,11 @@
                                     <div class="address-holder">
 
                                         <div class="addrtext">
+
                                             <p>CIDS Design</p>
                                             <p>15905 S 46th Street:Suite 100</p>
                                             <p>Phoenix,AZ 85048</p>
+                                            
                                         </div>
 
                                     </div>
@@ -32,6 +34,7 @@
                                     <div class="address-holder">
 
                                         <div class="addrtext">
+
                                             <p>CIDS Design</p>
                                             <p>15905 S 46th Street:Suite 100</p>
                                             <p>Phoenix,AZ 85048</p>
@@ -64,37 +67,41 @@
                     <div class="services-tp">
                         <h1>Services </h1>
                         <a href="#">Design studio</a>
-                        <a href="#">Procurement</a>
-                        <a href="#">food &amp; beverage</a>
+                        <a href="#">Luxury Residential planing </a>
+                        <a href="#">Creative consultants </a>
                         <a href="#">Brighten</a>
-                        <a href="#"> Visuals </a>
-                        <a href="#">creative and consulatants</a>
+                        <a href="#"> procument </a>
+                        <a href="#">visuals </a>
                         <a href="#">resorts</a>
-                        <a href="#">innovation</a>
-                        <a href="#">Luxury resedential planning </a>
+                        <a href="#">food beverages</a>
+                        <a href="#">inovation</a>
+                        <a href="#"></a>
                     </div>
 
                     <div class="pratices-tp">
                         <h1>practices</h1>
                         <div class="pratise-inner">
-                            <a href="#">Design studio</a>
-                            <a href="#">Procurement</a>
-                            <a href="#">food &amp; beverage</a>
-                            <a href="#">Brighten</a>
-                            <a href="#"> Visuals </a>
-                            <a href="#">creative and consulatants</a>
-                            <a href="#">resorts</a>
-                            <a href="#">innovation</a>
-                            <a href="#">Luxury resedential planning </a>
-                            <a href="#">Design studio</a>
-                            <a href="#">Procurement</a>
-                            <a href="#">food &amp; beverage</a>
-                            <a href="#">Brighten</a>
-                            <a href="#"> Visuals </a>
-                            <a href="#">creative and consulatants</a>
-                            <a href="#">resorts</a>
-                            <a href="#">innovation</a>
-                            <a href="#">Luxury resedential planning </a>
+                            <a href="#"> hospitality</a>
+                            <a href="#">resorts </a>
+                            <a href="#">casinos</a>
+                            <a href="#">commercial</a>
+                            <a href="#">financial</a>
+                            <a href="#">resential mix use</a>
+                            <a href="#">real estate</a>
+                            <a href="#">developers</a>
+                            <a href="#">sports</a>
+                            <a href="#">Government</a>
+
+                            <a href="#">technology centers</a>
+                            <a href="#">entertainment</a>
+                            <a href="#">tourism, travel, airports</a>
+                            <a href="#"> retail </a>
+                            <a href="#">health, hospitals</a>
+                            <a href="#">mission critical</a>
+                            <a href="#">life science</a>
+                            <a href="#">wellness </a>
+                            <a href="#">school, universities </a>
+                            <a href="#">Cultural, community centers</a>
 
                         </div>
 
@@ -115,8 +122,8 @@
             </div>
             <div class="flinks">
                 <a href="#">Case studies</a>
-                <a href="#">Awards &amp; Accolades</a>
-                <a href="#">Testimonials</a>
+<!--                <a href="#">Awards&amp; Accolades</a>-->
+<!--                <a href="#">Testimonials</a>-->
                 <a href="#">Press Releases</a>
                 <a href="#"> Privacy Policy</a>
             </div>
@@ -125,6 +132,7 @@
             </div>
         </div>
     </section>
+
 
             </footer>
 
