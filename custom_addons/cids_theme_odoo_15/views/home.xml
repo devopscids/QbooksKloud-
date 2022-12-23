@@ -315,6 +315,7 @@
     <section class="client-feedback">
         <div class="owl-carousel owl-theme clientFeedbackCarsouel">
             <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/images/2.jpg"/>
                 <div class="feedback-item">
                     <h3>Testimonials</h3>
                     <h1>What our clients Say</h1>
@@ -326,7 +327,7 @@
                             helped us install unique furnishing, fabrics, materials, and equipment.
                             When we wanted to add more elements to the interiors,
                             they quickly came up with outstanding alternatives–all under the decided budget.
-                            <img class="testimg" src="/cids_theme_odoo_15/static/src/img/images/exmdown.png"/></p>
+                            <img class="testimg" src="/cids_theme_odoo_15/static/src/img/images/exmup.png"/></p>
                     </div>
                     <div class="nmloc">
                         <h2>-LA Quinta Inn and Suites</h2>
@@ -335,6 +336,7 @@
                 </div>
             </div>
             <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/images/client-feedback.png"/>
                 <div class="feedback-item">
                     <h3>Testimonials</h3>
                     <h1>What our clients Say</h1>
@@ -344,7 +346,7 @@
                             to say that they brought the perfect balance of style and functionality to our suites and
                             worked with us pleasantly but highly professional. We definitely enjoyed their commitment
                             and passion for our project and would like to recommend their work to everyone in the
-                            hospitality and commercial business.<img class="testimg" src="/cids_theme_odoo_15/static/src/img/images/2.jpg"/></p>
+                            hospitality and commercial business.<img class="testimg" src="/cids_theme_odoo_15/static/src/img/images/exmup.png"/></p>
                     </div>
                     <div class="nmloc">
                         <h2>-Homewood Suites</h2>
@@ -353,6 +355,7 @@
                 </div>
             </div>
             <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/images/Hampton.jpg"/>
                 <div class="feedback-item">
                     <h3>Testimonials</h3>
                     <h1>What our clients Say</h1>
@@ -377,6 +380,7 @@
 
         </div>
     </section>
+
         </t>
     </template>
 </odoo>

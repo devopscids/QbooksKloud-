@@ -709,7 +709,8 @@ opacity:1;
 /*certifications*/
 .certifications {
 //     background-image:linear-gradient(180.09deg, rgba(0, 0, 0, 0.76) 0.08%, rgba(0, 0, 0, 0.62) 55.92%, rgba(0, 0, 0, 0.83) 99.92%),url('/cids_theme_odoo_15/static/src/img/images/Lobby12.jpg');
-    background-image:url('/cids_theme_odoo_15/static/src/img/images/Lobby12.jpg');
+    background-image: linear-gradient(180.09deg, rgba(0, 0, 0, 0.32) 0.08%, rgba(0, 0, 0, 0.33) 55.92%, rgba(0, 0, 0 , 0.27) 99.92%), url('/cids_theme_odoo_15/static/src/img/images/Lobby12.jpg');
+//     background-image:url('/cids_theme_odoo_15/static/src/img/images/Lobby12.jpg');
     background-repeat: no-repeat;
     height: var(--height-889);
     padding: var(--padding-202) 0px;
@@ -1023,8 +1024,8 @@ opacity:1;
 
 /*client feedback*/
 .client-feedback {
-    height: var(--height-863);
-    background-image: url('/cids_theme_odoo_15/static/src/img/images/2.jpg');
+//     height: var(--height-863);
+//     background-image: url('/cids_theme_odoo_15/static/src/img/images/2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     /* padding:var(--padding-92) 0px var(--padding-65) 0px;*/
@@ -1036,9 +1037,19 @@ opacity:1;
     width: var(--width-536);
     text-align: center;
     margin: auto;
-    text-align: center;
     color: var(--white);
     opacity: 1;
+}
+.client-feedback .owl-item.active .feedback-item {
+    width: var(--width-536);
+    text-align: center;
+    margin: auto;
+    color: var(--white);
+    opacity: 1;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
 }
 
 .feedback-txt p {
@@ -1051,6 +1062,8 @@ opacity:1;
 }
 .feedback-txt p img{
     position: absolute;
+    width: var(--font-size-32) !important;
+    height: auto !important;
 }
 
 .feedback-txt p img:first-child{
@@ -1066,6 +1079,10 @@ opacity:1;
 
     text-align: center;
     opacity: .5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .feedback-item h3 {
@@ -1121,6 +1138,17 @@ opacity:1;
 
 .client-feedback .owl-dots {
     display: none;
+}
+
+.client-feedback .owl-nav {
+    position: absolute;
+    bottom: var(--font-size-60);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.client-feedback .owl-carousel .owl-item img {
+    height: var(--height-863);
 }
 
 .client-feedback .owl-carousel .owl-nav button.owl-next img,
@@ -1386,7 +1414,7 @@ body {
 
 .bottom-inner>div a,.bottom-inner>div p {
     margin-right: var(--margin-28);
-    font-family: 'Lorin-xbold';
+    font-family: 'Lorin';
     font-size: var(--font-size-14);
     line-height: 200%;
     text-transform: capitalize;
@@ -1440,7 +1468,7 @@ body {
 
     /*dec22*/
     .nav-bar .menu>ul li{
-        height:auto;
+        height: auto!important;
     }
 
     .certifications {
@@ -1449,6 +1477,7 @@ body {
 
     .humburger {
         display: block;
+        top: var(--font-number-6);
     }
 
     .menu ul:first-child {
@@ -1459,7 +1488,7 @@ body {
         width: 100%;
         position: absolute;
         left:0;
-        top: 60px;
+        top: 72px;
         background: #393b3a;
         text-align: center;
         padding: 18px;
@@ -1471,6 +1500,7 @@ body {
 
     .search {
         margin-right: 50px;
+        padding-right: 6%;
     }
 
     .light {
@@ -1516,6 +1546,7 @@ body {
 
     .menu.mobileMenu {
         opacity:1;
+        padding-left: 5%;
     }
 
     .wedo-text,
@@ -1525,12 +1556,18 @@ body {
 
     .nav-bar.f-nav .nav-inner {
         padding: 0px;
+        position: static;
     }
 
     .client-feedback {
         height: auto;
         padding: 50px 0px;
     }
+
+    .child-menu {
+        left: 0px;
+    }
+
 }
 
 @media screen and (max-width:845px) {
@@ -1693,7 +1730,9 @@ body {
 }
 
 @media screen and (max-width:580px) {
-    .humburger{top:5px;}
+    .humburger {
+        top:7px;
+    }
     .abs-inspired h1 {
         margin-bottom: 10px;
     }
@@ -1751,11 +1790,11 @@ body {
     .f-nav.nav-bar {
         background-color: #393b3a;
        /* padding: var(--padding-23) 0px;dec22*/
-        height:40px;
+        height:45px;
     }
 
     .menu {
-        top:40px;
+        top:45px;
     }
 
     .service-practise {

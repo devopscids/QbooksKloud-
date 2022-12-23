@@ -188,6 +188,10 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                
                 autoplay: false,
                 loop: true,
+//                autoplaySpeed:5500,
+//                autoplayHoverPause: true,
+//                animateOut: 'fadeOut',
+//                animateIn: 'fadeIn',
 
                 responsive: {
                     0: {
@@ -199,7 +203,7 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                     },
                     1000: {
                         items: 1,
-                        stagePadding: 170,
+//                        stagePadding: 170,
                     }
                 }
             });
