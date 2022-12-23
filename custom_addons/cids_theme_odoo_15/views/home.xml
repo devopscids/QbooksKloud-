@@ -36,7 +36,7 @@
 
                 <div class="hotel-banner">
                     <h1>We craft unique <br /> <span>interior designs </span>that <br/> drive innovation</h1>
-                    <p>From conception to completion, we perfect every single element in youe space</p>
+                    <p>From conception to completion, we perfect every single element in your space</p>
                     <div class="hbtns">
                         <a class="explore" href="#">Explore <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
                
@@ -258,7 +258,7 @@
                     <img src="/cids_theme_odoo_15/static/src/img/images/case2.jpg"/>
                     <div class="case-txt">
                         <p>Luxury Collection</p>
-                        <h1>Office Inerior</h1>
+                        <h1>Office Interior</h1>
                     </div>
                 </div>
             </div>
@@ -317,7 +317,7 @@
             <div class="item">
                 <img src="/cids_theme_odoo_15/static/src/img/images/2.jpg"/>
                 <div class="feedback-item">
-                    <h3>Testimonials</h3>
+<!--                    <h3>Testimonials</h3>-->
                     <h1>What our clients Say</h1>
                     <div class="feedback-txt">
                         <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/images/exmdown.png"/>When we decided to freshen up the look of our hotel,
