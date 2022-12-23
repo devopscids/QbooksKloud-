@@ -1,7 +1,7 @@
 <odoo>
-    <template id="custom_header" inherit_id="website.layout" name="Custom Header">
-        <xpath expr="//header" position="replace">
-            <header>
+<!--    <template id="custom_header" inherit_id="website.layout" name="Custom Header">-->
+<!--        <xpath expr="//header" position="replace">-->
+<!--            <header>-->
 <!--             <section class="nav-bar">-->
 <!--        <div class="nav-inner">-->
 <!--            <div class="logo">-->
@@ -49,7 +49,7 @@
 <!--            </div>-->
 <!--        </div>-->
 <!--    </section>-->
-            </header>
-        </xpath>
-    </template>
+<!--            </header>-->
+<!--        </xpath>-->
+<!--    </template>-->
 </odoo>

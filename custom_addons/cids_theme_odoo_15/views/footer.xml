@@ -1,7 +1,7 @@
 <odoo>
-    <template id="custom_footer" inherit_id="website.layout" name="Custom Footer">
-        <xpath expr="//footer" position="replace">
-            <footer>
+<!--    <template id="custom_footer" inherit_id="website.layout" name="Custom Footer">-->
+<!--        <xpath expr="//footer" position="replace">-->
+<!--            <footer>-->
 <!--                 <section class="h-footer">-->
 <!--                    <div class="h-footer-inner">-->
 <!--                        <div class="b-logo">-->
@@ -134,9 +134,9 @@
 <!--                </section>-->
 
 
-            </footer>
+<!--            </footer>-->
 
 
-        </xpath>
-    </template>
+<!--        </xpath>-->
+<!--    </template>-->
 </odoo>
