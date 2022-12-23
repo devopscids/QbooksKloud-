@@ -1568,6 +1568,11 @@ body {
         left: 0px;
     }
 
+    .hotel-banner .hbtns a.explore, .view-projects, .ins-more {
+        height: 40px;
+        min-width: 162px;
+    }
+
 }
 
 @media screen and (max-width:845px) {
@@ -1811,7 +1816,7 @@ body {
         height:30px!important;
     }
 
-    .about-right{height:250px;}
+    .about-right{height:200px;}
     .aboutcarsouel.owl-carousel .owl-item img{height:200px;}
     .search a img{width:28px;}
    /* .search a:nth-child(2) img{margin-left:11px;}dec22*/
