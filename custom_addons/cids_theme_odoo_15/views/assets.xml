@@ -5,7 +5,11 @@
         <xpath expr="//div[@id='snippet_structure']//div[hasclass('o_panel_body')]"
                position="inside">
 <!--            <t t-snippet="cids_theme_odoo_15.home" t-thumbnail=""/>-->
-            <t t-snippet="cids_theme_odoo_15.landing" t-thumbnail=""/>
+<!--            <t t-snippet="cids_theme_odoo_15.landing" t-thumbnail=""/>-->
+<!--            <t t-snippet="cids_theme_odoo_15.hospitality" t-thumbnail=""/>-->
+<!--            <t t-snippet="cids_theme_odoo_15.commercial" t-thumbnail=""/>-->
+<!--            <t t-snippet="cids_theme_odoo_15.new_home_page" t-thumbnail=""/>-->
+
             <!--<t t-snippet="cids_theme_odoo_15.banner" t-thumbnail=""/>
             <t t-snippet="cids_theme_odoo_15.about_us" t-thumbnail=""/>
             <t t-snippet="cids_theme_odoo_15.about_us2" t-thumbnail=""/>

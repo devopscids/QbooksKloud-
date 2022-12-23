@@ -1,6 +1,11 @@
 <odoo>
         <template id="login_inherit" inherit_id="web.login" name="Website Login Layout" >
             <xpath expr="//form[@class='oe_login_form']" position="replace">
+
+				<style>
+					.nav-bar{background-color: rgba(80, 87, 93, 0.9)!important;
+    backdrop-filter: blur(7.5px);}
+				</style>
 				<div class="row">
 					<div class="col-md-4">
 						<form class="oe_login_form" role="form" t-attf-action="/web/login" method="post" onsubmit="this.action = this.action + location.hash">

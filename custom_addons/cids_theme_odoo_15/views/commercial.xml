@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="commercial" name="CIDS Commercial">
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/commercial_style.scss"/>
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/style.scss"/>
+<!--        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/landing_style.scss"/>-->
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.scss"/>
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owltheme.scss"/>
+        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/cidsjquery.js"/>
+<!--        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/cids.js"/>-->
+        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/gallery.js"/>
+        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/owl.js"/>
+        <script>
+             $(document).ready(function() {
+                var owl5 = $('.owl-carousel.happyclients');
+                owl5.owlCarousel({
+                  margin: 10,
+                  nav: true,
+                  autoplay:true,
+                  loop: true,
+                  responsive: {
+                    0: {
+                      items: 1
+                    },
+                    600: {
+                      items: 1
+                    },
+                    1000: {
+                      items: 1
+                    }
+                  }
+                });
+                 $( ".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+                 $( ".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+              });
+        </script>
+
+
+        <section class="h-header">
+        <div class="h-inner">
+            <div class="h-inner-holder">
+                <div class="h-top">
+                    <div class="email">
+                        <img src="/cids_theme_odoo_15/static/src/img/landing/emailIcon.png" />
+                        <a href="#">Cid.design@gmail.com</a>
+                    </div>
+                    <div class="phone">
+                        <img src="/cids_theme_odoo_15/static/src/img/landing/phoneIcon.png" />
+                        <a href="#">+91 2345687892</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h-bottom">
+            <div class="h-inner-holder">
+                <div class="h-bottom-holder">
+                    <div class="logo-holder">
+                        <img src="/cids_theme_odoo_15/static/src/img/landing/logo.png" />
+                    </div>
+                    <div class="h-links">
+                        <a class="active" href="/commercial">Commercial Buildings</a>
+                        <a href="/hospitality">Hospitality</a>
+                        <a href="/ffe">FF&amp;E</a>
+                        <a href="/contactus" class="h-contact">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+        <section class="comm-banner">
+            <div class="banner-text">
+                <h1><span>Commercial Interior</span> Designs.</h1>
+                <h1>Focused On <span>Details.</span></h1>
+                <a class="getInTouch" href="#">Get in touch</a>
+            </div>
+        </section>
+        <section class="our-values">
+            <div class="val1">
+                <img src="/cids_theme_odoo_15/static/src/img/commercial/v1.png" />
+                <div>
+                    <h2>Best Quality - Guaranteed</h2>
+                    <p>Keeping the highest quality and industry standards in mind,we create unique spaces with new-age design,material,furnishings and equipments.</p>
+
+                </div>
+            </div>
+            <div class="val2">
+                <img src="/cids_theme_odoo_15/static/src/img/commercial/v2.png" />
+                <div>
+                    <h2>Full Project Transparency</h2>
+                    <p>With crisp and clear communication , we ensure your peace of mind with regular project updates,on-time delivery,and zero surprises.</p>
+
+                </div>
+            </div>
+            <div class="val3">
+                <img src="/cids_theme_odoo_15/static/src/img/commercial/v3.png" />
+                <div>
+                    <h2>100% Client Satisfaction </h2>
+                    <p>From conceptualization to final delivery,our team goes to extra length to fullfill every client's demand with the upmost precision and attention to detail.</p>
+
+                </div>
+            </div>
+        </section>
+        <section class="comm-about">
+            <div class="left-about">
+                <div class="abs-video">
+<!--                    <video width="100%" height="100%" controls muted loop autoplay style="object-fit:cover;">-->
+<!--                        <source src="https://www.cids.design/web/static/src/img/CIDS-DESIGN-FINAL-INTRO-VIDEO.mp4"-->
+<!--                            type="video/mp4"/>-->
+<!--                        <source src="https://www.cids.design/web/static/src/img/CIDS-DESIGN-FINAL-INTRO-VIDEO.mp4"-->
+<!--                            type="video/ogg"/>-->
+<!--                        Your browser does not support the video tag.-->
+<!--                    </video>-->
+                    <video playsinline="true" autoplay="true" muted="true"  loop="true" preload="auto" style="object-fit:cover;max-width: 100%;">
+                        <source src="/cids_theme_odoo_15/static/src/video/CIDS-DESIGN-FINAL-INTRO-VIDEO.mp4" type="video/mp4"/>
+                    </video>
+                </div>
+            </div>
+            <div class="right-about">
+                <h3>About us</h3>
+                <h1>Passionate For Innovation.</h1>
+                <p>CIDS.DESIGN is a commercial interior designing firm that establishes community engagement and
+                    unforgettable human experiences through futuristic designs. Combining intuitive strategies with a
+                    one-of-a-kind design approach, we ensure that every space we shape establishes emotional connections
+                    with people and tells pulsating stories of opulence and transformation. Our multi-disciplinary team
+                    consists of certified, trained, and creative industry experts who take the time to hear your vision,
+                    goals, and challenges. Whether it is commercial buildings, retail stores, or office spaces, we provide
+                    you with comprehensive assistance throughout the design journey – no exceptions.</p>
+                <a class="getInTouch" href="#">Get in touch</a>
+
+            </div>
+        </section>
+        <section class="comm-services happy-customers">
+            <div class="comm-service-inner">
+                <div class="service-content">
+                    <h2>our services</h2>
+                    <h1>Commercial Interior Designing.</h1>
+                    <p>Our commercial interior design services include space planning, interior designing, custom 3D
+                        designs, renovation, FF&amp;E procurement, and project consultancy. Everything from selecting the
+                        finest-quality fabric, materials, and equipment to installing state-of-the-art lighting fixtures,
+                        furniture, and artwork – we take care of all! </p>
+                </div>
+            </div>
+            <div class="customer-carsouel">
+                <div class="owl-carousel owl-theme happy-customers">
+                    <div class="item">
+                        <div class="item-customers">
+                            <img src="/cids_theme_odoo_15/static/src/img/commercial/service1-comm.png" />
+                            <div class="img-text">
+                                <span>01</span>
+                                <p>Commercial Buildings</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-customers">
+                            <img src="/cids_theme_odoo_15/static/src/img/commercial/service3-comm.png" />
+                            <div class="img-text">
+                                <span>02</span>
+                                <p>Co-working Spaces</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-customers">
+                            <img src="/cids_theme_odoo_15/static/src/img/commercial/service4-comm.png" />
+                            <div class="img-text">
+                                <span>03</span>
+                                <p>Developement Centers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-customers">
+                            <img src="/cids_theme_odoo_15/static/src/img/commercial/service1-comm.png" />
+                            <div class="img-text">
+                                <span>04</span>
+                                <p>Developement Centers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-customers">
+                            <img src="/cids_theme_odoo_15/static/src/img/commercial/service3-comm.png" />
+                            <div class="img-text">
+                                <span>01</span>
+                                <p>Commercial Buildings</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-customers">
+                            <img src="/cids_theme_odoo_15/static/src/img/commercial/service4-comm.png" />
+                            <div class="img-text">
+                                <span>02</span>
+                                <p>Co-working Spaces</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-customers">
+                            <img src="/cids_theme_odoo_15/static/src/img/commercial/service1-comm.png" />
+                            <div class="img-text">
+                                <span>03</span>
+                                <p>Developement Centers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-customers">
+                            <img src="/cids_theme_odoo_15/static/src/img/commercial/service3-comm.png" />
+                            <div class="img-text">
+                                <span>04</span>
+                                <p>Developement Centers</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="why-us">
+            <div class="why-us-inner">
+                <div class="why-left"></div>
+                <div class="why-right">
+                    <h3>WHAT MAKES US DIFFERENT</h3>
+                    <h1>Undivided Attention To Detail.</h1>
+                    <ul>
+                        <li>At CIDS.DESIGN, we emphasize surpassing clients' expectations. Our team designs innate spaces
+                            tailored to their needs from ideation to final delivery.</li>
+                        <li>We understand that every project is unique; therefore, we take care of the design aspects,
+                            goals, and budget. No hidden charges or extra bill surprises, ever!</li>
+                        <li>Blending our knowledge with creativity allows us to create beautiful &amp; immaculate spaces. There
+                            is nothing that can surpass a thoughtfully designed project, honestly!</li>
+                        <li>We keep the client's requirements and choices at the forefront of everything we do. At CIDS.
+                            DESIGN.It is about quality, trust, satisfaction, and long-term relationships.</li>
+                        <li>Our desire to deliver excellence is unparalleled. We know we have succeeded when our clients
+                            feel empowered, connected, and inspired through the spaces we create.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="projects-inner">
+                <div class="projects-text">
+                    <h3>our projects</h3>
+                    <h1>Elevate The Organizational Value.</h1>
+                    <p>We believe in crafting personalized, meaningful, and characterful designs that give substantial value
+                        and
+                        appreciation to the property. Each project we have worked on exudes a distinct sense of charm,
+                        making
+                        them stand out from the rest.</p>
+                </div>
+                <div class="gallery" style="display:none;">
+                    <div class="gallery-item h-100" data-gallery-tag="Hotels">
+                        <img class="gallery-item" data-gallery-tag="Hotels" src="/cids_theme_odoo_15/static/src/img/landing/g1.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+
+
+                    <div class="gallery-item h-100" data-gallery-tag="Resorts">
+                        <img class="gallery-item" data-gallery-tag="Resorts" src="/cids_theme_odoo_15/static/src/img/commercial/p1.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item h-100" data-gallery-tag="Bars &amp; Restaurant">
+                        <img class="gallery-item" data-gallery-tag="Bars &amp;; Restaurant" src="/cids_theme_odoo_15/static/src/img/commercial/p2.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item h-100">
+                        <img data-gallery-tag="Hotels" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/commercial/p3.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item h-100">
+                        <img data-gallery-tag="Hotels" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/commercial/p4.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item h-100">
+                        <img data-gallery-tag="Resorts" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/commercial/p5.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item h-100">
+                        <img data-gallery-tag="Bars &amp; Restaurant" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/commercial/p6.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item h-100">
+                        <img data-gallery-tag="Hotels" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/commercial/p7.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item h-100">
+                        <img data-gallery-tag="Hotels" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/commercial/p1.png" />
+                        <div
+                            class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
+                            <p class="lead m-0 spa"><span>Commercial interior</span></p>
+                            <p class="hilton">HILTON</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+        <section class="worked-with">
+            <div class="worked-with-inner">
+                <div class="w-inner-text">
+                    <h3>Worked With</h3>
+                    <p>Our work speaks for itself and exemplifies our undivided commitment, passion, and dedication. Being
+                        associated with some of the world's biggest brands has allowed us to become an end-to-end interior
+                        design service partner and has fueled us with an ever-growing passion for creativity and diversity.
+                    </p>
+                </div>
+                <div class="owl-carousel owl-theme worked-with">
+                    <div class="item">
+                        <img src="/cids_theme_odoo_15/static/src/img/commercial/hilton.png"/>
+                    </div>
+                    <div class="item">
+                        <img src="/cids_theme_odoo_15/static/src/img/commercial/omani.png"/>
+                    </div>
+                    <div class="item">
+                        <img src="/cids_theme_odoo_15/static/src/img/commercial/hilton.png"/>
+                    </div>
+                    <div class="item">
+                        <img src="/cids_theme_odoo_15/static/src/img/commercial/omani.png"/>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="client-testimoinal happy-customers">
+            <section class="testimonial-inner">
+                <div class="testimo-text">
+                    <h3>testmonials </h3>
+                    <h1>What our clients have to say</h1>
+                </div>
+                <div class="owl-carousel owl-theme client-testimo">
+                    <div class="item">
+                        <div class="client-inner">
+                            <div class="stars">
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            </div>
+                            <div class="client-cont">
+                                <p>The entire CIDS.DESIGN team was absolutely amazing to work with. They captured our vision
+                                    entirely and created distinctive designs for rooms, lobbies, and lounge areas! The best
+                                    part is that the interior designers worked with dedication to provide their </p>
+                            </div>
+                            <div class="client-cred">
+                                <div class="client-img">
+                                    <img src="/cids_theme_odoo_15/static/src/img/commercial/client-img.png" />
+                                </div>
+                                <div class="client-name">
+                                    <p>Holiday Inn Express</p>
+                                    <span>Weston, WV</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-inner">
+                            <div class="stars">
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            </div>
+                            <div class="client-cont">
+                                <p>The entire CIDS.DESIGN team was absolutely amazing to work with. They captured our vision
+                                    entirely and created distinctive designs for rooms, lobbies, and lounge areas! The best
+                                    part is that the interior designers worked with dedication to provide their </p>
+                            </div>
+                            <div class="client-cred">
+                                <div class="client-img">
+                                    <img src="/cids_theme_odoo_15/static/src/img/commercial/client-img.png" />
+                                </div>
+                                <div class="client-name">
+                                    <p>Holiday Inn Express</p>
+                                    <span>Weston, WV</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-inner">
+                            <div class="stars">
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            </div>
+                            <div class="client-cont">
+                                <p>The entire CIDS.DESIGN team was absolutely amazing to work with. They captured our vision
+                                    entirely and created distinctive designs for rooms, lobbies, and lounge areas! The best
+                                    part is that the interior designers worked with dedication to provide their </p>
+                            </div>
+                            <div class="client-cred">
+                                <div class="client-img">
+                                    <img src="/cids_theme_odoo_15/static/src/img/commercial/client-img.png" />
+                                </div>
+                                <div class="client-name">
+                                    <p>Holiday Inn Express</p>
+                                    <span>Weston, WV</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-inner">
+                            <div class="stars">
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            </div>
+                            <div class="client-cont">
+                                <p>The entire CIDS.DESIGN team was absolutely amazing to work with. They captured our vision
+                                    entirely and created distinctive designs for rooms, lobbies, and lounge areas! The best
+                                    part is that the interior designers worked with dedication to provide their </p>
+                            </div>
+                            <div class="client-cred">
+                                <div class="client-img">
+                                    <img src="/cids_theme_odoo_15/static/src/img/commercial/client-img.png" />
+                                </div>
+                                <div class="client-name">
+                                    <p>Holiday Inn Express</p>
+                                    <span>Weston, WV</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-inner">
+                            <div class="stars">
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                                <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
+                            </div>
+                            <div class="client-cont">
+                                <p>The entire CIDS.DESIGN team was absolutely amazing to work with. They captured our vision
+                                    entirely and created distinctive designs for rooms, lobbies, and lounge areas! The best
+                                    part is that the interior designers worked with dedication to provide their </p>
+                            </div>
+                            <div class="client-cred">
+                                <div class="client-img">
+                                    <img src="/cids_theme_odoo_15/static/src/img/commercial/client-img.png" />
+                                </div>
+                                <div class="client-name">
+                                    <p>Holiday Inn Express</p>
+                                    <span>Weston, WV</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+        </section>
+        <section class="map-addr">
+            <div class="map-addr-inner">
+                <div class="map-left">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14023.983004079158!2d77.043231395972!3d28.509775561707798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19822ea84aaf%3A0xa054a1b0d0c227ae!2sSector%2023%2C%20Gurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1671024576620!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="map-right">
+                    <h3>Contact us </h3>
+                    <p>All good relationships start with a simple hello! If you are ready to explore how we can transform
+                        your office, lounge, shop, or other commercial spaces, let's talk!</p>
+
+                    <form>
+                        <input type="text" placeholder="Enter your name" />
+                        <input type="text" placeholder=" Enter your email id" />
+                        <textarea name="" placeholder="Enter your message" cols="30" rows="10"></textarea>
+                        <input class="sendbtn" type="submit" value="Send "/>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="h-footer">
+        <div class="h-footer-inner">
+            <div class="b-logo">
+                <img src="/cids_theme_odoo_15/static/src/img/landing/logo.png" />
+            </div>
+            <div class="f-services">
+                <h1>Services </h1>
+                <div class="services-tp">
+                    <a href="#">Design studio</a>
+                    <a href="#">Procurement</a>
+                    <a href="#">food &amp; beverage</a>
+                    <a href="#">Brighten</a>
+                    <a href="#"> Visuals </a>
+                    <a href="#">creative and consulatants</a>
+                    <a href="#">resorts</a>
+                    <a href="#">innovation</a>
+                    <a href="#">Luxury resedential planning </a>
+                </div>
+                <h1>practices</h1>
+                <div class="pratices-tp">
+                    <a href="#">Design studio</a>
+                    <a href="#">Procurement</a>
+                    <a href="#">food &amp; beverage</a>
+                    <a href="#">Brighten</a>
+                    <a href="#"> Visuals </a>
+                    <a href="#">creative and consulatants</a>
+                    <a href="#">resorts</a>
+                    <a href="#">innovation</a>
+                    <a href="#">Luxury resedential planning </a>
+
+                </div>
+            </div>
+            <div class="f-contact">
+                <h1>Contact us</h1>
+                <div class="email">
+                    <img src="/cids_theme_odoo_15/static/src/img/landing/emailIcon.png" />
+                    <a href="#">Cid.design@gmail.com</a>
+                </div>
+                <div class="phone">
+                    <img src="/cids_theme_odoo_15/static/src/img/landing/phoneIcon.png" />
+                    <a href="#">+91 2345687892</a>
+                </div>
+                <div class="sicons">
+                    <a href="#"><img src="/cids_theme_odoo_15/static/src/img/landing/insta.png"/></a>
+                    <a href="#"><img src="/cids_theme_odoo_15/static/src/img/landing/twitter.png"/></a>
+                    <a href="#"><img src="/cids_theme_odoo_15/static/src/img/landing/youtube.png"/></a>
+                </div>
+            </div>
+        </div>
+    </section>
+        <script>
+        $(document).ready(function () {
+            var owl1 = $('.owl-carousel.happy-customers');
+            owl1.owlCarousel({
+                margin: 15,
+                nav: true,
+                autoplay: true,
+                loop: true,
+                responsive: {
+                    0: {
+                        items: 4
+                    },
+                    600: {
+                        items: 4
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            });
+            $(".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+            $(".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+        });
+
+        $(document).ready(function () {
+            var owl2 = $('.owl-carousel.worked-with');
+            owl2.owlCarousel({
+                margin: 10,
+                nav: true,
+                autoplay: true,
+                loop: true,
+                responsive: {
+                    0: {
+                        items: 2
+                    },
+                    600: {
+                        items: 5
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            });
+            $(".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+            $(".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+        });
+
+        $(document).ready(function () {
+            var owl2 = $('.owl-carousel.client-testimo');
+            owl2.owlCarousel({
+                margin: 30,
+                nav: true,
+                autoplay: true,
+                loop: true,
+                responsive: {
+                    0: {
+                        items: 3
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+            $(".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+            $(".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+        });
+
+
+        $(document).ready(function () {
+            $('.gallery').mauGallery({
+                columns: {
+                    xs: 1,
+                    sm: 2,
+                    md: 3,
+                    lg: 4,
+                    xl: 3
+                },
+                lightBox: true,
+                lightboxId: 'myAwesomeLightbox',
+                showTags: true,
+                tagsPosition: 'top'
+            });
+        });
+    </script>
+    </template>
+</odoo>

@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="landing_page" name="CIDS Home">
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/style.scss"/>
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/landing_style.scss"/>
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.scss"/>
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owltheme.scss"/>
+        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/cidsjquery.js"/>
+        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/cids.js"/>
+        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/gallery.js"/>
+        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/owl.js"/>
+        <script>
+             $(document).ready(function() {
+                var owl5 = $('.owl-carousel.happyclients123');
+                owl5.owlCarousel({
+                  margin: 10,
+                  nav: true,
+                  autoplay:true,
+                  loop: true,
+                  responsive: {
+                    0: {
+                      items: 1
+                    },
+                    600: {
+                      items: 1
+                    },
+                    1000: {
+                      items: 1
+                    }
+                  }
+                });
+                 $( ".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+                 $( ".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+              });
+        </script>
+        <t t-call="website.layout">
+            <section class="about-banner">
+        <div class="abs-cont">
+            <div class="about-text">
+                <h1>Creating <span>Memorable </span>Spaces</h1>
+                <h1>With <span>Meaningful Interior </span>Designs.</h1>
+                <p>We design inspiring spaces for hotels, resorts,
+bars &amp; restaurants, and wellness centers that
+increase business growth &amp; profitability.
+</p>
+                <a class="getInTouch" href="#">Get in touch</a>
+            </div>
+        </div>
+    </section>
+            <section class="about-cids">
+            <div class="cids-left">
+                <div class="backcolored-div">
+                </div>
+                <div class="absimagediv">
+                    <img src="cids_theme_odoo_15/static/src/img/landing/abtdesign.png"/>
+                    <img src="cids_theme_odoo_15/static/src/img/landing/abtdesign.png"/>
+                    <img src="cids_theme_odoo_15/static/src/img/landing/abtdesign.png"/>
+                </div>
+            </div>
+            <div class="cids-right">
+                <h1>We Are Innovators &amp; Storytellers</h1>
+                <p>At CIDS.DESIGN, we provide intuitive and experience-driven hospitality interior design services that keep your guests
+                returning for more. With a passion for weaving new inspirations into our design stories, we have
+                established a strong presence in the industry as a professional &amp; personable hospitality interior designing
+                firm that celebrates diversity and exclusivity. Our team of creative interior designers explores impactful ideas
+                and design strategies – extensively formulated to shape unique customer experiences. From crafting initial design
+                strategies to final delivery, we ensure that each project entails top-notch quality, furnishing, and precision.
+                The result is attention-worthy spaces that deliver high ROI and tangible property value.</p>
+
+                <div class="achivment">
+                    <div>
+                        <h2>150+ </h2>
+                        <p>Projects completed</p>
+                    </div>
+                    <div>
+                        <h2>60+ </h2>
+                        <p>Strategic Partnerships</p>
+                    </div>
+                    <div>
+                        <h2>50+ </h2>
+                        <p>Interior Designers Worldwide </p>
+                    </div>
+
+                </div>
+                <a class="contact" href="#">Get in touch</a>
+            </div>
+        </section>
+            <section class="cid-process ">
+            <div class="process-header">
+                <h1>How We Translate Your Vision Into A Successful Project?</h1>
+                <p>We connect people and communities together through impactful and creative hospitality
+                interior design solutions. The key to our success is to ensure that the end result is a crystal-clear
+                reflection of our client’s demands, visions, and aspirations. To transform your ideas into reality,
+                we start with a detailed discussion, analyze your project requirements, and offer
+                purposeful hospitality interior design services with a striking impact.</p>
+            </div>
+
+            <div class="process-types">
+              <div>
+                <div>
+               <img src="cids_theme_odoo_15/static/src/img/landing/cidConcept.png"/>
+               <h2>1.Conceptualization</h2>
+               <p>Keeping our client’s goals, budget, timeline, and demands at the forefront, we kick-start the project
+               by understanding the scope of work, formulating results-driven design strategies,
+               and creating realistic 3D renderings to conceptualize the core vision.</p>
+                </div>
+              </div>
+
+              <div>
+                <div>
+               <img src="cids_theme_odoo_15/static/src/img/landing/cideDesign.png"/>
+               <h2>2.Design</h2>
+               <p>We implement the latest design concepts into our hospitality interior designing approach,
+               helping brands to future-proof the success of their properties. At CIDS.DESIGN, we offer a personal touch to
+               every project with holistic interior design solutions connected to your brand’s DNA. </p>
+                </div>
+              </div>
+
+              <div>
+                <div>
+               <img src="cids_theme_odoo_15/static/src/img/landing/cidDelivery.png"/>
+               <h2>3.Delivery</h2>
+               <p>Our multidisciplinary team manages the entire design process to ensure all projects meet creative,
+               technical, and operational requirements. Extensive care is taken throughout the design journey to make every
+               single detail reflect
+               the initial conceptualization without any shortcuts.</p>
+                </div>
+              </div>
+            </div>
+        </section>
+            <section class="hotel-services ">
+            <div class="process-header">
+                <h1>Thoughtful &amp; Functional Interior Design Services</h1>
+                <p>At CIDS.DESIGN, we understand that creating remarkable and cohesive spaces plays a
+                critical role in positioning your brand for future growth. Drawing knowledge from our diverse projects
+                and multi-year experiences, we elevate design through new-age strategies, extensive research, and market insights.
+                From hotels, resorts, and spas to bars, restaurants, and wellness centers,
+                we implement the latest interior design trends that exude finesse and grandiosity.</p>
+            </div>
+
+            <div class="hservice-inner">
+                <div>
+                    <img src="cids_theme_odoo_15/static/src/img/landing/hotelservice1.png"/>
+                    <div class="absdiv">
+                        <p><span>01</span>Hotels &amp; Resorts</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="cids_theme_odoo_15/static/src/img/landing/hotelservice2.png"/>
+                    <div class="absdiv">
+                        <p><span>02</span>Bars &amp; Restaurants</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="cids_theme_odoo_15/static/src/img/landing/hotelservice3.png"/>
+                    <div class="absdiv">
+                        <p><span>03</span>Spa &amp; Wellness centers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <section class="hotel-projects">
+            <div class="process-header ">
+                <h1>View Our Most Celebrated Hospitality Interior Designs</h1>
+                <p>We have had the privilege of building long-term relationships with some
+                incredible brands and hotel chains across the globe including Hilton, IHG, Holiday Inn, Marriott, and more.</p>
+            </div>
+
+             <div class="gallery" style="display:none;">
+                <div class="gallery-item h-100" data-gallery-tag="Hotels">
+                <img style="height:350px;"
+                  class="gallery-item"
+                  src="cids_theme_odoo_15/static/src/img/landing/ralph-ravi-kayden-mdwOo5PeXpE-unsplash 1.png"
+                />
+                <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+                >
+                  <p class="lead m-0 spa"><span>SPA</span></p>
+                  <p class="hilton">HILTON</p>
+                </div>
+                </div>
+                <div class="gallery-item h-100"  data-gallery-tag="Hotels">
+                    <img style="height:350px;"
+
+                    class="gallery-item"
+                    src="cids_theme_odoo_15/static/src/img/landing/ralph-ravi-kayden-mdwOo5PeXpE-unsplash 1(1).png"
+                  />
+                  <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+                  >
+                    <p class="lead m-0 spa"><span>SPA</span></p>
+                    <p class="hilton">HILTON</p>
+                  </div>
+                </div>
+                <div class="gallery-item h-100"  data-gallery-tag="Resorts">
+                <img style="height:350px;"
+
+                  class="gallery-item"
+                  src="cids_theme_odoo_15/static/src/img/landing/ralph-ravi-kayden-mdwOo5PeXpE-unsplash 1(3).png"
+                />
+                <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+                >
+                  <p class="lead m-0 spa"><span>SPA</span></p>
+                  <p class="hilton">HILTON</p>
+                </div>
+            </div>
+
+            <div class="gallery-item h-100"  data-gallery-tag="Bars &amp; Restaurant">
+                <img style="height:350px;"
+
+                  class="gallery-item"
+                  src="cids_theme_odoo_15/static/src/img/landing/ralph-ravi-kayden-mdwOo5PeXpE-unsplash 1(1).png"
+                />
+                <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+                >
+                  <p class="lead m-0 spa"><span>SPA</span></p>
+                  <p class="hilton">HILTON</p>
+                </div>
+                </div>
+                <div class="gallery-item h-100" >
+                <img style="height:350px;" data-gallery-tag="Hotels"
+
+                  class="gallery-item"
+                  src="cids_theme_odoo_15/static/src/img/landing/ralph-ravi-kayden-mdwOo5PeXpE-unsplash 1(3).png"
+                />
+                <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+                >
+                  <p class="lead m-0 spa"><span>SPA</span></p>
+                  <p class="hilton">HILTON</p>
+                </div>
+                </div>
+                <div class="gallery-item h-100" >
+                <img style="height:350px;" data-gallery-tag="Resorts"
+
+                  class="gallery-item"
+                  src="cids_theme_odoo_15/static/src/img/landing/ralph-ravi-kayden-mdwOo5PeXpE-unsplash 1.png"
+                />
+                <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+                >
+                  <p class="lead m-0 spa"><span>SPA</span></p>
+                  <p class="hilton">HILTON</p>
+                </div>
+                </div>
+                <div class="gallery-item h-100"  >
+                <img data-gallery-tag="Bars &amp; Restaurant" style="height:350px;"
+
+                  class="gallery-item"
+                  src="cids_theme_odoo_15/static/src/img/landing/ralph-ravi-kayden-mdwOo5PeXpE-unsplash 1(3).png"
+                />
+                <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+                >
+                  <p class="lead m-0 spa"><span>SPA</span></p>
+                  <p class="hilton">HILTON</p>
+                </div>
+                </div>
+                <div class="gallery-item h-100">
+                <img style="height:350px;"
+                  data-gallery-tag="Hotels"
+                  class="gallery-item"
+                  src="cids_theme_odoo_15/static/src/img/landing/ralph-ravi-kayden-mdwOo5PeXpE-unsplash 1(1).png"
+                />
+                <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+                >
+                  <p class="lead m-0 spa"><span>SPA</span></p>
+                  <p class="hilton">HILTON</p>
+                </div>
+                </div>
+                <div class="gallery-item h-100">
+                <img style="height:350px;"
+                  data-gallery-tag="Hotels"
+                  class="gallery-item"
+                  src="cids_theme_odoo_15/static/src/img/landing/ralph-ravi-kayden-mdwOo5PeXpE-unsplash 1.png"
+                />
+                <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+                >
+                  <p class="lead m-0 spa"><span>SPA</span></p>
+                  <p class="hilton">HILTON</p>
+                </div>
+                </div>
+                <div class="gallery-item h-100">
+                <img style="height:350px;"
+                  data-gallery-tag="Resorts"
+                  class="gallery-item"
+                  src="cids_theme_odoo_15/static/src/img/landing/ralph-ravi-kayden-mdwOo5PeXpE-unsplash 1(1).png"
+                />
+                <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+                >
+                  <p class="lead m-0 spa"><span>SPA</span></p>
+                  <p class="hilton">HILTON</p>
+                </div>
+                </div>
+                <div class="gallery-item h-100">
+                <img style="height:350px;"
+                  data-gallery-tag="Resorts"
+                  class="gallery-item"
+                  src="cids_theme_odoo_15/static/src/img/landing/ralph-ravi-kayden-mdwOo5PeXpE-unsplash 1.png"
+                />
+                <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+                >
+                  <p class="lead m-0 spa"><span>SPA</span></p>
+                  <p class="hilton">HILTON</p>
+                </div>
+                </div>
+
+                <div class="gallery-item h-100">
+                <img style="height:350px;"
+                  data-gallery-tag="Bars &amp; Restaurant"
+                  class="gallery-item"
+                  src="cids_theme_odoo_15/static/src/img/landing/ralph-ravi-kayden-mdwOo5PeXpE-unsplash 1.png"
+                />
+                <div class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3"
+                >
+                  <p class="lead m-0 spa"><span>SPA</span></p>
+                  <p class="hilton">HILTON</p>
+                </div>
+                </div>
+
+
+              </div>
+        </section>
+            <section class="happy-customers">
+            <div class="process-header ">
+                <h1>Our Happy Clients</h1>
+                <p>Nothing can match the feeling of achievement and recognition that comes with appreciation and acknowledgment for
+                our hard work. Our approach is entirely geared toward client satisfaction and these testimonials are an attestation
+                to our passion, devotion, and responsibility.
+                Take a look at what our valued clients have to say about our interior design services. </p>
+            </div>
+
+              <div class="owl-carousel owl-theme happyclients123">
+                    <div class="item">
+
+            <div class="item-customers">
+            <div class="item-cust-left">
+            <img src="cids_theme_odoo_15/static/src/img/landing/clientImg.png"/>
+            </div>
+            <div class="item-cust-right">
+            <div class="star-holder">
+                <img src="cids_theme_odoo_15/static/src/img/landing/star.png"/>
+                <img src="cids_theme_odoo_15/static/src/img/landing/star.png"/>
+                <img src="cids_theme_odoo_15/static/src/img/landing/star.png"/>
+                <img src="cids_theme_odoo_15/static/src/img/landing/star.png"/>
+                <img src="cids_theme_odoo_15/static/src/img/landing/star.png"/>
+            </div>
+            <div class="appre-text">
+                <img class="simg" src="cids_theme_odoo_15/static/src/img/landing/exclm.png"/>
+                <p>Lorem ipsum dolor sit amet consectetur. Suspendisse pellentesque mattis mollis sed.
+                 Mi aliquam facilisis donec congue eu dui vivamus at amet.Lorem ipsum dolor sit amet
+                 consectetur.Lorem ipsum dolor sit amet consectetur. Suspendisse pellentesque mattis
+                  mollis sed. Mi aliquam facilisis donec congue eu dui vivamus at
+                amet.Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="limg" src="cids_theme_odoo_15/static/src/img/landing/exclm.png"/>
+            </div>
+            <div class="cust-name">
+                <h4>Jason Bru</h4>
+                <p>Italy</p>
+            </div>
+            </div>
+            </div>
+                    </div>
+                       <div class="item">
+
+            <div class="item-customers">
+            <div class="item-cust-left">
+            <img src="cids_theme_odoo_15/static/src/img/landing/clientImg.png"/>
+            </div>
+            <div class="item-cust-right">
+            <div class="star-holder">
+                <img src="cids_theme_odoo_15/static/src/img/landing/star.png"/>
+                <img src="cids_theme_odoo_15/static/src/img/landing/star.png"/>
+                <img src="cids_theme_odoo_15/static/src/img/landing/star.png"/>
+                <img src="cids_theme_odoo_15/static/src/img/landing/star.png"/>
+                <img src="cids_theme_odoo_15/static/src/img/landing/star.png"/>
+            </div>
+            <div class="appre-text">
+                <img class="simg" src="cids_theme_odoo_15/static/src/img/landing/exclm.png"/>
+                <p>Lorem ipsum dolor sit amet consectetur. Suspendisse pellentesque mattis mollis sed.
+                 Mi aliquam facilisis donec congue eu dui vivamus at amet.Lorem ipsum dolor sit amet
+                 consectetur.Lorem ipsum dolor sit amet consectetur. Suspendisse pellentesque mattis
+                  mollis sed. Mi aliquam facilisis donec congue eu dui vivamus at
+                amet.Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="limg" src="cids_theme_odoo_15/static/src/img/landing/exclm.png"/>
+            </div>
+            <div class="cust-name">
+                <h4>Jason Bru</h4>
+                <p>Italy</p>
+            </div>
+            </div>
+            </div>
+                    </div>
+                       <div class="item">
+
+            <div class="item-customers">
+            <div class="item-cust-left">
+            <img src="cids_theme_odoo_15/static/src/img/landing/clientImg.png"/>
+            </div>
+            <div class="item-cust-right">
+            <div class="star-holder">
+                <img src="cids_theme_odoo_15/static/src/img/landing/star.png"/>
+                <img src="cids_theme_odoo_15/static/src/img/landing/star.png"/>
+                <img src="cids_theme_odoo_15/static/src/img/landing/star.png"/>
+                <img src="cids_theme_odoo_15/static/src/img/landing/star.png"/>
+                <img src="cids_theme_odoo_15/static/src/img/landing/star.png"/>
+            </div>
+            <div class="appre-text">
+                <img class="simg" src="cids_theme_odoo_15/static/src/img/landing/exclm.png"/>
+                <p>Lorem ipsum dolor sit amet consectetur. Suspendisse pellentesque mattis mollis sed.
+                 Mi aliquam facilisis donec congue eu dui vivamus at amet.Lorem ipsum dolor sit amet
+                 consectetur.Lorem ipsum dolor sit amet consectetur. Suspendisse pellentesque mattis
+                  mollis sed. Mi aliquam facilisis donec congue eu dui vivamus at
+                amet.Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="limg" src="cids_theme_odoo_15/static/src/img/landing/exclm.png"/>
+            </div>
+            <div class="cust-name">
+                <h4>Jason Bru</h4>
+                <p>Italy</p>
+            </div>
+            </div>
+            </div>
+                    </div>
+            </div>
+
+        </section>
+            <section class="why-us">
+     <div class="abs-why-us">
+     <div class="why-us-inner">
+        <div class="process-header">
+            <h1>what makes us unique</h1>
+            <p>At CIDS.DESIGN, we combine our commitment, curiosity, and expertise with a self-driven attitude,
+            enabling our clients to benefit the most from their investment. Our team creates remarkable spaces
+            using futuristic hospitality designs to uplift property value and enhance guest experiences. Our undivided
+            attention to detail
+         and dedication to achieving excellence sets us apart from the market competition.  </p>
+
+                <a class="why-us-contact" href="#">Get in touch </a>
+        </div>
+     </div>
+     </div>
+    </section>
+
+        </t>
+    </template>
+</odoo>
