@@ -1,55 +1,55 @@
 <odoo>
-<!--    <template id="custom_header" inherit_id="website.layout" name="Custom Header">-->
-<!--        <xpath expr="//header" position="replace">-->
-<!--            <header>-->
-<!--             <section class="nav-bar">-->
-<!--        <div class="nav-inner">-->
-<!--            <div class="logo">-->
-<!--                <a href="/">-->
-<!--                  <img class="light" src="/cids_theme_odoo_15/static/src/img/images/cids-logo.png" />-->
-<!--                </a>-->
-<!--            </div>-->
-<!--            <div class="menu">-->
-<!--                <ul>-->
-<!--                    <li>-->
-<!--                        <a href="#">How We Design</a>-->
-<!--                    </li>-->
-<!--                    <li>-->
-<!--                        <a href="#">How We Innovate</a>-->
-<!--                    </li>-->
-<!--                    <li>-->
-<!--                        <a href="#">Specialization</a>-->
-<!--                    </li>-->
-<!--                    <li>-->
-<!--                        <a href="#">Projects</a>-->
-<!--                    </li>-->
-<!--                    <li>-->
-<!--                        <a href="#">Join Our Team</a>-->
-<!--                    </li>-->
-<!--                    <li class="drop-down">-->
-<!--                        <a href="#">About us<img src="/cids_theme_odoo_15/static/src/img/images/downarr.png"/></a>-->
-<!--                        <ul class="child-menu">-->
-<!--                            <li><a href="#">Team</a></li>-->
-<!--                            <li><a href="#">Office</a></li>-->
-<!--                            <li><a href="#">Recognition </a></li>-->
-<!--                        </ul>-->
-<!--                    </li>-->
+    <template id="custom_header" inherit_id="website.layout" name="Custom Header">
+        <xpath expr="//header" position="replace">
+            <header>
+             <section class="nav-bar">
+        <div class="nav-inner">
+            <div class="logo">
+                <a href="/">
+                  <img class="light" src="/cids_theme_odoo_15/static/src/img/images/cids-logo.png" />
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#">How We Design</a>
+                    </li>
+                    <li>
+                        <a href="#">How We Innovate</a>
+                    </li>
+                    <li>
+                        <a href="#">Specialization</a>
+                    </li>
+                    <li>
+                        <a href="#">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#">Join Our Team</a>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#">About us<img src="/cids_theme_odoo_15/static/src/img/images/downarr.png"/></a>
+                        <ul class="child-menu">
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Office</a></li>
+                            <li><a href="#">Recognition </a></li>
+                        </ul>
+                    </li>
 
-<!--                </ul>-->
+                </ul>
 
-<!--            </div>-->
-<!--            <div class="humburger">-->
-<!--                <span></span>-->
-<!--                <span></span>-->
-<!--                <span></span>-->
-<!--            </div>-->
-<!--            <div class="search">-->
-<!--                <a class="login-search"  href="/contactus"><img src="/cids_theme_odoo_15/static/src/img/images/Call.svg"/></a>-->
-<!--                <a class="contact-search" href="/web/login"><img src="/cids_theme_odoo_15/static/src/img/images/Profile.svg"/></a>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
-<!--            </header>-->
-<!--        </xpath>-->
-<!--    </template>-->
+            </div>
+            <div class="humburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="search">
+                <a class="login-search"  href="/contactus"><img src="/cids_theme_odoo_15/static/src/img/images/Call.svg"/></a>
+                <a class="contact-search" href="/web/login"><img src="/cids_theme_odoo_15/static/src/img/images/Profile.svg"/></a>
+            </div>
+        </div>
+    </section>
+            </header>
+        </xpath>
+    </template>
 </odoo>
