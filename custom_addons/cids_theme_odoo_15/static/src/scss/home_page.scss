@@ -1560,12 +1560,15 @@ body {
     }
 
     .client-feedback {
-        height: auto;
-        padding: 50px 0px;
+//         height: auto;
+//         padding: 50px 0px;
+        height: 500px;
+        padding:0px;
     }
 
     .child-menu {
-        left: 0px;
+//         left: 0px;
+        left:-100%;
     }
 
     .hotel-banner .hbtns a.explore, .view-projects, .ins-more {
@@ -1574,6 +1577,37 @@ body {
     }
     .nav-inner {
         position:static !important;
+    }
+    .f-nav.nav-bar .menu>ul li{
+        height:auto;
+    }
+    .child-menu.showmenu{
+        opacity:1;
+        left:0;
+        top:35px!important;
+    }
+    /*testimonial*/
+    .client-feedback .owl-item.active .feedback-item {
+        width: 80%;
+        top:10%;
+        transform: translate(-50%,0);
+    }
+
+    .client-feedback .owl-carousel .owl-item img{
+        height:500px;
+        object-fit: cover;
+    }
+
+    .feedback-item h1 {
+        padding-bottom: 5px;
+    }
+
+    .nmloc {
+        padding-top: 0px;
+    }
+
+    .client-feedback .owl-nav {
+        bottom: 10px;
     }
 
 }
@@ -1921,6 +1955,10 @@ body {
     }
 
     .flinks a{ width:100%;}
+
+    .client-feedback{height:580px !important;}
+
+    .client-feedback .owl-carousel .owl-item img{height:580px !important;}
 }
 
 @media screen and (max-width:420px) {
@@ -1976,3 +2014,5 @@ width:var(--padding-32);
 .copyright p {
     margin-bottom: 0px !important;
 }
+// 26/12/22
+a{text-decoration:none!important;}

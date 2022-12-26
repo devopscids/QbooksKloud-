@@ -13,6 +13,16 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
             });
    })
 
+     $(document).ready(function(){
+            var width = $('#wrapwrap').width();
+            if(width<=990)
+            {
+            $('.drop-down').click(function(){
+                $('.child-menu').toggleClass('showmenu');
+            })
+        }
+        });
+
     $(document).ready(function () {
             var owl = $('.owl-carousel.tpbanner');
             owl.owlCarousel({
