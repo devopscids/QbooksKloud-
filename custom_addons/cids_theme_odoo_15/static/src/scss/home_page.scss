@@ -1955,6 +1955,10 @@ body {
     }
 
     .flinks a{ width:100%;}
+
+    .client-feedback{height:580px !important;}
+
+    .client-feedback .owl-carousel .owl-item img{height:580px !important;}
 }
 
 @media screen and (max-width:420px) {
