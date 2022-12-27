@@ -22,10 +22,9 @@
 
                                         <div class="addrtext">
 
-                                            <p>CIDS Design USA</p>
-                                            <p>15905 S 46th Street:Suite 100</p>
-                                            <p>Phoenix,AZ 85048</p>
-                                            
+                                            <p>CIDS DESIGN</p>
+                                            <p>15905 S 46th Street, Suite 100</p>
+                                            <p>Phoenix, AZ 85048</p>
                                         </div>
 
                                     </div>
@@ -35,9 +34,9 @@
 
                                         <div class="addrtext">
 
-                                            <p>CIDS Design USA</p>
-                                            <p>15905 S 46th Street:Suite 100</p>
-                                            <p>Phoenix,AZ 85048</p>
+                                            <p>CIDS DESIGN</p>
+                                            <p>15905 S 46th Street, Suite 100</p>
+                                            <p>Phoenix, AZ 85048</p>
                                         </div>
 
                                     </div>
@@ -51,7 +50,7 @@
                         <h1>Contact us</h1>
                         <div class="email">
                             <img src="/cids_theme_odoo_15/static/src/img/images/msgyellow.png" />
-                            <a href="#">contact@cids.desgin</a>
+                            <a href="#">contact@cids.design</a>
                         </div>
                         <div class="phone">
                             <img src="/cids_theme_odoo_15/static/src/img/images/phoneyellow.png" />
