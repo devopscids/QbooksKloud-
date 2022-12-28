@@ -549,7 +549,7 @@ font-size: var(--font-size-14);
                                             </div>
                                             <input type="text" name="login" t-att-value="login" id="login"
                                                    class="form-control font-lorin"
-                                                   placeholder="Enter Your Email-ID Here"
+                                                   placeholder="Enter your email here"
                                                    t-attf-class="form-control #{'form-control-sm' if form_small else ''}"
                                                    required="required" autofocus="autofocus" autocapitalize="off"
                                                    aria-label="Email"
@@ -568,7 +568,7 @@ font-size: var(--font-size-14);
                                                             alt=""/>
                                                 </span>
                                             </div>
-                                            <input type="password" name="password" id="password" placeholder="Enter Your Password"
+                                            <input type="password" name="password" id="password" placeholder="Enter your password here"
                                                    t-attf-class="form-control #{'form-control-sm' if form_small else ''} form-control br-0 font-lorin"
                                                    required="required" autocomplete="current-password"
                                                    t-att-autofocus="'autofocus' if login else None" maxlength="4096"
@@ -586,7 +586,7 @@ font-size: var(--font-size-14);
                                             <div class="form-group form-check checkstyle">
                                                 <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
                                                 <label class="form-check-label font-lorin forgot" for="exampleCheck1">
-                                                    Check me out
+                                                    Remember me
                                                 </label>
                                             </div>
                                         </div>
