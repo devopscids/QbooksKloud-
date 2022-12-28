@@ -274,7 +274,7 @@ html{
 }
 .forgot{
     font-size: var(--font-size-14);
-    margin-left: 8px;
+    margin-left: var(--font-size-20);
     color: var(--text-color);
     cursor: pointer;
 }
@@ -455,15 +455,46 @@ font-size: var(--font-size-14);
  }
 
                 .alert {
-   
+
     margin-left: 45px;
     margin-right: 40px;
 }
+.custom-container{
+                width:90%;
+                margin:auto;
+                }
+                .input-group-text img{
+                width:var(--font-size-20);
+                height:var(--font-size-20);
+                    object-fit: contain;
+                }
+                .input-group-prepend img{
+                width:var(--font-size-20);
+                height:var(--font-size-20);
+                    object-fit: contain;
+                }
 
+                button.btn.btn-primary.btn-block.btn.btn-primary.w-100.login-btn.font-lorin {
+    padding: var(--font-size-16);
+}
+
+
+               input[type="checkbox"]{
+     width:var(--font-size-20) !important;
+                height:var(--font-size-20) !important;
+}
+                .checkstyle{
+                display:flex;
+                align-items:center;
+                }
+
+                .input-group-prepend {
+    margin-right: var(--font-size-12) !important;
+}
             </style>
 
             <section class="login-body">
-                <div class="container">
+                <div class="custom-container">
                     <div class="row center-main-box">
                         <div class="col-sm-12 col-md-6">
                             <h2 class="heading color-yellow f-800">Interior Design</h2>
@@ -487,7 +518,7 @@ font-size: var(--font-size-14);
                             <t t-esc="message"/>
                         </p>
 
-                                <form class="oe_login_form" role="form" t-attf-action="/web/login" method="post"
+                                <form class="" role="form" t-attf-action="/web/login" method="post"
                                       onsubmit="this.action = this.action + location.hash">
                                     <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
 
@@ -543,16 +574,16 @@ font-size: var(--font-size-14);
                                                    t-att-autofocus="'autofocus' if login else None" maxlength="4096"
                                                    aria-label="password"
                                                    aria-describedby="basic-addon1"/>
-                                            <div class="input-group-append pr-3">
-                                                <button class="btn " type="button" id="button-addon2">
-                                                    <img src="/login_layout/static/src/img/Group.png"/>
-                                                </button>
-                                            </div>
+<!--                                            <div class="input-group-append pr-3">-->
+<!--                                                <button class="btn " type="button" id="button-addon2">-->
+<!--                                                    <img src="/login_layout/static/src/img/Group.png"/>-->
+<!--                                                </button>-->
+<!--                                            </div>-->
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col text-left">
-                                            <div class="form-group form-check">
+                                            <div class="form-group form-check checkstyle">
                                                 <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
                                                 <label class="form-check-label font-lorin forgot" for="exampleCheck1">
                                                     Check me out
