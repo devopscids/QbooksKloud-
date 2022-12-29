@@ -10,7 +10,7 @@
         'views/header.xml',
         'views/home.xml',
         'views/footer.xml',
-        # 'views/commercial.xml',
+        'views/commercial.xml',
         # 'views/landing_page.xml',
         # 'views/ffe.xml',
         # 'views/hospitality.xml'
@@ -46,7 +46,7 @@
             'cids_theme_odoo_15/static/src/scss/home_page.scss',
             # 'cids_theme_odoo_15/static/src/scss/landing_style.scss',
             # 'cids_theme_odoo_15/static/src/scss/hospitality_style.scss',
-            # 'cids_theme_odoo_15/static/src/scss/commercial_style.scss',
+            'cids_theme_odoo_15/static/src/scss/commercial_style.scss',
             'cids_theme_odoo_15/static/src/scss/owl.scss',
             'cids_theme_odoo_15/static/src/scss/owltheme.scss',
             # 'cids_theme_odoo_15/static/src/js/cidsjquery.js',
