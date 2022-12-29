@@ -29,9 +29,15 @@
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
+        'views/signup.xml',
+        'views/forgot_password.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
     ],
+    'assets': {
+        'web.assets_frontend': [
+            'login_layout/static/src/js/login_page.js'
+    ]}
 }

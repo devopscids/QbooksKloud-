@@ -1,8 +1,6 @@
 <odoo>
-
-
-    <template id="login_inherit" inherit_id="web.login" name="Website Login Layout">
-        <xpath expr="//form[@class='oe_login_form']" position="replace">
+    <template id="signup_inherit" inherit_id="auth_signup.signup" name="Website Signup Layout">
+       <xpath expr="//form[@class='oe_signup_form']" position="replace">
             <style>
                 .nav-bar{background-color: rgba(80, 87, 93, 0.9)!important;
                 backdrop-filter: blur(7.5px);}
@@ -173,12 +171,12 @@ html{
     background-color: var(--white);
     padding-left: 4.445vw;
     padding-right: 4.445vw;
-    padding-bottom: 2.5vw;
+    padding-bottom: 2vw;
 
 }
 
 .logo1{
-    padding-top: 2.8rem;
+    padding-top: 1.5rem;
 }
 
 .box-heading{
@@ -220,6 +218,8 @@ html{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+                padding-top: 54px;
+    padding-bottom: 54px;
 }
 .heading{
 
@@ -242,7 +242,7 @@ html{
 .box-heading h4{
     font-size: var(--font-size-24);
     line-height: var(--font-size-24);
-    margin-bottom: 2.0vw;
+    margin-bottom: 2.8vw;
     color: var(--text-color);
 }
 
@@ -284,7 +284,7 @@ font-size: var(--font-size-14);
     font-size: var(--font-size-16);
     font-weight: 800;
     color: var(--white);
-    margin-top: 3.8vw;
+    margin-top: 1vw;
     margin-bottom: 1.9vw;
     background-size: 100% 200%;
     background-image: linear-gradient(to top, var(--white) 50%, var(--yellow) 50%);
@@ -303,16 +303,15 @@ font-size: var(--font-size-14);
 
 .not-register span{
     cursor: pointer;
-
+    font-size: var(--font-size-14) !important;
+    line-height: var(--font-size-14) !important;
 }
-
 .not-register p{
     color: var(--text-color);
 }
-
 .not-register{
-    font-size: var(--font-size-14) !important;
-    line-height: var(--font-size-14) !important;
+    font-size: var(--font-size-14);
+    line-height: var(--font-size-14);
 }
 
 .btn:focus{
@@ -356,6 +355,7 @@ font-size: var(--font-size-14);
     .login-box{
         width:100%;
         background-color: var(--white);
+
     }
     .login-box .form-control{
         height: 48px;
@@ -363,7 +363,7 @@ font-size: var(--font-size-14);
     }
     .login-btn{
         font-size: 1rem;
-        margin-top: 2rem;
+        margin-top: 3.4rem;
     }
     .not-register{
         font-size: .875rem;
@@ -429,6 +429,11 @@ font-size: var(--font-size-14);
                 .fa-eye-slash:before {
     color: gray !important;
 }
+
+                .oe_login_form, .oe_signup_form, .oe_reset_password_form {
+    max-width: unset !important;
+    margin: 30px auto !important;
+}
             </style>
 
             <section class="login-body">
@@ -447,8 +452,8 @@ font-size: var(--font-size-14);
                                 </div>
 
                                 <div class="text-center box-heading">
-                                    <h5>Welcome back!</h5>
-                                    <h4>Login to your account</h4>
+<!--                                    <h5>Welcome back!</h5>-->
+                                    <h4>Create new account</h4>
                                 </div>
 
                                              <p class="alert alert-danger" t-if="error" role="alert">
@@ -458,25 +463,10 @@ font-size: var(--font-size-14);
                             <t t-esc="message"/>
                         </p>
 
-                                <form class="" role="form" t-attf-action="/web/login" method="post"
-                                      onsubmit="this.action = this.action + location.hash">
+                                <form class="oe_signup_form" role="form" method="post" t-if="not message">
                                     <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
 
-                                    <div class="form-group field-db" t-if="databases and len(databases) &gt; 1">
-                                        <label for="db" class="col-form-label">Database</label>
-                                        <div t-attf-class="input-group {{'input-group-sm' if form_small else ''}}">
-                                            <input type="text" name="db" t-att-value="request.db" id="db"
-                                                   t-attf-class="form-control #{'form-control-sm' if form_small else ''}"
-                                                   required="required" readonly="readonly"/>
-                                            <span class="input-group-append">
-                                                <a role="button" href="/web/database/selector"
-                                                   class="btn btn-secondary">Select
-                                                    <i class="fa fa-database" role="img" aria-label="Database"
-                                                       title="Database"></i>
-                                                </a>
-                                            </span>
-                                        </div>
-                                    </div>
+
                                     <div class="form-group mb-28 ">
                                         <label class="form-label f-700" for="exampleInputEmail1">Email</label>
                                         <div class="input-group mb-3 inp-form">
@@ -493,7 +483,28 @@ font-size: var(--font-size-14);
                                                    t-attf-class="form-control #{'form-control-sm' if form_small else ''}"
                                                    required="required" autofocus="autofocus" autocapitalize="off"
                                                    aria-label="Email"
-                                                   aria-describedby="basic-addon1"/>
+                                                   aria-describedby="basic-addon1" t-att-readonly="'readonly' if only_passwords else None"/>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="form-group mb-28 ">
+                                        <label class="form-label f-700" for="exampleInputEmail1">Name</label>
+                                        <div class="input-group mb-3 inp-form">
+                                            <div class="input-group-prepend">
+                                                <span
+                                                        class="input-group-text"
+                                                        id="basic-addon1">
+                                                    <img src="/login_layout/static/src/img/user.png" alt=""/>
+                                                </span>
+                                            </div>
+                                            <input type="text" name="name" t-att-value="name" id="name" class="form-control form-control-sm font-lorin"
+                                                   placeholder="Enter your name"
+                                                   t-attf-class="form-control #{'form-control-sm' if form_small else ''}"
+                                                   required="required" t-att-readonly="'readonly' if only_passwords else None"
+                                                   t-att-autofocus="'autofocus' if login and not only_passwords else None" />
+
                                         </div>
                                     </div>
                                     <div class="form-group mb-25 ">
@@ -520,48 +531,43 @@ font-size: var(--font-size-14);
 <!--                                                    <img src="/login_layout/static/src/img/Group.png"/>-->
 <!--                                                </button>-->
                                             </div>
+
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col text-left">
-                                            <div class="form-group form-check checkstyle">
-                                                <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
-                                                <label class="form-check-label font-lorin forgot" for="exampleCheck1">
-                                                    Remember me
-                                                </label>
+
+
+                                     <div class="form-group mb-25 ">
+                                        <label for="exampleInputEmail1" class="form-label f-700">Confirm Password</label>
+                                        <div class="input-group mb-3 inp-form">
+                                            <div class="input-group-prepend">
+                                                <span
+                                                        class="input-group-text"
+                                                        id="basic-addon1">
+                                                    <img src="/login_layout/static/src/img/lock.png" alt=""/>
+                                                </span>
                                             </div>
-                                        </div>
-                                        <div class="col text-right ">
-                                            <a t-if="reset_password_enabled"
-                                               t-attf-href="/web/reset_password?{{ keep_query() }}">
-                                                <p class="color-yellow font-lorin f-800 forgot">Forgot password?</p>
-                                            </a>
+                                            <input type="password" name="confirm_password" id="confirm_password" class="form-control br-0 font-lorin"
+                                                   aria-label=" Confirm Password" placeholder="Enter your confirm password"
+                                                   aria-describedby="basic-addon1"/>
+                                            <div class="input-group-append pr-3">
+                                                <span toggle="#confirm_password" class="mt-4 fa fa-lg fa-eye field-icon toggle-passwordconf"></span>
+<!--                                                <button class="btn " type="button" id="button-addon2">-->
+<!--                                                    <img src="/login_layout/static/src/img/Group.png"/>-->
+<!--                                                </button>-->
+                                            </div>
+
                                         </div>
                                     </div>
+                                    <div class="text-center oe_login_buttons pt-3">
+                        <button type="submit" class="btn btn-primary btn-block w-100 login-btn font-lorin">Sign up</button>
 
-                                    <button type="submit"
-                                            class="btn btn-primary btn-block btn btn-primary w-100 login-btn font-lorin">
-                                        Log In
-                                    </button>
+                    </div>
                                 </form>
-                                <div>
-
-
-                                    <t t-if="debug">
-                                        <button type="submit" name="redirect" value="/web/become"
-                                                class="btn btn-link btn-sm btn-block">Log in as superuser
-                                        </button>
-                                    </t>
-                                    <div class="o_login_auth"></div>
-                                </div>
-
                                 <input type="hidden" name="redirect" t-att-value="redirect"/>
                                 <div class="text-center  not-register">
-                                    <a t-if="signup_enabled" t-attf-href="/web/signup?{{ keep_query() }}">
-                                        <p class="font-lorin f-700">Not registered yet? &amp;nbsp;<span
-                                                class="color-yellow f-700 font-lorin">Register Now
+                                     <a t-attf-href="/web/login?{{ keep_query() }}" class="btn btn-link btn-sm" role="button">
+                                        <span class="color-yellow f-700 font-lorin">Already have an account?
                                         </span>
-                                        </p>
                                     </a>
                                 </div>
                             </div>
