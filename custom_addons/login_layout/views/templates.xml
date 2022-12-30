@@ -429,6 +429,13 @@ font-size: var(--font-size-14);
                 .fa-eye-slash:before {
     color: gray !important;
 }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
  @media (max-width: 576px) {
                 .box-heading h5,.form-label,.login-box .form-control,.forgot,.login-btn,.not-register a {
     font-size: 11px;}
