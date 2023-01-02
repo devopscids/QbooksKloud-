@@ -12,6 +12,9 @@
         <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/owl.js"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"/>
 
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/animate.css" />
 
 
 
@@ -69,12 +72,14 @@
         <div class="btm-holder">
         <div class="bottom-header">
             <div class="logo">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/cids-logo.png" />
+                <a href="/">
+                  <img class="light" src="/cids_theme_odoo_15/static/src/img/images/cids-logo.png" />
+                </a>
             </div>
             <div class="menu">
-                <a href="#">Commercial</a>
-                <a href="#">Hospitality</a>
-                <a href="#">FF&amp;E</a>
+                <a class="active" href="/commercial">Commercial</a>
+                <a  href="/hospitality">Hospitality</a>
+                <a href="/ffe">FF&amp;E</a>
             </div>
             <div class="login">
                 <a class="login-search" href="#"><img src="/cids_theme_odoo_15/static/src/img/images/Call.svg" /></a>
@@ -85,46 +90,56 @@
     </section>
 
     <section class="commercial-banner">
+        <div class="comm-banner">
+            <h1>Commercial Interior Designs.</h1>
 
+                <div class="vslider">
+                    <h1>Focused on
+                    <div class="owl-carousel">
+                        <h2>Details</h2>
+                        <h2>Quality</h2>
+                       <h2>Trust</h2>
+                      </div>
+
+            </h1>
+        </div>
+
+            <div class="hbtns">
+                <a class="explore" href="#">Get In Touch <img class="unionpng"
+                        src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
+                <!-- <a class="contact" href="#">Contact Us</a>-->
+            </div>
+        </div>
         <div class="owl-carousel owl-theme commercialBanner">
             <div class="item">
                 <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner1.png"/>
-                <div class="comm-banner">
-                    <h1>Commercial Interior Designs.</h1>
-                    <h1>Focused On<span> Details.</span> </h1>
 
-                    <div class="hbtns">
-                        <a class="explore" href="#">Get In Touch <img class="unionpng"
-                                src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
-                        <!-- <a class="contact" href="#">Contact Us</a>-->
-                    </div>
-                </div>
             </div>
             <div class="item">
                 <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner2.png"/>
-                <div class="comm-banner">
+               <!-- <div class="comm-banner">
                     <h1>Commercial Interior Designs.</h1>
                     <h1>Focused On<span> Quality.</span> </h1>
 
                     <div class="hbtns">
                         <a class="explore" href="#">Get In Touch <img class="unionpng"
                                 src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
-                        <!-- <a class="contact" href="#">Contact Us</a>-->
+
                     </div>
-                </div>
+                </div>-->
             </div>
             <div class="item">
                 <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner3.png"/>
-                <div class="comm-banner">
+               <!--<div class="comm-banner">
                     <h1>Commercial Interior Designs.</h1>
                     <h1>Focused On<span> Trust.</span> </h1>
 
                     <div class="hbtns">
                         <a class="explore" href="#">Get In Touch <img class="unionpng"
                                 src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
-                        <!-- <a class="contact" href="#">Contact Us</a>-->
+
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
 
@@ -166,16 +181,16 @@
     <section class="comm-about">
         <div class="left-about">
             <div class="abs-video">
-<!--                <video width="100%" height="100%" controls muted loop autoplay style="object-fit:cover;">-->
-<!--                    <source src="https://www.cids.design/web/static/src/img/CIDS-DESIGN-FINAL-INTRO-VIDEO.mp4"-->
-<!--                        type="video/mp4">-->
-<!--                    <source src="https://www.cids.design/web/static/src/img/CIDS-DESIGN-FINAL-INTRO-VIDEO.mp4"-->
-<!--                        type="video/ogg">-->
-<!--                    Your browser does not support the video tag.-->
-<!--                </video>-->
+                <!--<video width="100%" height="100%" controls muted loop autoplay style="object-fit:cover;">
+                    <source src="https://www.cids.design/web/static/src/img/CIDS-DESIGN-FINAL-INTRO-VIDEO.mp4"
+                        type="video/mp4">
+                    <source src="https://www.cids.design/web/static/src/img/CIDS-DESIGN-FINAL-INTRO-VIDEO.mp4"
+                        type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>-->
                 <video playsinline="true" autoplay="true" muted="true"  loop="true" preload="auto" style="object-fit:cover;max-width: 100%;height:100%;">
                         <source src="/cids_theme_odoo_15/static/src/video/CIDS-DESIGN-FINAL-INTRO-VIDEO.mp4" type="video/mp4"/>
-                    </video>
+                </video>
             </div>
         </div>
         <div class="right-about">
@@ -194,7 +209,7 @@
     </section>
 
 
-    <section class="comm-services happy-customers">
+    <section class="comm-services">
         <div class="comm-service-inner">
             <div class="service-content">
                 <h2>our <span>services</span></h2>
@@ -366,16 +381,308 @@
                     </div>
                 </div>
                 <div id="commercial" class="container tab-pane fade"><br></br>
-                    <h3>Commercial</h3>
+                    <div class="owl-carousel owl-theme hotelCaseCarsouel">
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Commercial Buildings</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Co-working Spaces</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Development Centres</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Research Centres</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Co-working Spaces</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Development Centres</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Research Centres</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
                 </div>
                 <div id="coworking" class="container tab-pane fade"><br></br>
-                    <h3>Coworking</h3>
+                    <div class="owl-carousel owl-theme hotelCaseCarsouel">
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Commercial Buildings</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Co-working Spaces</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Development Centres</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Research Centres</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Co-working Spaces</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Development Centres</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Research Centres</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
                 </div>
                 <div id="development" class="container tab-pane fade"><br></br>
-                    <h3>development</h3>
+                    <div class="owl-carousel owl-theme hotelCaseCarsouel">
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Commercial Buildings</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Co-working Spaces</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Development Centres</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Research Centres</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Co-working Spaces</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Development Centres</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Research Centres</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
                 </div>
                 <div id="research" class="container tab-pane fade"><br></br>
-                    <h3>research</h3>
+                    <div class="owl-carousel owl-theme hotelCaseCarsouel">
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Commercial Buildings</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Co-working Spaces</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Development Centres</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Research Centres</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Co-working Spaces</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Development Centres</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
+                                <div class="case-txt">
+                                    <h1>Lorem</h1>
+                                    <p>Research Centres</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -552,42 +859,42 @@
 
                     <div class="services-tp">
                         <h1>Services </h1>
-                        <a href="#">Design studio</a>
-                        <a href="#">Luxury Residential planing </a>
-                        <a href="#">Creative consultants </a>
+                        <a href="#">Design Studio</a>
+                        <a href="#">Luxury Residential Planning</a>
+                        <a href="#">Creative Consultants</a>
                         <a href="#">Brighten</a>
-                        <a href="#"> procument </a>
-                        <a href="#">visuals </a>
-                        <a href="#">resorts</a>
-                        <a href="#">food beverages</a>
-                        <a href="#">inovation</a>
+                        <a href="#">Procurement</a>
+                        <a href="#">Visuals </a>
+<!--                        <a href="#">Resorts</a>-->
+<!--                        <a href="#">Food Beverages</a>-->
+                        <a href="#">Research &amp; Innovation</a>
                         <a href="#"></a>
                     </div>
 
                     <div class="pratices-tp">
                         <h1>practices</h1>
                         <div class="pratise-inner">
-                            <a href="#"> hospitality</a>
-                            <a href="#">resorts </a>
-                            <a href="#">casinos</a>
-                            <a href="#">commercial</a>
-                            <a href="#">financial</a>
-                            <a href="#">resential mix use</a>
-                            <a href="#">real estate</a>
-                            <a href="#">developers</a>
-                            <a href="#">sports</a>
+                            <a href="#">Hospitality</a>
+                            <a href="#">Resorts </a>
+                            <a href="#">Casinos</a>
+                            <a href="#">Commercial</a>
+                            <a href="#">Financial</a>
+                            <a href="#">Residential Mix Use</a>
+                            <a href="#">Real estate</a>
+                            <a href="#">Developers</a>
+                            <a href="#">Sports</a>
                             <a href="#">Government</a>
 
-                            <a href="#">technology centers</a>
-                            <a href="#">entertainment</a>
-                            <a href="#">tourism, travel, airports</a>
-                            <a href="#"> retail </a>
-                            <a href="#">health, hospitals</a>
-                            <a href="#">mission critical</a>
-                            <a href="#">life science</a>
-                            <a href="#">wellness </a>
-                            <a href="#">school, universities </a>
-                            <a href="#">Cultural, community centers</a>
+                            <a href="#">Technology Centers</a>
+                            <a href="#">Entertainment</a>
+                            <a href="#">Tourism, Travel, Airports</a>
+                            <a href="#">Retail</a>
+                            <a href="#">Health, Hospitals</a>
+                            <a href="#">Mission Critical</a>
+                            <a href="#">Life Science</a>
+                            <a href="#">Wellness </a>
+                            <a href="#">School, Universities </a>
+                            <a href="#">Cultural, Community Centers</a>
 
                         </div>
 
@@ -608,8 +915,8 @@
             </div>
             <div class="flinks">
                 <a href="#">Case studies</a>
-                <a href="#">Awards &amp; Accolades</a>
-                <a href="#">Testimonials</a>
+<!--                <a href="#">Awards &amp; Accolades</a>-->
+<!--                <a href="#">Testimonials</a>-->
                 <a href="#">Press Releases</a>
                 <a href="#"> Privacy Policy</a>
             </div>
@@ -619,11 +926,12 @@
         </div>
     </section>
 
+
+
     <script src="js/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/sliderGallay.js"></script>
     <script src="js/owl.carousel.js"></script>
-    <script>
+        <script>
         $(document).ready(function () {
             var owl = $('.owl-carousel.commercialBanner');
             owl.owlCarousel({
@@ -651,46 +959,7 @@
             })
         });
 
-        $(document).ready(function () {
-            var owl1 = $('.owl-carousel.happy-customers');
-            owl1.owlCarousel({
-                margin: 15,
-                nav: true,
-                autoplay: false,
-                loop: true,
-                responsive: {
-                    0: {
-                        items: 4
-                    },
-                    600: {
-                        items: 4
-                    },
-                    1000: {
-                        items: 4
-                    }
-                }
-            });
-            $(".owl-prev").html('&lt;img src="https://dev.cids.design/cids_theme_odoo_15/static/src/img/landing/abutarrow.png"/>');
-            $(".owl-next").html('&lt;img src="https://dev.cids.design/cids_theme_odoo_15/static/src/img/landing/abutarrow.png"/>');
-        });
-
-        $(document).ready(function () {
-            $('.gallery').mauGallery({
-                columns: {
-                    xs: 1,
-                    sm: 2,
-                    md: 3,
-                    lg: 4,
-                    xl: 3
-                },
-                lightBox: true,
-                lightboxId: 'myAwesomeLightbox',
-                showTags: true,
-                tagsPosition: 'top'
-            });
-        });
-
-
+     
         $(document).ready(function () {
             var owl7 = $('.owl-carousel.hotelCaseCarsouel');
             owl7.owlCarousel({
@@ -812,6 +1081,22 @@
             });
         });
 
+    </script>
+    <script>
+           $(document).ready(function () {
+            var verticalowl = $('.vslider .owl-carousel');
+            verticalowl.owlCarousel({
+  loop: true,
+  autoplay: true,
+  items: 1,
+  nav: true,
+  autoplayTimeout: 6000,
+  autoplaySpeed: 5500,
+  autoplayHoverPause: true,
+  animateOut: 'slideOutUp',
+  animateIn: 'slideInUp'
+});
+});
     </script>
     </template>
 </odoo>
