@@ -2152,6 +2152,7 @@ color: #FFFFFF;
         top: 10%;
         transform: translate(-50%, 0);
     }
+    .why-diff-left .hbtns a.explore{padding:18px;}
 }
 
 @media screen and (max-width:845px) {
@@ -2538,6 +2539,7 @@ color: #FFFFFF;
 
 @media screen and (max-width:480px) {
     /*place 420 and 480 under 580*/
+    .login{width:20%;}
 }
 
 @media screen and (max-width:580px) {
