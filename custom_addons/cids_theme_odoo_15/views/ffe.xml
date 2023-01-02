@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.carousel.min.css"/>
         <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.theme.default.min.css"/>
         <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/animate.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <section class="header">
         <div class="top-header-inner">
@@ -23,7 +24,7 @@
                     </div>
                     <div class="info-right">
                         <img src="/cids_theme_odoo_15/static/src/img/commercial/msgIcon.png" />
-                        <div class="toll-free">Contact@cids.design</div>
+                        <div class="toll-free">contact@cids.design</div>
                     </div>
                 </div>
                 <div class="sicons">
@@ -354,9 +355,9 @@
 
                                         <div class="addrtext">
 
-                                            <p>CIDS Design,</p>
-                                            <p>4945 Forest Avenue, New York,</p>
-                                            <p>1004, United States</p>
+                                            <p>CIDS DESIGN</p>
+                                            <p>15905 S 46th Street, Suite 100</p>
+                                            <p>Phoenix, AZ 85048</p>
                                         </div>
 
                                     </div>
@@ -366,9 +367,9 @@
 
                                         <div class="addrtext">
 
-                                            <p>CIDS Design,</p>
-                                            <p>4945 Forest Avenue, New York,</p>
-                                            <p>1004, United States</p>
+                                            <p>CIDS DESIGN</p>
+                                            <p>15905 S 46th Street, Suite 100</p>
+                                            <p>Phoenix, AZ 85048</p>
                                         </div>
 
                                     </div>
@@ -382,11 +383,11 @@
                         <h1>Contact us</h1>
                         <div class="email">
                             <img src="/cids_theme_odoo_15/static/src/img/images/msgyellow.png" />
-                            <a href="#">Cid.design@gmail.com</a>
+                            <a href="#">contact@cids.design</a>
                         </div>
                         <div class="phone">
                             <img src="/cids_theme_odoo_15/static/src/img/images/phoneyellow.png" />
-                            <a href="#">+91 2345687892</a>
+                            <a href="#">+(855) 662-2437</a>
                         </div>
 
                     </div>

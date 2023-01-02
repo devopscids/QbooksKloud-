@@ -104,12 +104,13 @@ a:hover{
 
 .menu a.active::after {
     content: "";
-    height: 1px;
+    height: 3px;
     background-color: var(--yellow);
     position: absolute;
-    top: 24px;
+    top: var(--font-size-24);
     width: 100%;
     left: 0px;
+
 }
 
 .login a img{
@@ -1545,7 +1546,7 @@ backdrop-filter: blur(7.5px);
     font-weight: 400;
     font-size: var(--font-size-16);
     line-height: 200%;
-    text-transform: capitalize;
+//     text-transform: capitalize;
     color: #50575D;
 }
 
@@ -1594,7 +1595,7 @@ backdrop-filter: blur(7.5px);
 }
 
 .cont-detail {
-    /* margin-top: 68px;*/
+    margin-top: var(--font-size-60);
 }
 .cont-detail img{
     width:var(--font-size-20);
@@ -1717,6 +1718,46 @@ margin-left:var(--font-size-12);}
 
 
 /*Responsive starts here*/
+.addrtext>*{margin-bottom:0px;}
+.addholder .owl-carousel .owl-nav button.owl-next img {
+    position: absolute;
+    right:-60px;
+    width: var(--font-size-12);
+}
+
+.addholder .owl-carousel .owl-nav button.owl-prev img {
+    position: absolute;
+    left: -60px;
+    width:var(--font-size-12);
+}
+.address.addholder {
+    position: relative;
+    width: 62%;
+}
+
+@media screen and (max-width:1600px) {
+    .addholder .owl-carousel .owl-nav button.owl-next img {
+        position: absolute;
+        right: 12px;
+        width: var(--font-size-12);
+    }
+    .addholder .owl-carousel .owl-nav button.owl-prev img {
+        position: absolute;
+        left: -32px;
+        width: var(--font-size-12);
+    }
+    .menu a.active::after {
+    content: "";
+    height: 1px;
+    background-color: var(--yellow);
+    position: absolute;
+    top: var(--font-size-24);
+    width: 100%;
+    left: 0px;
+
+}
+
+}
 @media screen and (max-width:1200px)
 {
     .comm-banner .hbtns a.explore{height:35px;}
