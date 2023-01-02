@@ -49,8 +49,8 @@
                     <a class="active" href="/ffe">FF&amp;E</a>
                 </div>
                 <div class="login">
-                    <a class="login-search" href="#"><img src="/cids_theme_odoo_15/static/src/img/images/Call.svg" /></a>
-                    <a class="contact-search" href="#"><img src="/cids_theme_odoo_15/static/src/img/images/Profile.svg" /></a>
+                    <a class="login-search" href="/contactus"><img src="/cids_theme_odoo_15/static/src/img/images/Call.svg" /></a>
+                    <a class="contact-search" href="/web/login"><img src="/cids_theme_odoo_15/static/src/img/images/Profile.svg" /></a>
                 </div>
             </div>
         </div>
