@@ -2098,7 +2098,7 @@ color: #50575D;
         height:auto;
         margin-top:20px;
     }
-    .why-diff-left .hbtns a.explore {height:42px;}
+    .why-diff-left .hbtns a.explore {height:42px !important;}
     
 }
 
@@ -2499,6 +2499,18 @@ color: #50575D;
 
 @media screen and (max-width:480px) {
     /*place 420 and 480 under 580*/
+    .comm-banner {
+    top: 40%;
+    padding: 24px !important;
+}
+.comm-banner .hbtns {
+//     margin-top: var(--font-size-48);
+    display: flex;
+    justify-content: center;
+    margin-top: 49px;
+    position: absolute;
+    left: 10px;
+}
 }
 
 @media screen and (max-width:580px) {
