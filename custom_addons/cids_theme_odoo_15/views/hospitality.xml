@@ -15,27 +15,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <section class="header">
-        <div class="top-header-inner">
-            <div class="top-header">
-                <div class="cont-info">
-                    <div class="info-left">
-                        <img src="/cids_theme_odoo_15/static/src/img/commercial/phoneIcon.png" />
-                        <div class="toll-free">Toll Free (855) 662 2437 (CIDS)</div>
-                    </div>
-                    <div class="info-right">
-                        <img src="/cids_theme_odoo_15/static/src/img/commercial/msgIcon.png" />
-                        <div class="toll-free">contact@cids.design</div>
-                    </div>
-                </div>
-                <div class="sicons">
-                    <li><img src="/cids_theme_odoo_15/static/src/img/commercial/link.png" /></li>
-<!--                    <li><img src="/cids_theme_odoo_15/static/src/img/commercial/fb.png" /></li>-->
-<!--                    <li><img src="/cids_theme_odoo_15/static/src/img/commercial/insta.png" /></li>-->
-<!--                    <li><img src="/cids_theme_odoo_15/static/src/img/commercial/tweet.png" /></li>-->
-<!--                    <li><img src="/cids_theme_odoo_15/static/src/img/commercial/youtube.png" /></li>-->
-                </div>
-            </div>
-        </div>
+<!--        <div class="top-header-inner">-->
+<!--            <div class="top-header">-->
+<!--                <div class="cont-info">-->
+<!--                    <div class="info-left">-->
+<!--                        <img src="/cids_theme_odoo_15/static/src/img/commercial/phoneIcon.png" />-->
+<!--                        <div class="toll-free">Toll Free (855) 662 2437 (CIDS)</div>-->
+<!--                    </div>-->
+<!--                    <div class="info-right">-->
+<!--                        <img src="/cids_theme_odoo_15/static/src/img/commercial/msgIcon.png" />-->
+<!--                        <div class="toll-free">contact@cids.design</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="sicons">-->
+<!--                    <li><img src="/cids_theme_odoo_15/static/src/img/commercial/link.png" /></li>-->
+<!--&lt;!&ndash;                    <li><img src="/cids_theme_odoo_15/static/src/img/commercial/fb.png" /></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <li><img src="/cids_theme_odoo_15/static/src/img/commercial/insta.png" /></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <li><img src="/cids_theme_odoo_15/static/src/img/commercial/tweet.png" /></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <li><img src="/cids_theme_odoo_15/static/src/img/commercial/youtube.png" /></li>&ndash;&gt;-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
         <div class="btm-holder">
             <div class="bottom-header">
                 <div class="logo">
@@ -62,8 +62,7 @@
             <h1>Creating Memorable Spaces</h1>
             <h1>With <span>Meaningful Interior.</span> </h1>
             <div class="imText">
-                <p>We design inspiring spaces for hotels, resorts, bars &amp; restaurants, and wellness centres that
-                    increase business growth &amp; profitability.</p>
+                <p>We design inspiring spaces that increase business growth &amp; profitability.</p>
             </div>
 
             <div class="hbtns">
@@ -111,7 +110,7 @@
         <div>
 
             <div class="value-content">
-                <h2>150+</h2>
+                <h2>200+</h2>
                 <p> Projects</p>
                 <p>Completed</p>
             </div>
@@ -119,7 +118,7 @@
         <div>
 
             <div class="value-content">
-                <h2>60+</h2>
+                <h2>80+</h2>
                 <p> Strategic </p>
                 <p>Partnerships</p>
             </div>
@@ -127,7 +126,7 @@
         <div>
 
             <div class="value-content">
-                <h2>50+</h2>
+                <h2>150+</h2>
                 <p> Interior Designers </p>
                 <p>Worldwide </p>
             </div>
@@ -144,13 +143,13 @@
         <div class="right-about">
             <h3>What we are<img src="/cids_theme_odoo_15/static/src/img/commercial/afterImg.png" /></h3>
             <h1>We Are Innovators &amp; <span>Storytellers.</span></h1>
-            <p>CIDS.DESIGN is a commercial interior designing firm that establishes community engagement and
-                unforgettable human experiences through futuristic designs. Combining intuitive strategies with a
-                one-of-a-kind design approach, we ensure that every space we shape establishes emotional connections
-                with people and tells pulsating stories of opulence and transformation. Our multi-disciplinary team
-                consists of certified, trained, and creative industry experts who take the time to hear your vision,
-                goals, and challenges. Whether it is commercial buildings, retail stores, or office spaces, we provide
-                you with comprehensive assistance throughout the design journey – no exceptions.</p>
+            <p>CIDS.DESIGN is a commercial interior designing firm that enhances experiences through
+                futuristic designs. Combining intuitive strategies with a one-of-a-kind approach, we
+                ensure that every space we shape establishes emotional connections and relays stories
+                of opulence and transformation. Our multi-disciplinary team consists of certified,
+                trained, and creative industry experts who take the time to hear your vision, goals,
+                and challenges. Whether it is commercial buildings, retail stores, or office spaces,
+                we provide you with comprehensive assistance throughout the entire journey.</p>
             <!--<a class="getInTouch" href="#">Get in touch</a>-->
 
         </div>
@@ -162,12 +161,10 @@
 
 
                 <h1>How We Translate Your Vision Into A <span>Successful Project?</span></h1>
-                <p>We connect people and communities together through impactful and creative hospitality interior design
-                    solutions. The key to our success is to ensure that the end result is a crystal-clear reflection of
-                    our
-                    client’s demands, visions, and aspirations. To transform your ideas into reality, we start with a
-                    detailed discussion, analyse your project requirements, and offer purposeful hotel interior design
-                    services with a striking impact.</p>
+                <p>The key to our success is ensuring that the results reflect our client’s demands,
+                    visions, and aspirations. To transform your ideas into reality, we start with a
+                    detailed discussion, analyze your project requirements, and offer purposeful hotel
+                    interior design services with a striking impact.</p>
             </div>
 
             <div class="vision-process">
@@ -180,17 +177,19 @@
                 </div>
                 <div>
                     <img src="/cids_theme_odoo_15/static/src/img/hospitality/design.png" />
-                    <h3>Conceptualization</h3>
-                    <p>Keeping our client’s goals, budget, timeline, and demands at the forefront, we kick-start the
-                        project by understanding the scope of work, formulating results-driven design strategies, and
-                        creating realistic 3D renderings to conceptualise the core vision.</p>
+                    <h3>Design</h3>
+                    <p>We implement the latest design concepts into our hospitality interior designing
+                        approach, helping brands to future-proof the success of their properties. At
+                        CIDS.DESIGN, we offer a personal touch to every project with holistic interior
+                        design solutions connected to your brand’s DNA.</p>
                 </div>
                 <div>
                     <img src="/cids_theme_odoo_15/static/src/img/hospitality/delivery.png" />
-                    <h3>Conceptualization</h3>
-                    <p>Keeping our client’s goals, budget, timeline, and demands at the forefront, we kick-start the
-                        project by understanding the scope of work, formulating results-driven design strategies, and
-                        creating realistic 3D renderings to conceptualise the core vision.</p>
+                    <h3>Delivery</h3>
+                    <p>Our multidisciplinary team manages the entire design process to ensure all
+                        projects meet creative, technical, and operational requirements. Extensive care
+                        is taken throughout the design journey to make every single detail reflect the
+                        initial conceptualisation without any shortcuts.</p>
                 </div>
             </div>
         </div>
@@ -200,31 +199,32 @@
         <div class="service-text">
             <h3>our Services</h3>
             <h1>Thoughtful &amp; Functional Interior Design Services</h1>
-            <p>At CIDS.DESIGN, we understand that creating remarkable and cohesive spaces plays a critical role in
-                positioning your brand for future growth. Drawing knowledge from our diverse projects and multi-year
-                experiences, we elevate design through new-age strategies, extensive research, and market insights. From
-                hotels, resorts, and spas to bars, restaurants, and wellness centres, we implement the latest interior
-                design trends that exude finesse and grandiosity.</p>
+            <p>At CIDS.DESIGN, We understand that creating remarkable and cohesive spaces is critical
+                in positioning your brand for future growth. Drawing knowledge from our diverse projects
+                and multi-year experiences, we elevate design through new-age strategies, extensive
+                research, and market insights. From hotels, resorts, and spas to bars, restaurants,
+                and wellness centers, we implement the latest interior design trends that exhibit
+                perfection.</p>
         </div>
         <div class="service-imgs">
             <div>
                 <img src="/cids_theme_odoo_15/static/src/img/hospitality/hotel.png" />
                 <div class="abs-service ">
-                    <p>Hotels and</p>
-                    <p>Resorts</p>
+                    <p>Hotel</p>
+                    <p>Lobby</p>
                 </div>
             </div>
             <div>
                 <img src="/cids_theme_odoo_15/static/src/img/hospitality/bar.png" />
                 <div class="abs-service ">
-                    <p>Hotels and</p>
-                    <p>Resorts</p>
+                    <p>Bar and</p>
+                    <p>Restaurant</p>
                 </div>
             </div>
             <div>
                 <img src="/cids_theme_odoo_15/static/src/img/hospitality/spa.png" />
                 <div class="abs-service ">
-                    <p>Hotels and</p>
+                    <p></p>
                     <p>Resorts</p>
                 </div>
             </div>
@@ -269,7 +269,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
                                 <div class="case-txt">
                                     <h1>HOTEL</h1>
-                                    <p>Homewood<br /> Suites</p>
+<!--                                    <p>Homewood<br /> Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -280,7 +280,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
                                     <h1>RESTAURANT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -291,7 +291,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
                                 <div class="case-txt">
                                     <h1>BAR</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -302,7 +302,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
                                 <div class="case-txt">
                                     <h1>RESORT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -313,7 +313,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
                                 <div class="case-txt">
                                     <h1>HOTEL</h1>
-                                    <p>Homewood<br /> Suites</p>
+<!--                                    <p>Homewood<br /> Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -324,7 +324,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
                                     <h1>RESTAURANT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -335,7 +335,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
                                 <div class="case-txt">
                                     <h1>BAR</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -346,7 +346,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
                                 <div class="case-txt">
                                     <h1>RESORT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -362,7 +362,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
                                 <div class="case-txt">
                                     <h1>HOTEL</h1>
-                                    <p>Homewood<br /> Suites</p>
+<!--                                    <p>Homewood<br /> Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -373,7 +373,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
                                     <h1>RESTAURANT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -384,7 +384,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
                                 <div class="case-txt">
                                     <h1>BAR</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -395,7 +395,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
                                 <div class="case-txt">
                                     <h1>RESORT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -406,7 +406,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
                                 <div class="case-txt">
                                     <h1>HOTEL</h1>
-                                    <p>Homewood<br /> Suites</p>
+<!--                                    <p>Homewood<br /> Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -417,7 +417,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
                                     <h1>RESTAURANT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -428,7 +428,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
                                 <div class="case-txt">
                                     <h1>BAR</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -439,7 +439,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
                                 <div class="case-txt">
                                     <h1>RESORT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -455,7 +455,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
                                 <div class="case-txt">
                                     <h1>HOTEL</h1>
-                                    <p>Homewood<br /> Suites</p>
+<!--                                    <p>Homewood<br /> Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -466,7 +466,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
                                     <h1>RESTAURANT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -477,7 +477,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
                                 <div class="case-txt">
                                     <h1>BAR</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -488,7 +488,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
                                 <div class="case-txt">
                                     <h1>RESORT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -499,7 +499,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
                                 <div class="case-txt">
                                     <h1>HOTEL</h1>
-                                    <p>Homewood<br /> Suites</p>
+<!--                                    <p>Homewood<br /> Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -510,7 +510,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
                                     <h1>RESTAURANT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -521,7 +521,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
                                 <div class="case-txt">
                                     <h1>BAR</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -532,7 +532,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
                                 <div class="case-txt">
                                     <h1>RESORT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -548,7 +548,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
                                 <div class="case-txt">
                                     <h1>HOTEL</h1>
-                                    <p>Homewood<br /> Suites</p>
+<!--                                    <p>Homewood<br /> Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -559,7 +559,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
                                     <h1>RESTAURANT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -570,7 +570,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
                                 <div class="case-txt">
                                     <h1>BAR</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -581,7 +581,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
                                 <div class="case-txt">
                                     <h1>RESORT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -592,7 +592,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
                                 <div class="case-txt">
                                     <h1>HOTEL</h1>
-                                    <p>Homewood<br /> Suites</p>
+<!--                                    <p>Homewood<br /> Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -603,7 +603,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
                                     <h1>RESTAURANT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -614,7 +614,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
                                 <div class="case-txt">
                                     <h1>BAR</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -625,7 +625,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
                                 <div class="case-txt">
                                     <h1>RESORT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -641,7 +641,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
                                 <div class="case-txt">
                                     <h1>HOTEL</h1>
-                                    <p>Homewood<br /> Suites</p>
+<!--                                    <p>Homewood<br /> Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -652,7 +652,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
                                     <h1>RESTAURANT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -663,7 +663,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
                                 <div class="case-txt">
                                     <h1>BAR</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -674,7 +674,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
                                 <div class="case-txt">
                                     <h1>RESORT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -685,7 +685,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
                                 <div class="case-txt">
                                     <h1>HOTEL</h1>
-                                    <p>Homewood<br /> Suites</p>
+<!--                                    <p>Homewood<br /> Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -696,7 +696,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
                                     <h1>RESTAURANT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -707,7 +707,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
                                 <div class="case-txt">
                                     <h1>BAR</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -718,7 +718,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
                                 <div class="case-txt">
                                     <h1>RESORT</h1>
-                                    <p>Homewood <br />Suites</p>
+<!--                                    <p>Homewood <br />Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
                             </div>
@@ -736,10 +736,11 @@
         <div class="why-diff-left">
 
             <h1>what makes us<br/> <span>unique?</span></h1>
-            <p>At CIDS.DESIGN, we combine our commitment, curiosity, and expertise with a self-driven attitude, enabling
-                our clients to benefit the most from their investment. Our team creates remarkable spaces using
-                futuristic hospitality designs to uplift property value and enhance guest experiences. Our undivided
-                attention to detail and dedication to achieving excellence sets us apart from the market competition.
+            <p>At CIDS.DESIGN we combine our commitment, curiosity, and expertise with a self-driven
+                attitude to enable our clients to benefit the most from their investment. Our team
+                redesigns remarkable spaces to uplift property value and enhance guest experiences.
+                Our undivided attention to detail and dedication to excellence sets us apart from the
+                rest.
             </p>
 
             <div class="hbtns lbtns">

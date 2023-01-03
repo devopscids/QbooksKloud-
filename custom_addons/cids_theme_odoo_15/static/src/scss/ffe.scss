@@ -1,6 +1,9 @@
 :root {
     --width-888: 61.6vw;
     /*fonts*/
+    --font-size-6: 0.41vw;
+    --font-size-8: 0.55vw;
+    --font-size-10: 0.69vw;
     --font-size-12: 0.83vw;
     --font-size-14: 0.98vw;
     --font-size-16: 1.12vw;
@@ -303,7 +306,7 @@ padding:var(--font-size-60) 0px var(--font-size-60) var(--width-102);
 
 
 .comm-banner h1 {
-    font-size: var(--font-size-48);
+    font-size: var(--font-size-50);
     color: var(--white);
     font-family: 'Lorin';
     font-style: normal;
@@ -1230,7 +1233,7 @@ width:85%;
 .list-holder li img {
     position: absolute;
     left: 0;
-    top: 0;
+    top: var(--font-size-6);
     width: var(--padding-23);
     height: var(--font-size-20);
 }
