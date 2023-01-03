@@ -471,7 +471,7 @@ input:-webkit-autofill:active{
 
             <section class="login-body">
                 <video playsinline="true" autoplay="true" muted="true"  loop="true" preload="auto" style="width: 100%;max-width: 100%;height: 100vh !important;object-fit: cover;">
-                        <source src="/cids_theme_odoo_15/static/src/video/CIDS-Promo-video-FULL-VERSION-update.mp4" type="video/mp4"/>
+                        <source src="/login_layout/static/src/video/login.mp4" type="video/mp4"/>
                 </video>
                 <div class="custom-container">
                     <div class="row center-main-box">
