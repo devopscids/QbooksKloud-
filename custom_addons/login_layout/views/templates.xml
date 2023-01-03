@@ -157,7 +157,7 @@ html{
 }
 
 .login-body {
-	background-image: url("/login_layout/static/src/img/loginBackground.png");
+<!--	background-image: url("/login_layout/static/src/img/loginBackground.png");-->
 
 	/* Full height */
 	height: 100%;
@@ -166,6 +166,7 @@ html{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+                overflow: hidden;
 }
 
 .login-box{
@@ -469,10 +470,10 @@ input:-webkit-autofill:active{
             </style>
 
             <section class="login-body">
-                <div class="custom-container">
-                    <video playsinline="true" autoplay="true" muted="true"  loop="true" preload="auto" style="width: 100%;max-width: 100%;height: 100vh !important;object-fit: cover;">
+                <video playsinline="true" autoplay="true" muted="true"  loop="true" preload="auto" style="width: 100%;max-width: 100%;height: 100vh !important;object-fit: cover;">
                         <source src="/cids_theme_odoo_15/static/src/video/CIDS-Promo-video-FULL-VERSION-update.mp4" type="video/mp4"/>
-                    </video>
+                </video>
+                <div class="custom-container">
                     <div class="row center-main-box">
                         <div class="col-sm-12 col-md-6">
                             <h2 class="heading color-yellow f-800">Interior Design</h2>
