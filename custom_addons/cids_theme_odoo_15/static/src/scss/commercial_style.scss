@@ -117,8 +117,8 @@ a:hover{
 }
 
 .login a img{
-    width:var(--font-size-20);
-    height:var(--font-size-20);
+    width:var(--font-size-16);
+    height:var(--font-size-16);
 }
 
 
@@ -581,11 +581,13 @@ backdrop-filter: blur(7.5px);
 }
 
 .login {
-    width: 12%;
+    width: 20%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
+
+.login img{width:var(--font-size-16); object-fit:contain;}
 
 .login a {
     width: var(--padding-28);
@@ -1737,6 +1739,22 @@ margin-left:var(--font-size-12);}
     position: relative;
     width: 62%;
 }
+
+.commercial-banner .owl-nav{display: block;
+    top: 40%;
+    position: absolute;
+    width: 100%;}
+
+.commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-prev{left: 10%;
+    position: absolute;transform: rotate(180deg);width: var(--font-size-48);
+    height: var(--font-size-48);}
+
+.commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-next{right: 10%;
+    position: absolute;width: var(--font-size-48);height: var(--font-size-48);}
+
+.commercial-banner .owl-theme .owl-nav [class*=owl-]:hover{
+    background-color: var(--yellow) !important;}
+
 
 @media screen and (max-width:1600px) {
     .addholder .owl-carousel .owl-nav button.owl-next img {
