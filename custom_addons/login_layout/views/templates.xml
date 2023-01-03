@@ -157,15 +157,16 @@ html{
 }
 
 .login-body {
-	background-image: url("/login_layout/static/src/img/loginBackground.png");
+<!--	background-image: url("/login_layout/static/src/img/loginBackground.png");-->
 
 	/* Full height */
-	height: 100%;
+	height: 100vh;
 
 	/* Center and scale the image nicely */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+                overflow: hidden;
 }
 
 .login-box{
@@ -383,6 +384,11 @@ font-size: var(--font-size-14);
 .custom-container{
                 width:90%;
                 margin:auto;
+                position:absolute;
+                top:0px;
+                left:0px;
+                right:0px;
+                bottom:0px;
                 }
                 .input-group-text img{
                 width:var(--font-size-20);
@@ -464,6 +470,9 @@ input:-webkit-autofill:active{
             </style>
 
             <section class="login-body">
+                <video playsinline="true" autoplay="true" muted="true"  loop="true" preload="auto" style="width: 100%;max-width: 100%;height: 100vh !important;object-fit: cover;">
+                        <source src="/login_layout/static/src/video/login.mp4" type="video/mp4"/>
+                </video>
                 <div class="custom-container">
                     <div class="row center-main-box">
                         <div class="col-sm-12 col-md-6">
