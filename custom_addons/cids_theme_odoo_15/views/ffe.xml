@@ -51,7 +51,7 @@
                 <div class="login">
                     <a class="login-search" href="/contactus"><img src="/cids_theme_odoo_15/static/src/img/images/Call.svg" /></a>
                     <a class="contact-search" href="/web/login"><img src="/cids_theme_odoo_15/static/src/img/images/Profile.svg" /></a>
-                    <a href="https://www.linkedin.com/company/cids-designservices/"><img src="/cids_theme_odoo_15/static/src/img/commercial/link.png" /></a>
+                    <a href="https://www.linkedin.com/company/cids-designservices/" target="_blank"><img src="/cids_theme_odoo_15/static/src/img/commercial/link.png" /></a>
                     <a href="mailto:contact@cids.design"><img src="/cids_theme_odoo_15/static/src/img/commercial/Message.svg"/></a>
                 </div>
             </div>
