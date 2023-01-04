@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.carousel.min.css"/>
         <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.theme.default.min.css"/>
         <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/animate.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <section class="header">
@@ -50,16 +51,29 @@
                 </div>
                 <div class="login">
                     <a class="login-search" href="/contactus"><img src="/cids_theme_odoo_15/static/src/img/images/Call.svg" /></a>
+                    <a class="contact-search1" href="mailto:contact@cids.design"><img src="/cids_theme_odoo_15/static/src/img/commercial/Message.svg"/></a>
                     <a class="contact-search" href="/web/login"><img src="/cids_theme_odoo_15/static/src/img/images/Profile.svg" /></a>
-                    <a href="https://www.linkedin.com/company/cids-designservices/" target="_blank"><img src="/cids_theme_odoo_15/static/src/img/commercial/link.png" /></a>
-                    <a href="mailto:contact@cids.design"><img src="/cids_theme_odoo_15/static/src/img/commercial/Message.svg"/></a>
+                    <a class="login-search1" href="https://www.linkedin.com/company/cids-designservices/" target="_blank"><img src="/cids_theme_odoo_15/static/src/img/commercial/link.png" /></a>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="commercial-banner">
-         <div class="comm-banner">
+         <!--<div class="comm-banner">
+                    <h1>End-To-End <span>FF&amp;E Services</span> For </h1>
+                    <h1>Functional &amp; Phenomenal Spaces</h1>
+
+                    <div class="hbtns">
+                        <a class="explore" href="/contactus">Get In Touch <img class="unionpng"
+                                src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
+
+                    </div>
+                </div>-->
+        <div class="owl-carousel owl-theme commercialBanner">
+            <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner1-min.png"/>
+                <div class="comm-banner">
                     <h1>End-To-End <span>FF&amp;E Services</span> For </h1>
                     <h1>Functional &amp; Phenomenal Spaces</h1>
 
@@ -69,36 +83,32 @@
 
                     </div>
                 </div>
-        <div class="owl-carousel owl-theme commercialBanner">
-            <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner1.png"/>
-
             </div>
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner2.png"/>
-               <!-- <div class="comm-banner">
-                    <h1>Commercial Interior Designs.</h1>
-                    <h1>Focused On<span> Quality.</span> </h1>
+                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner2-min.png"/>
+               <div class="comm-banner">
+                    <h1>End-To-End <span>FF&amp;E Services</span> For </h1>
+                    <h1>Functional &amp; Phenomenal Spaces</h1>
 
                     <div class="hbtns">
-                        <a class="explore" href="#">Get In Touch <img class="unionpng"
+                        <a class="explore" href="/contactus">Get In Touch <img class="unionpng"
                                 src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
 
                     </div>
-                </div>-->
+                </div>
             </div>
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner3.png"/>
-                <!--<div class="comm-banner">
-                    <h1>Commercial Interior Designs.</h1>
-                    <h1>Focused On<span> Trust.</span> </h1>
+                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner3-min.png"/>
+                <div class="comm-banner">
+                    <h1>End-To-End <span>FF&amp;E Services</span> For </h1>
+                    <h1>Functional &amp; Phenomenal Spaces</h1>
 
                     <div class="hbtns">
-                        <a class="explore" href="#">Get In Touch <img class="unionpng"
+                        <a class="explore" href="/contactus">Get In Touch <img class="unionpng"
                                 src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
 
                     </div>
-                </div>-->
+                </div>
             </div>
         </div>
 
@@ -173,38 +183,32 @@
             <div class="vision-text">
 
 
-                <h1>How We Translate Your Vision Into A <span>Successful Project?</span></h1>
-                <p>We connect people and communities together through impactful and creative hospitality interior design
-                    solutions. The key to our success is to ensure that the end result is a crystal-clear reflection of
-                    our
-                    client’s demands, visions, and aspirations. To transform your ideas into reality, we start with a
-                    detailed discussion, analyse your project requirements, and offer purposeful hotel interior design
-                    services with a striking impact.</p>
+                <h1>Why Choose Us?</h1>
+                <p>We facilitate the development of unique and highly-functional FF&amp;E products to give
+                    your interior design project a memorable, distinctive, and competitive edge. Our
+                    projects are only complete once we know that the goods and furnishing materials are
+                    on-site, installed, and dressed. We are always there to monitor every progress,
+                    making sure that you have complete peace of mind.</p>
             </div>
 
             <div class="vision-process">
                 <div>
                     <img src="/cids_theme_odoo_15/static/src/img/hospitality/concept.png" />
-                    <h3>Conceptualization</h3>
-                    <p>Keeping our client’s goals, budget, timeline, and demands at the forefront, we kick-start the
-                        project by understanding the scope of work, formulating results-driven design strategies, and
-                        creating realistic 3D renderings to conceptualise the core vision.</p>
+                    <h3>Quality</h3>
+                    <p>World-class FF&amp;E procurement and interior design services with
+                        a focus on sharp delivery.</p>
                 </div>
                 <div>
                     <img src="/cids_theme_odoo_15/static/src/img/hospitality/design.png" />
-                    <h3>Design</h3>
-                    <p>We implement the latest design concepts into our hospitality interior designing
-                        approach, helping brands to future-proof the success of their properties. At
-                        CIDS.DESIGN, we offer a personal touch to every project with holistic interior
-                        design solutions connected to your brand’s DNA.</p>
+                    <h3>Trust</h3>
+                    <p>Global FF&amp;E suppliers &amp; sourcing partners that are reliable, professional,
+                        and results-oriented.</p>
                 </div>
                 <div>
                     <img src="/cids_theme_odoo_15/static/src/img/hospitality/delivery.png" />
-                    <h3>Delivery</h3>
-                    <p>Our multidisciplinary team manages the entire design process to ensure all
-                        projects meet creative, technical, and operational requirements. Extensive care
-                        is taken throughout the design journey to make every single detail reflect the
-                        initial conceptualisation without any shortcuts.</p>
+                    <h3>Diversity</h3>
+                    <p>Wide selection of FF&amp;E products and materials to choose from – options for every
+                        space &amp; budget.</p>
                 </div>
             </div>
         </div>
@@ -266,13 +270,32 @@
     <section class="client-feedback">
         <div class="owl-carousel owl-theme clientFeedbackCarsouel">
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/client-feedback.png" />
+                <img src="/cids_theme_odoo_15/static/src/img/images/2.jpg" />
                 <div class="feedback-item animated">
 <!--                    <h3>Testimonials</h3>-->
                     <h1>What our clients Say</h1>
                     <div class="feedback-txt">
-                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmup.png" />The design team was eventually involved in
-                            all the project's major aspects, including 3D
+                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmup.png" />When we decided to freshen up the look of our hotel,
+                            we were lucky to find CIDS.DESIGN.They spent the time to get to know our property
+                            and understand our requirements, demands, and choices.They did a detailed analysis of our space,
+                            presented some phenomenal design strategies that solved our challenges within the space,and
+                            helped us install unique furnishing, fabrics, materials, and equipment.
+                            When we wanted to add more elements to the interiors,
+                            they quickly came up with outstanding alternatives–all under the decided budget.<img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" /></p>
+                    </div>
+                    <div class="nmloc">
+                        <h2>-LA Quinta Inn and Suites</h2>
+                        <p>California</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/images/client-feedback1.jpg" />
+                <div class="feedback-item animated">
+<!--                    <h3>Testimonials</h3>-->
+                    <h1>What our clients Say</h1>
+                    <div class="feedback-txt">
+                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" />The design team was eventually involved in all the project's major aspects, including 3D
                             designs, furniture selection, procurement, and complete interior finishes. We are delighted
                             to say that they brought the perfect balance of style and functionality to our suites and
                             worked with us pleasantly but highly professional. We definitely enjoyed their commitment
@@ -286,42 +309,21 @@
                 </div>
             </div>
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/client-feedback.png" />
+                <img src="/cids_theme_odoo_15/static/src/img/images/Hampton1.jpg" />
                 <div class="feedback-item animated">
 <!--                    <h3>Testimonials</h3>-->
                     <h1>What our clients Say</h1>
                     <div class="feedback-txt">
-                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" />The design team was eventually involved
-                            in all the project's major aspects, including 3D
-                            designs, furniture selection, procurement, and complete interior finishes. We are delighted
-                            to say that they brought the perfect balance of style and functionality to our suites and
-                            worked with us pleasantly but highly professional. We definitely enjoyed their commitment
-                            and passion for our project and would like to recommend their work to everyone in the
-                            hospitality and commercial business.<img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" /></p>
+                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" />We have had the absolute pleasure of working with the interior design experts at CIDS.DESIGN on a recent project here in Arizona.
+                            They were knowledgeable on various interior design,finish,texture,furniture,and fixture options,
+                            and they put together well-structured packages designed specifically for our target market.
+                            Their ideas aligned well with our goals and budget.
+                            I cannot recommend them highly enough~they have surpassed all our expectations!
+                            Fabulous work, team. Keep up the great work<img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmup.png" /></p>
                     </div>
                     <div class="nmloc">
-                        <h2>-Homewood Suites</h2>
-                        <p>West Chester, OH</p>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/client-feedback.png" />
-                <div class="feedback-item animated">
-<!--                    <h3>Testimonials</h3>-->
-                    <h1>What our clients Say</h1>
-                    <div class="feedback-txt">
-                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" />The design team was eventually involved
-                            in all the project's major aspects, including 3D
-                            designs, furniture selection, procurement, and complete interior finishes. We are delighted
-                            to say that they brought the perfect balance of style and functionality to our suites and
-                            worked with us pleasantly but highly professional. We definitely enjoyed their commitment
-                            and passion for our project and would like to recommend their work to everyone in the
-                            hospitality and commercial business.<img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmup.png" /></p>
-                    </div>
-                    <div class="nmloc">
-                        <h2>-Homewood Suites</h2>
-                        <p>West Chester, OH</p>
+                        <h2>-Hampton Inn</h2>
+                        <p>Arizona</p>
                     </div>
                 </div>
             </div>
@@ -338,7 +340,7 @@
                     <img src="/cids_theme_odoo_15/static/src/img/images/logo-dark.png" />
 
                 </div>
-                <img src="/cids_theme_odoo_15/static/src/img/images/nmsdc.png" />
+<!--                <img src="/cids_theme_odoo_15/static/src/img/images/nmsdc.png" />-->
             </div>
             <div class="service-practise">
                 <div class="f-contact">
@@ -445,7 +447,7 @@
     <section class="bottom-footer">
         <div class="bottom-inner">
             <div class="social">
-                <a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/linkedin.png" /></a>
+                <a href="https://www.linkedin.com/company/cids-designservices/" target="_blank"><img src="/cids_theme_odoo_15/static/src/img/commercial/link.png" /></a>
                 <!--<a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/facebook.png"/></a>
                 <a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/insta.png"/></a>
                 <a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/twitter.png"/></a>
@@ -475,11 +477,11 @@
                 margin: 0,
                 nav: true,
                 autoplay: true,
-                autoplayTimeout: 6000,
-                autoplaySpeed: 5500,
+                autoplayTimeout: 4000,
+                autoplaySpeed: 3500,
                 autoplayHoverPause: true,
-                animateOut: 'fadeIn',
-                animateIn: 'fadeOut',
+<!--                animateOut: 'fadeIn',-->
+<!--                animateIn: 'fadeOut',-->
                 loop: true,
 
                 responsive: {
@@ -494,11 +496,13 @@
                     }
                 }
             });
-            $(".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
-            $(".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+            $( ".commercial-banner .owl-prev").html('&lt;i class="fa fa-angle-left">&lt;/>');
+            $( ".commercial-banner .owl-next").html('&lt;i class="fa fa-angle-right">&lt;/>');
+<!--            $(".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');-->
+<!--            $(".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');-->
         });
 
-        $(document).ready(function () {
+        <!--$(document).ready(function () {
             var owl1 = $('.owl-carousel.happy-customers');
             owl1.owlCarousel({
                 margin: 15,
@@ -519,7 +523,7 @@
             });
             $(".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
             $(".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
-        });
+        });-->
 
         $(document).ready(function () {
             $('.gallery').mauGallery({

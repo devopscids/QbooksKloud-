@@ -11,7 +11,7 @@
         <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/gallery.js"/>
         <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/owl.js"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"/>
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.carousel.min.css"/>
     <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.theme.default.min.css"/>
     <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/animate.css" />
@@ -84,65 +84,74 @@
             </div>
             <div class="login">
                 <a class="login-search" href="/contactus"><img src="/cids_theme_odoo_15/static/src/img/images/Call.svg" /></a>
+                <a class="contact-search1" href="mailto:contact@cids.design"><img src="/cids_theme_odoo_15/static/src/img/commercial/Message.svg"/></a>
                 <a class="contact-search" href="/web/login"><img src="/cids_theme_odoo_15/static/src/img/images/Profile.svg" /></a>
-                <a href="https://www.linkedin.com/company/cids-designservices/" target="_blank"><img src="/cids_theme_odoo_15/static/src/img/commercial/link.png" /></a>
-                <a href="mailto:contact@cids.design"><img src="/cids_theme_odoo_15/static/src/img/commercial/Message.svg"/></a>
+                <a class="login-search1" href="https://www.linkedin.com/company/cids-designservices/" target="_blank"><img src="/cids_theme_odoo_15/static/src/img/commercial/link.png" /></a>
             </div>
         </div>
     </div>
     </section>
 
     <section class="commercial-banner">
-        <div class="comm-banner">
-            <h1>Commercial Interior Designs.</h1>
+<!--        <div class="comm-banner">-->
+<!--            <h1>Commercial Interior Designs.</h1>-->
 
-                <div class="vslider">
-                    <h1>Focused on
-                    <div class="owl-carousel">
-                        <h2>Details</h2>
-                        <h2>Quality</h2>
-                       <h2>Trust</h2>
-                      </div>
+<!--                <div class="vslider">-->
+<!--                    <h1>Focused on-->
+<!--                    <div class="owl-carousel">-->
+<!--                        <h2>Details</h2>-->
+<!--                        <h2>Quality</h2>-->
+<!--                       <h2>Trust</h2>-->
+<!--                      </div>-->
 
-            </h1>
-        </div>
+<!--            </h1>-->
+<!--        </div>-->
 
-            <div class="hbtns">
-                <a class="explore" href="/contactus">Get In Touch <img class="unionpng"
-                        src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
-                <!-- <a class="contact" href="#">Contact Us</a>-->
-            </div>
-        </div>
+<!--            <div class="hbtns">-->
+<!--                <a class="explore" href="/contactus">Get In Touch <img class="unionpng"-->
+<!--                        src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>-->
+<!--                &lt;!&ndash; <a class="contact" href="#">Contact Us</a>&ndash;&gt;-->
+<!--            </div>-->
+<!--        </div>-->
         <div class="owl-carousel owl-theme commercialBanner">
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner1.png"/>
-
-            </div>
-            <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner2.png"/>
-               <!-- <div class="comm-banner">
+                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner1-min.png"/>
+                <div class="comm-banner">
                     <h1>Commercial Interior Designs.</h1>
-                    <h1>Focused On<span> Quality.</span> </h1>
+                    <h1>Focused On &amp;nbsp;<span> Details</span> </h1>
 
                     <div class="hbtns">
                         <a class="explore" href="#">Get In Touch <img class="unionpng"
                                 src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
 
                     </div>
-                </div>-->
+                </div>
             </div>
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner3.png"/>
-               <!--<div class="comm-banner">
+                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner2-min.png"/>
+                <div class="comm-banner">
                     <h1>Commercial Interior Designs.</h1>
-                    <h1>Focused On<span> Trust.</span> </h1>
+                    <h1>Focused On &amp;nbsp;<span> Quality</span> </h1>
 
                     <div class="hbtns">
                         <a class="explore" href="#">Get In Touch <img class="unionpng"
                                 src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
 
                     </div>
-                </div>-->
+                </div>
+            </div>
+            <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner3-min.png"/>
+               <div class="comm-banner">
+                    <h1>Commercial Interior Designs.</h1>
+                    <h1>Focused On &amp;nbsp;<span> Trust</span> </h1>
+
+                    <div class="hbtns">
+                        <a class="explore" href="#">Get In Touch <img class="unionpng"
+                                src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
+
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -238,14 +247,14 @@
                 <img src="/cids_theme_odoo_15/static/src/img/commercial/service3.png"/>
                 <div class="abs-service">
                     <h2>03.</h2>
-                    <p>Development</p><p> Center</p>
+                    <p>Development</p><p>Centers</p>
                 </div>
             </div>
             <div>
                 <img src="/cids_theme_odoo_15/static/src/img/commercial/service4.png"/>
                 <div class="abs-service">
                     <h2>04.</h2>
-                    <p> Research</p><p>  Center</p>
+                    <p>Research</p><p>Centers</p>
                 </div>
             </div>
         </div>
@@ -400,7 +409,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Co-working Spaces</p>
+                                    <p>Commercial Buildings</p>
                                 </div>
                             </div>
                         </div>
@@ -410,7 +419,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Development Center</p>
+                                    <p>Commercial Buildings</p>
                                 </div>
                             </div>
                         </div>
@@ -420,7 +429,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Research Center</p>
+                                    <p>Commercial Buildings</p>
                                 </div>
                             </div>
                         </div>
@@ -430,7 +439,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Co-working Spaces</p>
+                                    <p>Commercial Buildings</p>
                                 </div>
                             </div>
                         </div>
@@ -440,7 +449,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Development Center</p>
+                                    <p>Commercial Buildings</p>
                                 </div>
                             </div>
                         </div>
@@ -450,7 +459,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Research Center</p>
+                                    <p>Commercial Buildings</p>
                                 </div>
                             </div>
                         </div>
@@ -466,7 +475,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Commercial Buildings</p>
+                                    <p>Co-working Spaces</p>
                                 </div>
                             </div>
                         </div>
@@ -486,7 +495,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Development Center</p>
+                                    <p>Co-working Spaces</p>
                                 </div>
                             </div>
                         </div>
@@ -496,7 +505,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Research Center</p>
+                                    <p>Co-working Spaces</p>
                                 </div>
                             </div>
                         </div>
@@ -516,7 +525,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Development Center</p>
+                                    <p>Co-working Spaces</p>
                                 </div>
                             </div>
                         </div>
@@ -526,7 +535,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Research Center</p>
+                                    <p>Co-working Spaces</p>
                                 </div>
                             </div>
                         </div>
@@ -542,7 +551,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Commercial Buildings</p>
+                                    <p>Development Center</p>
                                 </div>
                             </div>
                         </div>
@@ -552,7 +561,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Co-working Spaces</p>
+                                    <p>Development Center</p>
                                 </div>
                             </div>
                         </div>
@@ -572,7 +581,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Research Center</p>
+                                    <p>Development Center</p>
                                 </div>
                             </div>
                         </div>
@@ -582,7 +591,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Co-working Spaces</p>
+                                    <p>Development Center</p>
                                 </div>
                             </div>
                         </div>
@@ -602,7 +611,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Research Center</p>
+                                    <p>Development Center</p>
                                 </div>
                             </div>
                         </div>
@@ -618,7 +627,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Commercial Buildings</p>
+                                    <p>Research Center</p>
                                 </div>
                             </div>
                         </div>
@@ -628,7 +637,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Co-working Spaces</p>
+                                    <p>Research Center</p>
                                 </div>
                             </div>
                         </div>
@@ -638,7 +647,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Development Center</p>
+                                    <p>Research Center</p>
                                 </div>
                             </div>
                         </div>
@@ -658,7 +667,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Co-working Spaces</p>
+                                    <p>Research Center</p>
                                 </div>
                             </div>
                         </div>
@@ -668,7 +677,7 @@
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
-                                    <p>Development Center</p>
+                                    <p>Research Center</p>
                                 </div>
                             </div>
                         </div>
@@ -731,13 +740,32 @@
     <section class="client-feedback">
         <div class="owl-carousel owl-theme clientFeedbackCarsouel">
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/client-feedback.png" />
+                <img src="/cids_theme_odoo_15/static/src/img/images/2.jpg" />
                 <div class="feedback-item animated">
 <!--                    <h3>Testimonials</h3>-->
                     <h1>What our clients Say</h1>
                     <div class="feedback-txt">
-                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmup.png" />The design team was eventually involved in
-                            all the project's major aspects, including 3D
+                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmup.png" />When we decided to freshen up the look of our hotel,
+                            we were lucky to find CIDS.DESIGN.They spent the time to get to know our property
+                            and understand our requirements, demands, and choices.They did a detailed analysis of our space,
+                            presented some phenomenal design strategies that solved our challenges within the space,and
+                            helped us install unique furnishing, fabrics, materials, and equipment.
+                            When we wanted to add more elements to the interiors,
+                            they quickly came up with outstanding alternatives–all under the decided budget.<img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" /></p>
+                    </div>
+                    <div class="nmloc">
+                        <h2>-LA Quinta Inn and Suites</h2>
+                        <p>California</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/images/client-feedback1.jpg" />
+                <div class="feedback-item animated">
+<!--                    <h3>Testimonials</h3>-->
+                    <h1>What our clients Say</h1>
+                    <div class="feedback-txt">
+                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" />The design team was eventually involved in all the project's major aspects, including 3D
                             designs, furniture selection, procurement, and complete interior finishes. We are delighted
                             to say that they brought the perfect balance of style and functionality to our suites and
                             worked with us pleasantly but highly professional. We definitely enjoyed their commitment
@@ -751,42 +779,21 @@
                 </div>
             </div>
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/client-feedback.png" />
+                <img src="/cids_theme_odoo_15/static/src/img/images/Hampton1.jpg" />
                 <div class="feedback-item animated">
 <!--                    <h3>Testimonials</h3>-->
                     <h1>What our clients Say</h1>
                     <div class="feedback-txt">
-                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" />The design team was eventually involved
-                            in all the project's major aspects, including 3D
-                            designs, furniture selection, procurement, and complete interior finishes. We are delighted
-                            to say that they brought the perfect balance of style and functionality to our suites and
-                            worked with us pleasantly but highly professional. We definitely enjoyed their commitment
-                            and passion for our project and would like to recommend their work to everyone in the
-                            hospitality and commercial business.<img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" /></p>
+                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" />We have had the absolute pleasure of working with the interior design experts at CIDS.DESIGN on a recent project here in Arizona.
+                            They were knowledgeable on various interior design,finish,texture,furniture,and fixture options,
+                            and they put together well-structured packages designed specifically for our target market.
+                            Their ideas aligned well with our goals and budget.
+                            I cannot recommend them highly enough~they have surpassed all our expectations!
+                            Fabulous work, team. Keep up the great work<img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmup.png" /></p>
                     </div>
                     <div class="nmloc">
-                        <h2>-Homewood Suites</h2>
-                        <p>West Chester, OH</p>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/client-feedback.png" />
-                <div class="feedback-item animated">
-<!--                    <h3>Testimonials</h3>-->
-                    <h1>What our clients Say</h1>
-                    <div class="feedback-txt">
-                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" />The design team was eventually involved
-                            in all the project's major aspects, including 3D
-                            designs, furniture selection, procurement, and complete interior finishes. We are delighted
-                            to say that they brought the perfect balance of style and functionality to our suites and
-                            worked with us pleasantly but highly professional. We definitely enjoyed their commitment
-                            and passion for our project and would like to recommend their work to everyone in the
-                            hospitality and commercial business.<img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmup.png" /></p>
-                    </div>
-                    <div class="nmloc">
-                        <h2>-Homewood Suites</h2>
-                        <p>West Chester, OH</p>
+                        <h2>-Hampton Inn</h2>
+                        <p>Arizona</p>
                     </div>
                 </div>
             </div>
@@ -803,7 +810,7 @@
                     <img src="/cids_theme_odoo_15/static/src/img/images/logo-dark.png" />
 
                 </div>
-                <img src="/cids_theme_odoo_15/static/src/img/images/nmsdc.png" />
+<!--                <img src="/cids_theme_odoo_15/static/src/img/images/nmsdc.png" />-->
             </div>
             <div class="service-practise">
                 <div class="f-contact">
@@ -910,7 +917,7 @@
     <section class="bottom-footer">
         <div class="bottom-inner">
             <div class="social">
-                <a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/linkedin.png" /></a>
+                <a href="https://www.linkedin.com/company/cids-designservices/" target="_blank"><img src="/cids_theme_odoo_15/static/src/img/commercial/link.png" /></a>
                 <!--<a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/facebook.png"/></a>
                 <a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/insta.png"/></a>
                 <a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/twitter.png"/></a>
@@ -941,11 +948,9 @@
                 margin: 0,
                 nav: true,
                 autoplay: true,
-                autoplayTimeout: 6000,
-                autoplaySpeed: 5500,
+                autoplayTimeout: 4000,
+                autoplaySpeed: 3500,
                 autoplayHoverPause: true,
-                animateOut: 'fadeIn',
-                animateIn: 'fadeOut',
                 loop: true,
 
                 responsive: {
@@ -960,8 +965,10 @@
                     }
                 }
             });
-            $(".commercial-banner .owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
-            $(".commercial-banner .owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+            $( ".commercial-banner .owl-prev").html('&lt;i class="fa fa-angle-left">&lt;/>');
+            $( ".commercial-banner .owl-next").html('&lt;i class="fa fa-angle-right">&lt;/>');
+<!--            $(".commercial-banner .owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');-->
+<!--            $(".commercial-banner .owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');-->
         });
 
      
