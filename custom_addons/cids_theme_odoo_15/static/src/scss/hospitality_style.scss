@@ -2447,6 +2447,15 @@ color: #FFFFFF;
         height: 550px;
         object-fit: cover;
     }
+    .social a img {
+    width: 18px !important;
+    height: 18px !important;
+    object-fit: contain;
+}
+.social a {
+    width: 30px !important;
+    height: 30px !important;
+}
 }
 
 @media screen and (max-width:600px) {
@@ -2699,6 +2708,7 @@ color: #FFFFFF;
     /*place 420 and 480 under 580*/
     .login{width:20%;}
 }
+
 
 @media screen and (max-width:580px) {
 
@@ -3010,12 +3020,21 @@ color: #FFFFFF;
     }
 
     .commercial-banner {
-        height: 550px;
+        height: 400px !important;
     }
 
     .commercial-banner .owl-carousel .owl-item img {
-        height: 550px;
+        height: 400px;
         object-fit: cover;
+    }
+    .comm-banner{
+        top: 50% !important;
+    }
+    .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-next .fa{
+        font-size: var(--font-size-48);
+    }
+    .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-prev .fa{
+        font-size: var(--font-size-48);
     }
 
     .comm-banner h1 {
@@ -3042,6 +3061,24 @@ color: #FFFFFF;
     }
     .service-imgs{flex-direction: column;}
     .service-imgs>div{height:200px; width:100%; margin-bottom:15px;}
+    .login a {
+    width: 29px;
+    height: 14px;
+}
+.login img {
+    width: var(--font-size-12) !important;
+    object-fit: contain;
+}
+.social a img {
+    width: 10px !important;
+    height: 18px !important;
+    object-fit: contain;
+}
+.social a {
+    width: 20px !important;
+    height: 20px !important;
+    margin-left: 0px !important;
+}
 }
 
 @media screen and (max-width:370px) {

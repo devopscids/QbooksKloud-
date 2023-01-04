@@ -2422,6 +2422,15 @@ color: #50575D;
     .process>.process-lft{padding-left:0px; padding-right:0px;}
     .process.proc2,.process.proc4{flex-direction: column-reverse;}
     .process.proc4{margin-bottom:20px;}
+    .social a img {
+    width: 18px !important;
+    height: 18px !important;
+    object-fit: contain;
+}
+.social a {
+    width: 30px !important;
+    height: 30px !important;
+}
 }
 
 @media screen and (max-width:600px) {
@@ -2984,6 +2993,9 @@ color: #50575D;
         height: 200px;
         object-fit: cover;
     }
+    .login {
+    width: 20%;
+}
 
     .logo img {
         width: 55px;
@@ -2993,6 +3005,24 @@ color: #50575D;
     .menu a {
         font-size: 12px;
     }
+    .login a {
+    width: 29px;
+    height: 14px;
+}
+.login img {
+    width: var(--font-size-12) !important;
+    object-fit: contain;
+}
+.social a img {
+    width: 10px !important;
+    height: 18px !important;
+    object-fit: contain;
+}
+.social a {
+    width: 20px !important;
+    height: 20px !important;
+    margin-left: 0px !important;
+}
 }
 
 @media screen and (max-width:370px) {
