@@ -375,7 +375,7 @@
 
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p12.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
                                     <p>Commercial Buildings</p>
@@ -385,7 +385,7 @@
 
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p13.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
                                     <p>Commercial Buildings</p>
@@ -395,7 +395,7 @@
 
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p14.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
                                     <p>Commercial Buildings</p>
@@ -408,16 +408,6 @@
                     <div class="owl-carousel owl-theme hotelCaseCarsouel">
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
-                                <div class="case-txt">
-<!--                                    <h1>Lorem</h1>-->
-                                    <p>Co-working Spaces</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
@@ -428,7 +418,7 @@
 
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p22.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
                                     <p>Co-working Spaces</p>
@@ -438,7 +428,17 @@
 
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p23.png"/>
+                                <div class="case-txt">
+<!--                                    <h1>Lorem</h1>-->
+                                    <p>Co-working Spaces</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
                                     <p>Co-working Spaces</p>
@@ -451,26 +451,6 @@
                     <div class="owl-carousel owl-theme hotelCaseCarsouel">
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
-                                <div class="case-txt">
-<!--                                    <h1>Lorem</h1>-->
-                                    <p>Development Center</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
-                                <div class="case-txt">
-<!--                                    <h1>Lorem</h1>-->
-                                    <p>Development Center</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
                                 <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
@@ -481,7 +461,27 @@
 
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p32.png"/>
+                                <div class="case-txt">
+<!--                                    <h1>Lorem</h1>-->
+                                    <p>Development Center</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p33.png"/>
+                                <div class="case-txt">
+<!--                                    <h1>Lorem</h1>-->
+                                    <p>Development Center</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p34.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
                                     <p>Development Center</p>
@@ -494,7 +494,7 @@
                     <div class="owl-carousel owl-theme hotelCaseCarsouel">
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
                                     <p>Research Center</p>
@@ -504,7 +504,7 @@
 
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p42.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
                                     <p>Research Center</p>
@@ -514,7 +514,7 @@
 
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p43.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
                                     <p>Research Center</p>
