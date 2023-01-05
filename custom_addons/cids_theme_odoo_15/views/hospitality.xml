@@ -75,7 +75,7 @@
         </div>-->
         <div class="owl-carousel owl-theme commercialBanner">
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner1-min.png"/>
+                <img src="/cids_theme_odoo_15/static/src/img/hospitality/hospitality-banner1.png"/>
                 <div class="comm-banner">
                     <p class="ptext">HOSPITALITY</p>
                     <h1>Creating Memorable Spaces</h1>
@@ -91,7 +91,7 @@
                 </div>
             </div>
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner2-min.png"/>
+                <img src="/cids_theme_odoo_15/static/src/img/hospitality/hospitality-banner2.png"/>
                 <div class="comm-banner">
                     <p class="ptext">HOSPITALITY</p>
                     <h1>Creating Memorable Spaces</h1>
@@ -107,7 +107,7 @@
                 </div>
             </div>
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner3-min.png"/>
+                <img src="/cids_theme_odoo_15/static/src/img/hospitality/hospitality-banner3.png"/>
                 <div class="comm-banner">
                     <p class="ptext">HOSPITALITY</p>
                     <h1>Creating Memorable Spaces</h1>
@@ -290,7 +290,7 @@
                     <div class="owl-carousel owl-theme hotelCaseCarsouel">
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p1.png"/>
                                 <div class="case-txt">
                                     <h1>HOTEL</h1>
 <!--                                    <p>Homewood<br /> Suites</p>-->
@@ -301,7 +301,7 @@
 
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p2.png"/>
                                 <div class="case-txt">
                                     <h1>RESTAURANT</h1>
 <!--                                    <p>Homewood <br />Suites</p>-->
@@ -312,7 +312,7 @@
 
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p3.png"/>
                                 <div class="case-txt">
                                     <h1>BAR</h1>
 <!--                                    <p>Homewood <br />Suites</p>-->
@@ -323,51 +323,7 @@
 
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
-                                <div class="case-txt">
-                                    <h1>RESORT</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
-                                <div class="case-txt">
-                                    <h1>HOTEL</h1>
-<!--                                    <p>Homewood<br /> Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
-                                <div class="case-txt">
-                                    <h1>RESTAURANT</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
-                                <div class="case-txt">
-                                    <h1>BAR</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p4.png"/>
                                 <div class="case-txt">
                                     <h1>RESORT</h1>
 <!--                                    <p>Homewood <br />Suites</p>-->
@@ -383,7 +339,7 @@
                     <div class="owl-carousel owl-theme hotelCaseCarsouel">
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p1.png"/>
                                 <div class="case-txt">
                                     <h1>HOTEL</h1>
 <!--                                    <p>Homewood<br /> Suites</p>-->
@@ -394,7 +350,7 @@
 
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p12.png"/>
                                 <div class="case-txt">
                                     <h1>HOTEL</h1>
 <!--                                    <p>Homewood <br />Suites</p>-->
@@ -402,73 +358,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
-                                <div class="case-txt">
-                                    <h1>HOTEL</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
-                                <div class="case-txt">
-                                    <h1>HOTEL</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
-                                <div class="case-txt">
-                                    <h1>HOTEL</h1>
-<!--                                    <p>Homewood<br /> Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
-                                <div class="case-txt">
-                                    <h1>HOTEL</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
-                                <div class="case-txt">
-                                    <h1>HOTEL</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
-                                <div class="case-txt">
-                                    <h1>HOTEL</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
 
                     </div>
                 </div>
@@ -476,7 +365,7 @@
                     <div class="owl-carousel owl-theme hotelCaseCarsouel">
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p2.png"/>
                                 <div class="case-txt">
                                     <h1>RESORT</h1>
 <!--                                    <p>Homewood<br /> Suites</p>-->
@@ -487,73 +376,7 @@
 
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
-                                <div class="case-txt">
-                                    <h1>RESORT</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
-                                <div class="case-txt">
-                                    <h1>RESORT</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
-                                <div class="case-txt">
-                                    <h1>RESORT</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
-                                <div class="case-txt">
-                                    <h1>RESORT</h1>
-<!--                                    <p>Homewood<br /> Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
-                                <div class="case-txt">
-                                    <h1>RESORT</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
-                                <div class="case-txt">
-                                    <h1>RESORT</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p22.png"/>
                                 <div class="case-txt">
                                     <h1>RESORT</h1>
 <!--                                    <p>Homewood <br />Suites</p>-->
@@ -569,7 +392,7 @@
                     <div class="owl-carousel owl-theme hotelCaseCarsouel">
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p3.png"/>
                                 <div class="case-txt">
                                     <h1>RESTAURANT</h1>
 <!--                                    <p>Homewood<br /> Suites</p>-->
@@ -580,7 +403,7 @@
 
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p32.png"/>
                                 <div class="case-txt">
                                     <h1>RESTAURANT</h1>
 <!--                                    <p>Homewood <br />Suites</p>-->
@@ -588,73 +411,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
-                                <div class="case-txt">
-                                    <h1>RESTAURANT</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
-                                <div class="case-txt">
-                                    <h1>RESTAURANT</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
-                                <div class="case-txt">
-                                    <h1>RESTAURANT</h1>
-<!--                                    <p>Homewood<br /> Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
-                                <div class="case-txt">
-                                    <h1>RESTAURANT</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
-                                <div class="case-txt">
-                                    <h1>RESTAURANT</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
-                                <div class="case-txt">
-                                    <h1>RESTAURANT</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
 
                     </div>
                 </div>
@@ -662,9 +418,9 @@
                     <div class="owl-carousel owl-theme hotelCaseCarsouel">
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p4.png"/>
                                 <div class="case-txt">
-                                    <h1>HOTEL</h1>
+                                    <h1>RESORT</h1>
 <!--                                    <p>Homewood<br /> Suites</p>-->
                                     <div><a href="#">View Projects</a></div>
                                 </div>
@@ -673,29 +429,7 @@
 
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
-                                <div class="case-txt">
-                                    <h1>RESTAURANT</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
-                                <div class="case-txt">
-                                    <h1>BAR</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p42.png"/>
                                 <div class="case-txt">
                                     <h1>RESORT</h1>
 <!--                                    <p>Homewood <br />Suites</p>-->
@@ -703,51 +437,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p1.png"/>
-                                <div class="case-txt">
-                                    <h1>HOTEL</h1>
-<!--                                    <p>Homewood<br /> Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
-                                <div class="case-txt">
-                                    <h1>RESTAURANT</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
-                                <div class="case-txt">
-                                    <h1>BAR</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
-                                <div class="case-txt">
-                                    <h1>RESORT</h1>
-<!--                                    <p>Homewood <br />Suites</p>-->
-                                    <div><a href="#">View Projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-
 
                     </div>
                 </div>
@@ -786,7 +475,7 @@
 <!--                    <h3>Testimonials</h3>-->
                     <h1>What our clients Say</h1>
                     <div class="feedback-txt">
-                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmup.png" />When we decided to freshen up the look of our hotel,
+                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" />When we decided to freshen up the look of our hotel,
                             we were lucky to find CIDS.DESIGN.They spent the time to get to know our property
                             and understand our requirements, demands, and choices.They did a detailed analysis of our space,
                             presented some phenomenal design strategies that solved our challenges within the space,and
@@ -830,7 +519,7 @@
                             and they put together well-structured packages designed specifically for our target market.
                             Their ideas aligned well with our goals and budget.
                             I cannot recommend them highly enough~they have surpassed all our expectations!
-                            Fabulous work, team. Keep up the great work<img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmup.png" /></p>
+                            Fabulous work, team. Keep up the great work<img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" /></p>
                     </div>
                     <div class="nmloc">
                         <h2>-Hampton Inn</h2>

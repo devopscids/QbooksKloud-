@@ -1856,7 +1856,7 @@ margin-left:var(--font-size-12);}
     color: var(--yellow);}
 
 .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-prev .fa{
-    font-size: var(--font-size-60);color:#fff;opacity:0.8}
+    font-size: var(--font-size-30);color:#fff;opacity:0.8}
 
 .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-next{right: 10%;
     position: absolute;width: var(--font-size-48);height: var(--font-size-48);}
@@ -1865,8 +1865,15 @@ margin-left:var(--font-size-12);}
     color: var(--yellow);}
 
 .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-next .fa{
-    font-size: var(--font-size-60);color:#fff;opacity:0.8}
+    font-size: var(--font-size-30);color:#fff;opacity:0.8}
 
+.owl-nav button.owl-next:focus-visible {
+    outline: none !important;
+}
+
+.owl-nav button.owl-prev:focus-visible {
+    outline: none !important;
+}
 
 .commercial-banner .owl-theme .owl-nav [class*=owl-]:hover{
     background-color: transparent !important;}

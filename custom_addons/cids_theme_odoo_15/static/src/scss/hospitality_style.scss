@@ -912,7 +912,10 @@ a:hover{
 /*vision for success starts here*/
 
 .vision-for-success {
-    background-color: #50575D;
+//     background-color: #50575D;
+    background-image:url('/cids_theme_odoo_15/static/src/img/hospitality/Hospitality.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 
 .vision-inner {
@@ -2163,7 +2166,7 @@ color: #FFFFFF;
     color: var(--yellow);}
 
 .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-prev .fa{
-    font-size: var(--font-size-60);color:#fff;opacity:0.8}
+    font-size: var(--font-size-30);color:#fff;opacity:0.8}
 
 .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-next{right: 10%;
     position: absolute;width: var(--font-size-48);height: var(--font-size-48);}
@@ -2172,7 +2175,15 @@ color: #FFFFFF;
     color: var(--yellow);}
 
 .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-next .fa{
-    font-size: var(--font-size-60);color:#fff;opacity:0.8}
+    font-size: var(--font-size-30);color:#fff;opacity:0.8}
+
+.owl-nav button.owl-next:focus-visible {
+    outline: none !important;
+}
+
+.owl-nav button.owl-prev:focus-visible {
+    outline: none !important;
+}
 
 .commercial-banner .owl-theme .owl-nav [class*=owl-]:hover{
     background-color: transparent !important;}
@@ -2255,7 +2266,7 @@ color: #FFFFFF;
     }
 
     .comm-banner h1{font-size:18px;}
-    .comm-banner{top:25%; width:90%;}
+    .comm-banner{width:90%;}
     
     .logo img {
         width: 110px;
