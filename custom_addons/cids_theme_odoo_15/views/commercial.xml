@@ -402,39 +402,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
-                                <div class="case-txt">
-<!--                                    <h1>Lorem</h1>-->
-                                    <p>Commercial Buildings</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
-                                <div class="case-txt">
-<!--                                    <h1>Lorem</h1>-->
-                                    <p>Commercial Buildings</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
-                                <div class="case-txt">
-<!--                                    <h1>Lorem</h1>-->
-                                    <p>Commercial Buildings</p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
                     </div>
                 </div>
                 <div id="coworking" class="container tab-pane fade"><br></br>
@@ -478,39 +445,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
-                                <div class="case-txt">
-<!--                                    <h1>Lorem</h1>-->
-                                    <p>Co-working Spaces</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
-                                <div class="case-txt">
-<!--                                    <h1>Lorem</h1>-->
-                                    <p>Co-working Spaces</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
-                                <div class="case-txt">
-<!--                                    <h1>Lorem</h1>-->
-                                    <p>Co-working Spaces</p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
                     </div>
                 </div>
                 <div id="development" class="container tab-pane fade"><br></br>
@@ -554,39 +488,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
-                                <div class="case-txt">
-<!--                                    <h1>Lorem</h1>-->
-                                    <p>Development Center</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
-                                <div class="case-txt">
-<!--                                    <h1>Lorem</h1>-->
-                                    <p>Development Center</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
-                                <div class="case-txt">
-<!--                                    <h1>Lorem</h1>-->
-                                    <p>Development Center</p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
                     </div>
                 </div>
                 <div id="research" class="container tab-pane fade"><br></br>
@@ -630,39 +531,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
-                                <div class="case-txt">
-<!--                                    <h1>Lorem</h1>-->
-                                    <p>Research Center</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p3.png"/>
-                                <div class="case-txt">
-<!--                                    <h1>Lorem</h1>-->
-                                    <p>Research Center</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
-                                <div class="case-txt">
-<!--                                    <h1>Lorem</h1>-->
-                                    <p>Research Center</p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
                     </div>
                 </div>
             </div>
