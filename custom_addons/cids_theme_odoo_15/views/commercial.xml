@@ -115,7 +115,7 @@
 <!--        </div>-->
         <div class="owl-carousel owl-theme commercialBanner">
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner1.png"/>
+                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial_banner1.png"/>
                 <div class="comm-banner">
                     <h1>Commercial Interior Designs.</h1>
                     <h1>Focused On &amp;nbsp;<span> Details</span> </h1>
@@ -126,9 +126,10 @@
 
                     </div>
                 </div>
+                <div class="overlay"></div>
             </div>
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner2.png"/>
+                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial_banner2.png"/>
                 <div class="comm-banner">
                     <h1>Commercial Interior Designs.</h1>
                     <h1>Focused On &amp;nbsp;<span> Quality</span> </h1>
@@ -139,9 +140,10 @@
 
                     </div>
                 </div>
+                <div class="overlay"></div>
             </div>
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial-banner3.png"/>
+                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial_banner3.png"/>
                <div class="comm-banner">
                     <h1>Commercial Interior Designs.</h1>
                     <h1>Focused On &amp;nbsp;<span> Trust</span> </h1>
@@ -152,6 +154,7 @@
 
                     </div>
                 </div>
+                <div class="overlay"></div>
             </div>
         </div>
 
@@ -438,7 +441,7 @@
 
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p2.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p24.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
                                     <p>Co-working Spaces</p>
@@ -524,7 +527,7 @@
 
                         <div class="item">
                             <div class="case-item">
-                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p4.png"/>
+                                <img src="/cids_theme_odoo_15/static/src/img/commercial/p44.png"/>
                                 <div class="case-txt">
 <!--                                    <h1>Lorem</h1>-->
                                     <p>Research Center</p>
@@ -772,6 +775,7 @@
             </div>
         </div>
     </section>
+         <button id="button"><i class="fa fa-angle-up"></i></button>
 
 
 
@@ -929,6 +933,21 @@
                 }
             });
         });
+
+            var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
 
     </script>
     <script>

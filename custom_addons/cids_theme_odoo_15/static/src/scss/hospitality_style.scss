@@ -2168,6 +2168,10 @@ color: #FFFFFF;
 .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-prev .fa{
     font-size: var(--font-size-30);color:#fff;opacity:0.8}
 
+#button .fa{
+    font-size: var(--font-size-24);color:#fff;opacity:0.8
+}
+
 .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-next{right: 10%;
     position: absolute;width: var(--font-size-48);height: var(--font-size-48);}
 
@@ -2204,6 +2208,43 @@ color: #FFFFFF;
     .social a img {
     width: var(--font-size-16) !important;
     height: var(--font-size-16) !important;
+}
+
+#button{
+    width:var(--font-size-48);
+    height:var(--font-size-48);
+    background:var(--yellow);
+  box-shadow: 0px 15px 10px -15px #111;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    position: fixed;
+    right: 5%;
+    bottom:var(--font-size-50);
+    transition:
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index:9999;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+#button:hover{
+    box-shadow:0px 15px 10px 0px #11111194;
+}
+
+.commercial-banner .owl-carousel .owl-item .overlay{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(120deg, rgb(0, 0, 0, 0.14), rgb(0, 0, 0, 0.38));
+
 }
 
 
