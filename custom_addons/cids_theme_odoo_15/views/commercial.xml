@@ -121,7 +121,7 @@
                     <h1>Focused On &amp;nbsp;<span> Details</span> </h1>
 
                     <div class="hbtns">
-                        <a class="explore" href="#">Get In Touch <img class="unionpng"
+                        <a class="explore" href="/contactus">Get In Touch <img class="unionpng"
                                 src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
 
                     </div>
@@ -135,7 +135,7 @@
                     <h1>Focused On &amp;nbsp;<span> Quality</span> </h1>
 
                     <div class="hbtns">
-                        <a class="explore" href="#">Get In Touch <img class="unionpng"
+                        <a class="explore" href="/contactus">Get In Touch <img class="unionpng"
                                 src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
 
                     </div>
@@ -149,7 +149,7 @@
                     <h1>Focused On &amp;nbsp;<span> Trust</span> </h1>
 
                     <div class="hbtns">
-                        <a class="explore" href="#">Get In Touch <img class="unionpng"
+                        <a class="explore" href="/contactus">Get In Touch <img class="unionpng"
                                 src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
 
                     </div>
