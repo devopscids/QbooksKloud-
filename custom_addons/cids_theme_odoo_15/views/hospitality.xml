@@ -2,1922 +2,985 @@
 <odoo>
     <template id="hospitality" name="CIDS Hospitality">
         <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/hospitality_style.scss"/>
-        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/style.scss"/>
+<!--        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/style.scss"/>-->
         <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.scss"/>
         <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owltheme.scss"/>
         <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/cidsjquery.js"/>
         <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/gallery.js"/>
         <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/owl.js"/>
-        <script>
-             $(document).ready(function() {
-                var owl5 = $('.owl-carousel.happyclients');
-                owl5.owlCarousel({
-                  margin: 10,
-                  nav: true,
-                  autoplay:true,
-                  loop: true,
-                  responsive: {
-                    0: {
-                      items: 1
-                    },
-                    600: {
-                      items: 1
-                    },
-                    1000: {
-                      items: 1
-                    }
-                  }
-                });
-                 $( ".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
-                 $( ".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
-              });
-        </script>
-        <style>
-            a{
-                 text-decoration: none !important;
-                }
-            .header{display:none !important;}
-            .footer{display:none !important;}
-                    html,
-        body {
-            overflow-x: hidden;
-        }
-
-        .item-cust-left img {
-            max-width: 100%;
-        }
-
-        .owl-theme .owl-nav [class*="owl-"] {
-            border-radius: 0px;
-        }
-
-        .abs-why-us .process-header h1::after {
-            background-color: #F7F7F7;
-
-        }
-
-        .gallery-item {
-            width: 100%;
-            height: 351px;
-            object-fit: cover;
-        }
-
-        .col-1,
-        .col-2,
-        .col-3,
-        .col-4,
-        .col-5,
-        .col-6,
-        .col-7,
-        .col-8,
-        .col-9,
-        .col-10,
-        .col-11,
-        .col-12,
-        .col,
-        .col-auto,
-        .col-sm-1,
-        .col-sm-2,
-        .col-sm-3,
-        .col-sm-4,
-        .col-sm-5,
-        .col-sm-6,
-        .col-sm-7,
-        .col-sm-8,
-        .col-sm-9,
-        .col-sm-10,
-        .col-sm-11,
-        .col-sm-12,
-        .col-sm,
-        .col-sm-auto,
-        .col-md-1,
-        .col-md-2,
-        .col-md-3,
-        .col-md-4,
-        .col-md-5,
-        .col-md-6,
-        .col-md-7,
-        .col-md-8,
-        .col-md-9,
-        .col-md-10,
-        .col-md-11,
-        .col-md-12,
-        .col-md,
-        .col-md-auto,
-        .col-lg-1,
-        .col-lg-2,
-        .col-lg-3,
-        .col-lg-4,
-        .col-lg-5,
-        .col-lg-6,
-        .col-lg-7,
-        .col-lg-8,
-        .col-lg-9,
-        .col-lg-10,
-        .col-lg-11,
-        .col-lg-12,
-        .col-lg,
-        .col-lg-auto,
-        .col-xl-1,
-        .col-xl-2,
-        .col-xl-3,
-        .col-xl-4,
-        .col-xl-5,
-        .col-xl-6,
-        .col-xl-7,
-        .col-xl-8,
-        .col-xl-9,
-        .col-xl-10,
-        .col-xl-11,
-        .col-xl-12,
-        .col-xl,
-        .col-xl-auto {
-            padding-left: 0px !important;
-            padding-right: 0px !important;
-        }
-
-        * {
-            margin: 0px;
-            padding: 0px;
-            letter-spacing: 0px !important;
-        }
-
-        .about-banner {
-            background-image: url('/cids_theme_odoo_15/static/src/img/landing/h-banner.png');
-            height: 100vh;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-origin: padding-box;
-        }
-
-        .abs-cont {
-            width: 60%;
-            background-color: rgba(0, 0, 0, .76);
-            position: absolute;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            -webkit-transform-origin: 100% 0;
-            -ms-transform-origin: 100% 0;
-            transform-origin: 100% 0;
-            -webkit-transform: skew(-10deg);
-            -ms-transform: skew(-10deg);
-            transform: skew(-10deg);
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .abs-cont::after {
-            content: "";
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 15px;
-            width: 2px;
-            background-color: #FFBC00;
-        }
-
-        .about-text h1 {
-            font-family: 'Lorin-xbold';
-            font-size: 64px;
-            color: #fff;
-        }
-
-        .about-text h1 span {
-            color: #FFBC00
-        }
-
-        .about-text {
-            width: 80%;
-            -webkit-transform: skew(10deg);
-            -ms-transform: skew(10deg);
-            transform: skew(10deg);
-            margin-left: 10% !important;
-        }
-
-        .about-text p {
-            font-family: 'Lorin';
-            font-size: 24px;
-            letter-spacing: 1px;
-            color: #FCFCFC;
-            margin-top: 24px;
-            margin-bottom: 34px;
-        }
-
-        .getInTouch {
-            background: #FFBC00;
-
-            padding: 16px 32px;
-            display: inline-block;
-            margin-top: 34px;
-            text-decoration: none;
-            font-family: 'Lorin-xbold';
-            font-size: 18px;
-
-            text-transform: capitalize;
-
-            color: #FFFFFF;
-        }
-
-
-        .cids-left .backcolored-div {
-            background-color: #FFBC00;
-            width: 70%;
-            height: 100%;
-            margin: auto;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .absimagediv img:first-child {
-            width: 20%;
-            height: 80%;
-            align-self: center;
-            object-fit: cover;
-
-        }
-
-        .absimagediv img:last-child {
-            width: 20%;
-            height: 80%;
-            align-self: center;
-            object-fit: cover;
-
-        }
-
-        .absimagediv img:nth-child(2) {
-            width: 50%;
-            object-fit: cover;
-
-        }
-
-        .cids-right h1 {
-            font-family: 'Lorin-xbold';
-            font-size: 32px;
-            text-transform: uppercase;
-            padding-left: 27px;
-            color: #FFBC00;
-            position: relative;
-            margin-bottom: 24px;
-        }
-
-        .cids-right p {
-            font-family: 'Lorin';
-            font-size: 16px;
-            letter-spacing: 1px;
-            color: #50575D;
-        }
-
-        .cids-right h1::after {
-            content: "";
-            height: 2px;
-            background-color: #50575D;
-            width: 27px;
-            left: 0;
-            top: 18px;
-            position: absolute;
-        }
-
-        .about-cids {
-            display: flex;
-            justify-content: space-between;
-            padding: 104px 0px;
-            width: 90%;
-            margin: auto;
-        }
-
-        .about-cids>div {
-            width: 50%;
-            position: relative;
-            padding-left: 24px;
-        }
-
-        .absimagediv {
-            position: absolute;
-            top: 42px;
-            bottom: 42px;
-            left: 0;
-            display: flex;
-            justify-content: space-between;
-            right: 0;
-
-        }
-
-        .absimagediv img {
-            height: 100%;
-        }
-
-        .achivment {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-
-        .achivment>div {
-            width: 193px;
-            flex-wrap: wrap;
-            background-color: rgba(80, 87, 93, 0.08);
-            text-align: center;
-            padding: 16px;
-            position: relative;
-        }
-
-        .achivment>div::after {
-            position: absolute;
-            top: -5px;
-            left: 0;
-            right: 0;
-            content: "";
-            background-color: #50575D;
-            height: 2px;
-        }
-
-        .achivment>div h2 {
-            font-family: 'Lorin-xbold';
-            font-size: 32px;
-            text-transform: capitalize;
-            color: #FFBC00;
-        }
-
-        .achivment>div p {
-            font-family: 'Lorin-xbold';
-            margin-top: 16px;
-            font-size: 18px;
-            line-height: 105%;
-            letter-spacing: 0px;
-            text-transform: capitalize;
-
-            color: #50575D;
-        }
-
-        .contact {
-            background-color: #FFBC00;
-            padding: 16px 24px;
-
-            font-family: 'Lorin-xbold';
-            display: inline-block;
-            margin-top: 88px;
-            font-size: 18px;
-
-            text-transform: capitalize;
-            text-decoration: none;
-            color: #FFFFFF;
-        }
-
-        .cid-process {
-            width: 90%;
-            margin: auto;
-            margin-bottom: 104px;
-        }
-
-        .process-header {
-            text-align: center;
-        }
-
-        .process-header h1 {
-            font-family: 'Lorin-xbold';
-            display: inline-block;
-            font-size: 32px;
-            position: relative;
-            text-transform: uppercase;
-            padding-left: 27px;
-            color: #FFBC00;
-        }
-
-        .process-header h1::after {
-            content: "";
-            height: 2px;
-            background-color: #50575D;
-            width: 27px;
-            left: 0;
-            top: 18px;
-            position: absolute;
-        }
-
-        .happy-customers .process-header h1::after {
-            background-color: #F7F7F7;
-        }
-
-        .process-header p {
-            font-family: 'Lorin';
-            font-size: 16px;
-            text-align: center;
-            color: #50575D;
-            width: 80%;
-            margin: auto;
-            margin-top: 24px;
-            letter-spacing: 1px;
-        }
-
-        .process-types {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 35px;
-        }
-
-        .process-types>div {
-            width: 30%;
-            background: #FFFFFF;
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-            padding: 24px;
-        }
-
-        .process-types>div div {
-            border: 1px solid #FFBC00;
-            padding: 28px;
-            text-align: center;
-        }
-
-        .process-types>div div img {
-            display: block;
-            margin: auto;
-        }
-
-        .process-types>div div h2 {
-            font-family: 'Lorin-xbold';
-            font-size: 16px;
-            text-transform: capitalize;
-            color: #50575D;
-            margin: 16px 0px 8px 0px;
-        }
-
-        .process-types>div div p {
-            font-family: 'Lorin';
-            font-size: 14px;
-            text-align: center;
-            color: #50575D;
-            letter-spacing: 1px;
-        }
-
-        .hservice-inner {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-
-        .hservice-inner>div {
-            width: 32%;
-            position: relative;
-            animation: all .25s linear;
-        }
-
-        .hservice-inner>div::after {
-            content: "";
-            position: absolute;
-            top: 0;
-            bottom: 65px;
-            left: 0;
-            right: 0;
-            background-color: #0000006e;
-            display: none;
-        }
-
-        .hservice-inner>div:hover::after {
-            display: block;
-        }
-
-        .hservice-inner>div img {
-            max-width: 100%;
-            width: 100%;
-            min-height: 500px;
-            object-fit: cover;
-            height: 100%;
-        }
-
-        .hservice-inner>div:hover .absdiv {
-            background-color: #FFBC00;
-        }
-
-        .hservice-inner>div:hover .absdiv p {
-            color: #50575D;
-        }
-
-        .hservice-inner>div:hover .absdiv span {
-            color: #fff;
-        }
-
-        .hservice-inner .absdiv {
-            background: #50575D;
-            padding: 15px;
-            text-align: center;
-            bottom: 0px;
-            position: absolute;
-            left: 0px;
-            right: 0px;
-        }
-
-        .hservice-inner .absdiv p {
-            font-family: 'Lorin-xbold';
-            font-size: 18px;
-            letter-spacing: 0.08em;
-            color: #FFFFFF;
-            margin-bottom: 0px;
-        }
-
-        .hservice-inner .absdiv p span {
-            font-family: 'Lorin-xbold';
-            font-size: 24px;
-            letter-spacing: 0.08em;
-            color: #FFBC00;
-            display: inline-block;
-            margin-right: 8px;
-        }
-
-        .hotel-services {
-            width: 90%;
-            margin: auto;
-            margin-bottom: 104px;
-        }
-
-        .hotel-projects {
-            margin-bottom: 104px;
-            overflow-x: hidden;
-        }
-
-        .happy-customers {
-            min-height: 700px;
-            background: linear-gradient(rgba(80, 87, 93, .91), rgba(80, 87, 93, .91)), url('/cids_theme_odoo_15/static/src/img/landing/h-banner.png');
-            padding: 85px 62px 62px 62px;
-        }
-
-        .happy-customers p {
-            color: #fff !important;
-        }
-
-        .item-customers {
-            background-color: #EEEEEE;
-            display: flex;
-            justify-content: flex-start;
-            width: 80%;
-            margin: auto;
-            margin-top: 24px;
-        }
-
-        .star-holder {
-            display: flex;
-        }
-
-        .star-holder>* {
-            margin-right: 6px;
-            width: 25px !important;
-        }
-
-        .item-cust-right {
-            padding: 76px 28px;
-            padding-bottom: 0px;
-        }
-
-        .item-cust-right .appre-text {
-            padding-left: 45px;
-        }
-
-        .appre-text {
-            position: relative;
-            margin-top: 33px;
-        }
-
-        .appre-text .simg {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 32px !important;
-            height: 32px !important;
-        }
-
-        .appre-text .limg {
-            transform: rotate(180deg);
-            border: 10px;
-            position: absolute;
-            right: 0px;
-            width: 32px !important;
-            height: 32px !important;
-        }
-
-        .simg+p {
-            font-family: 'Lorin';
-            font-size: 14px;
-            line-height: 18px;
-            color: #50575D !important;
-            letter-spacing: 1px;
-        }
-
-        .cust-name {
-            padding: 33px 0px 45px 45px;
-            padding-bottom: 0px;
-        }
-
-        .cust-name h4 {
-            font-family: 'Lorin-xbold';
-            font-size: 16px;
-            line-height: 16px;
-            color: #50575D;
-        }
-
-        .cust-name p {
-            color: #50575D !important;
-            margin-top: 5px;
-        }
-
-        .why-us {
-            background-image: url("/cids_theme_odoo_15/static/src/img/landing/why-us.png");
-            background-repeat: no-repeat;
-            height: 700px;
-            background-size: cover;
-            margin-top: 104px;
-            display: flex;
-            justify-content: flex-end;
-            padding-right: 5%;
-            align-items: flex-end;
-            margin-bottom: 0px;
-            align-items: center;
-        }
-
-        .abs-why-us {
-            min-width: 720px;
-            background: #50575D;
-            padding: 36px 28px;
-            width: 50%;
-        }
-
-        .why-us-inner {
-            border: 0.5px solid rgba(255, 188, 0, 0.6);
-            padding: 78px 60px;
-        }
-
-        .why-us-inner .process-header {
-            text-align: left !important;
-        }
-
-        .why-us-inner .process-header p {
-            color: #fff !important;
-            width: 100%;
-            text-align: left;
-        }
-
-        .why-us-contact {
-            font-family: 'Lorin-xbold';
-            font-size: 18px;
-            text-transform: capitalize;
-            color: #FFFFFF;
-            display: inline-block;
-            background: #FFBC00;
-
-            margin-top: 56px;
-            padding: 16px 32px;
-            text-decoration: none;
-        }
-
-        .item-cust-left {
-            min-width: 272px;
-            max-width: 100%;
-        }
-
-        .happy-customers .owl-theme .owl-nav {
-            position: absolute;
-            top: 40%;
-            left: 0px;
-            right: 0px;
-        }
-
-        .happy-customers .owl-carousel .owl-nav button.owl-prev {
-            width: 50px;
-            left: 0px;
-            position: absolute;
-            transform: rotate(180deg);
-            background: #FFBC00;
-            padding: 10px !important;
-        }
-
-
-        .happy-customers .owl-carousel .owl-nav button.owl-next {
-            width: 50px;
-            right: 0px;
-            position: absolute;
-            background: #FFBC00;
-            padding: 10px !important;
-        }
-
-        .happy-customers .owl-theme .owl-dots .owl-dot {
-            margin-top: 33px;
-
-        }
-
-        .happy-customers .owl-theme .owl-dots .owl-dot.active span {
-            border: 2px solid #FFBC00;
-        }
-
-        .happy-customers .owl-theme .owl-nav [class*=owl-]:hover {
-            background: #FFBC00 !important;
-        }
-
-        .animation-element.slide-left {
-            opacity: 0;
-            -moz-transition: all 500ms linear;
-            -webkit-transition: all 500ms linear;
-            -o-transition: all 500ms linear;
-            transition: all 500ms linear;
-            -moz-transform: translate3d(-100px, 0px, 0px);
-            -webkit-transform: translate3d(-100px, 0px, 0px);
-            -o-transform: translate(-100px, 0px);
-            -ms-transform: translate(-100px, 0px);
-            transform: translate3d(-100px, 0px, 0px);
-        }
-
-        .animation-element.slide-left.in-view {
-            opacity: 1;
-            -moz-transform: translate3d(0px, 0px, 0px);
-            -webkit-transform: translate3d(0px, 0px, 0px);
-            -o-transform: translate(0px, 0px);
-            -ms-transform: translate(0px, 0px);
-            transform: translate3d(0px, 0px, 0px);
-        }
-
-        .tags-bar {
-            background-color: #50575D;
-            justify-content: center;
-        }
-
-        .gallery .nav-pills .nav-link {
-            border-radius: 0px;
-        }
-
-        .gallery .nav-pills .nav-link.active {
-            color: #FFBC00 !important;
-            background-color: #6B7379 !important;
-        }
-
-        .gallery .nav-pills .nav-link {
-            color: #949494 !important;
-            cursor: pointer;
-            font-family: 'Lorin-bold';
-            padding: 23px;
-            font-size: 18px;
-            text-transform: capitalize;
-        }
-
-        .gallery .h-100 {
-            overflow: hidden;
-            position: relative;
-            transition: all .35s linear;
-        }
-
-        .gallery .img-fluid {
-            max-width: 100%;
-            height: 350px;
-            max-height: 100%;
-            object-fit: cover;
-        }
-
-        .gallery-item+div {
-            position: absolute !important;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-        }
-
-        .bg-danger {
-            background-color: #000000bf !important;
-            transition: all .35s linear;
-            opacity: 0;
-        }
-
-        .gallery .h-100:hover .bg-danger {
-            opacity: 1;
-            background-color: #000000bf !important;
-        }
-
-        .spa {
-            color: #fff;
-            font-family: 'Lorin-bold';
-            font-size: 18px;
-            text-transform: capitalize;
-        }
-
-        .hilton {
-            color: #FFBC00;
-            font-family: 'Lorin-bold';
-            font-size: 18px;
-            text-transform: capitalize;
-
-        }
-
-        .gallery {
-            margin-top: 32px;
-        }
-
-        @media screen and (max-width:1600px) {
-            .about-text h1 {
-                font-size: 40px;
-            }
-
-            .about-text p {
-                font-size: 18px;
-            }
-
-            .getInTouch,
-            .contact,
-            .why-us-contact {
-                padding: 7px 32px;
-                font-size: 16px;
-            }
-
-            .cids-right h1,
-            .process-header h1 {
-                font-size: 25px;
-            }
-
-            .cids-right h1::after,
-            .process-header h1::after {
-                top: 13px;
-            }
-
-            .lead.spa span {
-                font-size: 16px !important;
-            }
-
-            .achivment>div {
-                width: 26%;
-                flex-wrap: wrap;
-                background-color: rgba(80, 87, 93, 0.08);
-                text-align: center;
-                padding: 16px;
-                position: relative;
-            }
-        }
-
-
-        @media screen and (max-width:1280px) {
-            .achivment>div {
-                width: 29%;
-            }
-
-            .achivment>div p {
-                font-size: 16px;
-            }
-        }
-
-        @media screen and (max-width:990px) {
-            .about-text {
-                width: 70%;
-            }
-
-            .about-cids {
-                flex-direction: column-reverse;
-                padding: 40px 0px;
-            }
-
-            .about-cids>div {
-                width: 100%;
-            }
-
-            .cids-right h1 {
-                font-size: 25px;
-            }
-
-            .cids-right h1::after,
-            .process-header h1::after {
-                top: 12px;
-            }
-
-            .achivment>div h2,
-            .process-header h1 {
-                font-size: 25px;
-            }
-
-            .achivment>div p {
-                margin-top: 5px;
-            }
-
-            .contact {
-                margin-top: 30px;
-            }
-
-            .cids-left .backcolored-div {
-                min-height: 450px;
-            }
-
-            .cids-left {
-                margin-top: 30px;
-            }
-
-            .process-header p {
-                margin-top: 10px;
-            }
-
-            .process-types>div div {
-                padding: 10px;
-            }
-
-            .process-types>div {
-                padding: 10px;
-                width: 31%;
-            }
-
-            .cid-process {
-                margin-bottom: 40px;
-            }
-
-            .why-us {
-                margin-top: 40px;
-
-            }
-
-            .hservice-inner>div img {
-                min-height: 350px;
-            }
-
-            .hservice-inner .absdiv p {
-                margin-bottom: 0px;
-            }
-
-            .item-customers {
-                flex-direction: column;
-            }
-
-            .item-cust-right {
-                padding: 15px 28px;
-            }
-
-            .item-cust-left img {
-                width: 100px;
-                height: 100px;
-                display: block;
-                margin: auto;
-                border-radius: 50%;
-                object-fit: cover;
-                margin-top: 20px;
-            }
-
-            .star-holder {
-                justify-content: center;
-            }
-
-            .cust-name {
-                padding-top: 15px;
-            }
-
-            .abs-why-us {
-                min-width: auto;
-                width: 75%;
-            }
-
-            .why-us {
-                height: auto;
-                justify-content: center;
-            }
-
-            .why-us-inner {
-                padding: 40px;
-            }
-
-
-            .happy-customers .owl-carousel .owl-item img {
-                width: 120px;
-                height: 120px;
-            }
-
-            .about-text {
-                width: 70%;
-                margin-left: 15% !important;
-            }
-
-            .about-text h1 {
-                font-size: 30px;
-            }
-
-            .star-holder>img {
-                width: 25px !important;
-                height: 25px !important;
-            }
-
-            h1 {
-                font-size: 20px !important;
-            }
-
-            .h-footer-inner>div:nth-child(2) {
-                width: 50% !important;
-            }
-
-            .h-footer-inner>div:last-child {
-                width: 20% !important;
-            }
-
-        }
-
-        @media screen and (max-width:767px) {
-
-            .hotel-projects,
-            .hotel-services {
-                margin-bottom: 40px;
-            }
-
-            .about-text h1 {
-                font-size: 30px;
-            }
-
-            .process-types,
-            .hservice-inner {
-                flex-direction: column;
-            }
-
-            .process-types>div,
-            .hservice-inner>div {
-                width: 100%;
-                margin-bottom: 15px;
-            }
-
-            .hservice-inner>div img {
-                min-height: 150px;
-                height: 200px;
-            }
-
-            .hservice-inner .absdiv p {
-                font-size: 16px;
-            }
-
-            .hservice-inner .absdiv p span {
-                font-size: 16px;
-            }
-
-            .hservice-inner .absdiv {
-                padding: 10px;
-            }
-
-            .happy-customers {
-                padding: 20px 0px;
-            }
-
-            .abs-why-us {
-                width: 90%;
-            }
-
-            .why-us-contact {
-                margin-top: 20px;
-            }
-
-            .about-cids>div {
-                padding-left: 0px;
-            }
-
-            .about-banner {
-                height: 380px !important;
-                position: relative;
-            }
-
-            .abs-cont {
-                width: 90%;
-                padding-top: 30px;
-            }
-
-            .getInTouch {
-                margin-top: 0px;
-            }
-
-
-            .star-holder img {
-                width: 20px !important;
-                height: 20px !important;
-            }
-
-            .appre-text img {
-
-                width: 24px !important;
-                height: 24px !important;
-            }
-
-            .about-text {
-                width: 80%;
-                margin-left: 6% !important;
-            }
-
-            h1 {
-                padding-left: 0px !important;
-            }
-
-            .cids-right h1::after,
-            .process-header h1::after {
-                display: none;
-            }
-
-            .why-us {
-                padding-right: 0px !important;
-            }
-
-            .h-footer-inner>div:first-child,
-            .h-footer-inner>div:nth-child(2),
-            .h-footer-inner>div:last-child {
-                width: 100% !important;
-            }
-
-            .h-footer-inner {
-                flex-direction: column;
-            }
-
-            .b-logo img {
-                width: 115px!important;
-                margin-bottom:15px;
-            }
-        }
-
-
-        @media screen and (max-width:680px) {
-            .h-top {
-                justify-content: flex-start !important;
-            }
-
-            .h-contact {
-                position: absolute !important;
-                right: 0 !important;
-                top: 10px !important;
-                background: #50565e !important;
-                padding: 5px 10px !important;
-                right: 5% !important;
-            }
-
-            .logo-holder img {
-                width: 95px !important;
-                transition: all .35s linear;
-            }
-        }
-
-        @media screen and (max-width:580px) {
-            .about-text h1 {
-                font-size: 18px !important;
-            }
-
-            .about-text p {
-                font-size: 15px !important;
-            }
-
-            p {
-                font-size: 14px !important;
-            }
-
-            .cids-right p {
-                text-align: center;
-            }
-
-            .contact {
-                margin-top: 5px;
-                display: flex;
-                justify-content: center;
-            }
-        }
-
-        @media screen and (max-width:520px) {
-            .gallery-item img {
-                height: 150px !important;
-                width: 100% !important;
-                object-fit: cover !important;
-            }
-
-            .gallery .nav-pills .nav-link {
-                padding: 10px;
-                font-size: 16px;
-            }
-
-            .about-banner {
-                height: 400px !important;
-                position: relative;
-            }
-
-            .about-text p {
-                margin-top: 5px;
-            }
-            .services-tp>a,.pratices-tp>a{
-                width:50%!important;
-                text-decoration: none !important;
-            }
-        }
-
-        @media screen and (max-width:480px) {
-            .cids-right h1 {
-                font-size: 18px;
-            }
-
-            .achivment {
-                flex-direction: column;
-            }
-
-            .achivment>div {
-                width: 100%;
-                margin-bottom: 20px;
-            }
-
-            .contact {
-                margin-top: 5px;
-            }
-
-            .cids-left .backcolored-div {
-                min-height: 300px;
-                width: 80%;
-            }
-
-            .process-header h1 {
-                font-size: 18px;
-            }
-
-            .why-us-inner {
-                padding: 20px;
-            }
-
-            .about-text h1 {
-                font-size: 18px;
-            }
-
-            .about-text {
-                width: 70%;
-            }
-
-            .why-us-contact {
-                padding: 7px 20px;
-            }
-
-            .gallery .nav-pills .nav-link {
-                font-size: 12px;
-            }
-
-            .about-text {
-                width: 70%;
-                margin-left: 5% !important;
-            }
-
-            .cids-right h1::after,
-            .process-header h1::after {
-                display: none;
-            }
-
-        }
-
-        /*Responsive Ends here*/
-
-
-        /*header new starts here*/
-        .h-header {
-            position: fixed;
-            left: 0;
-            right: 0;
-            z-index: 99;
-            top: 0;
-            transition: all .35s linear;
-        }
-
-        .f-nav.h-header {
-            position: fixed;
-            left: 0;
-            right: 0;
-            z-index: 99;
-            top: 0;
-        }
-
-        .f-nav.h-header .h-inner {
-            padding: 8px 0px;
-        }
-
-        .f-nav.h-header .logo-holder img {
-            width: 115px;
-        }
-
-        .f-nav.h-header .h-bottom {
-
-            padding: 8px 0px;
-
-        }
-
-        .h-inner-holder {
-            width: 90%;
-            margin: auto;
-
-        }
-
-        .h-inner {
-            background-color: #FFBC00;
-            padding: 16px 0px;
-            transition: all .35s linear;
-
-        }
-
-        .h-top {
-            display: flex;
-            justify-content: flex-end;
-        }
-
-        .h-top a {
-            color: #fff;
-        }
-
-        .h-top img {
-            width: 17px;
-            height: 17px;
-        }
-
-        .h-top>div {
-            margin-left: 16px;
-        }
-
-        .h-bottom {
-            background-color: #50575D;
-            padding: 12px 0px;
-            transition: all .35s linear;
-        }
-
-        .h-bottom-holder {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo-holder img {
-            width: 130px;
-            transition: all .35s linear;
-        }
-
-        .h-links a {
-            color: #fff;
-            text-decoration: none;
-            font-family: 'Lorin';
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 150%;
-            margin-left: 20px;
-            display: inline-block;
-            position: relative;
-        }
-
-        .h-links a.active::after {
-            content: "";
-            background: #FFBC00;
-            border-radius: 8px 8px 0px 0px;
-            transform: matrix(1, 0, 0, -1, 0, 0);
-            height: 4px;
-            position: absolute;
-            top: 27px;
-            left: 0;
-            width: 100%;
-        }
-
-        .h-links a:first-child {
-            margin-left: 0px;
-        }
-
-        .h-contact {
-            background: #FFBC00;
-            border-radius: 8px;
-            font-family: 'Lorin-xbold';
-            font-size: 18px;
-            line-height: 150%;
-            color: #fff;
-            padding: 8px 48px;
-            margin-left: 40px;
-            display: inline-block;
-        }
-
-        /*header new end here*/
-
-
-        /*new footer starts here*/
-        .h-footer {
-            background-color: #50575D;
-            padding: 55px 0px 100px 0px;
-        }
-
-        .h-footer-inner {
-            width: 90%;
-            margin: auto;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .h-footer-inner>div:first-child {
-            width: 15%;
-        }
-
-        .h-footer-inner>div:last-child {
-            width: 15%;
-        }
-
-        .h-footer-inner>div:nth-child(2) {
-            width: 60%;
-        }
-
-        .b-logo img {
-            width: 130px;
-        }
-
-        .f-services h1 {
-            font-family: 'Lorin-xbold';
-            font-size: 16px;
-            line-height: 105%;
-            text-transform: uppercase;
-            color: #FFBC00;
-        }
-
-        .services-tp {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-
-        }
-
-        .services-tp>a {
-            width: 30%;
-            font-family: 'Lorin';
-            font-size: 14px;
-            line-height: 105%;
-            text-transform: capitalize;
-            color: #FFFFFF;
-            margin-bottom: 16px;
-        }
-
-        .pratices-tp {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-
-        }
-
-        .pratices-tp>a {
-            width: 30%;
-            font-family: 'Lorin';
-            font-size: 14px;
-            line-height: 105%;
-            text-transform: capitalize;
-            color: #FFFFFF;
-            margin-bottom: 16px;
-        }
-
-        .f-contact h1 {
-            font-family: 'Lorin-xbold';
-            font-size: 16px;
-            line-height: 105%;
-            text-transform: uppercase;
-            color: #FFBC00;
-        }
-
-        .f-contact>div {
-            display: flex;
-            justify-content: flex-start;
-            margin-bottom: 16px;
-
-        }
-
-        .f-contact img {
-            width: 18px;
-            height: 18px;
-            margin-right: 10px;
-        }
-
-        .f-contact a {
-            font-family: 'Lorin-xbold';
-            font-size: 14px;
-            line-height: 150%;
-            display: flex;
-            align-items: center;
-            color: #FFFFFF;
-
-
-        }
-
-        .sicons img {
-            width: 20px;
-            height: 20px;
-            margin-right: 26px;
-        }
-
-        /*new footer ends here*/
-        </style>
-        <section class="h-header">
-        <div class="h-inner">
-            <div class="h-inner-holder">
-                <div class="h-top">
-                    <div class="email">
-                        <img src="/cids_theme_odoo_15/static/src/img/landing/emailIcon.png" />
-                        <a href="#">Cid.design@gmail.com</a>
-                    </div>
-                    <div class="phone">
-                        <img src="/cids_theme_odoo_15/static/src/img/landing/phoneIcon.png" />
-                        <a href="#">+91 2345687892</a>
-                    </div>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.carousel.min.css"/>
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.theme.default.min.css"/>
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/animate.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <section class="header">
+<!--        <div class="top-header-inner">-->
+<!--            <div class="top-header">-->
+<!--                <div class="cont-info">-->
+<!--                    <div class="info-left">-->
+<!--                        <img src="/cids_theme_odoo_15/static/src/img/commercial/phoneIcon.png" />-->
+<!--                        <div class="toll-free">Toll Free (855) 662 2437 (CIDS)</div>-->
+<!--                    </div>-->
+<!--                    <div class="info-right">-->
+<!--                        <img src="/cids_theme_odoo_15/static/src/img/commercial/msgIcon.png" />-->
+<!--                        <div class="toll-free">contact@cids.design</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="sicons">-->
+<!--                    <li><img src="/cids_theme_odoo_15/static/src/img/commercial/link.png" /></li>-->
+<!--&lt;!&ndash;                    <li><img src="/cids_theme_odoo_15/static/src/img/commercial/fb.png" /></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <li><img src="/cids_theme_odoo_15/static/src/img/commercial/insta.png" /></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <li><img src="/cids_theme_odoo_15/static/src/img/commercial/tweet.png" /></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <li><img src="/cids_theme_odoo_15/static/src/img/commercial/youtube.png" /></li>&ndash;&gt;-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+        <div class="btm-holder">
+            <div class="bottom-header">
+                <div class="logo">
+                    <a href="/">
+                        <img class="light" src="/cids_theme_odoo_15/static/src/img/images/cids-logo.png" />
+                    </a>
+                </div>
+                <div class="menu">
+                    <a href="/commercial">Commercial</a>
+                    <a class="active" href="/hospitality">Hospitality</a>
+                    <a href="/ffe">FF&amp;E</a>
+                </div>
+                <div class="login">
+                    <a class="login-search" href="/contactus"><img src="/cids_theme_odoo_15/static/src/img/images/Call.svg" /></a>
+                    <a class="contact-search1" href="mailto:contact@cids.design"><img src="/cids_theme_odoo_15/static/src/img/commercial/Message.svg"/></a>
+                    <a class="contact-search" href="/web/login"><img src="/cids_theme_odoo_15/static/src/img/images/Profile.svg" /></a>
+                    <a class="login-search1" href="https://www.linkedin.com/company/cids-designservices/" target="_blank"><img src="/cids_theme_odoo_15/static/src/img/commercial/link.png" /></a>
                 </div>
             </div>
         </div>
-        <div class="h-bottom">
-            <div class="h-inner-holder">
-                <div class="h-bottom-holder">
-                    <div class="logo-holder">
-                        <img src="/cids_theme_odoo_15/static/src/img/landing/logo.png" />
+    </section>
+
+    <section class="commercial-banner">
+        <!--<div class="comm-banner">
+            <p class="ptext">HOSPITALITY</p>
+            <h1>Creating Memorable Spaces</h1>
+            <h1>With <span>Meaningful Interior.</span> </h1>
+            <div class="imText">
+                <p>We design inspiring spaces that increase business growth &amp; profitability.</p>
+            </div>
+
+            <div class="hbtns">
+                <a class="explore" href="/contactus">Get In Touch <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
+
+            </div>
+        </div>-->
+        <div class="owl-carousel owl-theme commercialBanner">
+            <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/hospitality/hospitality-banner1.png"/>
+                <div class="comm-banner">
+                    <p class="ptext">HOSPITALITY</p>
+                    <h1>Creating Memorable Spaces</h1>
+                    <h1>With <span>Meaningful Interior.</span> </h1>
+                    <div class="imText">
+                        <p>We design inspiring spaces that increase business growth &amp; profitability.</p>
                     </div>
-                    <div class="h-links">
-                        <a href="/commercial">Commercial</a>
-                        <a class="active" href="/hospitality">Hospitality</a>
-                        <a href="/ffe">FF&amp;E</a>
-                        <a href="/contactus" class="h-contact">Contact us</a>
+
+                    <div class="hbtns">
+                        <a class="explore" href="/contactus">Get In Touch <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
+
                     </div>
                 </div>
+                <div class="overlay"></div>
+            </div>
+            <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/hospitality/hospitality-banner2.png"/>
+                <div class="comm-banner">
+                    <p class="ptext">HOSPITALITY</p>
+                    <h1>Creating Memorable Spaces</h1>
+                    <h1>With <span>Meaningful Interior.</span> </h1>
+                    <div class="imText">
+                        <p>We design inspiring spaces that increase business growth &amp; profitability.</p>
+                    </div>
+
+                    <div class="hbtns">
+                        <a class="explore" href="/contactus">Get In Touch <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
+
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div>
+            <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/hospitality/hospitality-banner3.png"/>
+                <div class="comm-banner">
+                    <p class="ptext">HOSPITALITY</p>
+                    <h1>Creating Memorable Spaces</h1>
+                    <h1>With <span>Meaningful Interior.</span> </h1>
+                    <div class="imText">
+                        <p>We design inspiring spaces that increase business growth &amp; profitability.</p>
+                    </div>
+
+                    <div class="hbtns">
+                        <a class="explore" href="/contactus">Get In Touch <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
+
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="values">
+        <div>
+
+            <div class="value-content">
+                <h2>200+</h2>
+                <p> Projects</p>
+                <p>Completed</p>
+            </div>
+        </div>
+        <div>
+
+            <div class="value-content">
+                <h2>80+</h2>
+                <p> Strategic </p>
+                <p>Partnerships</p>
+            </div>
+        </div>
+        <div>
+
+            <div class="value-content">
+                <h2>150+</h2>
+                <p> Interior Designers </p>
+                <p>Worldwide </p>
             </div>
         </div>
 
     </section>
-        <section class="about-banner">
-        <div class="abs-cont">
-            <div class="about-text">
-                <h1>Creating <span>Memorable </span>Spaces</h1>
-                <h1>With <span> Meaningful </span>Interior </h1>
-                <p>We design inspiring spaces for hotels, resorts, bars &amp; restaurants, and wellness centers that
-                    increase business growth &amp; profitability.</p>
-                <a class="getInTouch" href="#">Get in touch</a>
+
+    <section class="comm-about">
+        <div class="left-about">
+            <div class="abs-video">
+                <img src="/cids_theme_odoo_15/static/src/img/hospitality/whatweare.png" />
             </div>
+        </div>
+        <div class="right-about">
+            <h3>What we are<img src="/cids_theme_odoo_15/static/src/img/commercial/afterImg.png" /></h3>
+            <h1>We Are Innovators &amp; <span>Storytellers.</span></h1>
+            <p>At CIDS.DESIGN, we provide intuitive and experience-driven hospitality interior design
+                services that keep your guests returning for more. With a passion for weaving new
+                inspirations into our hotel interior design stories, we have established a strong
+                presence in the industry as a professional &amp; personable hospitality interior designing
+                firm that celebrates diversity and exclusivity. Our team of creative interior designers
+                explores impactful ideas and design strategies – extensively formulated to shape unique
+                customer experiences. From crafting initial hotel plan and design strategies to final
+                delivery, we ensure that each project entails top-notch quality, furnishing, and
+                precision. The result is attention-worthy spaces that deliver high ROI and tangible
+                property value.</p>
+            <!--<a class="getInTouch" href="#">Get in touch</a>-->
+
         </div>
     </section>
-        <section class="about-cids">
-        <div class="cids-left">
-            <div class="backcolored-div">
-            </div>
-            <div class="absimagediv">
-                <img src="/cids_theme_odoo_15/static/src/img/landing/about-center.png" />
-                <img src="/cids_theme_odoo_15/static/src/img/landing/about-left.png" />
-                <img src="/cids_theme_odoo_15/static/src/img/landing/about-right.png" />
-            </div>
-        </div>
-        <div class="cids-right">
-            <h1>We Are Innovators &amp; Storytellers</h1>
-            <p>At CIDS.DESIGN, we provide intuitive and experience-driven hospitality interior design services that keep
-                your guests returning for more. With a passion for weaving new inspirations into our design stories, we
-                have established a strong presence in the industry as a professional &amp; personable hospitality interior
-                designing firm that celebrates diversity and exclusivity. Our team of creative interior designers
-                explores impactful ideas and design strategies – extensively formulated to shape unique customer
-                experiences. From crafting initial design strategies to final delivery, we ensure that each project
-                entails top-notch quality, furnishing, and precision. The result is attention-worthy spaces that deliver
-                high ROI and tangible property value. </p>
 
-            <div class="achivment">
-                <div>
-                    <h2>150+ </h2>
-                    <p>Projects completed</p>
-                </div>
-                <div>
-                    <h2>60+ </h2>
-                    <p>Strategic Partnerships</p>
-                </div>
-                <div>
-                    <h2>60+ </h2>
-                    <p>Interior Designers Worldwide </p>
-                </div>
+    <section class="vision-for-success">
+        <div class="vision-inner">
+            <div class="vision-text">
 
+
+                <h1>How We Translate Your Vision Into A <span>Successful Project?</span></h1>
+                <p>The key to our success is ensuring that the results reflect our client’s demands,
+                    visions, and aspirations. To transform your ideas into reality, we start with a
+                    detailed discussion, analyze your project requirements, and offer purposeful hotel
+                    interior design services with a striking impact.</p>
             </div>
-            <a class="contact" href="#">Get in touch</a>
-        </div>
-    </section>
-        <section class="cid-process">
-        <div class="process-header">
-            <h1>How We Translate Your Vision Into A Successful Project?</h1>
-            <p>We connect people and communities together through impactful and creative hospitality interior design
-                solutions. The key to our success is to ensure that the end result is a crystal-clear reflection of our
-                client’s demands, visions, and aspirations. To transform your ideas into reality, we start with a
-                detailed discussion, analyze your project requirements, and offer purposeful hospitality interior design
-                services with a striking impact.</p>
-        </div>
 
-        <div class="process-types">
-            <div>
+            <div class="vision-process">
                 <div>
-                    <img src="/cids_theme_odoo_15/static/src/img/landing/cidConcept.png" />
-                    <h2>1.&amp;nbsp;Conceptualization</h2>
+                    <img src="/cids_theme_odoo_15/static/src/img/hospitality/concept.png" />
+                    <h3>Conceptualization</h3>
                     <p>Keeping our client’s goals, budget, timeline, and demands at the forefront, we kick-start the
                         project by understanding the scope of work, formulating results-driven design strategies, and
-                        creating realistic 3D renderings to conceptualize the core vision.</p>
+                        creating realistic 3D renderings to conceptualise the core vision.</p>
                 </div>
-            </div>
-
-            <div>
                 <div>
-                    <img src="/cids_theme_odoo_15/static/src/img/landing/cideDesign.png" />
-                    <h2>2.&amp;nbsp;Design</h2>
-                    <p>We implement the latest design concepts into our hospitality interior designing approach, helping
-                        brands to future-proof the success of their properties. At CIDS.DESIGN, we offer a personal
-                        touch to every project with holistic interior design solutions connected to your brand’s DNA.
-                    </p>
+                    <img src="/cids_theme_odoo_15/static/src/img/hospitality/design.png" />
+                    <h3>Design</h3>
+                    <p>We implement the latest design concepts into our hospitality interior designing
+                        approach, helping brands to future-proof the success of their properties. At
+                        CIDS.DESIGN, we offer a personal touch to every project with holistic interior
+                        design solutions connected to your brand’s DNA.</p>
                 </div>
-            </div>
-
-            <div>
                 <div>
-                    <img src="/cids_theme_odoo_15/static/src/img/landing/cidDelivery.png" />
-                    <h2>3.&amp;nbsp;Delivery</h2>
-                    <p>Our multidisciplinary team manages the entire design process to ensure all projects meet
-                        creative, technical, and operational requirements. Extensive care is taken throughout the design
-                        journey to make every single detail reflect the initial conceptualization without any shortcuts.
-                    </p>
+                    <img src="/cids_theme_odoo_15/static/src/img/hospitality/delivery.png" />
+                    <h3>Delivery</h3>
+                    <p>Our multidisciplinary team manages the entire design process to ensure all
+                        projects meet creative, technical, and operational requirements. Extensive care
+                        is taken throughout the design journey to make every single detail reflect the
+                        initial conceptualisation without any shortcuts.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="hotel-services">
-        <div class="process-header">
+    <section class="our-services">
+        <div class="service-text">
+            <h3>our Services</h3>
             <h1>Thoughtful &amp; Functional Interior Design Services</h1>
-            <p>At CIDS.DESIGN, we understand that creating remarkable and cohesive spaces plays a critical role in
-                positioning your brand for future growth. Drawing knowledge from our diverse projects and multi-year
-                experiences, we elevate design through new-age strategies, extensive research, and market insights. From
-                hotels, resorts, and spas to bars, restaurants, and wellness centers, we implement the latest interior
-                design trends that exude finesse and grandiosity.</p>
+            <p>At CIDS.DESIGN, We understand that creating remarkable and cohesive spaces is critical
+                in positioning your brand for future growth. Drawing knowledge from our diverse projects
+                and multi-year experiences, we elevate design through new-age strategies, extensive
+                research, and market insights. From hotels, resorts, and spas to bars, restaurants,
+                and wellness centers, we implement the latest interior design trends that exhibit
+                perfection.</p>
         </div>
-
-        <div class="hservice-inner">
+        <div class="service-imgs">
             <div>
-                <img src="/cids_theme_odoo_15/static/src/img/landing/service1.png" />
-                <div class="absdiv">
-                    <p><span>01</span>Hotels &amp; Resorts</p>
+                <img src="/cids_theme_odoo_15/static/src/img/hospitality/hotel.png" />
+                <div class="abs-service ">
+                    <p></p>
+                    <p>Hotel Lobby</p>
                 </div>
             </div>
             <div>
-                <img src="/cids_theme_odoo_15/static/src/img/landing/service2.png" />
-                <div class="absdiv">
-                    <p><span>02</span>Bars &amp; Restaurants</p>
+                <img src="/cids_theme_odoo_15/static/src/img/hospitality/bar.png" />
+                <div class="abs-service ">
+                    <p></p>
+                    <p>Bar and Restaurant</p>
                 </div>
             </div>
             <div>
-                <img src="/cids_theme_odoo_15/static/src/img/landing/service3.png" />
-                <div class="absdiv">
-                    <p><span>03</span>Spas &amp; wellness centers</p>
+                <img src="/cids_theme_odoo_15/static/src/img/hospitality/spa.png" />
+                <div class="abs-service ">
+                    <p></p>
+                    <p>Resorts</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="hotel-projects">
-        <div class="process-header">
-            <h1>View Our Most Celebrated Hospitality Interior Designs</h1>
+
+
+    <section class="our-projects">
+        <div class="project-text">
+            <h3>our Projects</h3>
+            <h1>View Our Most Celebrated Hospitality <span>Interior Designs</span></h1>
             <p>We have had the privilege of building long-term relationships with some incredible brands and hotel
                 chains across the globe including Hilton, IHG, Holiday Inn, Marriott, and more.</p>
         </div>
+        <div class="project-slider">
 
-        <div class="gallery" style="display:none;">
-            <div class="gallery-item h-100" data-gallery-tag="Hotels">
-                <img class="gallery-item" data-gallery-tag="Hotels" src="/cids_theme_odoo_15/static/src/img/landing/g1.png" />
-                <div
-                    class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
-                    <p class="lead m-0 spa"><span>SPA</span></p>
-                    <p class="hilton">HILTON</p>
-                </div>
-            </div>
+            <!-- Nav pills -->
+            <div class="nav-holder">
+                <ul class="nav nav-pills project-header" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#all">All</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#commercial">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#coworking">Resorts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#development">Bars &amp; Restaurant</a>
+                    </li>
 
-
-            <div class="gallery-item h-100" data-gallery-tag="Resorts">
-                <img class="gallery-item" data-gallery-tag="Resorts" src="/cids_theme_odoo_15/static/src/img/landing/g2.png" />
-                <div
-                    class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
-                    <p class="lead m-0 spa"><span>SPA</span></p>
-                    <p class="hilton">HILTON</p>
-                </div>
-            </div>
-
-            <div class="gallery-item h-100" data-gallery-tag="Bars &amp; Restaurant">
-                <img class="gallery-item" data-gallery-tag="Bars &amp; Restaurant" src="/cids_theme_odoo_15/static/src/img/landing/g3.png" />
-                <div
-                    class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
-                    <p class="lead m-0 spa"><span>SPA</span></p>
-                    <p class="hilton">HILTON</p>
-                </div>
-            </div>
-            <div class="gallery-item h-100">
-                <img data-gallery-tag="Hotels" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/landing/g4.png" />
-                <div
-                    class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
-                    <p class="lead m-0 spa"><span>SPA</span></p>
-                    <p class="hilton">HILTON</p>
-                </div>
+                </ul>
             </div>
 
-            <div class="gallery-item h-100">
-                <img data-gallery-tag="Hotels" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/landing/g5.png" />
-                <div
-                    class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
-                    <p class="lead m-0 spa"><span>SPA</span></p>
-                    <p class="hilton">HILTON</p>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div id="all" class="custom-tab tab-pane active">
+                    <div class="owl-carousel owl-theme hotelCaseCarsouel">
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p11.png"/>
+                                <div class="case-txt">
+                                    <h1>HOTEL</h1>
+<!--                                    <p>Homewood<br /> Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p21.png"/>
+                                <div class="case-txt">
+                                    <h1>RESTAURANT</h1>
+<!--                                    <p>Homewood <br />Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p31.png"/>
+                                <div class="case-txt">
+                                    <h1>BAR</h1>
+<!--                                    <p>Homewood <br />Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p41.png"/>
+                                <div class="case-txt">
+                                    <h1>RESORT</h1>
+<!--                                    <p>Homewood <br />Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
                 </div>
-            </div>
-            <div class="gallery-item h-100">
-                <img data-gallery-tag="Resorts" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/landing/g6.png" />
-                <div
-                    class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
-                    <p class="lead m-0 spa"><span>SPA</span></p>
-                    <p class="hilton">HILTON</p>
+                <div id="commercial" class="container tab-pane fade"><br></br>
+                    <div class="owl-carousel owl-theme hotelCaseCarsouel">
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p11.png"/>
+                                <div class="case-txt">
+                                    <h1>HOTEL</h1>
+<!--                                    <p>Homewood<br /> Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p12.png"/>
+                                <div class="case-txt">
+                                    <h1>HOTEL</h1>
+<!--                                    <p>Homewood <br />Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p13.png"/>
+                                <div class="case-txt">
+                                    <h1>HOTEL</h1>
+<!--                                    <p>Homewood <br />Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p14.png"/>
+                                <div class="case-txt">
+                                    <h1>HOTEL</h1>
+<!--                                    <p>Homewood <br />Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-            </div>
-            <div class="gallery-item h-100">
-                <img data-gallery-tag="Bars &amp; Restaurant" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/landing/g7.png" />
-                <div
-                    class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
-                    <p class="lead m-0 spa"><span>SPA</span></p>
-                    <p class="hilton">HILTON</p>
+                <div id="coworking" class="container tab-pane fade"><br></br>
+                    <div class="owl-carousel owl-theme hotelCaseCarsouel">
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p21.png"/>
+                                <div class="case-txt">
+                                    <h1>RESORT</h1>
+<!--                                    <p>Homewood<br /> Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p22.png"/>
+                                <div class="case-txt">
+                                    <h1>RESORT</h1>
+<!--                                    <p>Homewood <br />Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p23.png"/>
+                                <div class="case-txt">
+                                    <h1>RESORT</h1>
+<!--                                    <p>Homewood <br />Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p24.png"/>
+                                <div class="case-txt">
+                                    <h1>RESORT</h1>
+<!--                                    <p>Homewood <br />Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
                 </div>
-            </div>
-            <div class="gallery-item h-100">
-                <img data-gallery-tag="Hotels" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/landing/g8.png" />
-                <div
-                    class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
-                    <p class="lead m-0 spa"><span>SPA</span></p>
-                    <p class="hilton">HILTON</p>
+                <div id="development" class="container tab-pane fade"><br></br>
+                    <div class="owl-carousel owl-theme hotelCaseCarsouel">
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p31.png"/>
+                                <div class="case-txt">
+                                    <h1>RESTAURANT</h1>
+<!--                                    <p>Homewood<br /> Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p32.png"/>
+                                <div class="case-txt">
+                                    <h1>RESTAURANT</h1>
+<!--                                    <p>Homewood <br />Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p33.png"/>
+                                <div class="case-txt">
+                                    <h1>RESTAURANT</h1>
+<!--                                    <p>Homewood <br />Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p34.png"/>
+                                <div class="case-txt">
+                                    <h1>RESTAURANT</h1>
+<!--                                    <p>Homewood <br />Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-            </div>
-            <div class="gallery-item h-100">
-                <img data-gallery-tag="Hotels" class="gallery-item" src="/cids_theme_odoo_15/static/src/img/landing/g9.png" />
-                <div
-                    class="bg-danger d-flex flex-column text-warning justify-content-center align-items-center h-100 w-100 p-3">
-                    <p class="lead m-0 spa"><span>SPA</span></p>
-                    <p class="hilton">HILTON</p>
+                <div id="research" class="container tab-pane fade"><br></br>
+                    <div class="owl-carousel owl-theme hotelCaseCarsouel">
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p41.png"/>
+                                <div class="case-txt">
+                                    <h1>RESORT</h1>
+<!--                                    <p>Homewood<br /> Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p42.png"/>
+                                <div class="case-txt">
+                                    <h1>RESORT</h1>
+<!--                                    <p>Homewood <br />Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p43.png"/>
+                                <div class="case-txt">
+                                    <h1>RESORT</h1>
+<!--                                    <p>Homewood <br />Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="case-item">
+                                <img src="/cids_theme_odoo_15/static/src/img/hospitality/p44.png"/>
+                                <div class="case-txt">
+                                    <h1>RESORT</h1>
+<!--                                    <p>Homewood <br />Suites</p>-->
+                                    <div><a href="#">View Projects</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
 
     </section>
-    <section class="happy-customers">
-        <div class="process-header">
-            <h1>our happy clients</h1>
-            <p>Nothing can match the feeling of achievement and recognition that comes with appreciation and
-                acknowledgment for our hard work. Our approach is entirely geared toward client satisfaction and these
-                testimonials are an attestation to our passion, devotion, and responsibility. Take a look at what our
-                valued clients have to say about our interior design services.</p>
-        </div>
-        <div class="owl-carousel owl-theme happyclients">
-            <div class="item">
-                <div class="item-customers">
-                    <div class="item-cust-left">
-                        <img src="/cids_theme_odoo_15/static/src/img/landing/happyclient.png" />
-                    </div>
-                    <div class="item-cust-right">
-                        <div class="star-holder">
-                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
-                        </div>
-                        <div class="appre-text">
-                            <img class="simg" src="/cids_theme_odoo_15/static/src/img/landing/exclm.png" />
-                            <p>We have had the absolute pleasure of working with the interior design experts at
-                                CIDS.DESIGN on a
-                                recent project here in Arizona. They were knowledgeable on various interior design,
-                                finish,
-                                texture, furniture, and fixture options, and they put together well-structured packages
-                                designed
-                                specifically for our target market. Their ideas aligned well with our goals and budget.
-                                I cannot
-                                recommend them highly enough ~ they have surpassed all our expectations! Fabulous work,
-                                team.
-                                Keep up the great work.</p>
-                            <img class="limg" src="/cids_theme_odoo_15/static/src/img/landing/exclm.png" />
-                        </div>
-                        <div class="cust-name">
-                            <h4>Hampton Inn</h4>
-                            <p>Arizona</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item-customers">
-                    <div class="item-cust-left">
-                        <img src="/cids_theme_odoo_15/static/src/img/landing/happyclient.png" />
-                    </div>
-                    <div class="item-cust-right">
-                        <div class="star-holder">
-                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
-                        </div>
-                        <div class="appre-text">
-                            <img class="simg" src="/cids_theme_odoo_15/static/src/img/landing/exclm.png" />
-                            <p>We have had the absolute pleasure of working with the interior design experts at
-                                CIDS.DESIGN on a
-                                recent project here in Arizona. They were knowledgeable on various interior design,
-                                finish,
-                                texture, furniture, and fixture options, and they put together well-structured packages
-                                designed
-                                specifically for our target market. Their ideas aligned well with our goals and budget.
-                                I cannot
-                                recommend them highly enough ~ they have surpassed all our expectations! Fabulous work,
-                                team.
-                                Keep up the great work.</p>
-                            <img class="limg" src="/cids_theme_odoo_15/static/src/img/landing/exclm.png" />
-                        </div>
-                        <div class="cust-name">
-                            <h4>Hampton Inn</h4>
-                            <p>Arizona</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item-customers">
-                    <div class="item-cust-left">
-                        <img src="/cids_theme_odoo_15/static/src/img/landing/happyclient.png" />
-                    </div>
-                    <div class="item-cust-right">
-                        <div class="star-holder">
-                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
-                            <img src="/cids_theme_odoo_15/static/src/img/landing/star.png" />
-                        </div>
-                        <div class="appre-text">
-                            <img class="simg" src="/cids_theme_odoo_15/static/src/img/landing/exclm.png" />
-                            <p>We have had the absolute pleasure of working with the interior design experts at
-                                CIDS.DESIGN on a
-                                recent project here in Arizona. They were knowledgeable on various interior design,
-                                finish,
-                                texture, furniture, and fixture options, and they put together well-structured packages
-                                designed
-                                specifically for our target market. Their ideas aligned well with our goals and budget.
-                                I cannot
-                                recommend them highly enough ~ they have surpassed all our expectations! Fabulous work,
-                                team.
-                                Keep up the great work.</p>
-                            <img class="limg" src="/cids_theme_odoo_15/static/src/img/landing/exclm.png" />
-                        </div>
-                        <div class="cust-name">
-                            <h4>Hampton Inn</h4>
-                            <p>Arizona</p>
-                        </div>
-                    </div>
-                </div>
+
+    <section class="why-different">
+        <div class="why-diff-left">
+
+            <h1>what makes us<br/> <span>unique?</span></h1>
+            <p>At CIDS.DESIGN we combine our commitment, curiosity, and expertise with a self-driven
+                attitude to enable our clients to benefit the most from their investment. Our team
+                redesigns remarkable spaces to uplift property value and enhance guest experiences.
+                Our undivided attention to detail and dedication to excellence sets us apart from the
+                rest.
+            </p>
+
+            <div class="hbtns lbtns">
+                <a class="explore" href="/contactus">Get In Touch <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/UnionYellow.png"/></a>
+                <!-- <a class="contact" href="#">Contact Us</a>-->
             </div>
         </div>
+        <div class="why-diff-right">
+            <img src="/cids_theme_odoo_15/static/src/img/hospitality/unique2.png" />
+            <img src="/cids_theme_odoo_15/static/src/img/hospitality/unique1.png" />
 
-    </section>
-    <section class="why-us">
-        <div class="abs-why-us">
-            <div class="why-us-inner">
-                <div class="process-header">
-                    <h1>what makes us unique</h1>
-                    <p>What Makes Us Unique? </p>
-                    <p>At CIDS.DESIGN, we combine our commitment, curiosity, and expertise with a
-                        self-driven attitude, enabling our clients to benefit the most from their investment. Our team
-                        creates remarkable spaces using futuristic hospitality designs to uplift property value and
-                        enhance guest experiences. Our undivided attention to detail and dedication to achieving
-                        excellence sets us apart from the market competition.</p>
-
-                    <a class="why-us-contact" href="#">Get in touch </a>
-                </div>
-            </div>
         </div>
     </section>
+    <section class="client-feedback">
+        <div class="owl-carousel owl-theme clientFeedbackCarsouel">
+            <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/images/2.jpg" />
+                <div class="feedback-item animated">
+<!--                    <h3>Testimonials</h3>-->
+                    <h1>What our clients Say</h1>
+                    <div class="feedback-txt">
+                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" />When we decided to freshen up the look of our hotel,
+                            we were lucky to find CIDS.DESIGN.They spent the time to get to know our property
+                            and understand our requirements, demands, and choices.They did a detailed analysis of our space,
+                            presented some phenomenal design strategies that solved our challenges within the space,and
+                            helped us install unique furnishing, fabrics, materials, and equipment.
+                            When we wanted to add more elements to the interiors,
+                            they quickly came up with outstanding alternatives–all under the decided budget.<img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" /></p>
+                    </div>
+                    <div class="nmloc">
+                        <h2>-LA Quinta Inn and Suites</h2>
+                        <p>California</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/images/client-feedback1.jpg" />
+                <div class="feedback-item animated">
+<!--                    <h3>Testimonials</h3>-->
+                    <h1>What our clients Say</h1>
+                    <div class="feedback-txt">
+                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" />The design team was eventually involved in all the project's major aspects, including 3D
+                            designs, furniture selection, procurement, and complete interior finishes. We are delighted
+                            to say that they brought the perfect balance of style and functionality to our suites and
+                            worked with us pleasantly but highly professional. We definitely enjoyed their commitment
+                            and passion for our project and would like to recommend their work to everyone in the
+                            hospitality and commercial business.<img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" /></p>
+                    </div>
+                    <div class="nmloc">
+                        <h2>-Homewood Suites</h2>
+                        <p>West Chester, OH</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/images/Hampton1.jpg" />
+                <div class="feedback-item animated">
+<!--                    <h3>Testimonials</h3>-->
+                    <h1>What our clients Say</h1>
+                    <div class="feedback-txt">
+                        <p><img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" />We have had the absolute pleasure of working with the interior design experts at CIDS.DESIGN on a recent project here in Arizona.
+                            They were knowledgeable on various interior design,finish,texture,furniture,and fixture options,
+                            and they put together well-structured packages designed specifically for our target market.
+                            Their ideas aligned well with our goals and budget.
+                            I cannot recommend them highly enough~they have surpassed all our expectations!
+                            Fabulous work, team. Keep up the great work<img class="testimg" src="/cids_theme_odoo_15/static/src/img/commercial/exmdown.png" /></p>
+                    </div>
+                    <div class="nmloc">
+                        <h2>-Hampton Inn</h2>
+                        <p>Arizona</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
     <section class="h-footer">
         <div class="h-footer-inner">
             <div class="b-logo">
-                <img src="/cids_theme_odoo_15/static/src/img/landing/logo.png" />
-            </div>
-            <div class="f-services">
-                <h1>Services </h1>
-                <div class="services-tp">
-                    <a href="#">Design studio</a>
-                    <a href="#">Procurement</a>
-                    <a href="#">food &amp; beverage</a>
-                    <a href="#">Brighten</a>
-                    <a href="#"> Visuals </a>
-                    <a href="#">creative and consulatants</a>
-                    <a href="#">resorts</a>
-                    <a href="#">innovation</a>
-                    <a href="#">Luxury resedential planning </a>
-                </div>
-                <h1>practices</h1>
-                <div class="pratices-tp">
-                    <a href="#">Design studio</a>
-                    <a href="#">Procurement</a>
-                    <a href="#">food &amp; beverage</a>
-                    <a href="#">Brighten</a>
-                    <a href="#"> Visuals </a>
-                    <a href="#">creative and consulatants</a>
-                    <a href="#">resorts</a>
-                    <a href="#">innovation</a>
-                    <a href="#">Luxury resedential planning </a>
+                <div class="taglineHolder">
+                    <img src="/cids_theme_odoo_15/static/src/img/images/logo-dark.png" />
 
                 </div>
+<!--                <img src="/cids_theme_odoo_15/static/src/img/images/nmsdc.png" />-->
             </div>
-            <div class="f-contact">
-                <h1>Contact us</h1>
-                <div class="email">
-                    <img src="/cids_theme_odoo_15/static/src/img/landing/emailIcon.png" />
-                    <a href="#">Cid.design@gmail.com</a>
+            <div class="service-practise">
+                <div class="f-contact">
+                    <div class="add-detail">
+                        <h1>Address</h1>
+                        <div class="address addholder">
+                            <div class="owl-carousel address">
+
+
+
+                                <div class="item">
+                                    <div class="address-holder">
+
+                                        <div class="addrtext">
+
+                                            <p>CIDS DESIGN</p>
+                                            <p>15905 S 46th Street, Suite 100</p>
+                                            <p>Phoenix, AZ 85048</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="address-holder">
+
+                                        <div class="addrtext">
+
+                                            <p>CIDS DESIGN</p>
+                                            <p>15905 S 46th Street, Suite 100</p>
+                                            <p>Phoenix, AZ 85048</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont-detail">
+                        <h1>Contact us</h1>
+                        <div class="email">
+                            <img src="/cids_theme_odoo_15/static/src/img/images/msgyellow.png" />
+                            <a href="#">contact@cids.design</a>
+                        </div>
+                        <div class="phone">
+                            <img src="/cids_theme_odoo_15/static/src/img/images/phoneyellow.png" />
+                            <a href="#">+(855) 662-2437</a>
+                        </div>
+
+                    </div>
+
+
                 </div>
-                <div class="phone">
-                    <img src="/cids_theme_odoo_15/static/src/img/landing/phoneIcon.png" />
-                    <a href="#">+91 2345687892</a>
+                <div class="f-services">
+
+                    <div class="services-tp">
+                        <h1>Services </h1>
+                        <a href="#">Design Studio</a>
+                        <a href="#">Luxury Residential Planning</a>
+                        <a href="#">Creative Consultants</a>
+                        <a href="#">Brighten</a>
+                        <a href="#">Procurement</a>
+                        <a href="#">Visuals </a>
+<!--                        <a href="#">Resorts</a>-->
+<!--                        <a href="#">Food Beverages</a>-->
+                        <a href="#">Research &amp; Innovation</a>
+                        <a href="#"></a>
+                    </div>
+
+                    <div class="pratices-tp">
+                        <h1>practices</h1>
+                        <div class="pratise-inner">
+                            <a href="#">Hospitality</a>
+                            <a href="#">Resorts </a>
+                            <a href="#">Casinos</a>
+                            <a href="#">Commercial</a>
+                            <a href="#">Financial</a>
+                            <a href="#">Residential Mix Use</a>
+                            <a href="#">Real estate</a>
+                            <a href="#">Developers</a>
+                            <a href="#">Sports</a>
+                            <a href="#">Government</a>
+
+                            <a href="#">Technology Centers</a>
+                            <a href="#">Entertainment</a>
+                            <a href="#">Tourism, Travel, Airports</a>
+                            <a href="#">Retail</a>
+                            <a href="#">Health, Hospitals</a>
+                            <a href="#">Mission Critical</a>
+                            <a href="#">Life Science</a>
+                            <a href="#">Wellness </a>
+                            <a href="#">School, Universities </a>
+                            <a href="#">Cultural, Community Centers</a>
+
+                        </div>
+
+                    </div>
                 </div>
-                <div class="sicons">
-                    <a href="#"><img src="/cids_theme_odoo_15/static/src/img/landing/insta.png"/></a>
-                    <a href="#"><img src="/cids_theme_odoo_15/static/src/img/landing/twitter.png"/></a>
-                    <a href="#"><img src="/cids_theme_odoo_15/static/src/img/landing/youtube.png"/></a>
-                </div>
+
             </div>
         </div>
     </section>
+
+    <section class="bottom-footer">
+        <div class="bottom-inner">
+            <div class="social">
+                <a href="https://www.linkedin.com/company/cids-designservices/" target="_blank"><img src="/cids_theme_odoo_15/static/src/img/commercial/link.png" /></a>
+                <!--<a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/facebook.png"/></a>
+                <a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/insta.png"/></a>
+                <a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/twitter.png"/></a>
+                <a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/youtube.png"/></a>-->
+            </div>
+            <div class="flinks">
+                <a href="#">Case studies</a>
+<!--                <a href="#">Awards &amp; Accolades</a>-->
+<!--                <a href="#">Testimonials</a>-->
+                <a href="#">Press Releases</a>
+                <a href="#"> Privacy Policy</a>
+            </div>
+            <div class="copyright">
+                <p>&amp;copy;&amp;nbsp;Copyright CIDS Design </p>
+            </div>
+        </div>
+    </section>
+
+        <button id="button"><i class="fa fa-angle-up"></i></button>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function () {
+            var owl = $('.owl-carousel.commercialBanner');
+            owl.owlCarousel({
+                margin: 0,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                autoplaySpeed: 3500,
+                autoplayHoverPause: true,
+<!--                animateOut: 'fadeIn',-->
+<!--                animateIn: 'fadeOut',-->
+                loop: true,
+
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            });
+            $( ".owl-prev").html('&lt;i class="fa fa-angle-left">&lt;/>');
+            $( ".owl-next").html('&lt;i class="fa fa-angle-right">&lt;/>');
+<!--            $(".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');-->
+<!--            $(".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');-->
+        });
+
+        <!--$(document).ready(function () {
+            var owl1 = $('.owl-carousel.happy-customers');
+            owl1.owlCarousel({
+                margin: 15,
+                nav: true,
+                autoplay: false,
+                loop: true,
+                responsive: {
+                    0: {
+                        items: 4
+                    },
+                    600: {
+                        items: 4
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            });
+            $(".owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+            $(".owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/home/abutarrow.png"/>');
+        });-->
+
+        $(document).ready(function () {
+            $('.gallery').mauGallery({
+                columns: {
+                    xs: 1,
+                    sm: 2,
+                    md: 3,
+                    lg: 4,
+                    xl: 3
+                },
+                lightBox: true,
+                lightboxId: 'myAwesomeLightbox',
+                showTags: true,
+                tagsPosition: 'top'
+            });
+        });
+
+
+        $(document).ready(function () {
+            var owl7 = $('.owl-carousel.hotelCaseCarsouel');
+            owl7.owlCarousel({
+                margin: 20,
+                nav: true,
+
+                autoplay: false,
+                loop: true,
+
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    769: {
+                        items: 3,
+                        stagePadding: 0
+                    },
+                    1000: {
+                        items: 4,
+
+                    }
+                }
+            });
+            $(".project-slider .owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/images/Left.png"/>');
+            $(".project-slider .owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/images/Right.png"/>');
+        });
+
+
+        $(document).ready(function () {
+            var owl8 = $('.owl-carousel.hotelClientCarsouel');
+            owl8.owlCarousel({
+                margin: 150,
+                nav: true,
+                autoplay: true,
+                loop: true,
+                autoplayTimeout: 4000,
+                autoplaySpeed: 3500,
+                autoplayHoverPause: true,
+
+                responsive: {
+                    0: {
+                        items: 3
+                    },
+                    769: {
+                        items: 4
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            });
+        });
+
+        $(document).ready(function () {
+            var owl9 = $('.owl-carousel.clientFeedbackCarsouel');
+            owl9.owlCarousel({
+                margin: 0,
+                nav: true,
+
+                autoplay: false,
+                loop: true,
+
+                autoplaySpeed: 5500,
+                autoplayHoverPause: true,
+                animateOut: 'fadeOut',
+                animateIn: 'slideIn',
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    769: {
+                        items: 1,
+                        stagePadding: 0
+                    },
+                    1000: {
+                        items: 1,
+                        /* stagePadding: 170,*/
+                    }
+                }
+            });
+            $(".client-feedback .owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/images/whiteLeft.png"/>');
+            $(".client-feedback .owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/images/whiteRight.png"/>');
+        });
+
+        $(document).ready(function () {
+            var owl4 = $('.owl-carousel.address');
+            owl4.owlCarousel({
+                margin: 10,
+                nav: true,
+                autoplay: false,
+                loop: true,
+
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    769: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            });
+            $(".addholder .owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/images/footerLeft.png"/>');
+            $(".addholder .owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/images/footerRight.png"/>');
+
+        });
+
+        $("document").ready(function () {
+            var nav = $('.header');
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    nav.addClass("f-nav");
+                } else {
+                    nav.removeClass("f-nav");
+                }
+            });
+        });
+
+        var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+    </script>
+        <script src="https://www.googletagmanager.com/gtag/js?id=AW-11033940569"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11033940569');
+</script>
+
     </template>
 </odoo>

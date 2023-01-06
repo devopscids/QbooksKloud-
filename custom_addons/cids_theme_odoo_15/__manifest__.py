@@ -10,10 +10,10 @@
         'views/header.xml',
         'views/home.xml',
         'views/footer.xml',
-        # 'views/commercial.xml',
+        'views/commercial.xml',
         # 'views/landing_page.xml',
-        # 'views/ffe.xml',
-        # 'views/hospitality.xml'
+        'views/ffe.xml',
+        'views/hospitality.xml',
         # 'views/snippets/home.xml',
         # 'views/snippets/landing.xml',
         # 'views/snippets/hospitality.xml',
