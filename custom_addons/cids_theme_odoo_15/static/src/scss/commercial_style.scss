@@ -1856,7 +1856,7 @@ margin-left:var(--font-size-12);}
     color: var(--yellow);}
 
 #button .fa{
-    font-size: var(--font-size-24);color:#fff;opacity:0.8
+    font-size: var(--font-size-20);color:#fff;opacity:0.8
 }
 
 .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-prev .fa{
@@ -1901,8 +1901,8 @@ margin-left:var(--font-size-12);}
 }
 
 #button{
-    width:var(--font-size-48);
-    height:var(--font-size-48);
+    width: var(--padding-28);
+    height: var(--padding-28);
     background:var(--yellow);
   box-shadow: 0px 15px 10px -15px #111;
     border-radius: 50%;
@@ -1923,7 +1923,7 @@ margin-left:var(--font-size-12);}
     visibility: visible;
   }
 #button:hover{
-    box-shadow:0px 15px 10px 0px #11111194;
+    box-shadow:0px 15px 10px 0px rgb(17, 17, 17, 0.24);
 }
 
 .commercial-banner .owl-carousel .owl-item .overlay{
@@ -1966,13 +1966,20 @@ margin-left:var(--font-size-12);}
     .comm-banner .hbtns a.explore{height:35px;}
     .comm-banner .hbtns a.explore::after{padding:12px 0px;
         height: 35px!important;}
-        .login a {
-            width: 28px;
-            height: 28px;}
+    .login a {
+        width: 28px;
+        height: 28px;}
 
-            .login {
-                width: 25%;
-            }
+    .login {
+        width: 25%;
+    }
+    #button {
+        width: 28px;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media screen and (max-width:990px) {
     :root {
@@ -2635,6 +2642,13 @@ margin-left:var(--font-size-12);}
         }
         .bottom-header{height:40px;}
         .comm-banner h1{font-size:30px;}
+        #button {
+        width: 18px;
+        height: 18px;
+    }
+    #button .fa {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width:520px)
@@ -2694,6 +2708,13 @@ margin-left:var(--font-size-12);}
         width: 55px;
         object-fit: contain;
     }
+    #button {
+        width: 14px;
+        height: 14px;
+    }
+    #button .fa {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width:380px) {
@@ -2719,9 +2740,8 @@ margin-left:var(--font-size-12);}
     position: fixed;
     right: 0;
     flex-direction: column;
-    width: 40px;
+    width: 34px;
     background: var(--yellow);
-    padding: 10px 0px;
     top: 183%;
     margin: 10px;
     margin-right:0px;

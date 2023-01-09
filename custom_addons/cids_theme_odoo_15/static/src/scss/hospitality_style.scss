@@ -2169,7 +2169,7 @@ color: #FFFFFF;
     font-size: var(--font-size-30);color:#fff;opacity:0.8}
 
 #button .fa{
-    font-size: var(--font-size-24);color:#fff;opacity:0.8
+    font-size: var(--font-size-20);color:#fff;opacity:0.8
 }
 
 .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-next{right: 10%;
@@ -2211,8 +2211,8 @@ color: #FFFFFF;
 }
 
 #button{
-    width:var(--font-size-48);
-    height:var(--font-size-48);
+    width: var(--padding-28);
+    height: var(--padding-28);
     background:var(--yellow);
   box-shadow: 0px 15px 10px -15px #111;
     border-radius: 50%;
@@ -2233,7 +2233,7 @@ color: #FFFFFF;
     visibility: visible;
   }
 #button:hover{
-    box-shadow:0px 15px 10px 0px #11111194;
+    box-shadow:0px 12px 8px 0px rgb(17, 17, 17, 0.24);
 }
 
 .commercial-banner .owl-carousel .owl-item .overlay{
@@ -2287,6 +2287,13 @@ color: #FFFFFF;
     }
     .login {
         width: 25%;
+    }
+    #button {
+        width: 28px;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -3060,6 +3067,17 @@ color: #FFFFFF;
     .why-diff-left{padding:0px;}
     .why-different>div.why-diff-right{margin-top:20px; width:100%; margin-bottom:20px; flex-wrap: wrap;}
     .why-different{height:auto; margin:0px auto;}
+    #button {
+        width: 18px;
+        height: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #button .fa {
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (max-width:520px) {
@@ -3140,7 +3158,17 @@ color: #FFFFFF;
         width: 55px;
         object-fit: contain;
     }
-    .vision-inner p{font-size:var(--font-size-14);
+    .vision-inner p{font-size:var(--font-size-14);}
+    #button {
+        width: 14px;
+        height: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #button .fa {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width:380px) {
@@ -3162,9 +3190,8 @@ color: #FFFFFF;
         position: fixed;
         right: 0;
         flex-direction: column;
-        width: 40px;
+        width: 34px;
         background: var(--yellow);
-        padding: 10px 0px;
         top: 183%;
     }
 

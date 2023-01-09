@@ -2163,8 +2163,8 @@ color: #50575D;
 }
 
 #button{
-    width:var(--font-size-48);
-    height:var(--font-size-48);
+    width: var(--padding-28);
+    height: var(--padding-28);
     background:var(--yellow);
   box-shadow: 0px 15px 10px -15px #111;
     border-radius: 50%;
@@ -2185,11 +2185,11 @@ color: #50575D;
     visibility: visible;
   }
 #button:hover{
-    box-shadow:0px 15px 10px 0px #11111194;
+    box-shadow:0px 15px 10px 0px rgb(17, 17, 17, 0.24);
 }
 
 #button .fa{
-    font-size: var(--font-size-24);color:#fff;opacity:0.8
+    font-size: var(--font-size-20);color:#fff;opacity:0.8
 }
 
 .commercial-banner .owl-carousel .owl-item .overlay{
@@ -2242,6 +2242,13 @@ color: #50575D;
         height: 28px;
     }
     .login{width:25%;}
+    #button {
+        width: 28px;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width:990px) {
@@ -2381,8 +2388,6 @@ color: #50575D;
     .comm-banner{width:90%;}
 }
 
-@media screen and (max-width:768px) {}
-
 @media screen and (max-width:767px) {
 
     .view-projects {
@@ -2475,14 +2480,21 @@ color: #50575D;
     .process.proc2,.process.proc4{flex-direction: column-reverse;}
     .process.proc4{margin-bottom:20px;}
     .social a img {
-    width: 18px !important;
-    height: 18px !important;
-    object-fit: contain;
-}
-.social a {
-    width: 30px !important;
-    height: 30px !important;
-}
+        width: 18px !important;
+        height: 18px !important;
+        object-fit: contain;
+    }
+    .social a {
+        width: 30px !important;
+        height: 30px !important;
+    }
+    #button {
+        width: 18px;
+        height: 18px;
+    }
+    #button .fa {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -3076,6 +3088,13 @@ color: #50575D;
         width: 55px;
         object-fit: contain;
     }
+    #button {
+        width: 14px;
+        height: 14px;
+    }
+    #button .fa {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width:380px) {
@@ -3099,9 +3118,8 @@ color: #50575D;
         position: fixed;
     right: 0;
     flex-direction: column;
-    width: 40px;
+    width: 34px;
     background: var(--yellow);
-    padding: 10px 0px;
     top: 183%;
     }
     .login a {
