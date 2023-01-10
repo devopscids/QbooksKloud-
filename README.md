@@ -36,3 +36,4 @@ To learn the software, we recommend the <a href="https://www.odoo.com/slides">Od
 @@@@@@@@
 #################
 #####
+$$$$$$$$$$$$$$$$
