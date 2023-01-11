@@ -23,3 +23,7 @@ class DemoClass(http.Controller):
     @http.route(['/ffe'], type='http', auth="public", website=True)
     def ffe_page(self, **post):
         return request.render("cids_theme_odoo_15.ffe")
+
+    @http.route(['/how_we_design'], type='http', auth="public", website=True)
+    def how_we_design_page(self, **post):
+        return request.render("cids_theme_odoo_15.how_we_design")

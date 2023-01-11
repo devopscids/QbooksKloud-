@@ -220,6 +220,45 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
             $(".client-feedback .owl-prev").html('<img src="/cids_theme_odoo_15/static/src/img/images/whiteLeft.png"/>');
             $(".client-feedback .owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/images/whiteRight.png"/>');
         });
+        $(document).ready(function () {
+            var owl = $('.owl-carousel.commercialBanner');
+            owl.owlCarousel({
+                margin: 0,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 6000,
+                autoplaySpeed: 5500,
+                autoplayHoverPause: true,
+                animateOut: 'fadeIn',
+                animateIn: 'fadeOut',
+                loop: true,
+
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            })
+        });
+
+
+//        $("document").ready(function () {
+//            var nav = $('.header');
+//
+//            $(window).scroll(function () {
+//                if ($(this).scrollTop() > 50) {
+//                    nav.addClass("f-nav");
+//                } else {
+//                    nav.removeClass("f-nav");
+//                }
+//            });
+//        });
 
    
 
