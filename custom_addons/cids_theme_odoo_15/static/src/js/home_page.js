@@ -243,8 +243,8 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                     }
                 }
             });
-            $( ".commercialBanner .owl-prev").html('&lt;i class="fa fa-angle-left">&lt;/>');
-            $( ".commercialBanner .owl-next").html('&lt;i class="fa fa-angle-right">&lt;/>');
+            $( ".commercialBanner .owl-prev").html('<i class="fa fa-angle-left"></i>');
+            $( ".commercialBanner .owl-next").html('<i class="fa fa-angle-right"></i>');
         });
 
 

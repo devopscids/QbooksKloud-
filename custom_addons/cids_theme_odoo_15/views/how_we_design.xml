@@ -3,7 +3,7 @@
     <template id="how_we_design" name="CIDS How We Design">
         <t t-call="website.layout">
         <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/how_we_design.scss"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<!--        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>-->
 <!--        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/cidsjquery.js"/>-->
 <!--        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/gallery.js"/>-->
 <!--        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/owl.js"/>-->
@@ -28,7 +28,7 @@
                     future-focused spaces that inspire and captivate.</p> -->
                     <p>We strongly believe that everything starts and ends with a great design. Therefore, we draft future-focused spaces that inspire and captivate.</p>
             </div>
-            <div class="hbtns">
+            <div class="hbtns hwd">
                 <a class="explore" href="/contactus">Get In Touch <img class="unionpng"
                         src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
 

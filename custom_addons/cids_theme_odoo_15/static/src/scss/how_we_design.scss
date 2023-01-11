@@ -493,7 +493,9 @@ color: #FFFFFF;
     animation-delay: .65s;
 }
 
-.commercial-banner .owl-nav,
+.commercial-banner .owl-nav{
+
+}
 .commercial-banner .owl-dots {
     display: none;
 }
@@ -1418,9 +1420,15 @@ color: #50575D;
     z-index: 9999;
 }
 
-.commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-prev{left: 10%;
+.commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-prev{
+    left: 10%;
+    top: 35%;
     position: absolute;width: var(--font-size-48);
     height: var(--font-size-48);}
+
+button.owl-prev:focus {
+    outline: none;
+}
 
 .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-prev:hover .fa{
     color: var(--yellow);}
@@ -1432,8 +1440,14 @@ color: #50575D;
     font-size: var(--font-size-20);color:#fff;opacity:0.8
 }
 
-.commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-next{right: 10%;
+.commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-next{
+    right: 10%;
+    top: 35%;
     position: absolute;width: var(--font-size-48);height: var(--font-size-48);}
+
+button.owl-next:focus {
+    outline: none;
+}
 
 .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-next:hover .fa{
     color: var(--yellow);}
@@ -1746,11 +1760,11 @@ color: #50575D;
 
 
 
-    .why-different .hbtns a.explore{
+    .why-different .hbtns.hwd a.explore{
         width:50%;
     }
 
-    .comm-banner{top:0%; padding:22px; width:90%;}
+    .comm-banner{top:15%; padding:22px; width:90%;}
     .comm-banner h1{font-size:18px;}
     .pText p{width:100%;}
     .why-diff-left p{width:100%;}
@@ -1767,6 +1781,9 @@ color: #50575D;
         bottom: -27%;
     }
     .process-lft h1,.journy-inner h1,.service-text h1{font-size:18px;}
+    .commercial-banner .owl-nav{bottom:20%;}
+    .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-prev{left:40%;top:85%;}
+    .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-next{right:40%;top:85%;}
 
 
 }
@@ -1778,7 +1795,7 @@ color: #50575D;
     }
 }
 @media screen and (max-width:480px) {
-    .hbtns a.explore{width:80%;}
+    .hbtns.hwd a.explore{width:50%;}
     .commercial-banner {
         height:350px;
     }
