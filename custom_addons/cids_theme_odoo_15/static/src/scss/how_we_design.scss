@@ -277,7 +277,7 @@ left: -41px;
 animation-fill-mode: both;
 animation-name: slideupText;
 animation-delay: 0.5s;
-padding:var(--font-size-60) 0px var(--font-size-60) var(--width-102);
+// padding:var(--font-size-60) 0px var(--font-size-60) var(--width-102);
 }
 
 
@@ -291,7 +291,7 @@ padding:var(--font-size-60) 0px var(--font-size-60) var(--width-102);
     font-family: 'Lorin';
 font-style: normal;
 font-weight: 400;
-font-size:var(--font-size-18);
+font-size:var(--font-size-14);
 line-height: 180%;
 width:var(--width-700);
 margin:auto;
@@ -467,6 +467,15 @@ color: #FFFFFF;
 
 /*banner animation*/
 .commercial-banner .owl-item.active h1 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: slideInUp;
+    animation-delay: 0.3s;
+}
+
+.commercial-banner .owl-item.active .pText {
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     -webkit-animation-fill-mode: both;
@@ -1399,6 +1408,49 @@ color: #50575D;
 
 /*client feedback ends here*/
 
+ .comm-banner {
+    width: var(--width-888);
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 9999;
+}
+
+.commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-prev{left: 10%;
+    position: absolute;width: var(--font-size-48);
+    height: var(--font-size-48);}
+
+.commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-prev:hover .fa{
+    color: var(--yellow);}
+
+.commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-prev .fa{
+    font-size: var(--font-size-30);color:#fff;opacity:0.8}
+
+#button .fa{
+    font-size: var(--font-size-20);color:#fff;opacity:0.8
+}
+
+.commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-next{right: 10%;
+    position: absolute;width: var(--font-size-48);height: var(--font-size-48);}
+
+.commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-next:hover .fa{
+    color: var(--yellow);}
+
+.commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-next .fa{
+    font-size: var(--font-size-30);color:#fff;opacity:0.8}
+
+.owl-nav button.owl-next:focus-visible {
+    outline: none !important;
+}
+
+.owl-nav button.owl-prev:focus-visible {
+    outline: none !important;
+}
+
+.commercial-banner .owl-theme .owl-nav [class*=owl-]:hover{
+    background-color: transparent !important;}
 
 /*Responsive starts here*/
 @media screen and (max-width:1200px) {
@@ -1755,6 +1807,12 @@ color: #50575D;
 
     .abs-service {
         bottom: -31%;
+    }
+    .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-next .fa{
+        font-size: var(--font-size-48);
+    }
+    .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-prev .fa{
+        font-size: var(--font-size-48);
     }
 }
 @media screen and (max-width:370px) {

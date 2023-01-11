@@ -226,11 +226,9 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                 margin: 0,
                 nav: true,
                 autoplay: true,
-                autoplayTimeout: 6000,
-                autoplaySpeed: 5500,
+                autoplayTimeout: 4000,
+                autoplaySpeed: 3500,
                 autoplayHoverPause: true,
-                animateOut: 'fadeIn',
-                animateIn: 'fadeOut',
                 loop: true,
 
                 responsive: {
@@ -244,8 +242,11 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                         items: 1
                     }
                 }
-            })
+            });
+            $( ".commercialBanner .owl-prev").html('&lt;i class="fa fa-angle-left">&lt;/>');
+            $( ".commercialBanner .owl-next").html('&lt;i class="fa fa-angle-right">&lt;/>');
         });
+
 
 
 //        $("document").ready(function () {
