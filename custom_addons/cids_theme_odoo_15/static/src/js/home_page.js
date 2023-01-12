@@ -248,8 +248,8 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
 
         var btn = $('#button');
 
-        $(window).scroll(function() {
-          if ($(window).scrollTop() > 300) {
+        $('#wrapwrap').scroll(function() {
+          if ($('#wrapwrap').scrollTop() > 300) {
             btn.addClass('show');
           } else {
             btn.removeClass('show');

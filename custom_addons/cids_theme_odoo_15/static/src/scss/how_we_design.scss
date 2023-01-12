@@ -1482,13 +1482,12 @@ button.owl-next:focus {
     transition:
     opacity .5s, visibility .5s;
   opacity: 0;
-  visibility: hidden;
   z-index:9999;
 }
 
 #button.show {
     opacity: 1;
-    visibility: visible;
+//     visibility: visible;
   }
 #button:hover{
     box-shadow:0px 15px 10px 0px rgba(17, 17, 17, 0.24);
@@ -1514,6 +1513,13 @@ button.owl-next:focus {
         height: 28px;
     }
     .login{width:25%;}
+    #button {
+        width: 28px;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width:990px) {
@@ -1666,6 +1672,13 @@ button.owl-next:focus {
     .comm-banner {
         transform: translate(-50%,20%);
     }
+    #button {
+        width: 18px;
+        height: 18px;
+    }
+    #button .fa {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -1707,7 +1720,7 @@ button.owl-next:focus {
 
     .hotel-banner p {
         width: 90%;
-        margin: 10px 0px;
+        margin: auto;
     }
 
     .hotel-banner .hbtns a.explore {
@@ -1862,6 +1875,13 @@ button.owl-next:focus {
     }
     .commercial-banner .owl-carousel.commercialBanner .owl-nav button.owl-prev .fa{
         font-size: var(--font-size-48);
+    }
+    #button {
+        width: 14px;
+        height: 14px;
+    }
+    #button .fa {
+        font-size: 10px;
     }
 }
 @media screen and (max-width:370px) {
