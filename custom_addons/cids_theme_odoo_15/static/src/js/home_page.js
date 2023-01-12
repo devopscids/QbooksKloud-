@@ -26,14 +26,11 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
     $(document).ready(function () {
             var owl = $('.owl-carousel.tpbanner');
             owl.owlCarousel({
-                margin: 10,
                 nav: true,
                 autoplay: true,
-                autoplayTimeout:6000,
-            autoplaySpeed:5500,
-            autoplayHoverPause: true,
-                animateOut: 'zoomOut',
-                animateIn: 'fadeIn',
+                autoplayTimeout: 4000,
+                autoplaySpeed: 3500,
+                autoplayHoverPause: true,
                 loop: true,
 
                 responsive: {
@@ -47,7 +44,9 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                         items: 1
                     }
                 }
-            })
+            });
+            $( ".tpbanner .owl-prev").html('<i class="fa fa-angle-left"></i>');
+            $( ".tpbanner .owl-next").html('<i class="fa fa-angle-right"></i>');
         });
 
 
@@ -245,6 +244,21 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
             });
             $( ".commercialBanner .owl-prev").html('<i class="fa fa-angle-left"></i>');
             $( ".commercialBanner .owl-next").html('<i class="fa fa-angle-right"></i>');
+        });
+
+        var btn = $('#button');
+
+        $(window).scroll(function() {
+          if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+          } else {
+            btn.removeClass('show');
+          }
+        });
+
+        btn.on('click', function(e) {
+          e.preventDefault();
+          $('html, body').animate({scrollTop:0}, '300');
         });
 
 

@@ -113,6 +113,7 @@
     --width-162:11.25vw;
     --width-211:14.65vw;
     --width-126:9.22vw;
+    --width-888:66.6vw;
     /*dec22*/
 
 }
@@ -141,20 +142,41 @@ a {
 
 .hotel-banner {
     position: absolute;
-    top: 30%;
-    left: 5%;
-    transform: translateY(-50%);
-    width: 50%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: var(--width-888);
+    text-align: center;
 
 }
 
-.active .hotel-banner {
-    animation: slideInUp;
-    animation-duration:2s;
-    animation-timing-function:linear;
+.top-banner .owl-item.active h1 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    top:30%;
+    animation-name: slideInUp;
+    animation-delay: 0.3s;
+}
+
+.top-banner .owl-item.active p {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: slideInUp;
+    animation-delay: .65s;
+}
+
+
+
+.active .hotel-banner {
+//     animation: slideInUp;
+//     animation-duration:2s;
+//     animation-timing-function:linear;
+//     -webkit-animation-fill-mode: both;
+//     animation-fill-mode: both;
+//     top:30%;
 
 }
 
@@ -174,6 +196,8 @@ a {
     width: var(--width-485);
     color: #FFFFFF;
     margin: 30px 0px;
+    text-align: center;
+    margin-inline: auto;
 }
 
 .hotel-banner .hbtns {
@@ -291,7 +315,9 @@ opacity:1;
 
 
 /*ends here*/
-.top-banner .owl-theme .owl-nav,
+.top-banner .owl-theme .owl-nav {
+
+}
 .top-banner .owl-theme .owl-dots {
     display: none;
 }
@@ -1462,6 +1488,52 @@ body {
     width: var(--font-size-16) !important;
     height: var(--font-size-16) !important;
 }
+
+.top-banner .owl-carousel.tpbanner .owl-nav button.owl-prev{
+    left: 10%;
+    top: 35%;
+    position: absolute;width: var(--font-size-48);
+    height: var(--font-size-48);}
+
+button.owl-prev:focus {
+    outline: none;
+}
+
+.top-banner .owl-carousel.tpbanner .owl-nav button.owl-prev:hover .fa{
+    color: var(--yellow);}
+
+.top-banner .owl-carousel.tpbanner .owl-nav button.owl-prev .fa{
+    font-size: var(--font-size-30);color:#fff;opacity:0.8}
+
+#button .fa{
+    font-size: var(--font-size-20);color:#fff;opacity:0.8
+}
+
+.top-banner .owl-carousel.tpbanner .owl-nav button.owl-next{
+    right: 10%;
+    top: 35%;
+    position: absolute;width: var(--font-size-48);height: var(--font-size-48);}
+
+button.owl-next:focus {
+    outline: none;
+}
+
+.top-banner .owl-carousel.tpbanner .owl-nav button.owl-next:hover .fa{
+    color: var(--yellow);}
+
+.top-banner .owl-carousel.tpbanner .owl-nav button.owl-next .fa{
+    font-size: var(--font-size-30);color:#fff;opacity:0.8}
+
+.owl-nav button.owl-next:focus-visible {
+    outline: none !important;
+}
+
+.owl-nav button.owl-prev:focus-visible {
+    outline: none !important;
+}
+
+.top-banner .owl-theme .owl-nav [class*=owl-]:hover{
+    background-color: transparent !important;}
 
 
 @media screen and (max-width:1600px)
