@@ -6,13 +6,13 @@
         <div class="owl-carousel owl-theme tpbanner">
             <div class="item">
                 <img src="/cids_theme_odoo_15/static/src/img/images/hotelbanner.png"/>
-                <div class="hotel-banner animated">
+                <div class="hotel-banner">
                     <h1>A Leading <br /><span>Global</span> Firm.</h1>
                     <p>Hospitality And Commercial Interior Design That Encapsulates the Highest Quality Standards And Detailing Is In Our DNA </p>
-                    <div class="hbtns">
+                    <!--<div class="hbtns">
                         <a class="explore" href="#">Explore <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
-                              <!-- <a class="contact" href="#">Contact Us</a>--> 
-                    </div>
+                              &lt;!&ndash; <a class="contact" href="#">Contact Us</a>&ndash;&gt;
+                    </div>-->
                 </div>
             </div>
             <div class="item">
@@ -21,11 +21,11 @@
                 <div class="hotel-banner">
                     <h1>Exceptional Design <br /> Starts with trusted <span>partnerships</span></h1>
                     <p>We focus on versatility and customer satisfaction. We nurture valueable growth partnerships.</p>
-                    <div class="hbtns">
+                    <!--<div class="hbtns">
                         <a class="explore" href="#">Explore <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
                
-                         <!-- <a class="contact" href="#">Contact Us</a>--> 
-                    </div>
+                         &lt;!&ndash; <a class="contact" href="#">Contact Us</a>&ndash;&gt;
+                    </div>-->
 
                 </div>
 
@@ -36,11 +36,11 @@
                 <div class="hotel-banner">
                     <h1>We craft unique <br /> <span>interior designs </span>that <br/> drive innovation</h1>
                     <p>From conception to completion, we perfect every single element in your space</p>
-                    <div class="hbtns">
+                    <!--<div class="hbtns">
                         <a class="explore" href="#">Explore <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
                
-                         <!-- <a class="contact" href="#">Contact Us</a>--> 
-                    </div>
+                         &lt;!&ndash; <a class="contact" href="#">Contact Us</a>&ndash;&gt;
+                    </div>-->
 
                 </div>
 
@@ -379,6 +379,7 @@
 
         </div>
     </section>
+            <button id="button"><i class="fa fa-angle-up"></i></button>
 
         </t>
     </template>

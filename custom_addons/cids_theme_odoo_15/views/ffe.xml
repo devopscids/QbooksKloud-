@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <template id="ffe" name="CIDS Commercial">
+    <template id="ffe" name="CIDS FF&amp;E">
     <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/ffe.scss"/>
 <!--        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/style.scss"/>-->
         <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.scss"/>

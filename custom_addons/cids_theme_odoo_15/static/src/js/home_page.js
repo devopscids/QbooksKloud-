@@ -26,14 +26,11 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
     $(document).ready(function () {
             var owl = $('.owl-carousel.tpbanner');
             owl.owlCarousel({
-                margin: 10,
                 nav: true,
                 autoplay: true,
-                autoplayTimeout:6000,
-            autoplaySpeed:5500,
-            autoplayHoverPause: true,
-                animateOut: 'zoomOut',
-                animateIn: 'fadeIn',
+                autoplayTimeout: 4000,
+                autoplaySpeed: 3500,
+                autoplayHoverPause: true,
                 loop: true,
 
                 responsive: {
@@ -47,7 +44,9 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
                         items: 1
                     }
                 }
-            })
+            });
+            $( ".tpbanner .owl-prev").html('<i class="fa fa-angle-left"></i>');
+            $( ".tpbanner .owl-next").html('<i class="fa fa-angle-right"></i>');
         });
 
 
@@ -220,6 +219,61 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
             $(".client-feedback .owl-prev").html('<img src="/cids_theme_odoo_15/static/src/img/images/whiteLeft.png"/>');
             $(".client-feedback .owl-next").html('<img src="/cids_theme_odoo_15/static/src/img/images/whiteRight.png"/>');
         });
+        $(document).ready(function () {
+            var owl = $('.owl-carousel.commercialBanner');
+            owl.owlCarousel({
+                margin: 0,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                autoplaySpeed: 3500,
+                autoplayHoverPause: true,
+                loop: true,
+
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            });
+            $( ".commercialBanner .owl-prev").html('<i class="fa fa-angle-left"></i>');
+            $( ".commercialBanner .owl-next").html('<i class="fa fa-angle-right"></i>');
+        });
+
+        var btn = $('#button');
+
+        $('#wrapwrap').scroll(function() {
+          if ($('#wrapwrap').scrollTop() > 300) {
+            btn.addClass('show');
+          } else {
+            btn.removeClass('show');
+          }
+        });
+
+        btn.on('click', function(e) {
+          e.preventDefault();
+          $('html, body').animate({scrollTop:0}, '300');
+        });
+
+
+
+//        $("document").ready(function () {
+//            var nav = $('.header');
+//
+//            $(window).scroll(function () {
+//                if ($(this).scrollTop() > 50) {
+//                    nav.addClass("f-nav");
+//                } else {
+//                    nav.removeClass("f-nav");
+//                }
+//            });
+//        });
 
    
 

@@ -113,6 +113,7 @@
     --width-162:11.25vw;
     --width-211:14.65vw;
     --width-126:9.22vw;
+    --width-888:66.6vw;
     /*dec22*/
 
 }
@@ -141,20 +142,41 @@ a {
 
 .hotel-banner {
     position: absolute;
-    top: 50%;
-    left: 5%;
-    transform: translateY(-50%);
-    width: 50%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: var(--width-888);
+    text-align: center;
 
 }
 
-.active .hotel-banner {
-    animation: slideInUp;
-    animation-duration:2s;
-    animation-timing-function:linear;
+.top-banner .owl-item.active h1 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    top:50%;
+    animation-name: slideInUp;
+    animation-delay: 0.3s;
+}
+
+.top-banner .owl-item.active p {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: slideInUp;
+    animation-delay: .65s;
+}
+
+
+
+.active .hotel-banner {
+//     animation: slideInUp;
+//     animation-duration:2s;
+//     animation-timing-function:linear;
+//     -webkit-animation-fill-mode: both;
+//     animation-fill-mode: both;
+//     top:30%;
 
 }
 
@@ -174,6 +196,8 @@ a {
     width: var(--width-485);
     color: #FFFFFF;
     margin: 30px 0px;
+    text-align: center;
+    margin-inline: auto;
 }
 
 .hotel-banner .hbtns {
@@ -291,7 +315,12 @@ opacity:1;
 
 
 /*ends here*/
-.top-banner .owl-theme .owl-nav,
+.top-banner .owl-theme .owl-nav {
+    left: 10%;
+    top: 35%;
+    position: absolute;
+    right: 10%;
+}
 .top-banner .owl-theme .owl-dots {
     display: none;
 }
@@ -1444,6 +1473,101 @@ body {
 {
     margin-left:var(--margin-28);
 }*/
+
+.social a {
+        width: var(--padding-28) !important;
+        height: var(--padding-28) !important;
+        background-color: var(--white);
+        border-radius: 50%;
+        margin-left: var(--width-28);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .social a img {
+    width: var(--font-size-16) !important;
+    height: var(--font-size-16) !important;
+}
+
+.top-banner .owl-carousel.tpbanner .owl-nav button.owl-prev{
+    left: 0%;
+    top: 35%;
+    position: absolute;width: var(--font-size-48);
+    height: var(--font-size-48);}
+
+button.owl-prev:focus {
+    outline: none;
+}
+
+.top-banner .owl-carousel.tpbanner .owl-nav button.owl-prev:hover .fa{
+    color: var(--yellow);}
+
+.top-banner .owl-carousel.tpbanner .owl-nav button.owl-prev .fa{
+    font-size: var(--font-size-30);color:#fff;opacity:0.8}
+
+#button .fa{
+    font-size: var(--font-size-20);color:#fff;opacity:0.8
+}
+
+.top-banner .owl-carousel.tpbanner .owl-nav button.owl-next{
+    right: 0%;
+    top: 35%;
+    position: absolute;width: var(--font-size-48);height: var(--font-size-48);}
+
+button.owl-next:focus {
+    outline: none;
+}
+
+.top-banner .owl-carousel.tpbanner .owl-nav button.owl-next:hover .fa{
+    color: var(--yellow);}
+
+.top-banner .owl-carousel.tpbanner .owl-nav button.owl-next .fa{
+    font-size: var(--font-size-30);color:#fff;opacity:0.8}
+
+.owl-nav button.owl-next:focus-visible {
+    outline: none !important;
+}
+
+.owl-nav button.owl-prev:focus-visible {
+    outline: none !important;
+}
+
+.top-banner .owl-theme .owl-nav [class*=owl-]:hover{
+    background-color: transparent !important;}
+
+// #button{
+//     width: var(--padding-28);
+//     height: var(--padding-28);
+//     background:var(--yellow);
+//   box-shadow: 0px 15px 10px -15px #111;
+//     border-radius: 50%;
+//     outline: none;
+//     border: none;
+//     position: fixed;
+//     right: 5%;
+//     bottom:var(--font-size-50);
+//     transition:
+//     opacity .5s, visibility .5s;
+//   opacity: 0;
+//   z-index:9999;
+// }
+//
+// #button.show {
+//     opacity: 1;
+// //     visibility: visible;
+//   }
+// #button:hover{
+//     box-shadow:0px 15px 10px 0px rgba(17, 17, 17, 0.24);
+// }
+//
+// #button .fa{
+//     font-size: var(--font-size-20);color:#fff;opacity:0.8
+// }
+
+
 @media screen and (max-width:1600px)
 {
     .feedback-item h3::after{
@@ -1744,7 +1868,7 @@ body {
 
     .hotel-banner {
         width: 100%;
-        top: 35%;
+        top: 77% !important;
         height: 300px;
     }
 
@@ -1754,7 +1878,7 @@ body {
 
     .hotel-banner p {
         width: 90%;
-        margin: 10px 0px;
+        margin: auto;
     }
 
     .hotel-banner .hbtns a.explore {
@@ -1767,6 +1891,12 @@ body {
 
     .hotel-banner h1 {
         font-size: 20px;
+    }
+    .top-banner .owl-theme .owl-nav{
+        left: 10%;
+        top: 77% !important;
+        position: absolute;
+        right: 10%;
     }
 
 }
@@ -1908,6 +2038,9 @@ body {
         .services-tp>a, .pratise-inner>*{
             width:100%;
         }
+        .top-banner .owl-nav{top:77%;}
+    .top-banner .owl-carousel.tpbanner .owl-nav button.owl-prev{left:40%;}
+    .top-banner .owl-carousel.tpbanner .owl-nav button.owl-next{right:40%;}
 
 }
 
@@ -1959,6 +2092,16 @@ body {
     .client-feedback{height:580px !important;}
 
     .client-feedback .owl-carousel .owl-item img{height:580px !important;}
+    .social a img {
+        width: 10px !important;
+        height: 18px !important;
+        object-fit: contain;
+    }
+    .social a {
+        width: 20px !important;
+        height: 20px !important;
+        margin-left: 0px !important;
+    }
 }
 
 @media screen and (max-width:420px) {
@@ -2006,10 +2149,10 @@ body {
     border-radius:50%;
 }/*dec22*/
 
-.social a img{
-width:var(--padding-32);
-
-}
+// .social a img{
+// width:var(--padding-32);
+//
+// }
 
 .copyright p {
     margin-bottom: 0px !important;
