@@ -339,7 +339,9 @@ p.bold{
 /*Responsive starts here*/
 @media screen and (max-width:1200px) {}
 
-@media screen and (max-width:990px) {}
+@media screen and (max-width:990px) {
+    .abouttop-banner {margin-top:72px;}
+}
 
 
 
@@ -364,6 +366,12 @@ p.bold{
         height: 230px;
         object-fit: cover;
     }
+    .abouttop-banner .owl-nav {
+        position: absolute;
+        top: 77%;
+        left: 43%;
+        right: 43%;
+    }
 }
 
 
@@ -382,6 +390,7 @@ p.bold{
 
     .abt-banner {
         top:18%;
+        left: 50%;
         padding: 22px;
         width: 90%;
     }
@@ -393,6 +402,8 @@ p.bold{
     .abt-banner .pText p {
         width: 100%;
     }
+
+    .abouttop-banner {margin-top:45px;}
 
 
 }
@@ -411,6 +422,10 @@ p.bold{
 
     .abt-banner {
         padding: 0px;
+    }
+    .tagline-holder {
+        height:auto;
+        padding:20px 10px;
     }
 
 
