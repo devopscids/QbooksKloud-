@@ -5,14 +5,27 @@
 
         <div class="owl-carousel owl-theme tpbanner">
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/images/hotelbanner.png"/>
+                <img src="/cids_theme_odoo_15/static/src/img/hospitality/hospitality-banner1.png"/>
                 <div class="hotel-banner">
-                    <h1>A Leading <br /><span>Global</span> Firm.</h1>
-                    <p>Hospitality And Commercial Interior Design That Encapsulates the Highest Quality Standards And Detailing Is In Our DNA </p>
-                    <!--<div class="hbtns">
-                        <a class="explore" href="#">Explore <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
-                              &lt;!&ndash; <a class="contact" href="#">Contact Us</a>&ndash;&gt;
-                    </div>-->
+                    <p class="ptext">HOSPITALITY</p>
+                    <h1>Creating Memorable Spaces</h1>
+                    <h1>With <span>Meaningful Interior.</span> </h1>
+                    <p>We design inspiring spaces that increase business growth &amp; profitability.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial_banner1.png"/>
+                <div class="hotel-banner">
+                    <h1>Commercial Interior Designs.</h1>
+                    <h1>Focused On &amp;nbsp;<span> Details</span> </h1>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/ffe/ffe-banner1.png"/>
+                <div class="hotel-banner ffe">
+                    <h1>End-To-End <span>FF&amp;E Services</span> For </h1>
+                    <h1>Functional &amp; Phenomenal Spaces</h1>
                 </div>
             </div>
             <div class="item">
@@ -30,6 +43,17 @@
                 </div>
 
             </div>
+            <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/images/hotelbanner.png"/>
+                <div class="hotel-banner">
+                    <h1>A Leading <br /><span>Global</span> Firm.</h1>
+                    <p>Hospitality And Commercial Interior Design That Encapsulates the Highest Quality Standards And Detailing Is In Our DNA </p>
+                    <!--<div class="hbtns">
+                        <a class="explore" href="#">Explore <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/Union.png"/></a>
+                              &lt;!&ndash; <a class="contact" href="#">Contact Us</a>&ndash;&gt;
+                    </div>-->
+                </div>
+            </div>
             <!--<div class="item">
                 <img src="/cids_theme_odoo_15/static/src/img/images/3.png"/>
 
@@ -45,31 +69,6 @@
                 </div>
 
             </div>-->
-            <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/commercial/commercial_banner1.png"/>
-                <div class="hotel-banner">
-                    <h1>Commercial Interior Designs.</h1>
-                    <h1>Focused On &amp;nbsp;<span> Details</span> </h1>
-                </div>
-            </div>
-
-            <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/hospitality/hospitality-banner1.png"/>
-                <div class="hotel-banner">
-                    <p class="ptext">HOSPITALITY</p>
-                    <h1>Creating Memorable Spaces</h1>
-                    <h1>With <span>Meaningful Interior.</span> </h1>
-                    <p>We design inspiring spaces that increase business growth &amp; profitability.</p>
-                </div>
-            </div>
-
-            <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/ffe/ffe-banner1.png"/>
-                <div class="hotel-banner ffe">
-                    <h1>End-To-End <span>FF&amp;E Services</span> For </h1>
-                    <h1>Functional &amp; Phenomenal Spaces</h1>
-                </div>
-            </div>
 
 
 
