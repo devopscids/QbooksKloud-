@@ -1794,7 +1794,8 @@ button.owl-next:focus {
 }
 
 @media screen and (max-width:768px) {
-    
+    .hotel-banner h1{font-size:20px;}
+    .hotel-banner{top:60%;}
 }
 
 @media screen and (max-width:767px) {
@@ -1859,10 +1860,6 @@ button.owl-next:focus {
 }
 
 @media screen and (max-width:600px) {
-    .hotel-banner {
-        top: 60%;
-    }
-
     .about-left {
         width: 100%;
         padding: var(--padding-45);
@@ -1886,7 +1883,7 @@ button.owl-next:focus {
     }
 
     .hotel-banner {
-        width: 100%;
+        width: 75% !important;
         top: 77% !important;
         height: 300px;
     }
@@ -2167,6 +2164,25 @@ button.owl-next:focus {
     background-color:var(--white);
     border-radius:50%;
 }/*dec22*/
+
+@media screen and (max-width: 375px) {
+.hotel-banner {
+    width: 100%;
+    top: 75% !important;}
+
+    .top-banner .owl-theme .owl-nav {
+    left: 10%;
+    top: 84% !important;}
+
+
+.top-banner .owl-carousel.tpbanner .owl-nav button.owl-prev {
+    left: 36%;
+}
+
+.top-banner .owl-carousel.tpbanner .owl-nav button.owl-next{
+    right: 36%;
+}
+}
 
 // .social a img{
 // width:var(--padding-32);
