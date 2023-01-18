@@ -29,9 +29,9 @@
                     <li class="drop-down">
                         <a href="#">About us<img src="/cids_theme_odoo_15/static/src/img/images/downarr.png"/></a>
                         <ul class="child-menu">
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Office</a></li>
-                            <li><a href="#">Recognition </a></li>
+                            <li><a href="#">Our Principles</a></li>
+                            <!--<li><a href="#">Office</a></li>
+                            <li><a href="#">Recognition </a></li>-->
                         </ul>
                     </li>
 
