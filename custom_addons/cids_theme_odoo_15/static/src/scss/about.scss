@@ -1,0 +1,423 @@
+:root {
+    --width-888: 61.6vw;
+    /*fonts*/
+    --font-size-8: 0.57vw;
+    --font-size-12: 0.83vw;
+    --font-size-14: 0.98vw;
+    --font-size-16: 1.12vw;
+    --font-size-18: 1.25vw;
+    --font-size-20: 1.38vw;
+    --font-size-24: 1.66vw;
+    --font-size-30: 2.08vw;
+    --font-size-32: 2.23vw;
+    --font-size-35: 2.5vw;
+    --font-size-48: 3.34vw;
+    --font-size-50: 3.47vw;
+    --font-size-56: 3.88vw;
+    --font-size-60: 4.16vw;
+    --font-size-60: 4.72vw;
+    /*colors*/
+    --yellow: #FFBC00;
+    --white: #fff;
+    /* Height dec2022*/
+    --height-863: 59.93vw;
+    --height-875: 60.76vw;
+    --height-889: 61.73vw;
+    --height-506: 35.13vw;
+    --height-464: 32.22vw;
+    --height-523: 36.31vw;
+    --height-547: 37.98vw;
+    --height-505: 35.06vw;
+    --height-155: 10.76vw;
+    --height-240: 16.66vw;
+    --height-102: 7.08vw;
+    --height-51: 3.54vw;
+    --height-55: 3.81vw;
+    --height-90: 6.25vw;
+    --height-313: 21.73vw;
+    --height-449: 31.18vw;
+    --height-704: 48.88vw;
+    --height-745: 53.21vw;
+    /* Width dec2022*/
+    --width-28: 1.95vw;
+    --width-718: 49.86vw;
+    --width-634: 44.02vw;
+    --width-357: 24.79vw;
+    --width-1063: 73.81vw;
+    --width-431: 29.92vw;
+    --width-388: 26.94vw;
+    --width-382: 26.52vw;
+    --width-485: 33.68vw;
+    --width-600: 41.66vw;
+    --width-700: 48.61vw;
+    --width-722: 50.13vw;
+    --width-509: 35.34vw;
+    --width-536: 37.22vw;
+    --width-102: 7.08vw;
+    --width-194: 13.47vw;
+    --width-162: 11.25vw;
+    --width-211: 14.65vw;
+    --width-126: 9.22vw;
+    --width-273: 18.95vw;
+    --width-953: 66.18vw;
+    /* Padding */
+    --padding-4: 0.28vw;
+    --padding-12: 0.08vw;
+
+    --padding-19: 1.31vw;
+    --padding-47: 3.26vw;
+
+    --padding-28: 1.94vw;
+    --padding-23: 1.59vw;
+    --padding-32: 2.22vw;
+    --padding-39: 2.70vw;
+    --padding-80: 5.56vw;
+    --padding-45: 3.13vw;
+    --padding-55: 3.81vw;
+    --padding-60: 4.16vw;
+    --padding-76: 5.27vw;
+    --padding-120: 8.32vw;
+    --padding-80: 5.55vw;
+    --padding-83: 5.76vw;
+    --padding-65: 4.51vw;
+    --padding-202: 14.02vw;
+    --padding-173: 12.01vw;
+    --padding-140: 9.72vw;
+    --padding-110: 7.63vw;
+    --padding-118: 8.19vw;
+    --padding-130: 9.02vw;
+    --padding-92: 6.38vw;
+    /*margin*/
+    --margin-28: 1.38vw;
+    --margin-49: 3.40vw;
+    --margin-100: 6.94vw;
+    --margin-120: 8.33vw;
+    --margin-70: 4.86vw;
+    --margin-102: 7.08vw;
+    --margin-164: 11.38vw;
+    --margin-231: 16.04vw;
+    --margin-278: 19.30vw;
+}
+
+@font-face {
+    font-family: 'Lorin';
+    src: url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.eot');
+    src: local('https://dev.cids.design/web/static/src/custom_fonts/Lorin Regular'), local('/web/static/src/custom_fonts/Lorin-Regular'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.woff2') format('woff2'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.woff') format('woff'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lorin-bold';
+    src: url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.eot');
+    src: local('https://dev.cids.design/web/static/src/custom_fonts/Lorin Bold'), local('Lorin-Bold'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.woff2') format('woff2'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.woff') format('woff'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lorin-xbold';
+    src: url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.eot');
+    src: local('https://dev.cids.design/web/static/src/custom_fonts/Lorin ExtraBold'), local('Lorin-ExtraBold'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.woff2') format('woff2'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.woff') format('woff'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*banner css*/
+.abt-banner {
+    width: var(--width-888);
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-30%, -50%);
+    text-align: left;
+    z-index: 9999;
+}
+
+.abt-banner .pText p {
+    font-family: 'Lorin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-size-18);
+    line-height: 180%;
+    width: var(--width-700);
+    margin: 0px !important;
+    /* margin: auto; */
+    /* or 32px */
+    /* text-align: center; */
+
+    /* White */
+    color: #FFFFFF;
+    display:flex;
+    align-items: center;
+    font-family: 'Lorin-bold';
+
+}
+
+.withbg{
+    background: rgba(0, 0, 0, 0.47);
+    padding:var(--font-size-8) var(--font-size-12);
+    display: inline-block;
+}
+.abt-banner h1 {
+    font-size: var(--font-size-35);
+    color: var(--white);
+    font-family: 'Lorin';
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    /* text-align: center; */
+    margin-bottom: 0px;
+
+}
+
+.abt-banner p.headP {
+    font-family: 'Lorin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-size-18);
+    line-height: 180%;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.abt-banner h1 span {
+    color: var(--yellow)
+}
+.lineimg{height:2px!important; width:var(--width-102)!important; margin-left:var(--font-size-12);}
+.abouttop-banner .owl-carousel .owl-item img {
+    width: 100%;
+    height: var(--width-431);
+}
+
+/*banner animation*/
+.abouttop-banner .owl-item.active h1 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: slideInUp;
+    animation-delay: 0.3s;
+}
+
+.abouttop-banner .owl-item.active .withbg {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: slideInUp;
+    animation-delay: 0.3s;
+}
+
+.abouttop-banner .owl-item.active .pText {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: slideInUp;
+    animation-delay: 0.3s;
+}
+.abouttop-banner .owl-item.active .pText span{
+    color:var(--yellow);
+}
+
+.abouttop-banner .owl-item.active .hbtns {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: slideInUp;
+    animation-delay: .65s;
+}
+
+
+.abouttop-banner .owl-dots {
+    display: none;
+}
+
+.abouttop-banner .owl-nav{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    right: 5%;
+}
+.abouttop-banner .owl-carousel .owl-nav button.owl-next, .abouttop-banner .owl-carousel .owl-nav button.owl-prev
+{
+    width:var(--font-size-50);
+    height:var(--font-size-50);
+    background-color: transparent !important;
+    color:#fff !important;
+}
+.abouttop-banner .owl-carousel .owl-nav button.owl-next
+{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    font-size:var(--font-size-50) !important;
+}
+
+.abouttop-banner .owl-carousel .owl-nav button.owl-next:hover,.abouttop-banner .owl-carousel .owl-nav button.owl-prev:hover{
+    background-color: transparent;
+    color:var(--yellow) !important;
+}
+.abouttop-banner .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    font-size:var(--font-size-50) !important;
+}
+
+
+
+/*video holder css*/
+
+.video-holder{
+    width:80%;
+    margin:auto;
+    margin:var(--font-size-20) auto var(--font-size-50) auto;
+}
+
+.video{
+        height:var(--height-875);
+        margin-bottom: var(--margin-70);
+}
+
+.video-text p{
+    font-size:var(--font-size-20);
+    font-family: 'Lorin';
+    text-align: justify;
+    margin-bottom:var(--font-size-35);
+}
+
+p.bold{
+    font-family: 'Lorin';
+    text-align: center;
+}
+/*video holder ends here*/
+/*tagline holder css*/
+
+.tagline-holder{
+ background:url('/cids_theme_odoo_15/static/src/img/about_home/ybg.png');
+ background-repeat: no-repeat;
+ background-size:cover;
+ height:var(--height-313);
+ text-align: center;
+ align-items: center;
+ display:flex;
+ justify-content: center;
+ flex-direction: column;
+}
+.tagline-holder h1{
+    font-size:var(--font-size-56);
+    font-family: 'Lorin-bold';
+    text-transform: uppercase;
+    line-height: 120%;
+}
+
+/*tagline css ends here*/
+
+
+/*Responsive starts here*/
+@media screen and (max-width:1200px) {}
+
+@media screen and (max-width:990px) {}
+
+
+
+@media screen and (max-width:768px) {
+    .abt-banner {
+        top: 40%;
+        padding: 30px;
+    }
+
+
+}
+
+@media screen and (max-width:767px) {
+
+    .abt-banner {
+        top:15%;
+        transform: translate(-50%, 20%);
+    }
+
+
+    .abouttop-banner .owl-carousel .owl-item img {
+        height: 230px;
+        object-fit: cover;
+    }
+}
+
+
+
+@media screen and (max-width:580px) {
+
+    .video-text p{font-size:16px;}
+    .tagline-holder h1{font-size:18px; width:90%;}
+
+    .abt-banner .pText p{font-size:14px;}
+    .owl-theme .owl-nav [class*=owl-] img {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+
+    .abt-banner {
+        top:18%;
+        padding: 22px;
+        width: 90%;
+    }
+
+    .abt-banner h1 {
+        font-size: 18px;
+    }
+
+    .abt-banner .pText p {
+        width: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width:480px) {
+
+    .abouttop-banner {
+        height: 230px;
+    }
+
+
+    .abt-banner h1 {
+        font-size: 18px;
+    }
+
+    .abt-banner {
+        padding: 0px;
+    }
+
+
+}
+
+
+
+
+
+/*Responsive ends here*/

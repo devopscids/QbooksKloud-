@@ -261,6 +261,35 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
           $('html, body').animate({scrollTop:0}, '300');
         });
 
+        $(document).ready(function () {
+            var owl = $('.owl-carousel.aboutBanner');
+            owl.owlCarousel({
+                margin: 0,
+                nav: true,
+                autoplay: false,
+                autoplayTimeout: 4000,
+                autoplaySpeed: 3500,
+                autoplayHoverPause: true,
+
+                loop: true,
+
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            });
+            $(".abouttop-banner .owl-prev").html(' <i class="fa fa-angle-left"></i>');
+            $(".abouttop-banner .owl-next").html(' <i class="fa fa-angle-right"></i>');
+
+        });
+
 
 
 //        $("document").ready(function () {
