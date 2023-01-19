@@ -411,7 +411,7 @@ p.bold{
     }
     .abouttop-banner .owl-nav {
         position: absolute;
-        top: 77%;
+        top: 55%;
         left: 37%;
         right: 37%;
     }
@@ -432,7 +432,7 @@ p.bold{
 
 
     .abt-banner {
-        top:18%;
+        top:2%;
         left: 50%;
         padding: 22px;
         width: 90%;
@@ -447,6 +447,7 @@ p.bold{
     }
 
     .abouttop-banner {margin-top:45px;}
+    .abouttop-banner .owl-carousel .owl-item img{height:140px;}
 
 
 }
@@ -455,7 +456,7 @@ p.bold{
 @media screen and (max-width:480px) {
 
     .abouttop-banner {
-        height: 230px;
+        height: 140px;
     }
 
 
