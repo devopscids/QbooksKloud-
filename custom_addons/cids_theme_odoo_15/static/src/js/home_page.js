@@ -266,7 +266,7 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
             owl.owlCarousel({
                 margin: 0,
                 nav: true,
-                autoplay: false,
+                autoplay: true,
                 autoplayTimeout: 4000,
                 autoplaySpeed: 3500,
                 autoplayHoverPause: true,

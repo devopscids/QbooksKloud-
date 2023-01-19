@@ -156,7 +156,7 @@
     font-family: 'Lorin';
     font-style: normal;
     font-weight: 400;
-    font-size: var(--font-size-18);
+    font-size: var(--font-size-16);
     line-height: 180%;
     width: var(--width-700);
     margin: 0px !important;
@@ -178,7 +178,7 @@
     display: inline-block;
 }
 .abt-banner h1 {
-    font-size: var(--font-size-35);
+    font-size: var(--font-size-18);
     color: var(--white);
     font-family: 'Lorin';
     font-style: normal;
@@ -203,10 +203,11 @@
 .abt-banner h1 span {
     color: var(--yellow)
 }
-.lineimg{height:2px!important; width:var(--width-102)!important; margin-left:var(--font-size-12);}
+.lineimg{height:2px!important; width:var(--font-size-50)!important; margin-left:var(--font-size-8);}
 .abouttop-banner .owl-carousel .owl-item img {
     width: 100%;
-    height: var(--width-431);
+    height: var(--width-273);
+    object-fit: cover;
 }
 
 /*banner animation*/
@@ -272,7 +273,7 @@
     position: absolute;
     top: 50%;
     right: 0%;
-    font-size:var(--font-size-50) !important;
+    font-size:var(--font-size-30) !important;
 }
 
 .abouttop-banner .owl-carousel .owl-nav button.owl-next:hover,.abouttop-banner .owl-carousel .owl-nav button.owl-prev:hover{
@@ -283,7 +284,7 @@
     position: absolute;
     top: 50%;
     left: 0%;
-    font-size:var(--font-size-50) !important;
+    font-size:var(--font-size-30) !important;
 }
 
 
@@ -291,14 +292,18 @@
 /*video holder css*/
 
 .video-holder{
-    width:80%;
-    margin:auto;
+    width:100%;
     margin:var(--font-size-20) auto var(--font-size-50) auto;
 }
 
 .video{
         height:var(--height-875);
         margin-bottom: var(--margin-70);
+}
+
+.video-text {
+    width: 90%;
+    margin: auto;
 }
 
 .video-text p{
@@ -319,7 +324,7 @@ p.bold{
  background:url('/cids_theme_odoo_15/static/src/img/about_home/ybg.png');
  background-repeat: no-repeat;
  background-size:cover;
- height:var(--height-313);
+ height:var(--height-155);
  text-align: center;
  align-items: center;
  display:flex;
@@ -327,7 +332,7 @@ p.bold{
  flex-direction: column;
 }
 .tagline-holder h1{
-    font-size:var(--font-size-56);
+    font-size:var(--font-size-32);
     font-family: 'Lorin-bold';
     text-transform: uppercase;
     line-height: 120%;
@@ -340,12 +345,49 @@ p.bold{
 @media screen and (max-width:1200px) {}
 
 @media screen and (max-width:990px) {
+:root {
+        --font-size-48: 3.34vw;
+        --font-size-32: 25px;
+        --font-size-18: 16px;
+        --font-size-20: 18px;
+        --font-size-24: 20px;
+        --font-size-16: 14px;
+        --font-size-30: 24px;
+        --font-size-14: 12px;
+        --font-size-60: 4.16vw;
+        --font-size-50: 3.47vw;
+
+    }
+
     .abouttop-banner {margin-top:72px;}
 }
 
 
 
 @media screen and (max-width:768px) {
+ :root {
+
+        /*fonts*/
+        --font-size-12: 10px;
+
+        --font-size-16: 14px;
+        --font-size-18: 16px;
+        --font-size-20: 18px;
+        --font-size-24: 20px;
+        --font-size-30: 22px;
+        --font-size-32: 28px;
+        --font-size-48: 30px;
+        --font-size-50: 45px;
+
+
+        --font-size-56: 22px;
+        --font-size-30: 18px;
+        --font-size-20: 16px;
+        --font-size-14: 12px;
+
+
+        --font-size-60: 50px;
+    }
     .abt-banner {
         top: 40%;
         padding: 30px;
@@ -369,8 +411,8 @@ p.bold{
     .abouttop-banner .owl-nav {
         position: absolute;
         top: 77%;
-        left: 43%;
-        right: 43%;
+        left: 37%;
+        right: 37%;
     }
 }
 
