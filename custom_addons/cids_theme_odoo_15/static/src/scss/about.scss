@@ -20,6 +20,7 @@
     --yellow: #FFBC00;
     --white: #fff;
     /* Height dec2022*/
+    --height-900: 64.28vw;
     --height-863: 59.93vw;
     --height-875: 60.76vw;
     --height-889: 61.73vw;
@@ -297,8 +298,8 @@
 }
 
 .video{
-        height:var(--height-875);
-        margin-bottom: var(--margin-70);
+        height:var(--height-900);
+//         margin-bottom: var(--margin-70);
 }
 
 .video-text {

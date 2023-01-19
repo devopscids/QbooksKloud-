@@ -34,7 +34,7 @@
                             </div>
 
                         </div>
-                        <div class="item">
+                        <!--<div class="item">
                             <img src="/cids_theme_odoo_15/static/src/img/about_home/banner1.png"/>
                             <div class="abt-banner">
                                 <div class="pText"><p><span>CIDS</span> .DESIGN <img class="lineimg" src="/cids_theme_odoo_15/static/src/img/about_home/line.png"/></p></div>
@@ -42,13 +42,13 @@
                                 <h1>Business <span>Ethics</span></h1>
                                 <h1>And <span>Principles</span></h1>
                             </div>
-                                <!-- <div class="pText">
+                                &lt;!&ndash; <div class="pText">
                                               <p>We strongly believe that everything starts and ends with a great design. Therefore, we draft future-focused spaces that inspire and captivate.</p>
-                                </div> -->
+                                </div> &ndash;&gt;
 
                             </div>
 
-                        </div>
+                        </div>-->
                     </div>
 
 
@@ -63,7 +63,7 @@
                             type="video/ogg">
                         Your browser does not support the video tag.
                     </video>-->
-                    <video playsinline="true" autoplay="true" muted="true" preload="auto" style="object-fit:cover;width: 100%;height:100%;">
+                    <video playsinline="true" autoplay="true" muted="true" preload="auto" style="object-fit:contain;width: 100%;height:100%;">
                         <source src="/cids_theme_odoo_15/static/src/img/about_home/Cids-Principle-Page.mp4" type="video/mp4"/>
                 </video>
                 </div>
