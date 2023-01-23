@@ -205,6 +205,7 @@
     color: var(--yellow)
 }
 .lineimg{height:2px!important; width:var(--font-size-50)!important; margin-left:var(--font-size-8);}
+.lineimg.aboutline{height:2px!important; width:var(--font-size-24)!important; margin-left:var(--font-size-8);}
 .abouttop-banner .owl-carousel .owl-item img {
     width: 100%;
     height: var(--width-273);
@@ -332,11 +333,29 @@ p.bold{
  justify-content: center;
  flex-direction: column;
 }
+
+.tagline-holder.about_tag{
+ background:url('/cids_theme_odoo_15/static/src/img/about_home/ybg.png');
+ background-repeat: no-repeat;
+ background-size:cover;
+ height:var(--height-240);
+ text-align: center;
+ align-items: center;
+ display:flex;
+ justify-content: center;
+ flex-direction: column;
+ padding: var(--height-90) var(--height-102);
+}
+
 .tagline-holder h1{
     font-size:var(--font-size-32);
     font-family: 'Lorin-bold';
     text-transform: uppercase;
     line-height: 120%;
+}
+
+.tagline-holder.about_tag h1{
+    text-transform: capitalize;
 }
 
 /*tagline css ends here*/
@@ -361,6 +380,8 @@ p.bold{
     }
 
     .abouttop-banner {margin-top:72px;}
+    .tagline-holder.about_tag {height:auto;padding: var(--height-90) var(--height-102);}
+    .tagline-holder {height:auto;padding: var(--height-90) var(--height-102);}
 }
 
 
