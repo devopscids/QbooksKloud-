@@ -1,7 +1,7 @@
 <odoo>
     <template id="about" name="CIDS About">
         <t t-call="website.layout">
-            <section class="abouttop-banner ">
+            <!--<section class="abouttop-banner ">
 
                     <div class="owl-carousel owl-theme aboutBanner">
                         <div class="item">
@@ -11,9 +11,9 @@
                                <div class="withbg">
                                 <h1>Introduction</h1>
                             </div>
-                                <!-- <div class="pText">
+                                &lt;!&ndash; <div class="pText">
                                               <p>We strongly believe that everything starts and ends with a great design. Therefore, we draft future-focused spaces that inspire and captivate.</p>
-                                </div> -->
+                                </div> &ndash;&gt;
 
                             </div>
 
@@ -25,14 +25,14 @@
                                <div class="withbg">
                                 <h1>Introduction</h1>
                             </div>
-                                <!-- <div class="pText">
+                                &lt;!&ndash; <div class="pText">
                                               <p>We strongly believe that everything starts and ends with a great design. Therefore, we draft future-focused spaces that inspire and captivate.</p>
-                                </div> -->
+                                </div> &ndash;&gt;
 
                             </div>
 
                         </div>
-                        <!--<div class="item">
+                        &lt;!&ndash;<div class="item">
                             <img src="/cids_theme_odoo_15/static/src/img/about_home/banner1.png"/>
                             <div class="abt-banner">
                                 <div class="pText"><p><span>CIDS</span> .DESIGN <img class="lineimg" src="/cids_theme_odoo_15/static/src/img/about_home/line.png"/></p></div>
@@ -46,11 +46,11 @@
 
                             </div>
 
-                        </div>-->
+                        </div>&ndash;&gt;
                     </div>
 
 
-                </section>
+                </section>-->
 
             <section class="video-holder">
                 <div class="video">
