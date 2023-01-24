@@ -298,6 +298,8 @@
     margin:var(--font-size-20) auto var(--font-size-50) auto;
 }
 
+.video-holder.about_video{margin-top:-57px;}
+
 .video{
         height:var(--height-900);
 //         margin-bottom: var(--margin-70);
@@ -382,6 +384,7 @@ p.bold{
     .abouttop-banner {margin-top:72px;}
     .tagline-holder.about_tag {height:auto;padding: var(--height-90) var(--height-102);}
     .tagline-holder {height:auto;padding: var(--height-90) var(--height-102);}
+    .video-holder.about_video{margin-top:0px;}
 }
 
 

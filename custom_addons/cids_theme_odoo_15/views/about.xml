@@ -52,7 +52,7 @@
 
                 </section>-->
 
-            <section class="video-holder">
+            <section class="video-holder about_video">
                 <div class="video">
                     <!--<video width="100%" height="100%" controls muted loop autoplay style="object-fit:cover;">
                         <source src="https://www.cids.design/web/static/src/img/CIDS-DESIGN-FINAL-INTRO-VIDEO.mp4"
@@ -61,7 +61,7 @@
                             type="video/ogg">
                         Your browser does not support the video tag.
                     </video>-->
-                    <video playsinline="true" autoplay="true" muted="true" preload="auto" style="object-fit:contain;width: 100%;height:100%;">
+                    <video playsinline="true" autoplay="true" muted="true" preload="auto" loop="true" style="object-fit:contain;width: 100%;height:100%;">
                         <source src="/cids_theme_odoo_15/static/src/video/CIDS-Promo-video-FULL-VERSION-update.mp4" type="video/mp4"/>
                 </video>
                 </div>
