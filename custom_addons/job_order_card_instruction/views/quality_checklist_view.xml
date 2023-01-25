@@ -36,7 +36,7 @@
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
                 <p>
-                    Odoo's project management allows you to manage the pipeline of your tasks efficiently. You can track progress, discuss on tasks, attach documents, etc.
+                    CIDS Design's project management allows you to manage the pipeline of your tasks efficiently. You can track progress, discuss on tasks, attach documents, etc.
                 </p>
             </field>
         </record>

@@ -298,7 +298,7 @@
     margin:var(--font-size-20) auto var(--font-size-50) auto;
 }
 
-.video-holder.about_video{margin-top:-57px;}
+.video-holder.about_video{margin:-57px 0px 0px 0px;}
 
 .video{
         height:var(--height-900);
@@ -347,6 +347,18 @@ p.bold{
  justify-content: center;
  flex-direction: column;
  padding: var(--height-90) var(--height-102);
+ position: relative;
+}
+
+.tagline-holder.about_tag::after {
+    content:"";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #00000036;
+    z-index: 0;
 }
 
 .tagline-holder h1{
@@ -358,6 +370,10 @@ p.bold{
 
 .tagline-holder.about_tag h1{
     text-transform: capitalize;
+    color: #FFFFFF;
+    z-index: 9;
+    font-family: 'Lorin';
+    text-align: center;
 }
 
 /*tagline css ends here*/
