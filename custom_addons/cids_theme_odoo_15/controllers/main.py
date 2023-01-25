@@ -31,3 +31,7 @@ class DemoClass(http.Controller):
     @http.route(['/about'], type='http', auth="public", website=True)
     def about_page(self, **post):
         return request.render("cids_theme_odoo_15.about")
+
+    @http.route(['/our_principles'], type='http', auth="public", website=True)
+    def our_principles_page(self, **post):
+        return request.render("cids_theme_odoo_15.our_principles")

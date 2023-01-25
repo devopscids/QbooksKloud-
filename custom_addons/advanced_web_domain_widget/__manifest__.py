@@ -13,7 +13,7 @@
     'version': '15.0.0.0.0',
     'summary': 'Set all relational fields domain by selecting its records unsing `in, not in` operator.',
     'sequence': 10,
-    'author': 'Ashish Hirpara',
+    'author': 'CIDS Design',
     'license': 'OPL-1',
     # 'website': 'https://ashish-hirpara.com/r/odoo',
     'website': '#',

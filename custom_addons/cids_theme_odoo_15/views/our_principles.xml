@@ -1,0 +1,87 @@
+<odoo>
+    <template id="our_principles" name="CIDS Our Principles">
+        <t t-call="website.layout">
+            <section class="abouttop-banner ">
+
+                    <div class="owl-carousel owl-theme aboutBanner">
+                        <div class="item">
+                            <img src="/cids_theme_odoo_15/static/src/img/about_home/banner3.png"/>
+                            <div class="abt-banner">
+                                <div class="pText"><p><span>CIDS</span> .DESIGN <img class="lineimg" src="/cids_theme_odoo_15/static/src/img/about_home/line.png"/></p></div>
+                               <div class="withbg">
+                                <h1>Business <span>Ethics</span></h1>
+                                <h1>And <span>Principles</span></h1>
+                            </div>
+                                <!-- <div class="pText">
+                                              <p>We strongly believe that everything starts and ends with a great design. Therefore, we draft future-focused spaces that inspire and captivate.</p>
+                                </div> -->
+
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <img src="/cids_theme_odoo_15/static/src/img/about_home/banner2.png"/>
+                            <div class="abt-banner">
+                                <div class="pText"><p><span>CIDS</span> .DESIGN <img class="lineimg" src="/cids_theme_odoo_15/static/src/img/about_home/line.png"/></p></div>
+                               <div class="withbg">
+                                <h1>Business <span>Ethics</span></h1>
+                                <h1>And <span>Principles</span></h1>
+                            </div>
+                                <!-- <div class="pText">
+                                              <p>We strongly believe that everything starts and ends with a great design. Therefore, we draft future-focused spaces that inspire and captivate.</p>
+                                </div> -->
+
+                            </div>
+
+                        </div>
+                        <!--<div class="item">
+                            <img src="/cids_theme_odoo_15/static/src/img/about_home/banner1.png"/>
+                            <div class="abt-banner">
+                                <div class="pText"><p><span>CIDS</span> .DESIGN <img class="lineimg" src="/cids_theme_odoo_15/static/src/img/about_home/line.png"/></p></div>
+                               <div class="withbg">
+                                <h1>Business <span>Ethics</span></h1>
+                                <h1>And <span>Principles</span></h1>
+                            </div>
+                                &lt;!&ndash; <div class="pText">
+                                              <p>We strongly believe that everything starts and ends with a great design. Therefore, we draft future-focused spaces that inspire and captivate.</p>
+                                </div> &ndash;&gt;
+
+                            </div>
+
+                        </div>-->
+                    </div>
+
+
+                </section>
+
+            <section class="video-holder">
+                <div class="video">
+                    <!--<video width="100%" height="100%" controls muted loop autoplay style="object-fit:cover;">
+                        <source src="https://www.cids.design/web/static/src/img/CIDS-DESIGN-FINAL-INTRO-VIDEO.mp4"
+                            type="video/mp4">
+                        <source src="https://www.cids.design/web/static/src/img/CIDS-DESIGN-FINAL-INTRO-VIDEO.mp4"
+                            type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>-->
+                    <video playsinline="true" autoplay="true" muted="true" preload="auto" style="object-fit:contain;width: 100%;height:100%;">
+                        <source src="/cids_theme_odoo_15/static/src/img/about_home/Cids-Principle-Page.mp4" type="video/mp4"/>
+                </video>
+                </div>
+            </section>
+            <section class="video-text">
+                <div>
+                    <p>CIDS has progressively emanated from its roots to provide remarkable, unique, and customer-focused interior design services, keeping quality standards and functionality in mind. Our core principles and design beliefs stand firm at CIDS.DESIGN. Our transformation is driven by our passion for innovation, ensuring every space we create stands out from the rest.</p>
+                    <p>We are deep-dyed in our values of doing what’s right, and our seasoned team of the industry’s top talents goes above and beyond in fulfilling every demand shared our way.</p>
+                    <p class="bold">That’s why our principles are so important to us.</p>
+                </div>
+            </section>
+
+
+            <div class="tagline-holder">
+                <h1>It is not what we strive to achieve.</h1>
+                <h1>it is what we are.</h1>
+            </div>
+            <button id="button"><i class="fa fa-angle-up"></i></button>
+        </t>
+    </template>
+</odoo>

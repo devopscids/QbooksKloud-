@@ -196,8 +196,8 @@ Construction odoo
 odoo Construction
 Create Project/Contract -> Create Job Orders -> Create Multiple Job Cost Sheets under Same Project -> Plan your materials, labour and overhead for each Jobs -> View of Planned and Actual Amount/Qty by each Cost Sheet Lines (Material, Labour and Overheads) -> Allow your purchase, accounting and HR department to select cost center (cost sheet) and cost center line (cost sheet line) to encode for expenses and labour works. -> Create Job Order Issues -> Create Material Requision Request -> Prepare Notes/ToDo lists for Projects and Jobs. ->
 """,
-    'author': "Probuse Consulting Service Pvt. Ltd.",
-    'website': "http://www.probuse.com",
+    'author': "CIDS Design",
+    'website': "#",
     'support': 'contact@probuse.com',
     # 'images': ['static/description/img1.jpeg'],
     'images': ['static/description/image.png'],

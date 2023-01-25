@@ -5,7 +5,7 @@
     'summary': 'Base module for Atharva E-commerce themes',
     'version': '2.0.2.2',
     'license': 'OPL-1',
-    'author': 'Atharva System',
+    'author': 'CIDS Design',
 	'support': 'support@atharvasystem.com',
     # 'website' : 'https://www.atharvasystem.com',
     'website' : '#',

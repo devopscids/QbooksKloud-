@@ -61,7 +61,7 @@
     </span>
     using
 <!--    <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email" style="text-decoration:none; color: #ffbc00;">Odoo</a>.-->
-    <a target="_blank" href="#" style="text-decoration:none; color: #ffbc00;">CIDS Design</a>.
+    <a target="_blank" href="#" style="text-decoration:none; color: #ffbc00;">CIDS DESIGN</a>.
 </p>
 </div>
         </template>
@@ -116,7 +116,7 @@
     </tr>
     <tr>
         <td align="center" style="padding: 8px; font-size:11px;">
-            Powered by <a target="_blank" href="https://www.cids.design.com?utm_source=db&amp;utm_medium=email">CIDS Design</a>.
+            Powered by <a target="_blank" href="https://www.cids.design.com?utm_source=db&amp;utm_medium=email">CIDS DESIGN</a>.
         </td>
     </tr>
 </tbody>
@@ -176,7 +176,7 @@
 <!-- POWERED BY -->
 <tr><td align="center" style="min-width: 590px;">
 <!--        Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email" style="color: #ffbc00;">Odoo</a>-->
-        Powered by <a target="_blank" href="#" style="color: #ffbc00;">CIDS Design</a>
+        Powered by <a target="_blank" href="#" style="color: #ffbc00;">CIDS DESIGN</a>
 </td></tr>
 </table>
         </template>
@@ -262,7 +262,7 @@
 <!-- POWERED BY -->
 <tr><td align="center" style="min-width: 590px; padding: 8px; font-size:11px;">
 <!--    Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email" style="color: #ffbc00;">Odoo</a>-->
-    Powered by <a target="_blank" href="#" style="color: #ffbc00;">CIDS Design</a>
+    Powered by <a target="_blank" href="#" style="color: #ffbc00;">CIDS DESIGN</a>
 </td></tr>
 </table>
         </template>

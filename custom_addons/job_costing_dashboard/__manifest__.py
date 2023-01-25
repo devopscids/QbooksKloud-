@@ -196,9 +196,9 @@ CIDS Design Construction
 
 
 """,
-    'author': 'Probuse Consulting Service Pvt. Ltd.',
-    'website': 'http://www.probuse.com',
-    'support': 'contact@probuse.com',
+    'author': 'CIDS Design',
+    'website': '#',
+    # 'support': 'contact@probuse.com',
     'images': ['static/description/image1.png'],
     #'live_test_url': 'https://youtu.be/R1QBEJ-NjKU',
     'live_test_url': 'https://probuseappdemo.com/probuse_apps/job_costing_dashboard/654',#'https://www.youtube.com/watch?v=Abm3y89mW7k',
