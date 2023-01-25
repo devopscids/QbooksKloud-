@@ -426,7 +426,7 @@
 <div class="global_layout" id="footer">
     <p style="font-weight: bold;" t-esc="company.name"/>
     <p class="by_odoo" id="powered">
-        Powered by <a href="https://www.cids.design.com" target="_blank" class="odoo_link"><span class="odoo_link_text">CIDS Design</span></a>
+        Powered by <a href="https://www.cids.design.com" target="_blank" class="odoo_link"><span class="odoo_link_text">CIDS DESIGN</span></a>
     </p>
 </div>
 </div>

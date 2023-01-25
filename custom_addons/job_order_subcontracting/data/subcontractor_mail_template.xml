@@ -15,7 +15,7 @@
             <p>To see job order please followe below link:
               <br/><br/>
             <p>
-              <a style="padding: 8px 30px 8px 30px;border-radius: 6px;border: 1px solid #CCCCCC;background:#008080;margin-left: 2px;text-decoration: none;color:#FFFFFF;" href="${ctx['url']}">Sub Contract</a>
+              <a style="padding: 8px 30px 8px 30px;border-radius: 6px;border: 1px solid #CCCCCC;background:#ffbc00;margin-left: 2px;text-decoration: none;color:#FFFFFF;" href="${ctx['url']}">Sub Contract</a>
             <p>
               <br/>
               Thanks,
@@ -45,7 +45,7 @@
               </tr>
               <tr>
                 <td align="center">
-                    Powered by <a target="_blank" href="https://www.odoo.com">Odoo</a>.
+                    Powered by <a target="_blank" href="https://www.odoo.com">CIDS DESIGN</a>.
                 </td>
               </tr> 
            ]]>

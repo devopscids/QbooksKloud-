@@ -87,9 +87,9 @@ Email notifications to Department Manager, Requisition Manager for approval.
 
 
     """,
-    'author': 'Probuse Consulting Service Pvt. Ltd.',
-    'website': 'http://www.probuse.com',
-    'support': 'contact@probuse.com',
+    'author': 'CIDS Design',
+    'website': '#',
+    # 'support': 'contact@probuse.com',
     'images': ['static/description/img1.jpeg'],
     #'live_test_url': 'https://youtu.be/1AgKs7gfe4M',
     'live_test_url': 'https://probuseappdemo.com/probuse_apps/material_purchase_requisitions/304',#'https://youtu.be/byR2cM0c274',

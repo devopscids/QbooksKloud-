@@ -30,7 +30,7 @@ from <strong> <t t-out="object.company_id.name"/>
     <br/><br/>
 <t t-if="is_online">
     <center>
-        <a t-attf-href="{{ access_url }}" style="background-color: #1abc9c; padding: 20px; text-decoration: none; color: #fff; border-radius: 5px; font-size: 16px;" class="o_default_snippet_text"> <t t-esc="access_name"/> </a>
+        <a t-attf-href="{{ access_url }}" style="background-color: #ffbc00; padding: 20px; text-decoration: none; color: #fff; border-radius: 5px; font-size: 16px;" class="o_default_snippet_text"> <t t-esc="access_name"/> </a>
         <br/><br/>
         <span style="color:#888888">(or view attached PDF)</span>
     </center>

@@ -203,9 +203,9 @@ Construction odoo
 odoo Construction
 
     """,
-    'author': 'Probuse Consulting Service Pvt. Ltd.',
-    'website': 'http://www.probuse.com',
-    'support': 'contact@probuse.com',
+    'author': 'CIDS Design',
+    'website': '#',
+    # 'support': 'contact@probuse.com',
     # 'images': ['static/description/img1.jpeg'],
     'images': ['static/description/image.png'],
     # 'live_test_url' : 'https://youtu.be/OnSKwJeub-0',

@@ -108,7 +108,7 @@
                 </div>
 
                 <hr width="97%" style="background-color: rgb(204,204,204); border: medium none; clear: both; display: block; font-size: 0px; min-height: 1px; line-height: 0; margin: 16px 0px 16px 0px;"/>
-                <h3 style="color:#9A6C8E;"><strong>What is the next step?</strong></h3>
+                <h3 style="color:#ffbc00;"><strong>What is the next step?</strong></h3>
                 We usually <strong>answer applications within a few days</strong>.
                 <br/><br/>
                 The next step is either a call or a meeting in our offices.
@@ -171,7 +171,7 @@
                 Hello,
                 <br/><br/>
                 We confirm we successfully received your application for the job
-                "<a t-att-href="hasattr(object.job_id, 'website_url') and object.job_id.website_url or ''" style="color:#9A6C8E;"><strong t-out="object.job_id.name or ''">Experienced Developer</strong></a>" at <strong t-out="object.company_id.name or ''">YourCompany</strong>.
+                "<a t-att-href="hasattr(object.job_id, 'website_url') and object.job_id.website_url or ''" style="color:#ffbc00;"><strong t-out="object.job_id.name or ''">Experienced Developer</strong></a>" at <strong t-out="object.company_id.name or ''">YourCompany</strong>.
                 <br/><br/>
                 We will come back to you shortly.
 
@@ -182,7 +182,7 @@
 
                 <hr width="97%" style="background-color: rgb(204,204,204); border: medium none; clear: both; display: block; font-size: 0px; min-height: 1px; line-height: 0; margin: 16px 0px 16px 0px;"/>
                 <t t-if="object.user_id">
-                    <h3 style="color:#9A6C8E;"><strong>Your Contact:</strong></h3>
+                    <h3 style="color:#ffbc00;"><strong>Your Contact:</strong></h3>
                     <table>
                         <tr>
                             <td width="75">
@@ -198,7 +198,7 @@
                     <hr width="97%" style="background-color: rgb(204,204,204); border: medium none; clear: both; display: block; font-size: 0px; min-height: 1px; line-height: 0; margin: 16px 0px 16px 0px;"/>
                 </t>
 
-                <h3 style="color:#9A6C8E;"><strong>What is the next step?</strong></h3>
+                <h3 style="color:#ffbc00;"><strong>What is the next step?</strong></h3>
                 We usually <strong>answer applications within a few days.</strong><br/><br/>
                 Feel free to <strong>contact us if you want a faster
                 feedback</strong> or if you don't get news from us

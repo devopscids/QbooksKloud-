@@ -158,9 +158,9 @@ Construction Management
 
 
     """,
-    'author': 'Probuse Consulting Service Pvt. Ltd.',
-    'website': 'http://www.probuse.com',
-    'support': 'contact@probuse.com',
+    'author': 'CIDS Design',
+    'website': '#',
+    # 'support': 'contact@probuse.com',
     'images': ['static/description/image1.png'],
     #'live_test_url': 'https://youtu.be/IGQ5NLQL5F8',
     'live_test_url': 'https://probuseappdemo.com/probuse_apps/odoo_project_team/984',#'https://youtu.be/c8Pfqi6GHXg',
