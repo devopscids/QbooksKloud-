@@ -502,7 +502,7 @@
               <p class="o_view_nocontent_smiling_face">
                 Create a Contact in your address book
               </p><p>
-                Odoo helps you track all activities related to your contacts.
+                CIDS Design helps you track all activities related to your contacts.
               </p>
             </field>
         </record>
@@ -537,7 +537,7 @@
               <p class="o_view_nocontent_smiling_face">
                 Create a new customer in your address book
               </p><p>
-                Odoo helps you easily track all activities related to a customer.
+                CIDS Design helps you easily track all activities related to a customer.
               </p>
             </field>
         </record>
@@ -572,7 +572,7 @@
               <p class="o_view_nocontent_smiling_face">
                 Create a new vendor in your address book
               </p><p>
-                Odoo helps you easily track all activities related to a vendor.
+                CIDS Design helps you easily track all activities related to a vendor.
               </p>
             </field>
         </record>
