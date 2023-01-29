@@ -26,7 +26,7 @@
         <field name="search_view_id" ref="project.view_task_search_form"/>
         <field name="help" type="html">
             <p>
-                Odoo's Job Orders management allows you to manage the pipeline of your Jobs efficiently. You can track progress, discuss on jobs, attach documents, etc.
+                CIDS Design's Job Orders management allows you to manage the pipeline of your Jobs efficiently. You can track progress, discuss on jobs, attach documents, etc.
             </p>
         </field>
     </record>
@@ -66,7 +66,7 @@
           <p class="oe_view_nocontent_create">
             Click to add a contact in your address book.
           </p><p>
-            Odoo helps you easily track all activities related to
+            CIDS Design helps you easily track all activities related to
             a supplier: discussions, history of purchases,
             documents, etc.
           </p>
