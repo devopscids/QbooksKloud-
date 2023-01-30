@@ -2,7 +2,7 @@
 <odoo>
 <data>
 <record id="general_dashboard_action" model="ir.actions.act_window">
-<field name="name">Custom Dashboard</field>
+<field name="name">Import Dashboard</field>
 <field name="res_model">custom.dashboard</field>
 <field name="view_mode">kanban,tree</field>
 <field name="help" type="html">
