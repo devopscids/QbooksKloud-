@@ -11,7 +11,7 @@
 </p>
 </field>
 </record>
-<menuitem id="custom_dashboard_menu" name="Cutomize Dashboard" sequence="0"/>
+<menuitem id="custom_dashboard_menu" name="Import Dashboard" sequence="0"/>
 <menuitem id="general_dashboard_menu" action="general_dashboard_action"
 sequence="2" parent="import_bridge_axis.custom_dashboard_menu"/>
 
