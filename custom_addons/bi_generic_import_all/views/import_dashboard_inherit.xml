@@ -7,27 +7,27 @@
         <field name="inherit_id" ref="bi_generic_import.import_dashboard_kanban_dashboard"/>
         <field name="arch" type="xml">
             <xpath expr="//div[@name='account payment']" position="after">
-                <div t-if="record.state.raw_value =='pos.order'" style="color:teal;margin-left: 30px;">
+                <div t-if="record.state.raw_value =='pos.order'" style="color:#ffbc00;margin-left: 30px;">
                     <left>
                         <i title="POS Order" class="fa fa-shopping-cart fa-5x"/>
                     </left>
                 </div>
-                <div t-if="record.state.raw_value =='project.task'" style="color:teal;margin-left: 30px;">
+                <div t-if="record.state.raw_value =='project.task'" style="color:#ffbc00;margin-left: 30px;">
                     <left>
                         <i title="Task" class="fa fa-tasks fa-5x"/>
                     </left>
                 </div>
-                <div t-if="record.state.raw_value =='hr.attendance'" style="color:teal;margin-left: 30px;">
+                <div t-if="record.state.raw_value =='hr.attendance'" style="color:#ffbc00;margin-left: 30px;">
                     <left>
                         <i  title="Attendance" class="fa fa-credit-card-alt fa-5x"/>
                     </left>
                 </div>
-                <div t-if="record.state.raw_value =='account.bank.statement'" style="color:teal;margin-left: 30px;">
+                <div t-if="record.state.raw_value =='account.bank.statement'" style="color:#ffbc00;margin-left: 30px;">
                     <left>
                         <i  title="Account Bank Statement" class="fa fa-university  fa-5x"/>
                     </left>
                 </div>
-                <div t-if="record.state.raw_value =='account.move.journal'" style="color:teal;margin-left: 30px;">
+                <div t-if="record.state.raw_value =='account.move.journal'" style="color:#ffbc00;margin-left: 30px;">
                     <left>
                         <i  title="Account Move Journal" class="fa fa-book fa-5x"/>
                     </left>
