@@ -15,7 +15,7 @@
                 </p>
                 Please Sign on Contract Using Below link.
 
-                <p><a class="btn btn-primary" t-attf-href="{{'link' in ctx and ctx['link']}}" style="background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;"
+                <p><a class="btn btn-primary" t-attf-href="{{'link' in ctx and ctx['link']}}" style="background-color: #ffbc00; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;"
 >Open Your Contract</a></p>
 </br></br>
    <p>Thank you for choosing <t t-out="object.company_id.name or 'us'"/>!</p>
