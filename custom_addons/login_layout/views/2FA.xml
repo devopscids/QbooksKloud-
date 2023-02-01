@@ -1,0 +1,583 @@
+<odoo>
+    <template id="2fa_forget_inherit" inherit_id="auth_totp.auth_totp_form" name="2FA Forgot Password">
+        <xpath expr="//div[@class='oe_login_form']" position="replace">
+            <style>
+                .nav-bar{background-color: rgba(80, 87, 93, 0.9)!important;
+                backdrop-filter: blur(7.5px);}
+
+                * {
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                }
+
+                html{
+                font-size: 62.5%;
+
+                }
+
+                @font-face {
+                font-family: "Lorin";
+                src: url("/web/static/src/custom_fonts/Lorin-Regular.eot");
+                src: local(
+                "/web/static/src/custom_fonts/Lorin Regular"
+                ),
+                local("/web/static/src/custom_fonts/Lorin-Regular"),
+                url("/web/static/src/custom_fonts/Lorin-Regular.eot?#iefix")
+                format("embedded-opentype"),
+                url("/web/static/src/custom_fonts/Lorin-Regular.woff2")
+                format("woff2"),
+                url("/web/static/src/custom_fonts/Lorin-Regular.woff")
+                format("woff"),
+                url("/web/static/src/custom_fonts/Lorin-Regular.ttf")
+                format("truetype");
+                font-weight: normal;
+                font-style: normal;
+                }
+
+                @font-face {
+                font-family: "Lorin-bold";
+                src: url("/web/static/src/custom_fonts/Lorin-Bold.eot");
+                src: local("/web/static/src/custom_fonts/Lorin Bold"),
+                local("Lorin-Bold"),
+                url("/web/static/src/custom_fonts/Lorin-Bold.eot?#iefix")
+                format("embedded-opentype"),
+                url("/web/static/src/custom_fonts/Lorin-Bold.woff2")
+                format("woff2"),
+                url("/web/static/src/custom_fonts/Lorin-Bold.woff")
+                format("woff"),
+                url("/web/static/src/custom_fonts/Lorin-Bold.ttf")
+                format("truetype");
+                font-weight: bold;
+                font-style: normal;
+                }
+
+                @font-face {
+                font-family: "Lorin-xbold";
+                src: url("/web/static/src/custom_fonts/Lorin-ExtraBold.eot");
+                src: local(
+                "/web/static/src/custom_fonts/Lorin ExtraBold"
+                ),
+                local("Lorin-ExtraBold"),
+                url("/web/static/src/custom_fonts/Lorin-ExtraBold.eot?#iefix")
+                format("embedded-opentype"),
+                url("/web/static/src/custom_fonts/Lorin-ExtraBold.woff2")
+                format("woff2"),
+                url("/web/static/src/custom_fonts/Lorin-ExtraBold.woff")
+                format("woff"),
+                url("/web/static/src/custom_fonts/Lorin-ExtraBold.ttf")
+                format("truetype");
+                font-weight: 800;
+                font-style: normal;
+                }
+
+                :root {
+                /* Font Size */
+                --font-size-48: 3.34vw;
+                --font-size-32: 2.23vw;
+                --font-size-18: 1.25vw;
+                --font-size-20: 1.38vw;
+                --font-size-24: 1.66vw;
+                --font-size-16: 1.12vw;
+                --font-size-30: 2.08vw;
+                --font-size-14: 0.98vw;
+                --font-size-60: 4.16vw;
+                --font-size-50: 3.47vw;
+                --font-size-30: 2.08vw;
+                /* Padding */
+                --padding-4: 0.28vw;
+                --padding-12: 0.08vw;
+
+                --padding-19: 1.31vw;
+                --padding-47: 3.26vw;
+
+                --padding-28: 1.94vw;
+                --padding-23: 1.59vw;
+                --padding-32: 2.22vw;
+                --padding-80: 5.56vw;
+                --padding-45: 3.13vw;
+                --padding-55: 3.81vw;
+                --padding-65: 4.51vw;
+                --padding-202: 14.02vw;
+                --padding-173: 12.01vw;
+                --padding-140: 9.72vw;
+                --padding-110: 7.63vw;
+                --padding-118: 8.19vw;
+                --padding-130: 9.02vw;
+                --padding-92: 6.38vw;
+                /*margin*/
+                --margin-28: 1.38vw;
+                --margin-49: 3.4vw;
+                --margin-120: 8.33vw;
+                --margin-70: 4.86vw;
+                /* Color */
+                --white: #fff;
+                --yellow: #ffbc00;
+                --text-color: #50575d;
+                --light-grey: #d9d9d9;
+
+                /* Height dec2022*/
+                --height-863: 59.93vw;
+                --height-875: 60.76vw;
+                --height-889: 61.73vw;
+                --height-506: 35.13vw;
+                --height-464: 32.22vw;
+                --height-523: 36.31vw;
+                --height-505: 35.06vw;
+                --height-155: 10.76vw;
+                --height-102: 7.08vw;
+                --height-51: 3.54vw;
+                /*dec22*/
+                --height-90: 6.25vw;
+                /* Width dec2022*/
+                --width-28: 1.95vw;
+                --width-718: 49.86vw;
+                --width-634: 44.02vw;
+                --width-357: 24.79vw;
+                --width-1063: 73.81vw;
+                --width-431: 29.92vw;
+                --width-485: 33.68vw;
+                --width-600: 41.66vw;
+                --width-536: 37.22vw;
+                --width-102: 7.08vw;
+                --width-194: 13.47vw;
+                --width-162: 11.25vw;
+                --width-211: 14.65vw;
+                --width-126: 9.22vw;
+                /*dec22*/
+                }
+
+                .animated {
+                -webkit-animation-duration: 1s;
+                animation-duration: 1s;
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+                }
+
+                .login-body {
+                <!--	background-image: url("/login_layout/static/src/img/loginBackground.png");-->
+
+                /* Full height */
+                height: 100vh;
+                overflow: hidden;
+
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                }
+
+                .login-box{
+                width:39.38vw;
+                background-color: var(--white);
+                padding-left: 4.445vw;
+                padding-right: 4.445vw;
+                padding-bottom: 2.5vw;
+
+                }
+
+                .logo1{
+                padding-top: 2.8rem;
+                }
+
+                .box-heading{
+                margin-top: 1.5rem;
+                }
+
+                .f-700{
+                font-weight: 700;
+                }
+                .f-800{
+                font-weight: 800;
+                }
+                .forgot{
+                font-size: var(--font-size-14);
+                margin-left: var(--font-size-20);
+                color: var(--text-color);
+                cursor: pointer;
+                }
+                .mb-28{
+                margin-bottom: 1.95vw;
+                }
+                .br-0{
+                border-right: unset !important;
+                }
+                .mb-25{
+                margin-bottom: 1.74vw;
+                }
+
+                .color-yellow{
+                color: var(--yellow);
+                }
+                .color-white{
+                color: var(--white);
+                }
+                .font-lorin{
+                font-family: 'Lorin';
+                }
+                .center-main-box{
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                }
+                .heading{
+
+                font-size: 2.778vw;
+                }
+
+                .box-heading h5,.box-heading h4{
+                font-weight: 700;
+                font-family: 'Lorin';
+                }
+
+                .box-heading h5{
+                font-size: var(--font-size-18);
+                color: var(--yellow);
+                line-height: var(--font-size-18);
+                margin-bottom: var(--font-size-20);
+
+                }
+
+                .box-heading h4{
+                font-size: var(--font-size-24);
+                line-height: var(--font-size-24);
+                margin-bottom: 2.0vw;
+                color: var(--text-color);
+                }
+
+                .form-label{
+                font-size: var(--font-size-16);
+                line-height: var(--font-size-16);
+                color: var(--text-color);
+                margin-bottom: 0.5vw;
+                }
+                .login-box .form-control:focus {
+                box-shadow: unset;
+                }
+                .login-box .form-control{
+                height: 3.334vw;
+                border: 1px solid #EDF0F2;
+                border-radius: 4px;
+                background-color: var(--white);
+                border-left: unset;
+                font-size: var(--font-size-14);
+                }
+
+                .inp-form{
+                border: 1px solid transparent;
+                border-radius: 4px;
+                }
+                .inp-form:hover{
+                border: 1px solid var(--yellow);
+                }
+
+                .login-box .input-group-text,.login-box .input-group-append{
+                background-color: var(--white);
+                border: 1px solid #EDF0F2;
+                }
+                .login-btn{
+                /* background-color: var(--yellow) !important; */
+                border: unset !important;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                font-size: var(--font-size-16);
+                font-weight: 800;
+                color: var(--white);
+                margin-top: 2vw;
+                margin-bottom: 1.9vw;
+                background-size: 100% 200%;
+                background-image: linear-gradient(to top, var(--white) 50%, var(--yellow) 50%);
+                -webkit-transition: background-position 1s;
+                -moz-transition: background-position 1s;
+                transition: background-position 1s;
+                border: 1px solid var(--yellow) !important;
+
+                }
+
+                .login-btn:hover{
+                background-position: 0 -100%;
+                color: var(--yellow);
+                border: 1px solid var(--yellow) !important;
+                }
+
+                .not-register span{
+                cursor: pointer;
+
+                }
+
+                .not-register p{
+                color: var(--text-color);
+                }
+
+                .not-register{
+                font-size: var(--font-size-14) !important;
+                line-height: var(--font-size-14) !important;
+                }
+
+                .btn:focus{
+                outline: unset;
+                box-shadow: unset !important;
+                }
+
+                @media (max-width: 576px) {
+                .box-heading h5{
+                font-size: 1.125rem;
+                line-height: 18px;
+                margin-bottom: 1.25em;
+
+                }
+
+                .box-heading h4{
+                font-size: 1.5rem;
+                line-height: 24px;
+                margin-bottom: 2.5em;
+                color: var(--text-color);
+                }
+                .form-label{
+                font-size: 1rem;
+                line-height: 16px;
+                margin-bottom: 0.5em;
+                }
+                .mb-28{
+                margin-bottom: 1.75rem;
+                }
+                .br-0{
+                border-right: unset !important;
+                }
+                .mb-25{
+                margin-bottom: 1.56rem;
+                }
+
+                .heading{
+                text-align: center;
+                font-size: 2.5rem;
+                }
+                .login-box{
+                width:100%;
+                background-color: var(--white);
+                }
+                .login-box .form-control{
+                height: 48px;
+                font-size: 0.875rem;
+                }
+                .login-btn{
+                font-size: 1rem;
+                margin-top: 2rem;
+                }
+                .not-register{
+                font-size: .875rem;
+                line-height: 14px;
+                }
+                .forgot{
+                font-size: .875rem;
+                margin-left: 8px;
+                }
+                }
+
+                .alert {
+
+                margin-left: 45px;
+                margin-right: 40px;
+                }
+                .custom-container{
+                width:90%;
+                margin:auto;
+                position:absolute;
+                top:0px;
+                left:0px;
+                right:0px;
+                bottom:0px;
+                }
+                .input-group-text img{
+                width:var(--font-size-20);
+                height:var(--font-size-20);
+                object-fit: contain;
+                }
+                .input-group-prepend img{
+                width:var(--font-size-20);
+                height:var(--font-size-20);
+                object-fit: contain;
+                }
+
+                button.btn.btn-primary.btn-block.btn.btn-primary.w-100.login-btn.font-lorin {
+                padding: var(--font-size-16);
+                }
+
+
+                input[type="checkbox"]{
+                width:var(--font-size-20) !important;
+<!--                height:var(&#45;&#45;font-size-20) !important;-->
+                }
+                .checkstyle{
+                display:flex;
+                align-items:center;
+                }
+
+                .input-group-prepend {
+                margin-right: var(--font-size-12) !important;
+                }
+
+
+                .fa-eye:before {
+
+                color: grey !important;
+                }
+
+                footer {
+                display: none;
+                }
+                header {
+                display: none;
+                }
+
+                .fa-eye-slash:before {
+                color: gray !important;
+                }
+
+
+                .oe_login_form, .oe_signup_form, .oe_reset_password_form {
+                max-width: unset !important;
+                position: relative;
+                margin: 30px auto !important;
+                }
+                input:-webkit-autofill,
+                input:-webkit-autofill:hover,
+                input:-webkit-autofill:focus,
+                input:-webkit-autofill:active{
+                -webkit-box-shadow: 0 0 0 30px white inset !important;
+                }
+                @media (max-width: 576px) {
+                .box-heading h5,.form-label,.login-box .form-control,.forgot,.login-btn,.not-register a {
+                font-size: 11px;}
+                .box-heading h4{font-size:14px;}
+                .input-group-prepend img {
+                width: 17px;
+                height: 17px;
+                object-fit: contain;
+                }
+                input[type="checkbox"] {
+                width: 12px !important;
+<!--                height: 12px !important;-->
+                }
+                .checkstyle {
+                display: flex;
+                align-items: flex-start;
+                }
+                .not-register {
+                margin-top:12px;
+                }
+                .login-btn{
+                padding:12px 0px !important;
+                margin-bottom: 15px;
+                }
+                }
+            </style>
+
+            <section class="login-body">
+                <video playsinline="true" autoplay="true" muted="true" loop="true" preload="auto"
+                       style="width: 100%;max-width: 100%;height: 100vh !important;object-fit: cover;">
+                    <source src="https://www.cids.design/login_layout/static/src/video/login.mp4" type="video/mp4"/>
+                </video>
+                <div class="custom-container">
+                    <div class="row center-main-box">
+                        <div class="col-sm-12 col-md-6">
+                            <h2 class="heading color-yellow f-800">Interior Design</h2>
+                            <h3 class="heading color-white f-800">Process Management.</h3>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="login-box">
+                                <div class="logo1 text-center">
+                                    <a href="/">
+                                        <img src="/login_layout/static/src/img/logo.png" alt="logo"/>
+                                    </a>
+
+                                </div>
+
+                                <div class="text-center box-heading">
+                                    <!--                                    <h5>Welcome back!</h5>-->
+                                    <h4>Two-factor Authentication</h4>
+                                    <div class="mb-2 mt-2 text-muted">
+                                        To login, enter below the six-digit authentication code provided by your
+                                        Authenticator app.
+                                        <br/>
+                                    </div>
+                                </div>
+
+                                <p class="alert alert-danger" t-if="error" role="alert">
+                                    <t t-esc="error"/>
+                                </p>
+                                <p class="alert alert-success" t-if="message" role="status">
+                                    <t t-esc="message"/>
+                                </p>
+
+                                <form class="oe_signup_form" role="form" method="post" t-if="not message">
+                                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                    <t t-if="token and not invalid_token">
+                                        <t t-call="auth_signup.fields">
+                                            <t t-set="only_passwords" t-value="1"/>
+                                        </t>
+                                    </t>
+                                    <t t-if="not token">
+                                        <div class="form-group mb-28 ">
+                                            <label class="form-label f-700" for="exampleInputEmail1">Authentication
+                                                Code
+                                            </label>
+                                            <div class="input-group mb-3 inp-form">
+                                                <div class="input-group-prepend">
+                                                    <span
+                                                            class="input-group-text"
+                                                            id="basic-addon1">
+                                                        <img src="/login_layout/static/src/img/email.png" alt=""/>
+                                                    </span>
+                                                </div>
+                                                <input id="totp_token" name="totp_token"
+                                                       class="form-control font-lorin"
+                                                       autocomplete="off" inputmode="numeric" autofocus="autofocus"
+                                                       required="required" placeholder="e.g. 123456"/>
+
+                                            </div>
+                                        </div>
+                                    </t>
+                                    <input type="hidden" name="redirect" t-att-value="redirect"/>
+                                <input type="hidden" name="token" t-att-value="token"/>
+
+                                <div class="mb-2 mt-2 text-muted">
+                                    <input type="checkbox" name="remember" id="switch-remember" value="1"/>
+                                    <label for="switch-remember">Don't ask again on this device</label>
+                                </div>
+
+                                 <div t-attf-class="text-center oe_login_buttons pt-3 clearfix oe_login_buttons">
+                                        <button type="submit"
+                                                class="btn btn-primary  w-100 login-btn font-lorin">Login
+                                        </button>
+                                </div>
+
+                                </form>
+
+                                <form method="POST" action="/web/session/logout" class="form-inline">
+                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                    <div class="w-100 text-center">
+                        <button type="submit" class="btn btn-primary btn-block w-100 login-btn font-lorin">
+                            Cancel
+                        </button>
+                    </div>
+                </form>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+
+        </xpath>
+
+
+    </template>
+
+
+</odoo>
