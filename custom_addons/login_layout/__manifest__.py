@@ -31,6 +31,7 @@
         'views/templates.xml',
         'views/signup.xml',
         'views/forgot_password.xml',
+        'views/2FA.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
