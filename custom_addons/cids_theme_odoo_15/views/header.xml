@@ -1,5 +1,8 @@
 <odoo>
     <template id="custom_header" inherit_id="website.layout" name="Custom Header">
+        <xpath expr="//head" position="inside">
+            <meta name="google-site-verification" content="JUQe8qkQV1AAdhgPJsSBmvn3QCwKkXqbAlskJRJTejw"/>
+        </xpath>
         <xpath expr="//header" position="replace">
             <header>
              <section class="nav-bar">
