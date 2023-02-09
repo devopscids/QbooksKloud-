@@ -1,6 +1,7 @@
 <odoo>
     <template id="home" name="Home">
         <t t-call="website.layout">
+            <meta name="google-site-verification" content="JUQe8qkQV1AAdhgPJsSBmvn3QCwKkXqbAlskJRJTejw"/>
                <section class="top-banner">
 
         <div class="owl-carousel owl-theme tpbanner">
