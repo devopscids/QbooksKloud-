@@ -40,7 +40,7 @@ class DemoClass(http.Controller):
     def contactus_page(self, **post):
         return request.render("cids_theme_odoo_15.cids_contactus")
 
-    @http.route(['/cids_contact_us'], type='http', auth="public", website=True)
+    @http.route(['/cids_contact_us'], method='POST', type='http', auth="public", website=True)
     def cids_contactus_page(self, **post):
         vals = {
             'contact_name': post.get('contact_name'),
@@ -52,4 +52,4 @@ class DemoClass(http.Controller):
         }
         crm = request.env['crm.lead'].sudo().create(vals)
         print(crm)
-        return request.redirect('/commercial')
+        return request.redirect('/contactus-thank-you')
