@@ -20,6 +20,7 @@
         <meta name="description" content="At CIDS.DESIGN, we offer the Best Commercial Interior Design Services , Corporate Interior Design Services for co-working spaces, development centers, and research centers in the United States. Contact Us."/>
         <meta name="keywords" content="Commercial Interior Design Services, Best Commercial Interior Design Services, Corporate Interior Designs, Commercial Design Services, Corporate Interior Design Services"/>
         <title>Commercial Interior Design Services | Corporate Interior Designs</title>
+        <meta name="google-site-verification" content="JUQe8qkQV1AAdhgPJsSBmvn3QCwKkXqbAlskJRJTejw"/>
 
 
 <!--        <section class="comm-about">-->
@@ -76,7 +77,7 @@
         <div class="btm-holder">
         <div class="bottom-header">
             <div class="logo">
-                <a href="/">
+                <a href="/commercial">
                   <img class="light" src="/cids_theme_odoo_15/static/src/img/images/cids-logo.png" />
                 </a>
             </div>
@@ -88,7 +89,8 @@
             <div class="login">
                 <a class="login-search" href="/contactus"><img src="/cids_theme_odoo_15/static/src/img/images/Call.svg" /></a>
                 <a class="contact-search1" href="mailto:contact@cids.design"><img src="/cids_theme_odoo_15/static/src/img/commercial/Message.svg"/></a>
-                <a class="contact-search" href="/web/login"><img src="/cids_theme_odoo_15/static/src/img/images/Profile.svg" /></a>
+<!--                <a class="contact-search" href="/web/login"><img src="/cids_theme_odoo_15/static/src/img/images/Profile.svg" /></a>-->
+                <a class="contact-search" href="/contactus"><img src="/cids_theme_odoo_15/static/src/img/images/Profile.svg" /></a>
                 <a class="login-search1" href="https://www.linkedin.com/company/cids-designservices/" target="_blank"><img src="/cids_theme_odoo_15/static/src/img/commercial/link.png" /></a>
             </div>
         </div>

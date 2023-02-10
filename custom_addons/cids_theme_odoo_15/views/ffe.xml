@@ -18,6 +18,7 @@
         <meta name="description" content="Best FF&amp;E Interior Design firm: CIDS FF&amp;E designers are highly experienced in the specification, procurement, and installation of furniture, fixtures, and equipment. We are an elite provider with the expertise and capabilities to deliver your FF&amp;E Services."/>
         <meta name="keywords" content="FF&amp;E Interior Design Consultant, FF&amp;E Designers, FF&amp;E Procurement, Best FF&amp;E Interior Design Firm, FF&amp;E Interior Design Firm"/>
         <title>FF&amp;E Interior Design Consultant | FF&amp;E Designers | FF&amp;E Procurement</title>
+        <meta name="google-site-verification" content="JUQe8qkQV1AAdhgPJsSBmvn3QCwKkXqbAlskJRJTejw"/>
 
     <section class="header">
 <!--        <div class="top-header-inner">-->
@@ -44,7 +45,7 @@
         <div class="btm-holder">
             <div class="bottom-header">
                 <div class="logo">
-                    <a href="/">
+                    <a href="/commercial">
                   <img class="light" src="/cids_theme_odoo_15/static/src/img/images/cids-logo.png" />
                 </a>
                 </div>
@@ -56,7 +57,8 @@
                 <div class="login">
                     <a class="login-search" href="/contactus"><img src="/cids_theme_odoo_15/static/src/img/images/Call.svg" /></a>
                     <a class="contact-search1" href="mailto:contact@cids.design"><img src="/cids_theme_odoo_15/static/src/img/commercial/Message.svg"/></a>
-                    <a class="contact-search" href="/web/login"><img src="/cids_theme_odoo_15/static/src/img/images/Profile.svg" /></a>
+<!--                    <a class="contact-search" href="/web/login"><img src="/cids_theme_odoo_15/static/src/img/images/Profile.svg" /></a>-->
+                    <a class="contact-search" href="/contactus"><img src="/cids_theme_odoo_15/static/src/img/images/Profile.svg" /></a>
                     <a class="login-search1" href="https://www.linkedin.com/company/cids-designservices/" target="_blank"><img src="/cids_theme_odoo_15/static/src/img/commercial/link.png" /></a>
                 </div>
             </div>
