@@ -16,224 +16,196 @@
 <!--            <meta name="google-site-verification" content="JUQe8qkQV1AAdhgPJsSBmvn3QCwKkXqbAlskJRJTejw"/>-->
 
     <section class="commercial-banner">
+
         <div class="owl-carousel owl-theme commercialBanner">
             <div class="item">
                 <img src="/cids_theme_odoo_15/static/src/img/how_design/what-we-do-banner.png"/>
                 <div class="comm-banner">
-            <!-- <p class="headP">How we Design</p> -->
-            <h1>Impactful Designs</h1>
-            <h1><span>Inspired By The Future.</span></h1>
-            <div class="pText">
-                <!-- <p>At CIDS.DESIGN We perceive 'design' as a soulful bridge connecting human experiences and memories. We
-                    strongly believe that everything starts and ends with a great design. Therefore, we craft
-                    future-focused spaces that inspire and captivate.</p> -->
-                    <p>We strongly believe that everything starts and ends with a great design. Therefore, we draft future-focused spaces that inspire and captivate.</p>
-            </div>
-            <!--<div class="hbtns hwd">
-                <a class="explore" href="/contactus">Get In Touch <img class="unionpng"
-                        src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
 
-            </div>-->
-        </div>
+                    <h1>Impactful Designs</h1>
+                    <h1><span>Inspired By The Future.</span></h1>
+                    <div class="pText">
+                        <p>We strongly believe that everything starts and ends with a great design. Therefore, we draft
+                            future-focused spaces that inspire and captivate.</p>
+                    </div>
+
+                </div>
+
             </div>
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/how_design/banner2.png"/>
+                <img src="/cids_theme_odoo_15/static/src/img/how_design/what-we-do-banner.png"/>
                 <div class="comm-banner">
-            <!-- <p class="headP">How we Design</p> -->
-            <h1>Impactful Designs</h1>
-            <h1><span>Inspired By The Future.</span></h1>
-            <div class="pText">
-                <!-- <p>At CIDS.DESIGN We perceive 'design' as a soulful bridge connecting human experiences and memories. We
-                    strongly believe that everything starts and ends with a great design. Therefore, we craft
-                    future-focused spaces that inspire and captivate.</p> -->
-                    <p>We strongly believe that everything starts and ends with a great design. Therefore, we draft future-focused spaces that inspire and captivate.</p>
+                    <h1>Impactful Designs</h1>
+                    <h1><span>Inspired By The Future.</span></h1>
+                    <div class="pText">
+                        <p>We strongly believe that everything starts and ends with a great design. Therefore, we draft
+                            future-focused spaces that inspire and captivate.</p>
+                    </div>
+                </div>
+
             </div>
-            <!--<div class="hbtns hwd">
-                <a class="explore" href="/contactus">Get In Touch <img class="unionpng"
-                        src="/cids_theme_odoo_15/static/src/img/images/Union.png" /></a>
+            <div class="item">
+                <img src="/cids_theme_odoo_15/static/src/img/how_design/what-we-do-banner.png"/>
+                <div class="comm-banner">
+                    <h1>Impactful Designs</h1>
+                    <h1><span>Inspired By The Future.</span></h1>
+                    <div class="pText">
+                        <p>We strongly believe that everything starts and ends with a great design. Therefore, we draft
+                            future-focused spaces that inspire and captivate.</p>
+                    </div>
+                </div>
 
-            </div>-->
-        </div>
             </div>
         </div>
 
 
-    </section>
-
-    <section class="why-different">
-        <div class="why-diff-left">
-            <!-- <h2>How we Do </h2> -->
-            <h1>Our Process To Delivering A Heart-Winning Design</h1>
-            <p>Navigating a successful commercial interior design project necessitates exceptional planning, a
-                professional approach, and a concrete understanding of spaces – so they can be functional while being
-                aesthetically pleasing. At CIDS.DESIGN, we assist our clients in conceptualising phenomenal interiors
-                that not only exude warmth and positivity but also amplify the property value.</p>
-        </div>
-        <div class="why-diff-right">
-            <img src="/cids_theme_odoo_15/static/src/img/how_design/how-do.png" />
-        </div>
-    </section>
-
-    <section class="process proc2">
-        <div class="process-rgt">
-            <img src="/cids_theme_odoo_15/static/src/img/how_design/loondfeel.png" />
-        </div>
-        <div class="process-lft">
-            <h1><span class="numbering">01</span>DEFINING THE LOOK &amp; FEEL.</h1>
-            <p> We undertake a detailed introductory discussion of every project's requirements, paying undivided
-                attention to your vision and aspirations. Fine-tuning into the context of the project's brief and the
-                broader design goals in detail, our team sets the tone, look, and feel of each and every space with
-                utmost perfection. To define the overall aesthetics of the interiors, we create ideas, form
-                inspirational mood boards, and give creative design directions. At CIDS.DESIGN, we also closely look at
-                the flow and functionality of spaces within the experimental parameters of the built environment.</p>
-        </div>
-    </section>
-
-    <section class="process proc1">
-        <div class="process-lft">
-            <h1><span class="numbering">02</span>CONCEPT DEVELOPMENT.</h1>
-            <p> Our professionals create plans for each space while exploring layouts for rooms, lobbies, cafes, and
-                others with appropriate lighting, artwork, and furnishing – all articulated to determine how individual
-                elements can be used. A series of concept boards are built, forming the basis for materials and
-                furniture specifications needed for the interior finishings. At CIDS.DESIGN, we extensively consider the
-                interior detailing required for flooring, walls, and structures by taking into account the key focal
-                points such as accent decor, fireplaces, artefacts, and more. We also pay great attention to how the
-                interiors relate to the outdoor surrounding areas like gardens and landscapes. </p>
-        </div>
-        <div class="process-rgt">
-            <img src="/cids_theme_odoo_15/static/src/img/how_design/concept-dev.png" />
-        </div>
     </section>
 
     <section class="process proc4">
         <div class="process-rgt">
-            <img src="/cids_theme_odoo_15/static/src/img/how_design/designndproc.png" />
+            <img src="/cids_theme_odoo_15/static/src/img/how_design/heart-winning.png" />
+            <div class="absDiv-except">
+
+                <h2>Office Designing For Changing Workspace Expectations </h2>
+
+            </div>
+
         </div>
         <div class="process-lft">
-            <h1><span class="numbering">03</span>DESIGN &amp; PROCUREMENT.</h1>
+            <h1>For Every Project We Follow Research Driven Processes To Deliver A Heart Winning Design</h1>
+
             <p>Every project detail is strategically analysed, coordinated, and optimised to drive innovation and
                 transformation. We provide comprehensive designs, interior plans, and elevations with technical and
                 detailed 3D designs for different spaces. Our sourcing team assembles uniquely blended fabrics,
                 furniture, and equipment (FF&amp;E), paying extra attention to materials, textiles, decorative lighting, and
                 furnishing. Each interior we create elevate by art and collectibles meticulously sourced from the best
                 parts of the world. Incredible emphasis is laid on the quality and standards that enable us to surpass
-                client expectations while also being under budget. </p>
-        </div>
-    </section>
+                client expectations while also being under budget.</p>
 
-    <section class="process proc3">
-        <div class="process-lft">
-            <h1><span class="numbering">04</span>COMPLETION &amp; HANDOVER.</h1>
-            <p>Drawing upon our industry knowledge and multi-year expertise in offering bespoke interior design
-                services, we ensure that all our projects tell different success stories. We work closely with our
-                partners and experts during the installation of lighting, furniture, curtains, picture hangings, and
-                other equipment. While reaching completion of the program, we dress and style the spaces in accordance
-                with our interior design plan for a flawless and smooth handover. The most satisfying part of our work
-                is adding the finishing touches and final details, making the entire project personalised, immaculate,
-                and characterful.</p>
-        </div>
-        <div class="process-rgt">
-            <img src="/cids_theme_odoo_15/static/src/img/how_design/completion.png" />
-        </div>
-    </section>
+            <div class="direct-info">
+                <span>Reshma Bhakta,</span>
+                <p>Designer, Board of Director</p>
 
-    <section class="our-services">
-        <div class="service-text">
-            <!-- <h3>our Services<img src="/cids_theme_odoo_15/static/src/img/how_design/line.png" /></h3> -->
-            <h1>EXCEPTIONAL INTERIOR DESIGNING SERVICES FROM <span>START TO FINISH.</span></h1>
-            <p>We provide High-quality interior finishes with no compromise over Quality. We create Innovative &amp; unique
-                designs priority on client satisfaction Trusted &amp; budget-friendly</p>
-        </div>
-        <div class="service-imgs">
-            <div>
-                <img src="/cids_theme_odoo_15/static/src/img/how_design/hotels.jpg" />
-                <div class="abs-service ">
-                    <div class="head-Text">
-                        <p>Hotels and</p>
-                        <p>Resorts</p>
-                    </div>
-                    <div class="imgPText">
-                        <p>Having a deep understanding of the unbreakable connection between hospitality, design, and
-                            human experiences, we are committed to unlocking new opportunities and implementing
-                            ultra-modern interior design trends that keep your guests returning for more. </p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img src="/cids_theme_odoo_15/static/src/img/how_design/resort.jpg" />
-                <div class="abs-service ">
-                    <div class="head-Text">
-                        <p>Bars and</p>
-                        <p>Cafe</p>
-                    </div>
-                    <div class="imgPText">
-                        <p>Give a fresh perspective to your bar, cafe, or restaurant interior design with us—driving
-                            inspiration from the latest and urban styles, CIDS.DESIGN works with the top industry
-                            talents to transform any place into an attractive social hotspot.</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img src="/cids_theme_odoo_15/static/src/img/how_design/offices.jpg" />
-                <div class="abs-service ">
-                    <div class="head-Text">
-                        <p>Office</p>
-                        <p>interiors</p>
-                    </div>
-                    <div class="imgPText">
-                        <p>Co-working spaces and offices can greatly benefit from cohesive interior designs that promote
-                            energy, zestfulness, and productivity. They aren't just places of work but a hub of
-                            communications where new friendships and ideas bloom at CIDS.DESIGN.</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img src="/cids_theme_odoo_15/static/src/img/how_design/commercial.jpg" />
-                <div class="abs-service ">
-                    <div class="head-Text">
-                        <p>Commercial </p>
-                        <p>Buildings</p>
-                    </div>
-                    <div class="imgPText">
-                        <p>Extraordinary ideas emerge from decoding the needs of the people and the community we serve.
-                            We deliver high-value and creative commercial interior design solutions that connect people
-                            and communities together.</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img src="/cids_theme_odoo_15/static/src/img/how_design/hospitals.jpg" />
-                <div class="abs-service ">
-                    <div class="head-Text">
-                        <p>Hospitals and </p>
-                        <p>Research Centers </p>
-                    </div>
-                    <div class="imgPText">
-                        <p>Extraordinary ideas emerge from decoding the needs of the people and the community we serve.
-                            We deliver high-value and creative commercial interior design solutions that connect people
-                            and communities together.</p>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
-    <div class="separartor">
-        <img src="/cids_theme_odoo_15/static/src/img/how_design/lline.png" />
+    <div class="cids-procs">
+        <div class="left-proc">
+            <div id="accordion" class="accordion-container">
+                <h4 class="accordion-title js-accordion-title"><span>01</span>Defining The Look &amp; Feel <i
+                        class="fa fa-chevron-down arrow"></i></h4>
+                <div class="accordion-content">
+                    <p>We undertake a detailed introductory discussion of every project's requirements, paying undivided
+                        attention to your vision and aspirations. Fine-tuning into the context of the project's brief
+                        and the broader design goals in detail, our team sets the tone, look, and feel of each and every
+                        space with utmost perfection. To define the overall aesthetics of the interiors, we create
+                        ideas, form inspirational mood boards, and give creative design directions. At CIDS.DESIGN, we
+                        also closely look at the flow and functionality of spaces within the experimental parameters of
+                        the built environment.</p>
+                </div>
+                <h4 class="accordion-title js-accordion-title"><span>02</span>Concept development<i
+                        class="fa fa-chevron-down arrow"></i></h4>
+                <div class="accordion-content">
+                    <p>Our professionals create plans for each space while exploring layouts for rooms, lobbies, cafes,
+                        and others with appropriate lighting, artwork, and furnishing – all articulated to determine how
+                        individual elements can be used. A series of concept boards are built, forming the basis for
+                        materials and furniture specifications needed for the interior finishings. At CIDS.DESIGN, we
+                        extensively consider the interior detailing required for flooring, walls, and structures by
+                        taking into account the key focal points such as accent decor, fireplaces, artefacts, and more.
+                        We also pay great attention to how the interiors relate to the outdoor surrounding areas like
+                        gardens and landscapes.</p>
+                </div>
+                <h4 class="accordion-title js-accordion-title"><span>03</span>Design &amp; Procurement<i
+                        class="fa fa-chevron-down arrow"></i></h4>
+                <div class="accordion-content">
+                    <p>Every project detail is strategically analysed, coordinated, and optimised to drive innovation
+                        and transformation. We provide comprehensive designs, interior plans, and elevations with
+                        technical and detailed 3D designs for different spaces. Our sourcing team assembles uniquely
+                        blended fabrics, furniture, and equipment (FF&amp;E), paying extra attention to materials, textiles,
+                        decorative lighting, and furnishing. Each interior we create elevate by art and collectibles
+                        meticulously sourced from the best parts of the world. Incredible emphasis is laid on the
+                        quality and standards that enable us to surpass client expectations while also being under
+                        budget.</p>
+                </div>
+                <h4 class="accordion-title js-accordion-title"><span>04</span>Completion &amp; Handover<i
+                        class="fa fa-chevron-down arrow"></i></h4>
+                <div class="accordion-content">
+                    <p>Drawing upon our industry knowledge and multi-year expertise in offering bespoke interior design
+                        services, we ensure that all our projects tell different success stories. We work closely with
+                        our partners and experts during the installation of lighting, furniture, curtains, picture
+                        hangings, and other equipment. While reaching completion of the program, we dress and style the
+                        spaces in accordance with our interior design plan for a flawless and smooth handover. The most
+                        satisfying part of our work is adding the finishing touches and final details, making the entire
+                        project personalised, immaculate, and characterful.</p>
+                </div>
+            </div>
+        </div>
+        <div class="right-proc">
+            <div class="absDiv-except">
+                <h2>We Always Provide Undivided Attention to your Project Visions and Aspirations</h2>
+            </div>
+        </div>
     </div>
+    <section class="exceptional-services">
+        <h1>Exceptional Interior Designing Services From Start To Finish.</h1>
+        <p>We provide High-quality interior finishes with no compromise over Quality. We create Innovative &amp; unique
+            designs priority on client satisfaction Trusted &amp; budget-friendly</p>
+        <div class="interior">
+            <div class="top-inter">
+                <div class="left-interior">
+                    <div class="ofc-int">
+                        <img src="/cids_theme_odoo_15/static/src/img/how_design/office-interior.png" />
+                        <div class="absDiv-except">
+                            <h2>Office Interiors</h2>
+                            <p>Office Designing For Changing Workspace Expectations </p>
+                        </div>
+                    </div>
+                    <div class="bar-int">
+                        <img src="/cids_theme_odoo_15/static/src/img/how_design/barCafe.png" />
+                        <div class="absDiv-except">
+                            <h2>Bars and Cafe</h2>
+                            <p>Bars and Restaurants Mix Use Through Creative Strategy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-interior">
+                    <div class="hotel-inter">
+                        <img src="/cids_theme_odoo_15/static/src/img/how_design/hotelResorts.png" />
+                        <div class="absDiv-except">
+                            <h2>Hotels and Resorts</h2>
+                            <p>Interior Design For Memorable Experience That Brings Guests Back</p>
+                        </div>
 
-    <section class="design-journey">
-        <div class="journy-inner">
-            <h1>Looking To Begin Your Interior Design Journey</h1>
-            <h1><span>Want To Consult With an Expert Before You Start ?</span></h1>
-
-            <div class="hbtns">
-                <a class="explore" href="/contactus">Contact Us
-                    <!-- <img class="unionpng" src="/cids_theme_odoo_15/static/src/img/images/UnionYellow.png" /> -->
-                    </a>
-
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-inter">
+                <div class="commercial-int">
+                    <img src="/cids_theme_odoo_15/static/src/img/how_design/hospital-building.png" />
+                    <div class="absDiv-except">
+                        <h2>Commercial Buildings</h2>
+                        <p>Creative Designing Directly Impacts Assets Performance</p>
+                    </div>
+                </div>
+                <div class="hospitals-int">
+                    <img src="/cids_theme_odoo_15/static/src/img/how_design/commercial-building.png" />
+                    <div class="absDiv-except">
+                        <h2>Hospitals and Research Centers </h2>
+                        <p>Designed for Innovation and Safety</p>
+                    </div>
+                </div>
             </div>
         </div>
+
+    </section>
+
+
+    <section class="expert-consultation">
+        <p>Looking To Begin Your Interior Design Journey</p>
+        <h1>Want To Consult With An Expert Before You Start ?</h1>
+        <a href="/contactus">Contact Us<i
+            class="fa fa-chevron-right contact-arrow"></i></a>
     </section>
             <button id="button"><i class="fa fa-angle-up"></i></button>
 

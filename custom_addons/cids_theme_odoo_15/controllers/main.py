@@ -35,3 +35,21 @@ class DemoClass(http.Controller):
     @http.route(['/our_principles'], type='http', auth="public", website=True)
     def our_principles_page(self, **post):
         return request.render("cids_theme_odoo_15.our_principles")
+
+    @http.route(['/cids_contactus'], type='http', auth="public", website=True)
+    def contactus_page(self, **post):
+        return request.render("cids_theme_odoo_15.cids_contactus")
+
+    @http.route(['/cids_contact_us'], type='http', auth="public", website=True)
+    def cids_contactus_page(self, **post):
+        vals = {
+            'contact_name': post.get('contact_name'),
+            'phone': post.get('phone'),
+            'email_from': post.get('email_from'),
+            'partner_name': post.get('partner_name'),
+            'name': post.get('name'),
+            'description': post.get('description')
+        }
+        crm = request.env['crm.lead'].sudo().create(vals)
+        print(crm)
+        return request.redirect('/commercial')

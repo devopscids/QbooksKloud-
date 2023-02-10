@@ -17,6 +17,7 @@
         'views/how_we_design.xml',
         'views/our_principles.xml',
         'views/about.xml',
+        'views/contactus.xml',
         # 'views/snippets/home.xml',
         # 'views/snippets/landing.xml',
         # 'views/snippets/hospitality.xml',
