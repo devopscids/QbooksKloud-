@@ -7,6 +7,7 @@
     --font-size-18: 1.25vw;
     --font-size-20: 1.38vw;
     --font-size-24: 1.66vw;
+    --font-size-26: 1.80vw;
     --font-size-30: 2.08vw;
     --font-size-32: 2.23vw;
     --font-size-48: 3.34vw;
@@ -543,8 +544,8 @@ button.owl-next:focus {
     outline: none;
     border: none;
     position: fixed;
-    right: 5%;
-    bottom: var(--font-size-50);
+    right: 3%;
+    bottom:var(--font-size-26);
     transition:
         opacity .5s, visibility .5s;
     opacity: 0;
@@ -606,6 +607,8 @@ button.owl-next:focus {
     height: 100%;
     position: relative;
     overflow:hidden;
+    border-left:2px solid #fff;
+    border-bottom:2px solid #fff;
 }
 .bottom-inter{
     display:flex;
@@ -621,16 +624,18 @@ button.owl-next:focus {
     height:var( --height-300);
     position: relative;
     overflow:hidden;
+    border-left:2px solid #fff;
 }
 .ofc-int,.bar-int{
     height:var( --height-300);
     width:100%;
     position: relative;
     overflow:hidden;
+    border-bottom:2px solid #fff;
 }
-.ofc-int:hover img,.bar-int:hover img,.hotel-inter:hover img,.commercial-int:hover img,.hospitals-int:hover img{
+/* .ofc-int:hover img,.bar-int:hover img,.hotel-inter:hover img,.commercial-int:hover img,.hospitals-int:hover img{
 transform:scale(1.5);
-}
+} */
 
 .ofc-int img,.bar-int img,.right-interior img,.commercial-int img,.hospitals-int img{
     width:100%;
@@ -956,7 +961,7 @@ font-weight: 400;
         width:100%;
     }
     .expert-consultation h1{font-size:16px;}
-    .ofc-int, .bar-int,.left-interior, .right-interior, .commercial-int, .hospitals-int,.right-proc,.expert-consultation{height:200px !important;}
+    .ofc-int, .bar-int,.left-interior, .right-interior, .commercial-int, .hospitals-int,.right-proc,.expert-consultation{height:200px;}
 }
 
 @media screen and (max-width:600px) {

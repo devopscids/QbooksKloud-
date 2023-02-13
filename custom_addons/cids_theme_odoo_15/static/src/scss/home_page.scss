@@ -414,13 +414,38 @@ opacity:1;
 .f-services h1,
 .add-detail h1,
 .cont-detail h1 {
+//     font-family: 'Lorin-xbold';
+//     font-size: 16px;
+//     line-height: 105%;
+//     text-transform: uppercase;
+//     color: #FFBC00;
+//     margin-bottom: 16px;
+//     color:#50575D;
+//     position:relative;
+//     padding-left:var(--font-size-12);
+//     text-transform: capitalize;
     font-family: 'Lorin-xbold';
-    font-size: 16px;
+    font-size: var(--font-size-16);
     line-height: 105%;
-    text-transform: uppercase;
-    color: #FFBC00;
-    margin-bottom: 16px;
+//     text-transform: uppercase;
+//     color: #FFBC00;
+    margin-bottom: var(--font-size-16);
+    color:#50575D;
+    position:relative;
+    padding-left:var(--font-size-12);
+    text-transform: capitalize;
 }
+
+ .f-services h1::after, .add-detail h1::after, .cont-detail h1::after
+    {
+          content:"";
+          width:3px;
+          position: absolute;
+          background-color: #50575D;
+          top:0;
+         bottom:0;
+          left:0;
+    }
 
 .email,
 .phone {
@@ -486,7 +511,7 @@ opacity:1;
 }
 
 .cont-detail {
-    margin-top: 68px;
+    margin-top: var(--font-size-50) !important;
 }
 
 .light {
@@ -1477,8 +1502,10 @@ body {
 .social a {
         width: var(--padding-28) !important;
         height: var(--padding-28) !important;
-        background-color: var(--white);
-        border-radius: 50%;
+//         background-color: var(--white);
+//         border-radius: 50%;
+        background-color: transparent;
+        border-radius:0px;
         margin-left: var(--width-28);
         display: flex;
         justify-content: center;
@@ -1488,8 +1515,8 @@ body {
     }
 
     .social a img {
-    width: var(--font-size-16) !important;
-    height: var(--font-size-16) !important;
+    width: var(--font-size-20) !important;
+    height: var(--font-size-20) !important;
 }
 
 .top-banner .owl-carousel.tpbanner .owl-nav button.owl-prev{
