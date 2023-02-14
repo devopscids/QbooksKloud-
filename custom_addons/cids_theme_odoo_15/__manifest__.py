@@ -18,6 +18,7 @@
         'views/our_principles.xml',
         'views/about.xml',
         'views/contactus.xml',
+        'views/site_map.xml',
         # 'views/snippets/home.xml',
         # 'views/snippets/landing.xml',
         # 'views/snippets/hospitality.xml',

@@ -40,6 +40,10 @@ class DemoClass(http.Controller):
     def contactus_page(self, **post):
         return request.render("cids_theme_odoo_15.cids_contactus")
 
+    @http.route(['/site_map'], type='http', auth="public", website=True)
+    def site_map_page(self, **post):
+        return request.render("cids_theme_odoo_15.site_map")
+
     @http.route(['/cids_contact_us'], method='POST', type='http', auth="public", website=True)
     def cids_contactus_page(self, **post):
         vals = {
