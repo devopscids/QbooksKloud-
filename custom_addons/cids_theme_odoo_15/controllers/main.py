@@ -48,6 +48,7 @@ class DemoClass(http.Controller):
             'email_from': post.get('email_from'),
             'partner_name': post.get('partner_name'),
             'name': post.get('name'),
+            'type': 'opportunity',
             'description': post.get('description')
         }
         crm = request.env['crm.lead'].sudo().create(vals)
