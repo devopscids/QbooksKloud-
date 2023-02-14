@@ -19,6 +19,7 @@
         'views/about.xml',
         'views/contactus.xml',
         'views/site_map.xml',
+        'views/thanku_contact_us.xml',
         # 'views/snippets/home.xml',
         # 'views/snippets/landing.xml',
         # 'views/snippets/hospitality.xml',

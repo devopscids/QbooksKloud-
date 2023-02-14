@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <template id="cids_contactus" name="Contact Us">
+    <template id="cids_thankyou" name="Contact Us Thankyou">
     <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/ffe.scss"/>
 <!--        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/style.scss"/>-->
         <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.scss"/>
@@ -78,67 +78,33 @@
             </div>
         </div>
     </section>
-            <section class="contactus_div">
-        <div class="container">
-            <div class="row">
-            <div class="col-lg-8 mt-4 mt-lg-0">
-            <form action="/cids_contact_us" method="post" enctype="multipart/form-data">
-                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
-  <div class="form-group row">
-    <label for="contact_name" class="col-4 col-form-label">Your Name &#42;</label>
-    <div class="col-8">
-      <input id="contact_name" name="contact_name" placeholder="Mitchell Admin" type="text" class="form-control" required="required"/>
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="phone" class="col-4 col-form-label">Phone Number</label>
-    <div class="col-8">
-      <input id="phone" name="phone" placeholder="+1 555-555-5555" type="text" class="form-control"/>
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="email_from" class="col-4 col-form-label">Your Email &#42;</label>
-    <div class="col-8">
-      <input id="email_from" name="email_from" placeholder="admin@yourcompany.example.com" type="text" class="form-control" required="required"/>
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="partner_name" class="col-4 col-form-label">Your Company</label>
-    <div class="col-8">
-      <input id="partner_name" name="partner_name" placeholder="YourCompany" type="text" class="form-control"/>
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="name" class="col-4 col-form-label">Subject &#42;</label>
-    <div class="col-8">
-      <input id="name" name="name" type="text" class="form-control" required="required"/>
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="description" class="col-4 col-form-label">Your Question</label>
-    <div class="col-8">
-      <textarea id="description" name="description" cols="40" rows="5" class="form-control"></textarea>
-    </div>
-  </div>
-  <div class="form-group row">
-    <div class="offset-4 col-8">
-      <button name="submit" type="submit" class="btn btn-primary">Submit</button>
-    </div>
-  </div>
-</form>
-                </div>
-            <div class="col-lg-4 mt-4 mt-lg-0">
-                                <ul class="list-unstyled mb-0 pl-2">
-                                    <li>CIDS Design</li>
-                                    <li><i class="fa fa-map-marker fa-fw mr-2"/><span class="o_force_ltr">15905 S 46th Street; Suite 100 Phoenix, AZ  85048</span></li>
-                                    <li><i class="fa fa-phone fa-fw mr-2"/><span class="o_force_ltr">(855) 662 2437</span></li>
-                                    <li><i class="fa fa-phone fa-fw mr-2"/><span class="o_force_ltr">(855) 662 CIDS</span></li>
-                                    <li><i class="fa fa-1x fa-fw fa-envelope mr-2"/><span>admin@cids.design</span></li>
-                                </ul>
+            <section class="s_text_block pt40 pb40 o_colored_level contactus_div" data-snippet="s_text_block">
+                            <div class="container s_allow_columns">
+                                <div class="row">
+                                    <div class="col-lg-7 col-xl-6 mr-lg-auto">
+<!--                                        <span class="d-block fa fa-4x fa-thumbs-up mx-auto rounded-circle bg-primary"/><br/>-->
+                                        <h1 class="text-center">Thank You!</h1>
+                                        <div class="pb16 pt16 s_hr" data-snippet="s_hr" data-name="Separator">
+                                            <hr class="mx-auto border-top w-50 border-dark text-center"/>
+                                        </div>
+                                        <h5 class="text-center">
+                                            <span class="fa fa-check-circle"/>
+                                            <span>Your message has been sent <b>successfully</b></span>
+                                        </h5>
+                                        <p class="text-center">We will get back to you shortly.</p>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <ul class="list-unstyled mb-0 pl-2">
+                                            <li>CIDS Design</li>
+                                            <li><i class="fa fa-map-marker fa-fw mr-2"/><span class="o_force_ltr">15905 S 46th Street; Suite 100 Phoenix, AZ  85048</span></li>
+                                            <li><i class="fa fa-phone fa-fw mr-2"/><span class="o_force_ltr">(855) 662 2437</span></li>
+                                            <li><i class="fa fa-phone fa-fw mr-2"/><span class="o_force_ltr">(855) 662 CIDS</span></li>
+                                            <li><i class="fa fa-1x fa-fw fa-envelope mr-2"/><span>admin@cids.design</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-            </div>
-        </div>
-      </section>
+                        </section>
 
         <section class="h-footer">
         <div class="h-footer-inner">
@@ -154,6 +120,7 @@
                         <div class="address addholder">
                             <div class="address">
 
+                                <div class="item">
                                     <div class="address-holder">
 
                                         <div class="addrtext">
@@ -164,7 +131,7 @@
                                         </div>
 
                                     </div>
-
+                                </div>
 
                             </div>
                         </div>

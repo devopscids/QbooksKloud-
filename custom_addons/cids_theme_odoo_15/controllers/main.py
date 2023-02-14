@@ -40,6 +40,10 @@ class DemoClass(http.Controller):
     def contactus_page(self, **post):
         return request.render("cids_theme_odoo_15.cids_contactus")
 
+    @http.route(['/cids_thankyou'], type='http', auth="public", website=True)
+    def contactus_thankyou_page(self, **post):
+        return request.render("cids_theme_odoo_15.cids_thankyou")
+
     @http.route(['/site_map'], type='http', auth="public", website=True)
     def site_map_page(self, **post):
         return request.render("cids_theme_odoo_15.site_map")
@@ -60,4 +64,5 @@ class DemoClass(http.Controller):
         values = {
             'lead': crm
         }
-        return request.render('website.contactus_thanks', values)
+        return request.redirect('/cids_thankyou')
+        # return request.render('website.contactus_thanks', values)
