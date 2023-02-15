@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="site_map" name="CIDS Site Map">
-    <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/ffe.scss"/>
-        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.scss"/>
-        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owltheme.scss"/>
-        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/cidsjquery.js"/>
-        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/gallery.js"/>
-        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/owl.js"/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.carousel.min.css"/>
-        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.theme.default.min.css"/>
-        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/animate.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <t t-call="website.layout">
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/how_we_design.scss"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="title" content="FF&amp;E Interior Design Consultant | FF&amp;E Designers | FF&amp;E Procurement"/>
-        <meta name="description" content="Best FF&amp;E Interior Design firm: CIDS FF&amp;E designers are highly experienced in the specification, procurement, and installation of furniture, fixtures, and equipment. We are an elite provider with the expertise and capabilities to deliver your FF&amp;E Services."/>
-        <meta name="keywords" content="FF&amp;E Interior Design Consultant, FF&amp;E Designers, FF&amp;E Procurement, Best FF&amp;E Interior Design Firm, FF&amp;E Interior Design Firm"/>
-        <title>FF&amp;E Interior Design Consultant | FF&amp;E Designers | FF&amp;E Procurement</title>
-        <meta name="google-site-verification" content="JUQe8qkQV1AAdhgPJsSBmvn3QCwKkXqbAlskJRJTejw"/>
-
         <style>
             :root {
                         --width-888: 61.6vw;
@@ -111,315 +96,18 @@
     --padding-92: 6.38vw;
     --margin-28: 1.38vw;
     --margin-49: 3.40vw;
-    --margin-100: 6.94vw;
-    --margin-120: 8.33vw;
-    --margin-70: 4.86vw;
-    --margin-102: 7.08vw;
-    --margin-164: 11.38vw;
-    --margin-231: 16.04vw;
-    --margin-278:19.30vw;
+    margin-100: 6.94vw;
+    margin-120: 8.33vw;
+    margin-70: 4.86vw;
+    margin-102: 7.08vw;
+    margin-164: 11.38vw;
+    margin-231: 16.04vw;
+    margin-278:19.30vw;
                     }
-            .nav-bar.f-nav {
-    background-color: rgba(80, 87, 93, 0.9);
-}
-
-.nav-bar.f-nav .nav-inner {
-    padding:var(--font-size-12) 0px;
-}
-
-.nav-inner {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.menu ul:first-child {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom:0px;
-
-}
-
-
-.drop-down{
-    position: relative;
-    transition:all .35s linear;
-}
-
-.drop-down:hover .child-menu {
-    top:var(--height-90);
-   opacity:1;
-}
-.child-menu {
-    opacity:0;
-min-width:var(--width-162);
-position: absolute;
-background-color: #FFBC00;
-color: #fff;
-top:76px;
-padding: 10px;
-left: -20%;
--webkit-box-shadow: 0 0 5px 2px #fff;
--moz-box-shadow: 0 0 5px 2px #fff;
-box-shadow: 0 0 5px 2px #0908081c;
-border-radius: 2px;
-transition:all .35s linear;
-
-
-}
-.child-menu  li{
-    list-style-type:none;
-    margin-bottom: 10px;
-    height:auto!important;
-}
-.child-menu  li a{
-    font-size:var(--font-size-14);
-    font-family: 'Lorin';
-    text-transform: capitalize;
-}
-
-.drop-down .child-menu  li a:hover{
-    color:#50575D!important;
-}
-.nav-inner {
-    width: 90%;
-    margin: auto;
-    align-items: center;
-    height:100%;
-}
-
-.logo {
-    width: 10%;
-}
-
-.menu {
-    width: 60%;
-}
-
-.top-banner .owl-carousel .owl-item img.unionpng {
-    width: 31px !important;
-    height: 6px !important;
-    margin-left: var(--padding-23);
-
-}
-
-
-
-.drop-down a img {
-    width: 10px;
-    margin-left: 5px;
-}
-
-.nav-bar .menu ul li a {
-    font-family: 'Lorin';
-    font-size: var(--font-size-14);
-    line-height: 120%;
-    color: #FFFFFF;
-    text-decoration: none;
-    text-transform:capitalize;
-}
-
-.search a.contact-search {
-    width:var(--padding-28);
-    height:var(--padding-28);
-    background-color:var(--white);
-    border-radius:50%;
-    justify-content: center;
-    align-items: center;
-    display:flex;
-    position:relative;
-    overflow:hidden;
-}
-.search a.contact-search::after{
-    content:url('/cids_theme_odoo_15/static/src/img/images/Profile-1.svg');
-    background-color: var(--yellow);
-    width:var(--padding-28);
-   height:0px;
-   position:absolute;
-   bottom: 0px;
-   border-radius:50%;
-   opacity:0;
-   transition: all .35s linear;
-   justify-content: center;
-   align-items: center;
-   display:flex;
-   left:0;
-   right:0;
-
-}
-
-.search a.contact-search:hover::after
-{
-   opacity:1;
-    height:var(--padding-28);
-}
-.search a.contact-search:hover{
-    color:var(--yellow);
-}
-.search a.login-search {
-   width:var(--padding-28);
-   height:var(--padding-28);
-   background-color:var(--white);
-   border-radius:50%;
-   margin-right:var(--width-28);
-   display:flex;
-   justify-content: center;
-   align-items: center;
-   position:relative;
-   overflow:hidden;
-}
-
-.search a.login-search::after{
-    content:url('/cids_theme_odoo_15/static/src/img/images/Call-1.svg');
-    background-color: var(--yellow);
-    width:var(--padding-28);
-   height:0px;
-   position:absolute;
-   bottom: 0px;
-   border-radius:50%;
-   opacity:0;
-   transition: all .35s linear;
-   justify-content: center;
-   align-items: center;
-   display:flex;
-   left:0;
-   right:0;
-
-}
-
-.search a.login-search:hover::after
-{
-   opacity:1;
-    height:var(--padding-28);
-}
-.search a.login-search img{
-    width:var(--font-size-28);
-    height:var(--font-size-28);
-}
-.search a.contact-search img{
-    width:var(--font-size-28);
-    height:var(--font-size-28);
-
-}
-.search a.login-search :hover{
-    color:var(--yellow);
-}
-
-.search {
-    width:12%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-.nav-bar {
-    position: absolute;
-    z-index: 99;
-    left: 0;
-    right: 0;
-    top: 0px;
-    transition: all .35s linear;
-}
-
-.f-nav.nav-bar {
-    position: fixed;
-    background-color: rgba(80, 87, 93, 0.9);
-    backdrop-filter: blur(7.5px);
-    top: 0px;
-}
-
-.f-nav.nav-bar .menu ul li a {
-    font-family: 'Lorin';
-    text-transform: capitalize;
-    font-size: 14px;
-    line-height: 120%;
-    color: #fff;
-    text-decoration: none;
-}
-.f-nav.nav-bar .menu>ul li{
-    position:relative;
-    height:var(--height-90);
-    display:flex;
-    align-items: center;
-}
-.nav-bar .menu>ul li{
-    height:var(--height-90);
-    display:flex;
-    align-items: center;
-}
-@-webkit-keyframes slideInUp {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(2000px);
-        transform: translateY(2000px);
-    }
-
-    100% {
-        opacity: 1;
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-}
-
-@keyframes slideInUp {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(2000px);
-        -ms-transform: translateY(2000px);
-        transform: translateY(2000px);
-    }
-
-    100% {
-        opacity: 1;
-        -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-        transform: translateY(0);
-    }
-}
-
-.slideInUp {
-    -webkit-animation-name: slideInUp;
-    animation-name: slideInUp;
-}
-
-@-webkit-keyframes slideOutDown {
-    0% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-
-    100% {
-        opacity: 0;
-        -webkit-transform: translateY(2000px);
-        transform: translateY(2000px);
-    }
-}
-
-@keyframes slideOutDown {
-    0% {
-        -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-        transform: translateY(0);
-    }
-
-    100% {
-        opacity: 0;
-        -webkit-transform: translateY(2000px);
-        -ms-transform: translateY(2000px);
-        transform: translateY(2000px);
-    }
-}
-
-.slideOutDown {
-    -webkit-animation-name: slideOutDown;
-    animation-name: slideOutDown;
-}
-.addrtext p{
-margin-bottom:0px !important
-}
-
-                    .site-map {
+            .nav-bar {
+                background-color:rgba(80, 87, 93, 0.9);
+            }
+            .site-map {
                         width:90%;
                         margin:auto;
                         margin-top:var(--height-102);
@@ -441,17 +129,27 @@ margin-bottom:0px !important
                         justify-content: space-between;
                     }
                     .sitemap-inner >div{
-                        width:18%;
+                        width:15%;
                         position:relative;
-                        gap:var(--font-size-20);
+                        gap:var(--font-size-16);
                         padding-top:var(--font-size-24);
                     }
-                    .sitemap-inner >div:nth-child(2){
+                    .sitemap-inner >div:last-child{
                         display:flex;
                         flex-direction: column;
                     }
 
+
                     .sitemap-inner >div:nth-child(2) a  {
+                        font-family: 'Lorin';
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size:var(--font-size-14);
+                        line-height: 14px;
+                        text-transform: capitalize;
+                        color: #50575D;
+                    }
+                    .sitemap-inner >div:last-child a  {
                         font-family: 'Lorin';
                         font-style: normal;
                         font-weight: 300;
@@ -491,6 +189,7 @@ margin-bottom:0px !important
                     }
                     .sitemap-inner >div a{
                         text-decoration: none;
+                        color: #50575D;
                     }
                     @media screen and (max-width:767px)
         {
@@ -505,13 +204,23 @@ margin-bottom:0px !important
             }
             .sitemap-inner >div{
                 width:30%;
+                margin-bottom: 10px;
             }
             .sitemap-inner >div::before{
                 width:50px;
             }
         }
+            @media screen and (max-width:880px)
+        {
+            .site-map {
+                        margin-top:100px;
+                    }
+        }
         @media screen and (max-width:580px)
         {
+            .site-map {
+                        margin-top:70px;
+                    }
             .sitemap-inner >div{
                 width:48%;
                 margin-bottom:15px;
@@ -528,209 +237,34 @@ margin-bottom:0px !important
             }
         }
         </style>
-
-        <section class="nav-bar" style="background-color:rgba(80, 87, 93, 0.9);">
-        <div class="nav-inner">
-            <div class="logo">
-                <a href="/commercial">
-                  <img class="light" src="/cids_theme_odoo_15/static/src/img/images/cids-logo.png" />
-                </a>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="/how_we_design">How We Design</a>
-                    </li>
-                    <li>
-                        <a href="#">How We Innovate</a>
-                    </li>
-                    <li>
-                        <a href="#">Specialization</a>
-                    </li>
-                    <li>
-                        <a href="#">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#">Join Our Team</a>
-                    </li>
-                    <li class="drop-down">
-                        <a href="#">About us<img src="/cids_theme_odoo_15/static/src/img/images/downarr.png"/></a>
-                        <ul class="child-menu">
-                            <li><a href="/our_principles">Our Principles</a></li>
-                            <li><a href="/about">Brief Introduction</a></li>
-                            <!--<li><a href="#">Recognition </a></li>-->
-                        </ul>
-                    </li>
-
-                </ul>
-
-            </div>
-            <div class="humburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="search">
-                <a class="login-search"  href="/contactus"><img src="/cids_theme_odoo_15/static/src/img/images/Call.svg"/></a>
-                <a class="contact-search" href="/web/login"><img src="/cids_theme_odoo_15/static/src/img/images/Profile.svg"/></a>
-            </div>
-        </div>
-    </section>
-        <section class="site-map">
+            <section class="site-map">
                     <h1>Site Map</h1>
                     <div class="sitemap-inner">
                         <div>
-                            <a href="#">How we design</a>
+                            <a href="#">How We Design</a>
+                        </div>
+                        <div>
+                            <a href="#">How We Innovate</a>
+                        </div>
+                        <div>
+                            <a href="#">Specialization</a>
+                        </div>
+                        <div>
+                            <a href="#">Projects</a>
+                        </div>
+                        <div>
+                            <a href="#">Join Our Team</a>
                         </div>
                         <div>
                             <a href="#">About Us</a>
                             <a href="#">Our Principles</a>
                             <a href="#">Brief Introduction</a>
                         </div>
-                        <div>
-                            <a href="#">Specialization</a>
-                        </div>
-                        <div>
-                            <a href="#"> Projects </a>
-                        </div>
-                        <div>
-                            <a href="#">Join Our Team</a>
-                        </div>
                     </div>
                 </section>
-        <section class="h-footer">
-        <div class="h-footer-inner">
-            <div class="b-logo">
-                <img src="/cids_theme_odoo_15/static/src/img/images/logo-dark.png" />
-<!--                <img src="/cids_theme_odoo_15/static/src/img/images/nmsdc.png"/>-->
-            </div>
-            <div class="service-practise">
-                <div class="f-contact">
-                    <div class="add-detail">
-                        <h1>Address</h1>
-                        <div class="address addholder">
-                            <div class="address">
-                                    <div class="address-holder">
-                                        <div class="addrtext">
-                                            <p>CIDS DESIGN</p>
-                                            <p>15905 S 46th Street, Suite 100</p>
-                                            <p>Phoenix, AZ 85048</p>
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cont-detail">
-                        <h1>Contact us</h1>
-                        <div class="email">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/msgyellow.png" />
-                            <a href="#">contact@cids.design</a>
-                        </div>
-                        <div class="phone">
-                            <img src="/cids_theme_odoo_15/static/src/img/images/phoneyellow.png" />
-                            <a href="#">+(855) 662-2437</a>
-                        </div>
+            <button id="button"><i class="fa fa-angle-up"></i></button>
 
-                    </div>
+        </t>
 
-
-                </div>
-                <div class="f-services">
-
-                    <div class="services-tp">
-                        <h1>Services </h1>
-                        <a href="#">Design Studio</a>
-                        <a href="#">Luxury Residential Planning</a>
-                        <a href="#">Creative Consultants</a>
-                        <a href="#">Brighten</a>
-                        <a href="#">Procurement</a>
-                        <a href="#">Visuals </a>
-<!--                        <a href="#">Resorts</a>-->
-<!--                        <a href="#">Food Beverages</a>-->
-                        <a href="#">Research &amp; Innovation</a>
-                        <a href="#"></a>
-                    </div>
-
-                    <div class="pratices-tp">
-                        <h1>practices</h1>
-                        <div class="pratise-inner">
-                            <a href="#">Hospitality</a>
-                            <a href="#">Resorts </a>
-                            <a href="#">Casinos</a>
-                            <a href="#">Commercial</a>
-                            <a href="#">Financial</a>
-                            <a href="#">Residential Mix Use</a>
-                            <a href="#">Real estate</a>
-                            <a href="#">Developers</a>
-                            <a href="#">Sports</a>
-                            <a href="#">Government</a>
-
-                            <a href="#">Technology Centers</a>
-                            <a href="#">Entertainment</a>
-                            <a href="#">Tourism, Travel, Airports</a>
-                            <a href="#">Retail</a>
-                            <a href="#">Health, Hospitals</a>
-                            <a href="#">Mission Critical</a>
-                            <a href="#">Life Science</a>
-                            <a href="#">Wellness </a>
-                            <a href="#">School, Universities </a>
-                            <a href="#">Cultural, Community Centers</a>
-
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <section class="bottom-footer">
-        <div class="bottom-inner">
-            <div class="flinks">
-                <a href="#">Case Studies</a>
-<!--                <a href="#">Awards&amp; Accolades</a>-->
-                <a href="/site_map">Site Maps</a>
-                <a href="#">Press Releases</a>
-                <a href="#"> Privacy Policy</a>
-            </div>
-            <div class="copyright">
-                <p>&amp;copy;&amp;nbsp;Copyright CIDS Design </p>
-            </div>
-            <div class="social">
-                <a href="https://www.linkedin.com/company/cids-designservices/" target="_blank"><img src="/cids_theme_odoo_15/static/src/img/commercial/link_w-svg.png" /></a>
-                <!--<a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/facebook.png"/></a>
-                <a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/insta.png"/></a>
-                <a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/twitter.png"/></a>
-                <a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/youtube.png"/></a>-->
-            </div>
-        </div>
-    </section>
-        <script src="js/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="js/sliderGallay.js"></script>
-        <script src="js/owl.carousel.js"></script>
-        <script>
-
-            $("document").ready(function () {
-            var nav = $('.nav-bar');
-
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 50) {
-                    nav.addClass("f-nav");
-                } else {
-                    nav.removeClass("f-nav");
-                }
-            });
-        });
-            $("document").ready(function(){
-            var width = $(window).width();
-            if(width &lt;= 990)
-            {
-            $('.drop-down').click(function(){
-                $('.child-menu').toggleClass('showmenu');
-            });
-        }
-        });
-        </script>
-</template>
+    </template>
 </odoo>
