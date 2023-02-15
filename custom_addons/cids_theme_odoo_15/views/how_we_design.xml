@@ -19,7 +19,7 @@
 
         <div class="owl-carousel owl-theme commercialBanner">
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/how_design/what-we-do-banner.png"/>
+                <img src="/cids_theme_odoo_15/static/src/img/how_design/banner2.png"/>
                 <div class="comm-banner">
 
                     <h1>Impactful Designs</h1>
@@ -45,7 +45,7 @@
 
             </div>
             <div class="item">
-                <img src="/cids_theme_odoo_15/static/src/img/how_design/what-we-do-banner.png"/>
+                <img src="/cids_theme_odoo_15/static/src/img/how_design/banner1.png"/>
                 <div class="comm-banner">
                     <h1>Impactful Designs</h1>
                     <h1><span>Inspired By The Future.</span></h1>
