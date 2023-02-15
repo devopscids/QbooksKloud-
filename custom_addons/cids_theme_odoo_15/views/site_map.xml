@@ -257,8 +257,8 @@
                         </div>
                         <div>
                             <a href="#">About Us</a>
-                            <a href="#">Our Principles</a>
-                            <a href="#">Brief Introduction</a>
+                            <a href="/our_principles">Our Principles</a>
+                            <a href="/about">Brief Introduction</a>
                         </div>
                     </div>
                 </section>
