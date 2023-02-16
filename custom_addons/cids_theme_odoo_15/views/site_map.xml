@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="site_map" name="CIDS Site Map">
+        <t t-call="website.layout">
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/how_we_design.scss"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            :root {
+                        --width-888: 61.6vw;
+    --font-size-1:0.06vw;
+    --font-size-6: 0.41vw;
+    --font-size-8: 0.55vw;
+    --font-size-10: 0.69vw;
+    --font-size-12: 0.83vw;
+    --font-size-14: 0.98vw;
+    --font-size-16: 1.12vw;
+    --font-size-18: 1.25vw;
+    --font-size-20: 1.38vw;
+    --font-size-24: 1.66vw;
+    --font-size-26: 1.80vw;
+    --font-size-30: 2.08vw;
+    --font-size-32: 2.23vw;
+    --font-size-48: 3.34vw;
+    --font-size-50: 3.47vw;
+    --font-size-56: 3.88vw;
+    --font-size-60: 4.16vw;
+    --font-size-68: 4.72vw;
+
+    --yellow: #FFBC00;
+    --white: #fff;
+    --height-863: 59.93vw;
+    --height-875: 60.76vw;
+    --height-889: 61.73vw;
+    --height-506: 35.13vw;
+    --height-464: 32.22vw;
+    --height-523: 36.31vw;
+    --height-547: 37.98vw;
+    --height-505: 35.06vw;
+    --height-155: 10.76vw;
+    --height-240: 16.66vw;
+    --height-102: 7.08vw;
+    --height-51: 3.54vw;
+    --height-55: 3.81vw;
+    --height-90: 6.25vw;
+    --height-313: 21.73vw;
+    --height-449:31.18vw;
+    --height-704:48.88vw;
+
+    --width-28: 1.95vw;
+    --width-718: 49.86vw;
+    --width-634: 44.02vw;
+    --width-357: 24.79vw;
+    --width-1063: 73.81vw;
+    --width-431: 29.92vw;
+    --width-388: 26.94vw;
+    --width-382:26.52vw;
+    --width-485: 33.68vw;
+    --width-600: 41.66vw;
+    --width-700: 48.61vw;
+    --width-722: 50.13vw;
+    --width-509: 35.34vw;
+    --width-536: 37.22vw;
+    --width-102: 7.08vw;
+    --width-194: 13.47vw;
+    --width-162: 11.25vw;
+    --width-211: 14.65vw;
+    --width-126: 9.22vw;
+    --width-273: 18.95vw;
+    --width-953: 66.18vw;
+
+    --padding-4: 0.28vw;
+    --padding-12: 0.08vw;
+
+    --padding-19: 1.31vw;
+    --padding-47: 3.26vw;
+
+    --padding-28: 1.94vw;
+    --padding-23: 1.59vw;
+    --padding-32: 2.22vw;
+    --padding-39: 2.70vw;
+    --padding-80: 5.56vw;
+    --padding-45: 3.13vw;
+    --padding-55: 3.81vw;
+    --padding-60: 4.16vw;
+    --padding-76:5.27vw;
+    --padding-120: 8.32vw;
+    --padding-80: 5.55vw;
+    --padding-83: 5.76vw;
+    --padding-65: 4.51vw;
+    --padding-202: 14.02vw;
+    --padding-173: 12.01vw;
+    --padding-140: 9.72vw;
+    --padding-110: 7.63vw;
+    --padding-118: 8.19vw;
+    --padding-130: 9.02vw;
+    --padding-92: 6.38vw;
+    --margin-28: 1.38vw;
+    --margin-49: 3.40vw;
+    margin-100: 6.94vw;
+    margin-120: 8.33vw;
+    margin-70: 4.86vw;
+    margin-102: 7.08vw;
+    margin-164: 11.38vw;
+    margin-231: 16.04vw;
+    margin-278:19.30vw;
+                    }
+            .nav-bar {
+                background-color:rgba(80, 87, 93, 0.9);
+            }
+            .bold {
+                font-family: 'Lorin'!important;
+                font-weight: 700;
+                margin-top: var(--font-size-10);
+                font-size: var(--font-size-16);
+            }
+            .site-map {
+                        width:90%;
+                        margin:auto;
+                        margin-top:var(--height-102);
+                        margin-bottom:var(--margin-70);
+                    }
+                    .site-map h1{
+                        font-family: 'Lorin';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size:var(--font-size-24);
+                        line-height: 39px;
+                        text-transform: capitalize;
+                        color: #50575D;
+                        margin-bottom:var(--font-size-32);
+
+                    }
+                    .sitemap-inner{
+                        display:flex;
+                        justify-content: space-between;
+                    }
+                    .sitemap-inner >div{
+                        width:15%;
+                        position:relative;
+                        gap:var(--font-size-16);
+                        padding-top:var(--font-size-24);
+                    }
+                    .sitemap-inner >div:last-child{
+                        display:flex;
+                        flex-direction: column;
+                    }
+
+
+                    .sitemap-inner >div:nth-child(2) a  {
+                        font-family: 'Lorin';
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size:var(--font-size-14);
+                        line-height: 14px;
+                        text-transform: capitalize;
+                        color: #50575D;
+                    }
+                    .sitemap-inner >div:last-child a  {
+                        font-family: 'Lorin';
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: 10px;
+                        text-transform: capitalize;
+                        color: #50575D;
+                    }
+
+                    .sitemap-inner >div::after  {
+                        content:"";
+                        position: absolute;
+                        left:0;
+                        right:0;
+                        top:0px;
+                        background: #50575D;
+                        opacity: 0.2;
+                        height:var(--font-size-1);
+                    }
+                    .sitemap-inner >div::before{
+                        content:"";
+                        position: absolute;
+                        left:0;
+                        top:0px;
+                        width:var(--font-size-50);
+                        background:#FFBC00;
+                        height:var(--font-size-1);
+                    }
+                    .sitemap-inner >div a:nth-child(1)   {
+                        font-family: 'Lorin';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size:var(--font-size-16);
+                        line-height: 16px;
+                        text-transform: capitalize;
+                        color: #50575D;
+                    }
+                    .sitemap-inner >div a{
+                        text-decoration: none;
+                        color: #50575D;
+                        display: block;
+                        transition: all 0.35s linear;
+                        font-family: 'Lorin';
+                        font-size:var(--font-size-16);
+                    }
+                    .sitemap-inner >div a:hover{
+                        color: var(--yellow);
+                    }
+                    @media screen and (max-width:767px)
+        {
+            .site-map h1{
+                font-size:20px;
+            }
+            .sitemap-inner{
+                flex-wrap:wrap;
+            }
+            .sitemap-inner >div a{
+                font-size:14px!important;
+            }
+            .sitemap-inner >div{
+                width:30%;
+                margin-bottom: 10px;
+            }
+            .sitemap-inner >div::before{
+                width:50px;
+            }
+        }
+            @media screen and (max-width:880px)
+        {
+            .site-map {
+                        margin-top:100px;
+                    }
+        }
+        @media screen and (max-width:580px)
+        {
+            .site-map {
+                        margin-top:70px;
+                    }
+            .sitemap-inner >div{
+                width:48%;
+                margin-bottom:15px;
+            }
+            .site-map h1{
+                font-size:16px;
+            }
+        }
+        @media screen and (max-width:380px)
+        {
+            .sitemap-inner >div{
+                width:100%;
+                margin-bottom:15px;
+            }
+        }
+        </style>
+            <section class="site-map">
+                    <h1>Site Map</h1>
+                    <div class="sitemap-inner">
+                        <div>
+                            <a href="#">How We Design</a>
+                        </div>
+                        <div>
+                            <a href="#">How We Innovate</a>
+                        </div>
+                        <div>
+                            <a href="#">Specialization</a>
+                            <a class='bold' href="#">Practices</a>
+                            <a href="#">Hospitality</a>
+                            <a href="#">Resorts </a>
+                            <a href="#">Casinos</a>
+                            <a href="#">Commercial</a>
+                            <a href="#">Financial</a>
+                            <a href="#">Residential Mix Use</a>
+                            <a href="#">Real estate</a>
+                            <a href="#">Developers</a>
+                            <a href="#">Sports</a>
+                            <a href="#">Government</a>
+                            <a href="#">Technology Centers</a>
+                            <a href="#">Entertainment</a>
+                            <a href="#">Tourism, Travel, Airports</a>
+                            <a href="#">Retail</a>
+                            <a href="#">Health, Hospitals</a>
+                            <a href="#">Mission Critical</a>
+                            <a href="#">Life Science</a>
+                            <a href="#">Wellness </a>
+                            <a href="#">School, Universities </a>
+                            <a href="#">Cultural, Community Centers</a>
+                            <a class='bold' href="#">Services</a>
+                            <a href="#">Design Studio</a>
+                            <a href="#">Luxury Residential Planning</a>
+                            <a href="#">Creative Consultants</a>
+                            <a href="#">Brighten</a>
+                            <a href="#">Procurement</a>
+                            <a href="#">Visuals </a>
+                            <a href="#">Research &amp; Innovation</a>
+                        </div>
+                        <div>
+                            <a href="#">Projects</a>
+                        </div>
+                        <div>
+                            <a href="#">Join Our Team</a>
+                        </div>
+                        <div>
+                            <a href="#">About Us</a>
+                            <a href="/our_principles">Our Principles</a>
+                            <a href="/about">Brief Introduction</a>
+                        </div>
+                    </div>
+                </section>
+            <button id="button"><i class="fa fa-angle-up"></i></button>
+
+        </t>
+
+    </template>
+</odoo>

@@ -290,6 +290,46 @@ odoo.define("cids_theme_odoo_15.cidsdes", function (require) {
 
         });
 
+        $("document").ready(function () {
+            $(".accordion-content:not(:first-of-type)").css("display", "none");
+
+            $(".js-accordion-title:first-of-type").addClass("open");
+
+            $(".js-accordion-title").click(function () {
+                $(".open").not(this).removeClass("open").next().slideUp(300);
+                $(this).toggleClass("open").next().slideToggle(300);
+            });
+            $(".accordion-container .accordion-title").eq(0).click(function () {
+                var imageUrl =
+                    "/cids_theme_odoo_15/static/src/img/how_design/define-look.png";
+                $(".right-proc").css("background-image", "url(" + imageUrl + ")");
+                $(".right-proc .absDiv-except h2").text('We Always Provide Undivided Attention to your  Project Visions and Aspirations');
+            });
+            $(".accordion-container .accordion-title").eq(1).click(function () {
+                var imageUrl =
+                    "/cids_theme_odoo_15/static/src/img/how_design/concept-development.png";
+                $(".right-proc").css("background-image", "url(" + imageUrl + ")");
+                $(".right-proc .absDiv-except h2").text('Concept Development');
+
+            });
+            $(".accordion-container .accordion-title").eq(2).click(function () {
+                var imageUrl =
+                    "/cids_theme_odoo_15/static/src/img/how_design/smartLogistics.png";
+                $(".right-proc").css("background-image", "url(" + imageUrl + ")");
+                $(".right-proc .absDiv-except h2").text('Design & Procurement');
+
+            });
+            $(".accordion-container .accordion-title").eq(3).click(function () {
+                var imageUrl =
+                    "/cids_theme_odoo_15/static/src/img/how_design/handover.png";
+                $(".right-proc").css("background-image", "url(" + imageUrl + ")");
+                $(".right-proc .absDiv-except h2").text('Completion & Handover');
+
+                // console.log(imageUrl);
+            });
+
+        });
+
 
 
 //        $("document").ready(function () {

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="cids_contactus" name="Contact Us">
+    <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/ffe.scss"/>
+<!--        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/style.scss"/>-->
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.scss"/>
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owltheme.scss"/>
+        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/cidsjquery.js"/>
+        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/gallery.js"/>
+        <script type="text/javascript" src="/cids_theme_odoo_15/static/src/js/owl.js"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.carousel.min.css"/>
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/owl.theme.default.min.css"/>
+        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/animate.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="title" content="FF&amp;E Interior Design Consultant | FF&amp;E Designers | FF&amp;E Procurement"/>
+        <meta name="description" content="Best FF&amp;E Interior Design firm: CIDS FF&amp;E designers are highly experienced in the specification, procurement, and installation of furniture, fixtures, and equipment. We are an elite provider with the expertise and capabilities to deliver your FF&amp;E Services."/>
+        <meta name="keywords" content="FF&amp;E Interior Design Consultant, FF&amp;E Designers, FF&amp;E Procurement, Best FF&amp;E Interior Design Firm, FF&amp;E Interior Design Firm"/>
+        <title>FF&amp;E Interior Design Consultant | FF&amp;E Designers | FF&amp;E Procurement</title>
+        <meta name="google-site-verification" content="JUQe8qkQV1AAdhgPJsSBmvn3QCwKkXqbAlskJRJTejw"/>
+
+        <style>
+            .contactus_div{
+                margin-top: 100px;
+            }
+            .header {
+            background: transparent;
+            position: absolute;
+            left: 0;
+            right: 0;
+            z-index: 9;
+            top: -100%;
+            -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            animation-name: slideDown;
+            animation-delay: 0.5s;
+            z-index: 999;
+            transition: all .35s linear;
+        }
+
+        .header.f-nav {
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 999;
+        }
+
+        .header.f-nav .btm-holder {
+            background: rgb(80 87 93 / 72%);
+            backdrop-filter: blur(7.5px);
+        }
+        </style>
+
+    <section class="header" style="background-color:rgba(80, 87, 93, 0.9);">
+        <div class="btm-holder">
+            <div class="bottom-header">
+                <div class="logo">
+                    <a href="/commercial">
+                  <img class="light" src="/cids_theme_odoo_15/static/src/img/images/cids-logo.png" />
+                </a>
+                </div>
+                <div class="menu">
+                    <a href="/commercial">Commercial</a>
+                    <a href="/hospitality">Hospitality</a>
+                    <a class="active" href="/ffe">FF&amp;E</a>
+                </div>
+                <div class="login">
+                    <a class="login-search" href="/cids_contactus"><img src="/cids_theme_odoo_15/static/src/img/images/Call.svg" /></a>
+                    <a class="contact-search1" href="mailto:contact@cids.design"><img src="/cids_theme_odoo_15/static/src/img/commercial/Message.svg"/></a>
+<!--                    <a class="contact-search" href="/web/login"><img src="/cids_theme_odoo_15/static/src/img/images/Profile.svg" /></a>-->
+                    <a class="contact-search" href="/cids_contactus"><img src="/cids_theme_odoo_15/static/src/img/images/Profile.svg" /></a>
+                    <a class="login-search1" href="https://www.linkedin.com/company/cids-designservices/" target="_blank"><img src="/cids_theme_odoo_15/static/src/img/commercial/link.png" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+            <section class="contactus_div">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-8 mt-4 mt-lg-0">
+            <form action="/cids_contact_us" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+  <div class="form-group row">
+    <label for="contact_name" class="col-4 col-form-label">Your Name &#42;</label>
+    <div class="col-8">
+      <input id="contact_name" name="contact_name" placeholder="Mitchell Admin" type="text" class="form-control" required="required"/>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="phone" class="col-4 col-form-label">Phone Number</label>
+    <div class="col-8">
+      <input id="phone" name="phone" placeholder="+1 555-555-5555" type="text" class="form-control"/>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="email_from" class="col-4 col-form-label">Your Email &#42;</label>
+    <div class="col-8">
+      <input id="email_from" name="email_from" placeholder="admin@yourcompany.example.com" type="text" class="form-control" required="required"/>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="partner_name" class="col-4 col-form-label">Your Company</label>
+    <div class="col-8">
+      <input id="partner_name" name="partner_name" placeholder="YourCompany" type="text" class="form-control"/>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="name" class="col-4 col-form-label">Subject &#42;</label>
+    <div class="col-8">
+      <input id="name" name="name" type="text" class="form-control" required="required"/>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="description" class="col-4 col-form-label">Your Question</label>
+    <div class="col-8">
+      <textarea id="description" name="description" cols="40" rows="5" class="form-control"></textarea>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="offset-4 col-8">
+      <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+</form>
+                </div>
+            <div class="col-lg-4 mt-4 mt-lg-0">
+                                <ul class="list-unstyled mb-0 pl-2">
+                                    <li>CIDS Design</li>
+                                    <li><i class="fa fa-map-marker fa-fw mr-2"/><span class="o_force_ltr">15905 S 46th Street; Suite 100 Phoenix, AZ  85048</span></li>
+                                    <li><i class="fa fa-phone fa-fw mr-2"/><span class="o_force_ltr">(855) 662 2437</span></li>
+                                    <li><i class="fa fa-phone fa-fw mr-2"/><span class="o_force_ltr">(855) 662 CIDS</span></li>
+                                    <li><i class="fa fa-1x fa-fw fa-envelope mr-2"/><span>admin@cids.design</span></li>
+                                </ul>
+                            </div>
+            </div>
+        </div>
+      </section>
+
+        <section class="h-footer">
+        <div class="h-footer-inner">
+            <div class="b-logo">
+                    <img src="/cids_theme_odoo_15/static/src/img/images/logo-dark.png" />
+
+<!--                <img src="/cids_theme_odoo_15/static/src/img/images/nmsdc.png" />-->
+            </div>
+            <div class="service-practise">
+                <div class="f-contact">
+                    <div class="add-detail">
+                        <h1>Address</h1>
+                        <div class="address addholder">
+                            <div class="address">
+
+                                    <div class="address-holder">
+
+                                        <div class="addrtext">
+
+                                            <p>CIDS DESIGN</p>
+                                            <p>15905 S 46th Street, Suite 100</p>
+                                            <p>Phoenix, AZ 85048</p>
+                                        </div>
+
+                                    </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont-detail">
+                        <h1>Contact us</h1>
+                        <div class="email">
+                            <img src="/cids_theme_odoo_15/static/src/img/images/msgyellow.png" />
+                            <a href="#">contact@cids.design</a>
+                        </div>
+                        <div class="phone">
+                            <img src="/cids_theme_odoo_15/static/src/img/images/phoneyellow.png" />
+                            <a href="#">+(855) 662-2437</a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="f-services">
+
+                    <div class="services-tp">
+                        <h1>Services </h1>
+                        <a href="#">Design Studio</a>
+                        <a href="#">Luxury Residential Planning</a>
+                        <a href="#">Creative Consultants</a>
+                        <a href="#">Brighten</a>
+                        <a href="#">Procurement</a>
+                        <a href="#">Visuals </a>
+<!--                        <a href="#">Resorts</a>-->
+<!--                        <a href="#">Food Beverages</a>-->
+                        <a href="#">Research &amp; Innovation</a>
+                        <a href="#"></a>
+                    </div>
+
+                    <div class="pratices-tp">
+                        <h1>practices</h1>
+                        <div class="pratise-inner">
+                            <a href="#">Hospitality</a>
+                            <a href="#">Resorts </a>
+                            <a href="#">Casinos</a>
+                            <a href="#">Commercial</a>
+                            <a href="#">Financial</a>
+                            <a href="#">Residential Mix Use</a>
+                            <a href="#">Real estate</a>
+                            <a href="#">Developers</a>
+                            <a href="#">Sports</a>
+                            <a href="#">Government</a>
+
+                            <a href="#">Technology Centers</a>
+                            <a href="#">Entertainment</a>
+                            <a href="#">Tourism, Travel, Airports</a>
+                            <a href="#">Retail</a>
+                            <a href="#">Health, Hospitals</a>
+                            <a href="#">Mission Critical</a>
+                            <a href="#">Life Science</a>
+                            <a href="#">Wellness </a>
+                            <a href="#">School, Universities </a>
+                            <a href="#">Cultural, Community Centers</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="bottom-footer">
+        <div class="bottom-inner">
+            <div class="flinks">
+                <a href="#">Case studies</a>
+<!--                <a href="#">Awards &amp; Accolades</a>-->
+<!--                <a href="#">Testimonials</a>-->
+                <a href="#">Press Releases</a>
+                <a href="#"> Privacy Policy</a>
+            </div>
+            <div class="copyright">
+                <p>&amp;copy;&amp;nbsp;Copyright CIDS Design </p>
+            </div>
+            <div class="social">
+                <a href="https://www.linkedin.com/company/cids-designservices/" target="_blank"><img src="/cids_theme_odoo_15/static/src/img/commercial/link_w-svg.png" /></a>
+                <!--<a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/facebook.png"/></a>
+                <a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/insta.png"/></a>
+                <a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/twitter.png"/></a>
+                <a href="#"><img src="/cids_theme_odoo_15/static/src/img/images/youtube.png"/></a>-->
+            </div>
+        </div>
+    </section>
+        <script src="js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/sliderGallay.js"></script>
+    <script src="js/owl.carousel.js"></script>
+        <script>
+            $("document").ready(function () {
+            var nav = $('.header');
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    nav.addClass("f-nav");
+                } else {
+                    nav.removeClass("f-nav");
+                }
+            });
+        });
+            $(document).ready(function () {
+            var owl4 = $('.owl-carousel.address');
+            owl4.owlCarousel({
+                margin: 10,
+                nav: true,
+                autoplay: false,
+                loop: true,
+
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    769: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            });
+            $(".addholder .owl-prev").html('&lt;img src="/cids_theme_odoo_15/static/src/img/images/footerLeft.png"/>');
+            $(".addholder .owl-next").html('&lt;img src="/cids_theme_odoo_15/static/src/img/images/footerRight.png"/>');
+
+        });
+        </script>
+    </template>
+</odoo>

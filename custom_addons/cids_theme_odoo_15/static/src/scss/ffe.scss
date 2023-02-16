@@ -1,6 +1,7 @@
 :root {
     --width-888: 61.6vw;
     /*fonts*/
+    --font-size-1:0.06vw;
     --font-size-6: 0.41vw;
     --font-size-8: 0.55vw;
     --font-size-10: 0.69vw;
@@ -10,6 +11,7 @@
     --font-size-18: 1.25vw;
     --font-size-20: 1.38vw;
     --font-size-24: 1.66vw;
+    --font-size-26: 1.80vw;
     --font-size-30: 2.08vw;
     --font-size-32: 2.23vw;
     --font-size-48: 3.34vw;
@@ -1841,10 +1843,25 @@ width:85%;
     font-family: 'Lorin-xbold';
     font-size: var(--font-size-16);
     line-height: 105%;
-    text-transform: uppercase;
-    color: #FFBC00;
+//     text-transform: uppercase;
+//     color: #FFBC00;
     margin-bottom: var(--font-size-16);
+    color:#50575D;
+    position:relative;
+    padding-left:var(--font-size-12);
+    text-transform: capitalize;
 }
+
+ .f-services h1::after, .add-detail h1::after, .cont-detail h1::after
+    {
+          content:"";
+          width:3px;
+          position: absolute;
+          background-color: #50575D;
+          top:0;
+         bottom:0;
+          left:0;
+    }
 
 .email,
 .phone {
@@ -2147,8 +2164,10 @@ color: #50575D;
 .social a {
         width: var(--padding-28) !important;
         height: var(--padding-28) !important;
-        background-color: var(--white);
-        border-radius: 50%;
+//         background-color: var(--white);
+//         border-radius: 50%;
+        background-color: transparent;
+        border-radius:0px;
         margin-left: var(--width-28);
         display: flex;
         justify-content: center;
@@ -2158,8 +2177,8 @@ color: #50575D;
     }
 
     .social a img {
-    width: var(--font-size-16) !important;
-    height: var(--font-size-16) !important;
+    width: var(--font-size-20) !important;
+    height: var(--font-size-20) !important;
 }
 
 #button{
@@ -2171,8 +2190,8 @@ color: #50575D;
     outline: none;
     border: none;
     position: fixed;
-    right: 5%;
-    bottom:var(--font-size-50);
+    right: 3%;
+    bottom:var(--font-size-26);
     transition:
     opacity .5s, visibility .5s;
   opacity: 0;
