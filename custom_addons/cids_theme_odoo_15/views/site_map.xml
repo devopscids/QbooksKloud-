@@ -108,8 +108,10 @@
                 background-color:rgba(80, 87, 93, 0.9);
             }
             .bold {
-                font-family: 'Lorin';
+                font-family: 'Lorin'!important;
                 font-weight: 700;
+                margin-top: var(--font-size-10);
+                font-size: var(--font-size-16);
             }
             .site-map {
                         width:90%;
@@ -196,6 +198,7 @@
                         display: block;
                         transition: all 0.35s linear;
                         font-family: 'Lorin';
+                        font-size:var(--font-size-16);
                     }
                     .sitemap-inner >div a:hover{
                         color: var(--yellow);
