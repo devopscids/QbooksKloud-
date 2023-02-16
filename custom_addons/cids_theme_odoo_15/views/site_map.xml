@@ -107,6 +107,10 @@
             .nav-bar {
                 background-color:rgba(80, 87, 93, 0.9);
             }
+            .bold {
+                font-family: 'Lorin';
+                font-weight: 700;
+            }
             .site-map {
                         width:90%;
                         margin:auto;
@@ -117,7 +121,7 @@
                         font-family: 'Lorin';
                         font-style: normal;
                         font-weight: 400;
-                        font-size:var(--font-size-30);
+                        font-size:var(--font-size-24);
                         line-height: 39px;
                         text-transform: capitalize;
                         color: #50575D;
@@ -153,8 +157,7 @@
                         font-family: 'Lorin';
                         font-style: normal;
                         font-weight: 300;
-                        font-size:var(--font-size-14);
-                        line-height: 14px;
+                        line-height: 10px;
                         text-transform: capitalize;
                         color: #50575D;
                     }
@@ -190,6 +193,12 @@
                     .sitemap-inner >div a{
                         text-decoration: none;
                         color: #50575D;
+                        display: block;
+                        transition: all 0.35s linear;
+                        font-family: 'Lorin';
+                    }
+                    .sitemap-inner >div a:hover{
+                        color: var(--yellow);
                     }
                     @media screen and (max-width:767px)
         {
@@ -248,6 +257,35 @@
                         </div>
                         <div>
                             <a href="#">Specialization</a>
+                            <a class='bold' href="#">Practices</a>
+                            <a href="#">Hospitality</a>
+                            <a href="#">Resorts </a>
+                            <a href="#">Casinos</a>
+                            <a href="#">Commercial</a>
+                            <a href="#">Financial</a>
+                            <a href="#">Residential Mix Use</a>
+                            <a href="#">Real estate</a>
+                            <a href="#">Developers</a>
+                            <a href="#">Sports</a>
+                            <a href="#">Government</a>
+                            <a href="#">Technology Centers</a>
+                            <a href="#">Entertainment</a>
+                            <a href="#">Tourism, Travel, Airports</a>
+                            <a href="#">Retail</a>
+                            <a href="#">Health, Hospitals</a>
+                            <a href="#">Mission Critical</a>
+                            <a href="#">Life Science</a>
+                            <a href="#">Wellness </a>
+                            <a href="#">School, Universities </a>
+                            <a href="#">Cultural, Community Centers</a>
+                            <a class='bold' href="#">Services</a>
+                            <a href="#">Design Studio</a>
+                            <a href="#">Luxury Residential Planning</a>
+                            <a href="#">Creative Consultants</a>
+                            <a href="#">Brighten</a>
+                            <a href="#">Procurement</a>
+                            <a href="#">Visuals </a>
+                            <a href="#">Research &amp; Innovation</a>
                         </div>
                         <div>
                             <a href="#">Projects</a>
