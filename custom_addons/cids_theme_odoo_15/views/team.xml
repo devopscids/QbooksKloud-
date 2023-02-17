@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="team" name="CIDS Team">
+        <t t-call="website.layout">
+<!--        <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/how_we_design.scss"/>-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+        :root {
+            --width-888: 61.6vw;
+            /*fonts*/
+            --font-size-1: 0.06vw;
+            --font-size-10: 0.69vw;
+            --font-size-12: 0.83vw;
+            --font-size-14: 0.98vw;
+            --font-size-16: 1.12vw;
+            --font-size-18: 1.25vw;
+            --font-size-20: 1.38vw;
+            --font-size-24: 1.66vw;
+            --font-size-30: 2.08vw;
+            --font-size-32: 2.23vw;
+            --font-size-48: 3.34vw;
+            --font-size-50: 3.47vw;
+            --font-size-56: 3.88vw;
+            --font-size-60: 4.16vw;
+            --font-size-60: 4.72vw;
+            /*colors*/
+            --yellow: #FFBC00;
+            --white: #fff;
+            /* Height dec2022*/
+            --height-810: 56.25vw;
+            --height-863: 59.93vw;
+            --height-875: 60.76vw;
+            --height-889: 61.73vw;
+            --height-506: 35.13vw;
+            --height-464: 32.22vw;
+            --height-523: 36.31vw;
+            --height-547: 37.98vw;
+            --height-505: 35.06vw;
+            --height-155: 10.76vw;
+            --height-240: 16.66vw;
+            --height-102: 7.08vw;
+            --height-51: 3.54vw;
+            --height-55: 3.81vw;
+            --height-90: 6.25vw;
+            --height-313: 21.73vw;
+            --height-300: 20.83vw;
+            --height-449: 31.18vw;
+            --height-704: 48.88vw;
+            /* Width dec2022*/
+            --width-28: 1.95vw;
+            --width-718: 49.86vw;
+            --width-634: 44.02vw;
+            --width-357: 24.79vw;
+            --width-1063: 73.81vw;
+            --width-431: 29.92vw;
+            --width-388: 26.94vw;
+            --width-382: 26.52vw;
+            --width-485: 33.68vw;
+            --width-600: 41.66vw;
+            --width-700: 48.61vw;
+            --width-722: 50.13vw;
+            --width-509: 35.34vw;
+            --width-536: 37.22vw;
+            --width-102: 7.08vw;
+            --width-194: 13.47vw;
+            --width-162: 11.25vw;
+            --width-211: 14.65vw;
+            --width-126: 9.22vw;
+            --width-273: 18.95vw;
+            --width-953: 66.18vw;
+            /* Padding */
+            --padding-4: 0.28vw;
+            --padding-12: 0.08vw;
+            --padding-19: 1.31vw;
+            --padding-47: 3.26vw;
+            --padding-28: 1.94vw;
+            --padding-23: 1.59vw;
+            --padding-32: 2.22vw;
+            --padding-37: 2.56vw;
+            --padding-39: 2.70vw;
+            --padding-80: 5.56vw;
+            --padding-45: 3.13vw;
+            --padding-55: 3.81vw;
+            --padding-60: 4.16vw;
+            --padding-76: 5.27vw;
+            --padding-120: 8.32vw;
+            --padding-80: 5.55vw;
+            --padding-83: 5.76vw;
+            --padding-65: 4.51vw;
+            --padding-202: 14.02vw;
+            --padding-173: 12.01vw;
+            --padding-140: 9.72vw;
+            --padding-110: 7.63vw;
+            --padding-118: 8.19vw;
+            --padding-130: 9.02vw;
+            --padding-92: 6.38vw;
+            /*margin*/
+            --margin-28: 1.38vw;
+            --margin-49: 3.40vw;
+            --margin-100: 6.94vw;
+            --margin-120: 8.33vw;
+            --margin-70: 4.86vw;
+            --margin-102: 7.08vw;
+            --margin-164: 11.38vw;
+            --margin-231: 16.04vw;
+            --margin-278: 19.30vw;
+        }
+
+        @font-face {
+            font-family: 'Lorin';
+            src: url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.eot');
+            src: local('https://dev.cids.design/web/static/src/custom_fonts/Lorin Regular'), local('/web/static/src/custom_fonts/Lorin-Regular'),
+                url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.eot?#iefix') format('embedded-opentype'),
+                url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.woff2') format('woff2'),
+                url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.woff') format('woff'),
+                url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Lorin-bold';
+            src: url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.eot');
+            src: local('https://dev.cids.design/web/static/src/custom_fonts/Lorin Bold'), local('Lorin-Bold'),
+                url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.eot?#iefix') format('embedded-opentype'),
+                url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.woff2') format('woff2'),
+                url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.woff') format('woff'),
+                url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Lorin-xbold';
+            src: url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.eot');
+            src: local('https://dev.cids.design/web/static/src/custom_fonts/Lorin ExtraBold'), local('Lorin-ExtraBold'),
+                url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.eot?#iefix') format('embedded-opentype'),
+                url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.woff2') format('woff2'),
+                url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.woff') format('woff'),
+                url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.ttf') format('truetype');
+            font-weight: 800;
+            font-style: normal;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Lorin';
+        }
+
+        .team-conatiner {
+            height: var(--margin-278);
+            width: 100%;
+            background-image: url('/cids_theme_odoo_15/static/src/img/team/team-banner.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        .team-caption {
+            position: absolute;
+            left: 4%;
+            bottom: var(--font-size-14);
+            width: 90%;
+        }
+
+        .team-caption p {
+            font-size: var(--font-size-18);
+            text-transform: capitalize;
+            color: #FFFFFF;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-family: 'Lorin';
+            line-height: var(--font-size-30);
+        }
+
+        .tcard {
+            padding: var(--font-size-18);
+            background: #FFFFFF;
+            border: 1px solid #ECECEC;
+        }
+
+        .team-cards {
+            width: 92%;
+            margin: auto;
+            display: flex;
+            margin: var(--font-size-48) auto;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+        }
+
+        .team-cards>div {
+            width: 49%;
+            display: flex;
+            gap: var(--font-size-20);
+            margin-bottom:var(--font-size-18);
+        }
+
+        .timg {
+            width: var(--width-211);
+            height: var(--width-273);
+            position: relative;
+            transition: all .35s linear;
+        }
+
+        .timg:hover::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background: linear-gradient(#ffbc0026, #e9e7e280);
+        }
+
+        .timg img {
+            width: var(--width-211);
+            height: var(--width-273);
+            object-fit: cover;
+
+        }
+
+        .ttext p {
+            margin-bottom: var(--font-size-10);
+        }
+
+        .ttext p span {
+            font-family: 'Lorin-bold';
+            font-size: var(--font-size-16);
+            line-height: var(--font-size-16);
+            /* identical to box height */
+            text-transform: capitalize;
+        }
+
+        .designation {
+            font-size: var(--font-size-12);
+            line-height: var(--font-size-16);
+            /* identical to box height */
+            text-transform: capitalize;
+            color: #50575D;
+        }
+
+        .des-info {
+            font-size: var(--font-size-12);
+            line-height: var(--font-size-18);
+            margin-bottom: var(--font-size-16);
+            color: #50575D;
+        }
+
+        .team-social img {
+            width: var(--font-size-24);
+            height: var(--font-size-24);
+            transition: all .35s linear;
+        }
+
+        .team-social div {
+            margin-bottom: var(--font-size-12);
+        }
+
+        .team-social a {
+            display: flex;
+            gap: var(--font-size-12);
+            text-decoration: none;
+            align-items: center;
+
+        }
+
+        .team-social a:hover img {
+            transform: rotate(45deg);
+        }
+
+        .team-social a span {
+            font-family: 'Lorin';
+            font-weight: 400;
+            font-size: var(--font-size-12);
+            line-height: var(--font-size-20);
+            color: #50575D;
+        }
+
+        .team-rmore {
+            font-family: 'Lorin-bold';
+            font-size: var(--font-size-12);
+            line-height: 26px;
+            color: #50575D;
+            position: relative;
+            display: inline !important;
+            transition: all .35s linear;
+        }
+
+        .team-rmore:hover {
+            color: #FFBC00;
+
+
+        }
+
+        .team-rmore::after {
+            content: "";
+            background: #FFBC00;
+            height: 2px;
+            position: absolute;
+            top: var(--font-size-18);
+            left: 0px;
+            width: 100%;
+        }
+    </style>
+            <section class="team-conatiner">
+        <div class="team-caption">
+            <p>We focus on client’s goals and requirements for strategic design and seamless efficiency,</p>
+            <p>associating
+                our dedicated team to leverage its resources and experience entirely.</p>
+            <p>CIDS.DESIGN is a wonderful
+                collection of capable people.</p>
+        </div>
+    </section>
+            <section class="team-cards">
+        <div class="tcard">
+            <div class="timg">
+                <img src="/cids_theme_odoo_15/static/src/img/team/reshma.png" />
+            </div>
+            <div class="ttext">
+                <p><span>Reshma Bhakta</span></p>
+                <p class="designation">Board Director </p>
+                <div class="des-info">
+                    <p>With over 25 years of experience in the hospitality industry, reshma brings a level of
+                        excellence fueled by her passion for design.</p>
+                </div>
+                <div class="team-social">
+                    <div>
+                        <a href="tel:+4733378901">
+                            <img src="/cids_theme_odoo_15/static/src/img/team/icons/call-team.png" />
+                            <span>+ X XXX XXX XXX</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="mailto:youremail@domain.com">
+                            <img src="/cids_theme_odoo_15/static/src/img/team/icons/link-team.png" />
+                            <span>youremail@domain.com</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="/cids_theme_odoo_15/static/src/img/team/icons/msg-team.png" />
+                            <span>accountname</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="team-rmore">View more</a>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tcard">
+            <div class="timg">
+                <img src="/cids_theme_odoo_15/static/src/img/team/Hanan.png" />
+            </div>
+            <div class="ttext">
+                <p><span>Hanan Alshakhrit</span></p>
+                <p class="designation">Senior Residential/ Restaurant/ Bar Interior Designer </p>
+                <div class="des-info">
+                    <p>Hanan brings a unique talent to the team as she specializes in residential, restaurants, and
+                        bars. She gets her specialized knowledge to be flexible in all spaces.</p>
+                </div>
+                <div class="team-social">
+                    <div>
+                        <a href="tel:+4733378901">
+                            <img src="/cids_theme_odoo_15/static/src/img/team/icons/call-team.png" />
+                            <span>+ X XXX XXX XXX</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="mailto:youremail@domain.com">
+                            <img src="/cids_theme_odoo_15/static/src/img/team/icons/link-team.png" />
+                            <span>youremail@domain.com</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="/cids_theme_odoo_15/static/src/img/team/icons/msg-team.png" />
+                            <span>accountname</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="team-rmore">View more</a>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tcard">
+            <div class="timg">
+                <img src="/cids_theme_odoo_15/static/src/img/team/vijay.png" />
+            </div>
+            <div class="ttext">
+                <p><span>Vijay Kapoor </span></p>
+                <p class="designation">Board Director </p>
+                <div class="des-info">
+                    <p>Vijay Kapoor is a top-producing and performance-driven business development professional. With
+                        20+ years of experience in executing &amp; leading team efforts,</p>
+                </div>
+                <div class="team-social">
+                    <div>
+                        <a href="tel:+4733378901">
+                            <img src="/cids_theme_odoo_15/static/src/img/team/icons/call-team.png" />
+                            <span>+ X XXX XXX XXX</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="mailto:youremail@domain.com">
+                            <img src="/cids_theme_odoo_15/static/src/img/team/icons/link-team.png" />
+                            <span>youremail@domain.com</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="/cids_theme_odoo_15/static/src/img/team/icons/msg-team.png" />
+                            <span>accountname</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="team-rmore">View more</a>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tcard">
+            <div class="timg">
+                <img src="/cids_theme_odoo_15/static/src/img/team/pravin.png" />
+            </div>
+            <div class="ttext">
+                <p><span>Pravin Patel</span></p>
+                <p class="designation">Board Director </p>
+                <div class="des-info">
+                    <p>Pravin Patel has expertise in procurement and production. He is a great asset in understanding
+                        today's logistic and product needs.</p>
+                </div>
+                <div class="team-social">
+                    <div>
+                        <a href="tel:+4733378901">
+                            <img src="/cids_theme_odoo_15/static/src/img/team/icons/call-team.png" />
+                            <span>+ X XXX XXX XXX</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="mailto:youremail@domain.com">
+                            <img src="/cids_theme_odoo_15/static/src/img/team/icons/link-team.png" />
+                            <span>youremail@domain.com</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="/cids_theme_odoo_15/static/src/img/team/icons/msg-team.png" />
+                            <span>accountname</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="team-rmore">View more</a>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tcard">
+            <div class="timg">
+                <img src="/cids_theme_odoo_15/static/src/img/team/mukesh.png" />
+            </div>
+            <div class="ttext">
+                <p><span>Mukesh Bhakta </span></p>
+                <p class="designation">Project Manager </p>
+                <div class="des-info">
+                    <p>Mukesh has been a hotel owner and operator for nearly 35 years. Understanding the operations of a
+                        hotel is critical in understanding the logistics and daily operations of a hotel.</p>
+                </div>
+                <div class="team-social">
+                    <div>
+                        <a href="tel:+4733378901">
+                            <img src="/cids_theme_odoo_15/static/src/img/team/icons/call-team.png" />
+                            <span>+ X XXX XXX XXX</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="mailto:youremail@domain.com">
+                            <img src="/cids_theme_odoo_15/static/src/img/team/icons/link-team.png" />
+                            <span>youremail@domain.com</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="/cids_theme_odoo_15/static/src/img/team/icons/msg-team.png" />
+                            <span>accountname</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="team-rmore">View more</a>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+            <button id="button"><i class="fa fa-angle-up"></i></button>
+
+        </t>
+
+    </template>
+</odoo>
