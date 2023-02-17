@@ -207,7 +207,8 @@ class Website(Home):
             while True:
                 values = {
                     'locs': islice(locs, 0, LOC_PER_SITEMAP),
-                    'url_root': request.httprequest.url_root[:-1],
+                    'url_root': request.env['ir.config_parameter'].search([('key', '=', 'web.base.url')]).value,
+                    # 'url_root': request.httprequest.url_root[:-1],
                 }
                 urls = View._render_template('website.sitemap_locs', values)
                 if urls.strip():
