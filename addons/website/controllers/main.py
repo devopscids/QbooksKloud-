@@ -167,7 +167,8 @@ class Website(Home):
 
     @http.route(['/robots.txt'], type='http', auth="public", website=True, sitemap=False)
     def robots(self, **kwargs):
-        return request.render('website.robots', {'url_root': request.httprequest.url_root}, mimetype='text/plain')
+        return request.render('website.robots', {'url_root': request.env['ir.config_parameter'].search([('key', '=', 'web.base.url')]).value}, mimetype='text/plain')
+        # return request.render('website.robots', {'url_root': request.httprequest.url_root}, mimetype='text/plain')
 
     @http.route('/sitemap.xml', type='http', auth="public", website=True, multilang=False, sitemap=False)
     def sitemap_xml_index(self, **kwargs):
