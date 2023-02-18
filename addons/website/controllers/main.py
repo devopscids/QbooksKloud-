@@ -167,7 +167,7 @@ class Website(Home):
 
     @http.route(['/robots.txt'], type='http', auth="public", website=True, sitemap=False)
     def robots(self, **kwargs):
-        return request.render('website.robots', {'url_root': request.env['ir.config_parameter'].search([('key', '=', 'web.base.url')]).value}, mimetype='text/plain')
+        return request.render('website.robots', {'url_root': request.env['ir.config_parameter'].sudo().search([('key', '=', 'web.base.url')]).value}, mimetype='text/plain')
         # return request.render('website.robots', {'url_root': request.httprequest.url_root}, mimetype='text/plain')
 
     @http.route('/sitemap.xml', type='http', auth="public", website=True, multilang=False, sitemap=False)
@@ -207,7 +207,7 @@ class Website(Home):
             while True:
                 values = {
                     'locs': islice(locs, 0, LOC_PER_SITEMAP),
-                    'url_root': request.env['ir.config_parameter'].search([('key', '=', 'web.base.url')]).value,
+                    'url_root': request.env['ir.config_parameter'].sudo().search([('key', '=', 'web.base.url')]).value,
                     # 'url_root': request.httprequest.url_root[:-1],
                 }
                 urls = View._render_template('website.sitemap_locs', values)
@@ -233,7 +233,8 @@ class Website(Home):
                 # Sitemaps must be split in several smaller files with a sitemap index
                 content = View._render_template('website.sitemap_index_xml', {
                     'pages': pages_with_website,
-                    'url_root': request.httprequest.url_root,
+                    'url_root': request.env['ir.config_parameter'].sudo().search([('key', '=', 'web.base.url')]).value,
+                    # 'url_root': request.httprequest.url_root,
                 })
                 create_sitemap('/sitemap-%d.xml' % current_website.id, content)
 
