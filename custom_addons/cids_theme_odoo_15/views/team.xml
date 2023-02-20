@@ -6,7 +6,7 @@
         <style>
             :root {
                 --width-888: 61.6vw;
-                /*fonts*/
+
                 --font-size-1: 0.06vw;
                 --font-size-10: 0.69vw;
                 --font-size-12: 0.83vw;
@@ -22,10 +22,10 @@
                 --font-size-56: 3.88vw;
                 --font-size-60: 4.16vw;
                 --font-size-60: 4.72vw;
-                /*colors*/
+
                 --yellow: #FFBC00;
                 --white: #fff;
-                /* Height dec2022*/
+
                 --height-810: 56.25vw;
                 --height-863: 59.93vw;
                 --height-875: 60.76vw;
@@ -45,7 +45,7 @@
                 --height-300: 20.83vw;
                 --height-449: 31.18vw;
                 --height-704: 48.88vw;
-                /* Width dec2022*/
+
                 --width-28: 1.95vw;
                 --width-718: 49.86vw;
                 --width-634: 44.02vw;
@@ -67,7 +67,7 @@
                 --width-126: 9.22vw;
                 --width-273: 18.95vw;
                 --width-953: 66.18vw;
-                /* Padding */
+
                 --padding-4: 0.28vw;
                 --padding-12: 0.08vw;
                 --padding-19: 1.31vw;
@@ -93,7 +93,7 @@
                 --padding-118: 8.19vw;
                 --padding-130: 9.02vw;
                 --padding-92: 6.38vw;
-                /*margin*/
+
                 --margin-28: 1.38vw;
                 --margin-49: 3.40vw;
                 --margin-100: 6.94vw;
@@ -228,14 +228,12 @@
                 font-family: 'Lorin-bold';
                 font-size: var(--font-size-16);
                 line-height: var(--font-size-16);
-                /* identical to box height */
                 text-transform: capitalize;
             }
 
             .designation {
                 font-size: var(--font-size-12);
                 line-height: var(--font-size-16);
-                /* identical to box height */
                 text-transform: capitalize;
                 color: #50575D;
             }
@@ -345,7 +343,7 @@
                     height: 160px
                 }
 
-                .team-conatiner{height:150px;}
+                .team-conatiner{height:250px !important;}
                 .team-rmore::after{top:13px;}
             }
 
