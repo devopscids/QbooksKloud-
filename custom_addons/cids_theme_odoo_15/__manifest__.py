@@ -52,6 +52,7 @@
             'cids_theme_odoo_15/static/src/scss/animate.css',
             'cids_theme_odoo_15/static/src/scss/home_page.scss',
             'cids_theme_odoo_15/static/src/scss/how_we_design.scss',
+            'cids_theme_odoo_15/static/src/scss/team.scss',
             'cids_theme_odoo_15/static/src/scss/our_principles.scss',
             'cids_theme_odoo_15/static/src/scss/font-awesome.min.css',
             # 'cids_theme_odoo_15/static/src/scss/landing_style.scss',
