@@ -184,11 +184,13 @@
 }
 
 .team-detail .tcatrd-holder {
-    width: 60%;
+    width:57%;
+    flex-direction:column;
 }
 
 .team-detail .thumbnail-holder {
     width: 40%;
+    display: block;
 }
 
 .team-detail .tcard {
@@ -196,6 +198,7 @@
     display: flex;
     gap: var(--font-size-20);
     margin-bottom: var(--font-size-18);
+    border:none;
 }
 
 .team-detail .timg {
@@ -394,6 +397,7 @@
     display: flex;
     justify-content: flex-end;
     gap: var(--font-size-18);
+    width:100%;
 }
 
 .pagination ul li {
