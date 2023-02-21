@@ -445,6 +445,11 @@
         top: 0px;
         right:-16px;
     }
+    .team-detail .team-rmore img {
+        width: 10px !important;
+        height: 12px !important;
+    }
+    .team-detail .rel-content p{margin-bottom:0px!important;}
     .team-detail .team-cards {
         flex-wrap: wrap;
     }
@@ -452,7 +457,8 @@
     .team-detail .team-cards>div {
         width: 100%;
         padding:0px;
-        gap: 20px;
+        gap:0px!important;
+        margin-bottom:0px!important;
     }
 
     .team-caption p,
@@ -514,12 +520,13 @@
     }
 
     .thumb-inner img {
-        width: 100px;
-        height: 65px;
+        width: 100px !important;
+        height: 65px !important;
     }
 
     .thumb-inner {
         margin-bottom: 10px;
+        gap: 0px !important;
     }
 
     .team-detail .team-cards>div {
