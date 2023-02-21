@@ -52,6 +52,10 @@ class DemoClass(http.Controller):
     def team_page(self, **post):
         return request.render("cids_theme_odoo_15.team")
 
+    @http.route(['/team-detail'], type='http', auth="public", website=True)
+    def team_detail_page(self, **post):
+        return request.render("cids_theme_odoo_15.team-detail")
+
     @http.route(['/cids_contact_us'], method='POST', type='http', auth="public", website=True)
     def cids_contactus_page(self, **post):
         vals = {

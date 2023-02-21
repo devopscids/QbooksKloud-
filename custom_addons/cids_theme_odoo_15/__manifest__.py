@@ -21,6 +21,7 @@
         'views/site_map.xml',
         'views/thanku_contact_us.xml',
         'views/team.xml',
+        'views/team-detail.xml',
         # 'views/snippets/home.xml',
         # 'views/snippets/landing.xml',
         # 'views/snippets/hospitality.xml',
@@ -53,6 +54,7 @@
             'cids_theme_odoo_15/static/src/scss/home_page.scss',
             'cids_theme_odoo_15/static/src/scss/how_we_design.scss',
             'cids_theme_odoo_15/static/src/scss/team.scss',
+            'cids_theme_odoo_15/static/src/scss/team-detail.scss',
             'cids_theme_odoo_15/static/src/scss/our_principles.scss',
             'cids_theme_odoo_15/static/src/scss/font-awesome.min.css',
             # 'cids_theme_odoo_15/static/src/scss/landing_style.scss',
@@ -62,7 +64,6 @@
             'cids_theme_odoo_15/static/src/scss/owltheme.scss',
             # 'cids_theme_odoo_15/static/src/js/cidsjquery.js',
             # 'cids_theme_odoo_15/static/src/js/cids.js',
-
             'cids_theme_odoo_15/static/src/js/owl.js',
             'cids_theme_odoo_15/static/src/js/gallery.js',
             'cids_theme_odoo_15/static/src/js/home_page.js',

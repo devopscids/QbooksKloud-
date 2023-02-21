@@ -1,0 +1,560 @@
+:root {
+    --width-888: 61.6vw;
+    /*fonts*/
+    --font-size-1: 0.06vw;
+    --font-size-10: 0.69vw;
+    --font-size-12: 0.83vw;
+    --font-size-14: 0.98vw;
+    --font-size-15: 1.04vw;
+    --font-size-16: 1.12vw;
+    --font-size-18: 1.25vw;
+    --font-size-20: 1.38vw;
+    --font-size-24: 1.66vw;
+    --font-size-27: 1.87vw;
+    --font-size-30: 2.08vw;
+    --font-size-32: 2.23vw;
+    --font-size-48: 3.34vw;
+    --font-size-50: 3.47vw;
+    --font-size-56: 3.88vw;
+    --font-size-60: 4.16vw;
+    --font-size-60: 4.72vw;
+    /*colors*/
+    --yellow: #FFBC00;
+    --white: #fff;
+    /* Height dec2022*/
+    --height-810: 56.25vw;
+    --height-863: 59.93vw;
+    --height-875: 60.76vw;
+    --height-889: 61.73vw;
+    --height-506: 35.13vw;
+    --height-464: 32.22vw;
+    --height-523: 36.31vw;
+    --height-547: 37.98vw;
+    --height-505: 35.06vw;
+    --height-155: 10.76vw;
+    --height-240: 16.66vw;
+    --height-102: 7.08vw;
+    --height-51: 3.54vw;
+    --height-55: 3.81vw;
+    --height-90: 6.25vw;
+    --height-313: 21.73vw;
+    --height-300: 20.83vw;
+    --height-449: 31.18vw;
+    --height-704: 48.88vw;
+    /* Width dec2022*/
+    --width-28: 1.95vw;
+    --width-718: 49.86vw;
+    --width-634: 44.02vw;
+    --width-357: 24.79vw;
+    --width-1063: 73.81vw;
+    --width-431: 29.92vw;
+    --width-388: 26.94vw;
+    --width-382: 26.52vw;
+    --width-465: 32.34vw;
+    --width-485: 33.68vw;
+    --width-600: 41.66vw;
+    --width-700: 48.61vw;
+    --width-722: 50.13vw;
+    --width-509: 35.34vw;
+    --width-536: 37.22vw;
+    --width-102: 7.08vw;
+    --width-115: 7.98vw;
+    --width-194: 13.47vw;
+    --width-162: 11.25vw;
+    --width-185: 12.84vw;
+    --width-211: 14.65vw;
+    --width-126: 9.22vw;
+    --width-273: 18.95vw;
+    --width-953: 66.18vw;
+    /* Padding */
+    --padding-4: 0.28vw;
+    --padding-12: 0.08vw;
+    --padding-19: 1.31vw;
+    --padding-47: 3.26vw;
+    --padding-28: 1.94vw;
+    --padding-23: 1.59vw;
+    --padding-32: 2.22vw;
+    --padding-37: 2.56vw;
+    --padding-39: 2.70vw;
+    --padding-80: 5.56vw;
+    --padding-45: 3.13vw;
+    --padding-55: 3.81vw;
+    --padding-60: 4.16vw;
+    --padding-76: 5.27vw;
+    --padding-120: 8.32vw;
+    --padding-80: 5.55vw;
+    --padding-83: 5.76vw;
+    --padding-65: 4.51vw;
+    --padding-202: 14.02vw;
+    --padding-173: 12.01vw;
+    --padding-140: 9.72vw;
+    --padding-110: 7.63vw;
+    --padding-118: 8.19vw;
+    --padding-130: 9.02vw;
+    --padding-92: 6.38vw;
+    /*margin*/
+    --margin-28: 1.38vw;
+    --margin-49: 3.40vw;
+    --margin-100: 6.94vw;
+    --margin-120: 8.33vw;
+    --margin-70: 4.86vw;
+    --margin-102: 7.08vw;
+    --margin-164: 11.38vw;
+    --margin-231: 16.04vw;
+    --margin-278: 19.30vw;
+}
+
+@font-face {
+    font-family: 'Lorin';
+    src: url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.eot');
+    src: local('https://dev.cids.design/web/static/src/custom_fonts/Lorin Regular'), local('/web/static/src/custom_fonts/Lorin-Regular'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.woff2') format('woff2'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.woff') format('woff'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lorin-bold';
+    src: url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.eot');
+    src: local('https://dev.cids.design/web/static/src/custom_fonts/Lorin Bold'), local('Lorin-Bold'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.woff2') format('woff2'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.woff') format('woff'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lorin-xbold';
+    src: url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.eot');
+    src: local('https://dev.cids.design/web/static/src/custom_fonts/Lorin ExtraBold'), local('Lorin-ExtraBold'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.woff2') format('woff2'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.woff') format('woff'),
+        url('https://dev.cids.design/web/static/src/custom_fonts/Lorin-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lorin';
+}
+
+.team-conatiner {
+    height: var(--margin-278);
+    width: 100%;
+    background-image: url('/cids_theme_odoo_15/static/src/img/team/team-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.team-detail .team-caption {
+    position: absolute;
+    left: 4%;
+    bottom: var(--font-size-14);
+    width: 90%;
+}
+
+.team-detail .team-caption p {
+    font-size: var(--font-size-18);
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Lorin';
+    line-height: var(--font-size-30);
+}
+
+.team-detail .team-cards {
+    width: 92%;
+    margin: auto;
+    display: flex;
+    margin: var(--font-size-48) auto;
+    justify-content: space-between;
+    gap: var(--font-size-32);
+
+
+}
+
+.team-detail .tcatrd-holder {
+    width: 60%;
+}
+
+.team-detail .thumbnail-holder {
+    width: 40%;
+}
+
+.team-detail .tcard {
+    width: 100%;
+    display: flex;
+    gap: var(--font-size-20);
+    margin-bottom: var(--font-size-18);
+}
+
+.team-detail .timg {
+    width: auto;
+    height: auto;
+    position: relative;
+    transition: all .35s linear;
+}
+
+.team-detail .timg:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(#ffbc0026, #e9e7e280);
+}
+
+.team-detail .timg img {
+    width: auto;
+    height: var(--width-465);
+    object-fit: contain;
+
+}
+
+.team-detail .ttext {
+    display: flex;
+    align-items: flex-end;
+}
+
+.team-detail .ttext p {
+    margin-bottom: var(--font-size-10);
+}
+
+.team-detail .ttext p span {
+    font-family: 'Lorin-bold';
+    font-size: var(--font-size-16);
+    line-height: var(--font-size-16);
+    /* identical to box height */
+    text-transform: capitalize;
+}
+
+.team-detail .designation {
+    font-size: var(--font-size-12);
+    line-height: var(--font-size-16);
+    /* identical to box height */
+    text-transform: capitalize;
+    color: #50575D;
+}
+
+.team-detail .des-info {
+    font-size: var(--font-size-12);
+    line-height: var(--font-size-18);
+    margin-bottom: var(--font-size-16);
+    color: #50575D;
+}
+
+.team-detail .team-social img {
+    width: var(--font-size-24);
+    height: var(--font-size-24);
+    transition: all .35s linear;
+}
+
+.team-detail .team-social div {
+    margin-bottom: var(--font-size-12);
+}
+
+.team-detail .team-social a {
+    display: flex;
+    gap: var(--font-size-12);
+    text-decoration: none;
+    align-items: center;
+    position: relative;
+}
+
+.team-detail .team-social a:hover img {
+    transform: rotate(45deg);
+}
+
+.team-detail .team-social a span {
+    font-family: 'Lorin';
+    font-weight: 400;
+    font-size: var(--font-size-12);
+    line-height: var(--font-size-20);
+    color: #50575D;
+}
+
+.team-detail .team-rmore {
+    font-family: 'Lorin-bold';
+    font-size: var(--font-size-12);
+    line-height: var(--font-size-20);
+    color: #50575D;
+    position: relative;
+    display: inline !important;
+    transition: all .35s linear;
+}
+
+.team-detail .team-rmore:hover {
+    color: #FFBC00;
+
+
+}
+
+.team-detail .team-rmore::after {
+    content: "";
+    background: #FFBC00;
+    height: 2px;
+    position: absolute;
+    top: var(--font-size-18);
+    left: 0px;
+    width: 100%;
+}
+
+.team-detail .thumb-inner img {
+    width: var(--width-185);
+    height: var(--width-115);
+}
+
+/*new css*/
+.thumb-inner {
+    display: flex;
+    gap: var(--font-size-24);
+    margin-bottom: var(--font-size-16);
+}
+
+.thumbnail-holder h2 {
+    font-family: 'Lorin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--font-size-20);
+    line-height: var(--font-size-20);
+    color: #50575D;
+    margin-bottom: var(--font-size-20);
+}
+
+.team-detail .rel-content h3 {
+    font-family: 'Lorin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--font-size-10);
+    line-height: var(--font-size-20);
+    color: #FFBC00;
+}
+
+.team-detail .rel-content p {
+    font-family: 'Lorin';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--font-size-10);
+    line-height: var(--font-size-20);
+    color: #50575D;
+}
+
+.tcatdtext p {
+    margin-bottom: var(--font-size-12);
+}
+
+.tcatdtext p span {
+    font-family: 'Lorin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--font-size-27);
+    line-height: var(--font-size-27);
+    text-transform: capitalize;
+    color: #50575D;
+}
+
+.team-detail .designation {
+    font-family: 'Lorin';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--font-size-15);
+    line-height: var(--font-size-15);
+    text-transform: capitalize;
+    color: #50575D;
+    margin-bottom: 35px;
+}
+
+.team-detail .des-info {
+    font-family: 'Lorin';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--font-size-12);
+    line-height: var(--font-size-24);
+    color: #50575D;
+}
+
+/*pagination*/
+.pagination {
+    width: 92%;
+    margin: var(--font-size-27) auto var(--font-size-20) auto;
+}
+
+.pagination ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: var(--font-size-18);
+}
+
+.pagination ul li {
+    list-style-type: none;
+    font-size: var(--font-size-12);
+    display: flex;
+}
+
+.pagination li img {
+    width: var(--font-size-16);
+    height: var(--font-size-16);
+}
+.pagination li:nth-child(1) img {
+    transform: rotate(180deg);
+    margin-right: var(--font-size-10);
+}
+
+.pagination li:nth-child(2) img {
+    margin-left: var(--font-size-10);
+}
+.team-detail .team-rmore:hover img{
+    right:calc(var(--font-size-20) * -1);
+}
+.team-detail .team-rmore img {
+    position: absolute;
+    width: var(--font-size-10) !important;
+    height: var(--font-size-15) !important;
+    transform: none !important;
+    margin-left: var(--font-size-15);
+    top: 0px;
+    right:calc(var(--font-size-16) * -1);
+}
+
+@media screen and (max-width:990px) {
+    .team-rmore img {
+        width:10px !important;
+        height:10px!important;
+        transform: none !important;
+        margin-left: 15px;
+        top: 0px;
+        right:-16px;
+    }
+    .team-detail .team-cards {
+        flex-wrap: wrap;
+    }
+
+    .team-detail .team-cards>div {
+        width: 100%;
+        padding:0px;
+        gap: 20px;
+    }
+
+    .team-caption p,
+    .ttext p span {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .designation {
+        font-size: 10px;
+    }
+
+    .ttext p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .team-social a span,
+    .team-social a {
+        font-size: 10px;
+    }
+
+    .team-social img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .team-conatiner {
+        height: 150px;
+    }
+
+    .team-rmore::after {
+        top: 13px;
+    }
+
+    .tcatdtext p,
+    .rel-content p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .tcatdtext p span {
+        font-size: 16px;
+    }
+
+    .thumbnail-holder h2 {
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 15px;
+    }
+
+    .rel-content h3 {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .des-info {
+        line-height: 16px;
+    }
+
+    .thumb-inner img {
+        width: 100px;
+        height: 65px;
+    }
+
+    .thumb-inner {
+        margin-bottom: 10px;
+    }
+
+    .team-detail .team-cards>div {
+        padding-bottom: 0px;
+    }
+
+    .team-detail .team-cards {
+        gap: 0px;
+    }
+
+    .pagination ul li {
+        font-size: 10px;
+    }
+
+    .pagination li img {
+        width: 13px;
+        height: 13px;
+    }
+
+    .pagination {
+        margin: 20px auto;
+    }
+    .team-caption{bottom:20px;}
+
+}
+
+@media screen and (max-width:520px) {
+    .team-detail .team-cards>div {
+        flex-direction: column;
+
+    }
+
+}
+
+@media screen and (max-width:420px) {
+
+   .team-detail .tcard,
+    .thumb-inner {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .thumb-inner img {
+        margin-bottom: 5px;
+        object-fit: cover;
+    }
+}

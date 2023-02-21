@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="team-detail" name="CIDS Team Detail">
+        <t t-call="website.layout">
+
+            <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/team-detail.scss"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+            <section class="team-conatiner">
+        <div class="team-caption">
+            <p>We focus on client’s goals and requirements for strategic design and seamless efficiency,</p>
+            <p>associating
+                our dedicated team to leverage its resources and experience entirely.</p>
+            <p>CIDS.DESIGN is a wonderful
+                collection of capable people.</p>
+        </div>
+    </section>
+
+            <section class="team-detail">
+        <div class="pagination">
+            <ul>
+                <li><img  src="/cids_theme_odoo_15/static/src/img/team/icons/paginate-right.png"/>Previous Person</li>
+                <li>Next person <img src="/cids_theme_odoo_15/static/src/img/team/icons/paginate-right.png"/></li>
+            </ul>
+        </div>
+        <div class="team-cards">
+        <div class="tcatrd-holder">
+            <div class="tcard">
+                <div class="timg">
+                    <img src="/cids_theme_odoo_15/static/src/img/team/vijay-detail.png" />
+                </div>
+                <div class="ttext">
+
+                    <div class="team-social">
+                        <div>
+                            <a href="tel:+4733378901">
+                                <img src="/cids_theme_odoo_15/static/src/img/team/icons/call-team.png" />
+                                <span>+ X XXX XXX XXX</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="mailto:youremail@domain.com">
+                                <img src="/cids_theme_odoo_15/static/src/img/team/icons/link-team.png" />
+                                <span>youremail@domain.com</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img src="/cids_theme_odoo_15/static/src/img/team/icons/msg-team.png" />
+                                <span>accountname</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="team-rmore">Read Vijay's Blog Post<img src="/cids_theme_odoo_15/static/src/img/team/icons/readBlog.png"/></a>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tcatdtext">
+                <p><span>Vijay Kapoor </span></p>
+                <p class="designation">Board Director </p>
+                <div class="des-info">
+                    <p>Vijay Kapoor is a top-producing and performance-driven business development professional. With
+                        20+ years of experience in executing &amp; leading team efforts, he has produced multimillion
+                        dollars results, valuable business partnerships, and robust growth avenues. Mr. Kapoor is an
+                        experienced solutions architect with documented strength in building sustainable executive-level
+                        relationships. He has a rare mix of technical competence in all facets of Digital and IT
+                        development and end-to-end business operations. His rare blend of knowledge and experience
+                        aligns IT strategies with new business opportunities, turning around stagnant growth, managing
+                        client acquisition, and business development. </p>
+                </div>
+            </div>
+        </div>
+        <div class="thumbnail-holder">
+            <h2>Related Content</h2>
+            <div class="thumb-inner">
+                <img src="/cids_theme_odoo_15/static/src/img/team/dummy-img.png" />
+                <div class="rel-content">
+                    <h3>IN THE MEDIA</h3>
+                    <p>Experience Index: HospitalityThis report explores research findings specific to hotels,
+                        identifying factors that matter most for...</p>
+                </div>
+            </div>
+            <div class="thumb-inner">
+                <img src="/cids_theme_odoo_15/static/src/img/team/dummy-img.png" />
+                <div class="rel-content">
+                    <h3>IN THE MEDIA</h3>
+                    <p>Experience Index: HospitalityThis report explores research findings specific to hotels,
+                        identifying factors that matter most for...</p>
+                </div>
+            </div>
+            <div class="thumb-inner">
+                <img src="/cids_theme_odoo_15/static/src/img/team/dummy-img.png" />
+                <div class="rel-content">
+                    <h3>IN THE MEDIA</h3>
+                    <p>Experience Index: HospitalityThis report explores research findings specific to hotels,
+                        identifying factors that matter most for...</p>
+                </div>
+            </div>
+            <div class="thumb-inner">
+                <img src="/cids_theme_odoo_15/static/src/img/team/dummy-img.png" />
+                <div class="rel-content">
+                    <h3>IN THE MEDIA</h3>
+                    <p>Experience Index: HospitalityThis report explores research findings specific to hotels,
+                        identifying factors that matter most for...</p>
+                </div>
+            </div>
+            <div class="thumb-inner">
+                <img src="/cids_theme_odoo_15/static/src/img/team/dummy-img.png" />
+                <div class="rel-content">
+                    <h3>IN THE MEDIA</h3>
+                    <p>Experience Index: HospitalityThis report explores research findings specific to hotels,
+                        identifying factors that matter most for...</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+
+            <button id="button"><i class="fa fa-angle-up"></i></button>
+
+        </t>
+
+    </template>
+</odoo>
