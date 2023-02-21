@@ -199,6 +199,7 @@
     gap: var(--font-size-20);
     margin-bottom: var(--font-size-18);
     border:none;
+    padding:0px;
 }
 
 .team-detail .timg {
@@ -273,6 +274,7 @@
     text-decoration: none;
     align-items: center;
     position: relative;
+    font-size: var(--font-size-12)!important;
 }
 
 .team-detail .team-social a:hover img {
@@ -282,8 +284,8 @@
 .team-detail .team-social a span {
     font-family: 'Lorin';
     font-weight: 400;
-    font-size: var(--font-size-12);
-    line-height: var(--font-size-20);
+    font-size: var(--font-size-12)!important;
+    line-height: var(--font-size-20)!important;
     color: #50575D;
 }
 
@@ -375,7 +377,7 @@
     line-height: var(--font-size-15);
     text-transform: capitalize;
     color: #50575D;
-    margin-bottom: 35px;
+    margin-bottom:var(--font-size-12);
 }
 
 .team-detail .des-info {
@@ -432,6 +434,9 @@
 }
 
 @media screen and (max-width:990px) {
+    .team-detail .tcard{padding-bottom:0px;}
+    .team-detail .designation{margin-bottom:10px; font-size:10px;}
+    .team-detail .team-rmore{font-size:10px!important;}
     .team-rmore img {
         width:10px !important;
         height:10px!important;
@@ -485,8 +490,8 @@
 
     .tcatdtext p,
     .rel-content p {
-        font-size: 10px;
-        line-height: 16px;
+        font-size: 10px!important;
+        line-height: 16px!important;
     }
 
     .tcatdtext p span {
@@ -500,7 +505,7 @@
     }
 
     .rel-content h3 {
-        font-size: 10px;
+        font-size: 10px!important;
         margin-bottom: 5px;
     }
 
@@ -538,6 +543,7 @@
         margin: 20px auto;
     }
     .team-caption{bottom:20px;}
+    .team-detail .team-social a span, .team-detail .team-social a{font-size:10px!important;}
 
 }
 
