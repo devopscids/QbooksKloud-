@@ -192,10 +192,10 @@
 }
 
 .timg {
-//     width: var(--width-211);
-//     height: var(--width-273);
-    width: 150px;
-    height: 200px;
+    width: var(--width-211);
+    height: var(--width-273);
+//     width: 150px;
+//     height: 200px;
     position: relative;
     transition: all .35s linear;
 }
@@ -211,10 +211,10 @@
 }
 
 .timg img {
-//     width: var(--width-211);
-//     height: var(--width-273);
-    width: 150px;
-    height: 200px;
+    width: var(--width-211);
+    height: var(--width-273);
+//     width: 150px;
+//     height: 200px;
     object-fit: cover;
 
 }
