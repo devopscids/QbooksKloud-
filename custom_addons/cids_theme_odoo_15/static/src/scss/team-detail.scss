@@ -203,7 +203,7 @@
 }
 
 .team-detail .timg {
-    width: auto;
+    width: 300px;
     height: auto;
     position: relative;
     transition: all .35s linear;
@@ -220,8 +220,8 @@
 }
 
 .team-detail .timg img {
-    width: auto;
-    height: var(--width-465);
+    width: 300px;
+    height: auto;
     object-fit: contain;
 
 }
