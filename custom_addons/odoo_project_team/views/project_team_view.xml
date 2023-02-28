@@ -21,10 +21,12 @@
                             <page string="Team Members">
                                 <field name="team_member_ids"/>
                             </page>
-                            <page string="Store Officer">
+<!--                            <page string="Store Officer">-->
+                            <page string="Interior Designer">
                                 <field name="store_officer_ids"/>
                             </page>
-                            <page string="Security Guards">
+<!--                            <page string="Security Guards">-->
+                            <page string="Procurement">
                                 <field name="security_guard_ids"/>
                             </page>
                             <page string="Internal Notes">
