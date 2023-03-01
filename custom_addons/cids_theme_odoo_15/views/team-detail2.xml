@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <template id="team-detail" name="CIDS Team Detail">
+    <template id="team-detail2" name="CIDS Team Detail Reshma Bhakta">
         <t t-call="website.layout">
 
             <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/team-detail.scss"/>
@@ -27,15 +27,15 @@
         <div class="tcatrd-holder">
             <div class="tcard">
                 <div class="timg">
-                    <img src="/cids_theme_odoo_15/static/src/img/team/vijay-detail.png" />
+                    <img src="/cids_theme_odoo_15/static/src/img/team/reshma.png" />
                 </div>
                 <div class="ttext">
 
                     <div class="team-social">
                         <div>
-                            <a href="tel:+4805672566">
+                            <a href="tel:+7047927806">
                                 <img src="/cids_theme_odoo_15/static/src/img/team/icons/call-team.png" />
-                                <span>(480) 567-2566</span>
+                                <span>(704) 792-7806</span>
                             </a>
                         </div>
                         <div>
@@ -45,13 +45,13 @@
                             </a>
                         </div>
                         <div>
-                            <a href="mailto:vkapoor@cids.design">
+                            <a href="mailto:reshma.bhakta@cids.design">
                                 <img src="/cids_theme_odoo_15/static/src/img/team/icons/msg-team.png" />
                                 <span>Email</span>
                             </a>
                         </div>
                         <div>
-                            <a href="#" class="team-rmore">Read Vijay's Blog Post<img src="/cids_theme_odoo_15/static/src/img/team/icons/readBlog.png"/></a>
+                            <a href="#" class="team-rmore">Read Reshma's Blog Post<img src="/cids_theme_odoo_15/static/src/img/team/icons/readBlog.png"/></a>
                         </div>
                         <div>
 
@@ -61,17 +61,16 @@
             </div>
 
             <div class="tcatdtext">
-                <p><span>Vijay Kapoor </span></p>
+                <p><span>Reshma Bhakta </span></p>
                 <p class="designation">Board Director </p>
                 <div class="des-info">
-                    <p>Vijay Kapoor is a top-producing and performance-driven business development professional. With
-                        20+ years of experience in executing &amp; leading team efforts, he has produced multimillion
-                        dollars results, valuable business partnerships, and robust growth avenues. Mr. Kapoor is an
-                        experienced solutions architect with documented strength in building sustainable executive-level
-                        relationships. He has a rare mix of technical competence in all facets of Digital and IT
-                        development and end-to-end business operations. His rare blend of knowledge and experience
-                        aligns IT strategies with new business opportunities, turning around stagnant growth, managing
-                        client acquisition, and business development. </p>
+                    <p>With over 25 years of experience in the hospitality industry, Reshma brings a level
+                        of excellence fueled by her passion for design. With accolades from many hotel
+                        brands, Reshma's drive is matched only by her inspiration to deliver impactful
+                        visuals with a high level of customer service and initiative for continued growth
+                        in the ever-growing design industry. Reshma leads a dynamic team of designers,
+                        architects, and construction installers. As a complement to her efforts, her client
+                        retention continues to grow.</p>
                 </div>
             </div>
         </div>
@@ -87,39 +86,6 @@
                     </div>
                 </div>
             </t>
-            <!--<div class="thumb-inner">
-                <img src="/cids_theme_odoo_15/static/src/img/team/dummy-img.png" />
-                <div class="rel-content">
-                    <h3>IN THE MEDIA</h3>
-                    <p>Experience Index: HospitalityThis report explores research findings specific to hotels,
-                        identifying factors that matter most for...</p>
-                </div>
-            </div>
-            <div class="thumb-inner">
-                <img src="/cids_theme_odoo_15/static/src/img/team/dummy-img.png" />
-                <div class="rel-content">
-                    <h3>IN THE MEDIA</h3>
-                    <p>Experience Index: HospitalityThis report explores research findings specific to hotels,
-                        identifying factors that matter most for...</p>
-                </div>
-            </div>
-            <div class="thumb-inner">
-                <img src="/cids_theme_odoo_15/static/src/img/team/dummy-img.png" />
-                <div class="rel-content">
-                    <h3>IN THE MEDIA</h3>
-                    <p>Experience Index: HospitalityThis report explores research findings specific to hotels,
-                        identifying factors that matter most for...</p>
-                </div>
-            </div>
-            <div class="thumb-inner">
-                <img src="/cids_theme_odoo_15/static/src/img/team/dummy-img.png" />
-                <div class="rel-content">
-                    <h3>IN THE MEDIA</h3>
-                    <p>Experience Index: HospitalityThis report explores research findings specific to hotels,
-                        identifying factors that matter most for...</p>
-                </div>
-            </div>-->
-
         </div>
     </div>
     </section>

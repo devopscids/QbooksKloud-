@@ -52,9 +52,120 @@ class DemoClass(http.Controller):
     def team_page(self, **post):
         return request.render("cids_theme_odoo_15.team")
 
-    @http.route(['/team-detail'], type='http', auth="public", website=True)
+    @http.route(['/team-detail-vk'], type='http', auth="public", website=True)
     def team_detail_page(self, **post):
-        return request.render("cids_theme_odoo_15.team-detail")
+        partner_id = request.env['res.partner'].sudo().search([('name', '=', 'Vijay Kapoor')])
+        data = request.env['blog.post'].sudo().search([('author_id', '=', partner_id.id)], order='create_date desc')
+        values = {}
+        data_set = []
+        for i in data:
+            url = i.cover_properties
+            res = eval(url)
+            url_data = res.get('background-image').replace("url('", "")
+            data_set.append({
+                'name': i.name,
+                'teaser': i.teaser,
+                'blog_id': i.blog_id.id,
+                'id': i.id,
+                'url': url_data.replace("')", "")
+            })
+        values = {
+            'data': data_set
+        }
+        print(values)
+        return request.render("cids_theme_odoo_15.team-detail", values)
+
+    @http.route(['/team-detail-rb'], type='http', auth="public", website=True)
+    def team_detail_page_rb(self, **post):
+        partner_id = request.env['res.partner'].sudo().search([('name', '=', 'Reshma Bhakta')])
+        data = request.env['blog.post'].sudo().search([('author_id', '=', partner_id.id)], order='create_date desc')
+        values = {}
+        data_set = []
+        for i in data:
+            url = i.cover_properties
+            res = eval(url)
+            url_data = res.get('background-image').replace("url('", "")
+            data_set.append({
+                'name': i.name,
+                'teaser': i.teaser,
+                'blog_id': i.blog_id.id,
+                'id': i.id,
+                'url': url_data.replace("')", "")
+            })
+        values = {
+            'data': data_set
+        }
+        print(values)
+        return request.render("cids_theme_odoo_15.team-detail2", values)
+
+    @http.route(['/team-detail-ha'], type='http', auth="public", website=True)
+    def team_detail_page_ha(self, **post):
+        partner_id = request.env['res.partner'].sudo().search([('name', '=', 'Hanan Alshakhrit')])
+        data = request.env['blog.post'].sudo().search([('author_id', '=', partner_id.id)], order='create_date desc')
+        values = {}
+        data_set = []
+        for i in data:
+            url = i.cover_properties
+            res = eval(url)
+            url_data = res.get('background-image').replace("url('", "")
+            data_set.append({
+                'name': i.name,
+                'teaser': i.teaser,
+                'blog_id': i.blog_id.id,
+                'id': i.id,
+                'url': url_data.replace("')", "")
+            })
+        values = {
+            'data': data_set
+        }
+        print(values)
+        return request.render("cids_theme_odoo_15.team-detail3", values)
+
+    @http.route(['/team-detail-pp'], type='http', auth="public", website=True)
+    def team_detail_page_pp(self, **post):
+        partner_id = request.env['res.partner'].sudo().search([('name', '=', 'Pravin Patel')])
+        data = request.env['blog.post'].sudo().search([('author_id', '=', partner_id.id)], order='create_date desc')
+        values = {}
+        data_set = []
+        for i in data:
+            url = i.cover_properties
+            res = eval(url)
+            url_data = res.get('background-image').replace("url('", "")
+            data_set.append({
+                'name': i.name,
+                'teaser': i.teaser,
+                'blog_id': i.blog_id.id,
+                'id': i.id,
+                'url': url_data.replace("')", "")
+            })
+        values = {
+            'data': data_set
+        }
+        print(values)
+        return request.render("cids_theme_odoo_15.team-detail4", values)
+
+    @http.route(['/team-detail-mb'], type='http', auth="public", website=True)
+    def team_detail_page_mb(self, **post):
+        partner_id = request.env['res.partner'].sudo().search([('name', '=', 'Mukesh Bhakta')])
+        data = request.env['blog.post'].sudo().search([('author_id', '=', partner_id.id)], order='create_date desc')
+        values = {}
+        data_set = []
+        for i in data:
+            url = i.cover_properties
+            res = eval(url)
+            url_data = res.get('background-image').replace("url('", "")
+            data_set.append({
+                'name': i.name,
+                'teaser': i.teaser,
+                'blog_id': i.blog_id.id,
+                'id': i.id,
+                'url': url_data.replace("')", "")
+            })
+        values = {
+            'data': data_set
+        }
+        print(values)
+        return request.render("cids_theme_odoo_15.team-detail5", values)
 
     @http.route(['/cids_contact_us'], method='POST', type='http', auth="public", website=True)
     def cids_contactus_page(self, **post):

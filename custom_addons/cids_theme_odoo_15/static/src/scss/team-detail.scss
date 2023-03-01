@@ -299,6 +299,16 @@
     transition: all .35s linear;
 }
 
+.view-more{
+    font-family: 'Lorin-bold';
+    font-size: var(--font-size-12);
+    line-height: var(--font-size-20);
+    color: #50575D;
+    position: relative;
+    display: inline !important;
+    transition: all .35s linear;
+}
+
 .team-detail .team-rmore:hover {
     color: #FFBC00;
 
@@ -353,6 +363,7 @@
     font-size: var(--font-size-10);
     line-height: var(--font-size-20);
     color: #50575D;
+    margin-bottom: 0px !important;
 }
 
 .tcatdtext p {

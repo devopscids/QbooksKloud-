@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <template id="team-detail" name="CIDS Team Detail">
+    <template id="team-detail4" name="CIDS Team Detail Pravin Patel">
         <t t-call="website.layout">
 
             <link rel="stylesheet" href="/cids_theme_odoo_15/static/src/scss/team-detail.scss"/>
@@ -27,15 +27,15 @@
         <div class="tcatrd-holder">
             <div class="tcard">
                 <div class="timg">
-                    <img src="/cids_theme_odoo_15/static/src/img/team/vijay-detail.png" />
+                    <img src="/cids_theme_odoo_15/static/src/img/team/pravin.png" />
                 </div>
                 <div class="ttext">
 
                     <div class="team-social">
                         <div>
-                            <a href="tel:+4805672566">
+                            <a href="tel:+4805400725">
                                 <img src="/cids_theme_odoo_15/static/src/img/team/icons/call-team.png" />
-                                <span>(480) 567-2566</span>
+                                <span>(480) 540-0725</span>
                             </a>
                         </div>
                         <div>
@@ -45,13 +45,13 @@
                             </a>
                         </div>
                         <div>
-                            <a href="mailto:vkapoor@cids.design">
+                            <a href="mailto:pravin.patel@cids.design">
                                 <img src="/cids_theme_odoo_15/static/src/img/team/icons/msg-team.png" />
                                 <span>Email</span>
                             </a>
                         </div>
                         <div>
-                            <a href="#" class="team-rmore">Read Vijay's Blog Post<img src="/cids_theme_odoo_15/static/src/img/team/icons/readBlog.png"/></a>
+                            <a href="#" class="team-rmore">Read Pravin's Blog Post<img src="/cids_theme_odoo_15/static/src/img/team/icons/readBlog.png"/></a>
                         </div>
                         <div>
 
@@ -61,17 +61,13 @@
             </div>
 
             <div class="tcatdtext">
-                <p><span>Vijay Kapoor </span></p>
+                <p><span>Pravin Patel </span></p>
                 <p class="designation">Board Director </p>
                 <div class="des-info">
-                    <p>Vijay Kapoor is a top-producing and performance-driven business development professional. With
-                        20+ years of experience in executing &amp; leading team efforts, he has produced multimillion
-                        dollars results, valuable business partnerships, and robust growth avenues. Mr. Kapoor is an
-                        experienced solutions architect with documented strength in building sustainable executive-level
-                        relationships. He has a rare mix of technical competence in all facets of Digital and IT
-                        development and end-to-end business operations. His rare blend of knowledge and experience
-                        aligns IT strategies with new business opportunities, turning around stagnant growth, managing
-                        client acquisition, and business development. </p>
+                    <p>Pravin Patel has expertise in procurement and production. He is a great asset in
+                        understanding today's logistic and product needs. Mr. Patel has worked on many
+                        projects, contributing to our overall design proficiency and knowledge. Mr. Patel
+                        has superior expertise in management and new construction project development. </p>
                 </div>
             </div>
         </div>
@@ -87,39 +83,6 @@
                     </div>
                 </div>
             </t>
-            <!--<div class="thumb-inner">
-                <img src="/cids_theme_odoo_15/static/src/img/team/dummy-img.png" />
-                <div class="rel-content">
-                    <h3>IN THE MEDIA</h3>
-                    <p>Experience Index: HospitalityThis report explores research findings specific to hotels,
-                        identifying factors that matter most for...</p>
-                </div>
-            </div>
-            <div class="thumb-inner">
-                <img src="/cids_theme_odoo_15/static/src/img/team/dummy-img.png" />
-                <div class="rel-content">
-                    <h3>IN THE MEDIA</h3>
-                    <p>Experience Index: HospitalityThis report explores research findings specific to hotels,
-                        identifying factors that matter most for...</p>
-                </div>
-            </div>
-            <div class="thumb-inner">
-                <img src="/cids_theme_odoo_15/static/src/img/team/dummy-img.png" />
-                <div class="rel-content">
-                    <h3>IN THE MEDIA</h3>
-                    <p>Experience Index: HospitalityThis report explores research findings specific to hotels,
-                        identifying factors that matter most for...</p>
-                </div>
-            </div>
-            <div class="thumb-inner">
-                <img src="/cids_theme_odoo_15/static/src/img/team/dummy-img.png" />
-                <div class="rel-content">
-                    <h3>IN THE MEDIA</h3>
-                    <p>Experience Index: HospitalityThis report explores research findings specific to hotels,
-                        identifying factors that matter most for...</p>
-                </div>
-            </div>-->
-
         </div>
     </div>
     </section>
