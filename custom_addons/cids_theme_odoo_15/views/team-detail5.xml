@@ -17,12 +17,12 @@
     </section>
 
             <section class="team-detail">
-        <!--<div class="pagination">
+        <div class="pagination">
             <ul>
-                <li><img  src="/cids_theme_odoo_15/static/src/img/team/icons/paginate-right.png"/>Previous Person</li>
-                <li>Next person <img src="/cids_theme_odoo_15/static/src/img/team/icons/paginate-right.png"/></li>
+                <li><a href="/team-detail-pp"><img  src="/cids_theme_odoo_15/static/src/img/team/icons/paginate-right.png"/>Previous Person</a></li>
+                <li><a href="/team-detail-rb">Next person <img src="/cids_theme_odoo_15/static/src/img/team/icons/paginate-right.png"/></a></li>
             </ul>
-        </div>-->
+        </div>
         <div class="team-cards">
         <div class="tcatrd-holder">
             <div class="tcard">
